@@ -1,0 +1,13 @@
+!! 02/11/2006 SVN:
+* Nueva funcion whereTablaDestino que permite mediante su sobrecarga
+  redefinir la condición que determina si el registro a importar ya existe
+  en la tabla
+* Posibilidad de crear registro si no existe, mediante la activación de la
+  variable crearSiNoExiste
+* Incluida pequeña modificación para hacer la funcionalidad mas general.
+  Mediante la variable tablaDestino se puede establecer en que tabla copiar
+  los datos, de esta forma es mas general y se puede usar también para
+  importar a cualquier tabla, por ejemplo a articulosprov, sin mas que
+  heredar y establecer esa variable
+!! 15/06/2006 SVN:
+* Creación de la funcionalidad act_precios
