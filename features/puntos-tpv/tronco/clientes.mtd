@@ -1,0 +1,32 @@
+<xupdate:modifications>
+<xupdate:insert-after select="/TMD[TMD,1]/field[codcliente]/relation[cl_comunicaciones,codcliente]" >
+<relation>
+<table>tpv_movpuntos</table>
+<field>codcliente</field>
+<card>1M</card>
+</relation>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[apellidos]" >
+<field>
+<name>saldoactual</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Saldo actual de puntos&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>double</type>
+<partI>6</partI>
+<partD>2</partD>
+<default>0</default>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[saldoactual]" >
+<field>
+<name>valorpunto</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Valor del punto por euro&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>double</type>
+<partI>3</partI>
+<partD>2</partD>
+</field>
+</xupdate:insert-after>
+</xupdate:modifications>

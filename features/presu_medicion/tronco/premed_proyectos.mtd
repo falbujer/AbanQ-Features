@@ -1,0 +1,185 @@
+<!DOCTYPE TMD>
+<TMD>
+	<name>premed_proyectos</name>
+	<alias>QT_TRANSLATE_NOOP("MetaData","Proyectos")</alias>
+
+	<field>
+		<name>codproyecto</name>
+		<alias>QT_TRANSLATE_NOOP("MetaData","Código")</alias>
+		<null>false</null>
+		<pk>true</pk>
+		<type>string</type>
+		<length>30</length>
+
+		<relation>
+			<table>premed_procapitulos</table>
+			<field>codproyecto</field>
+			<card>1M</card>
+		</relation>
+	</field>
+
+	<field>
+		<name>fecha</name>
+		<alias>QT_TRANSLATE_NOOP("MetaData","Fecha")</alias>
+		<null>false</null>
+		<pk>false</pk>
+		<type>date</type>
+	</field>
+
+	<field>
+		<name>nombrecliente</name>
+		<!--Nombre del cliente-->
+		<alias>QT_TRANSLATE_NOOP("MetaData","Nombre")</alias>
+		<null>true</null>
+		<pk>false</pk>
+		<type>string</type>
+		<length>100</length>
+	</field>
+
+	<field>
+		<name>cifnif</name>
+		<alias>QT_TRANSLATE_NOOP("MetaData","C.I.F./N.I.F")</alias>
+		<null>false</null>
+		<pk>false</pk>
+		<type>string</type>
+		<length>12</length>
+	</field>
+
+	<field>
+		<name>coste</name>
+		<alias>QT_TRANSLATE_NOOP("MetaData","Coste")</alias>
+		<null>true</null>
+		<pk>false</pk>
+		<type>double</type>
+		<partI>16</partI>
+		<partD>2</partD>
+		<editable>false</editable>
+	</field>
+
+	<field>
+		<name>codcliente</name>
+		<alias>QT_TRANSLATE_NOOP("MetaData","Cod. cliente")</alias>
+		<null>true</null>
+		<pk>false</pk>
+		<type>string</type>
+		<length>6</length>
+
+		<relation>
+			<table>clientes</table>
+			<field>codcliente</field>
+			<card>M1</card>
+		</relation>
+	</field>
+
+	<field>
+		<name>coddir</name>
+		<!--Código de la dirección asociada al cliente-->
+		<alias>QT_TRANSLATE_NOOP("MetaData","Dir.")</alias>
+		<null>true</null>
+		<pk>false</pk>
+		<type>uint</type>
+		<visiblegrid>false</visiblegrid>
+
+		<associated>
+			<with>codcliente</with>
+			<by>codcliente</by>
+		</associated>
+
+		<relation>
+			<table>dirclientes</table>
+			<field>id</field>
+			<card>M1</card>
+		</relation>
+	</field>
+
+	<field>
+		<name>direccion</name>
+		<alias>QT_TRANSLATE_NOOP("MetaData","Dirección")</alias>
+		<null>false</null>
+		<pk>false</pk>
+		<type>string</type>
+		<length>100</length>
+	</field>
+
+	<field>
+		<name>codpostal</name>
+		<alias>QT_TRANSLATE_NOOP("MetaData","Código Postal")</alias>
+		<null>true</null>
+		<pk>false</pk>
+		<type>string</type>
+		<length>10</length>
+	</field>
+
+	<field>
+		<name>ciudad</name>
+		<alias>QT_TRANSLATE_NOOP("MetaData","Ciudad")</alias>
+		<null>true</null>
+		<pk>false</pk>
+		<type>string</type>
+		<length>100</length>
+	</field>
+
+	<field>
+		<name>codoportunidad</name>
+		<!--Código de oportunidad de venta en el módulo de CRM-->
+		<alias>QT_TRANSLATE_NOOP("MetaData","Oportunidad de venta")</alias>
+		<null>true</null>
+		<pk>false</pk>
+		<type>string</type>
+		<length>8</length>
+		
+		<relation>
+			<table>crm_oportunidadventa</table>
+			<field>codoportunidad</field>
+			<card>M1</card>
+		</relation>
+	</field>
+	
+	<field>
+		<name>finoferta</name>
+		<alias>QT_TRANSLATE_NOOP("MetaData","Fin de la oferta")</alias>
+		<null>true</null>
+		<pk>false</pk>
+		<type>date</type>
+	</field>
+	
+	<field>
+		<name>estado</name>
+		<alias>QT_TRANSLATE_NOOP("MetaData","Estado")</alias>
+		<null>true</null>
+		<pk>false</pk>
+		<type>string</type>
+		<length>25</length>
+		<optionslist>Borrador,En negociación,Enviado,Retenido,Confirmado,Aceptado,Rechazado</optionslist>
+	</field>
+
+	<field>
+		<name>idcapitulo</name>
+		<alias>QT_TRANSLATE_NOOP("MetaData","Capítulo")</alias>
+		<null>true</null>
+		<pk>false</pk>
+		<type>uint</type>
+		<visiblegrid>false</visiblegrid>
+		<editable>false</editable>
+    </field>
+
+	<field>
+		<name>idpartida</name>
+		<alias>QT_TRANSLATE_NOOP("MetaData","Partida")</alias>
+		<null>true</null>
+		<pk>false</pk>
+		<type>uint</type>
+		<visiblegrid>false</visiblegrid>
+		<editable>false</editable>
+    </field>
+
+	<field>
+		<name>iddescomp</name>
+		<alias>QT_TRANSLATE_NOOP("MetaData","Descomposición")</alias>
+		<null>true</null>
+		<pk>false</pk>
+		<type>uint</type>
+		<visiblegrid>false</visiblegrid>
+		<editable>false</editable>
+	</field>
+</TMD>

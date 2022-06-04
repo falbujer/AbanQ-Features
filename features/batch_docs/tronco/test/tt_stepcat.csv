@@ -1,0 +1,59 @@
+275ÏÏ3ÏÏfLFieldDB17_3 = ||COD_CLIENTE_ASO||ÏÏagruparpresupuestoscliÏÏFLFieldDBÏÏfLFieldDB17_3ÏÏsetValueÏÏ||COD_CLIENTE_ASO||ÏÏFÏÏflfacturacÏÏformSearchÏÏNingunoÏÏ000313ÏÏbatch_docsÏÏÖ
+275ÏÏ11ÏÏSeleccionar registro tableDBRecordsÏÏpedidoscliÏÏFLTableDBÏÏtableDBRecordsÏÏselectRowÏÏprevÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000313ÏÏbatch_docsÏÏÖ
+275ÏÏ14ÏÏPulsar el botón pushButtonAcceptÏÏpedidoscliÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏAceptarÏÏ000313ÏÏbatch_docsÏÏÖ
+275ÏÏ12ÏÏPulsar el botón toolButtonEditÏÏpedidoscliÏÏButtonÏÏtoolButtonEditÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000313ÏÏbatch_docsÏÏÖ
+275ÏÏ10ÏÏPulsar el botón pushButtonAcceptÏÏpedidoscliÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏAceptarÏÏ000313ÏÏbatch_docsÏÏÖ
+275ÏÏ8ÏÏPulsar el botón toolButtonEditÏÏpedidoscliÏÏButtonÏÏtoolButtonEditÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000313ÏÏbatch_docsÏÏÖ
+275ÏÏ6ÏÏPulsar el botón pushButtonAcceptÏÏagruparpresupuestoscliÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformSearchÏÏAceptarÏÏ000313ÏÏbatch_docsÏÏÖ
+275ÏÏ1ÏÏAbrir formulario pedidoscliÏÏpedidoscliÏÏFLFormDBÏÏpedidoscliÏÏopenÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000313ÏÏbatch_docsÏÏÖ
+275ÏÏ2ÏÏPulsar el botón &BatchÏÏpedidoscliÏÏButtonÏÏpbnBatchPresupuestosÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000313ÏÏbatch_docsÏÏÖ
+275ÏÏ15ÏÏCerrar formulario pedidoscliÏÏpedidoscliÏÏFLFormDBÏÏpedidoscliÏÏcloseÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000313ÏÏbatch_docsÏÏÖ
+275ÏÏ13ÏÏGuardar valor codigoÏÏpedidoscliÏÏFLFieldDBÏÏfdbCodigoÏÏsaveValueÏÏCOD_PEDIDO2ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000313ÏÏbatch_docsÏÏÖ
+275ÏÏ7ÏÏSeleccionar registro tableDBRecordsÏÏpedidoscliÏÏFLTableDBÏÏtableDBRecordsÏÏselectRowÏÏlastÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000313ÏÏbatch_docsÏÏÖ
+275ÏÏ5ÏÏPulsar el botón Actuali&zarÏÏagruparpresupuestoscliÏÏButtonÏÏpbnRefreshÏÏanimateClickÏÏ<FLTest:Condition event="SCRIPT_FINISHED" object="actualizar" />
+ÏÏFÏÏflfacturacÏÏformSearchÏÏNingunoÏÏ000313ÏÏbatch_docsÏÏÖ
+275ÏÏ9ÏÏCOD_PEDIDO = fdbCodigoÏÏpedidoscliÏÏFLFieldDBÏÏfdbCodigoÏÏsaveValueÏÏCOD_PEDIDOÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000313ÏÏbatch_docsÏÏÖ
+285ÏÏ7ÏÏPEDIDOS CLIENTE: ASOCIAR PRESUPUESTOS CLIENTE CON BACHÏÏÏÏTestÏÏ<FLTest:Test codtest="000313" idfuncional="batch_docs"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_CLIENTE||" var="COD_CLIENTE_ASO" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000317ÏÏbatch_docsÏÏÖ
+285ÏÏ6ÏÏPRESUPUESTOS CLIENTE: COMPROBAR TOTAL PRESUPUESTOÏÏÏÏTestÏÏ<FLTest:Test codtest="000316" idfuncional="flfacturac"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_PRESUPUESTO_COMP" />
+    <FLTest:AssignationElement value="11.6" var="TOTAL_PRESUPUESTO" />
+    <FLTest:AssignationElement value="||COD_PRESUPUESTO||" var="PRESUPUESTO_BATCH2" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000317ÏÏbatch_docsÏÏÖ
+285ÏÏ5ÏÏPRESUPUESTOS CLIENTE: CREAR PRESUPUESTO EN ||COD_PRESUPUESTO||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000050" idfuncional="flfacturac"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_CLIENTE||" var="COD_CLIENTE_PRE" />
+    <FLTest:AssignationElement value="||ARTICULO_BATCH1||" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="1" var="CAN_LINEA1" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000317ÏÏbatch_docsÏÏÖ
+285ÏÏ4ÏÏPRESUPUESTOS CLIENTE: COMPROBAR TOTAL PRESUPUESTOÏÏÏÏTestÏÏ<FLTest:Test codtest="000316" idfuncional="flfacturac"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_PRESUPUESTO_COMP" />
+    <FLTest:AssignationElement value="11.6" var="TOTAL_PRESUPUESTO" />
+    <FLTest:AssignationElement value="||COD_PRESUPUESTO||" var="PRESUPUESTO_BATCH1" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000317ÏÏbatch_docsÏÏÖ
+285ÏÏ3ÏÏPRESUPUESTOS CLIENTE: CREAR PRESUPUESTO EN ||COD_PRESUPUESTO||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000050" idfuncional="flfacturac"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_CLIENTE||" var="COD_CLIENTE_PRE" />
+    <FLTest:AssignationElement value="||ARTICULO_BATCH1||" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="1" var="CAN_LINEA1" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000317ÏÏbatch_docsÏÏÖ
+285ÏÏ2ÏÏCLIENTES: CREAR CLIENTE ||COD_CLIENTE||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000003" idfuncional="flfactppal"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="NOM_CLIENTE" />
+    <FLTest:AssignationElement value="" var="DES_DIR_CLIENTE" />
+    <FLTest:AssignationElement value="" var="DIR_CLIENTE" />
+    <FLTest:AssignationElement value="" var="CIF_CLIENTE" />
+    <FLTest:AssignationElement value="**UNDEFINED**" var="COD_CLIENTE" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000317ÏÏbatch_docsÏÏÖ
+285ÏÏ1ÏÏARTICULOS: CREAR ARTICULO ||COD_ARTICULO||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000042" idfuncional="flfactalma"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="B1-||_S||" var="REF_ART" />
+    <FLTest:AssignationElement value="" var="DES_ART" />
+    <FLTest:AssignationElement value="10" var="PVP_ART" />
+    <FLTest:AssignationElement value="" var="IVA_ART" />
+    <FLTest:AssignationElement value="B1-||_S||" var="ARTICULO_BATCH1" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000317ÏÏbatch_docsÏÏÖ

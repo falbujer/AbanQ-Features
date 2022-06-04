@@ -1,0 +1,141 @@
+267оо9ооfdbLimiteInferior = ||LIM_INF1||ооrappelarticulosооFLFieldDBооfdbLimiteInferiorооsetValueоо||LIM_INF1||ооFооflfactalmaооformRecordооNingunoоо000179ооrappelоож
+267оо2ооComparar  articulosооarticulosооCompareооarticulosооcompareItemsоо<FLTest:Compare action="Saltar" type="Distintos" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="referencia = &quot;||COD_ARTICULO||&quot; AND limiteinferior = ||LIM_INF2||" savein="" from="rappelarticulos" select="limitesuperior" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||LIM_SUP2||</FLTest:CompareElement>
+</FLTest:Compare>
+ооFооflfactalmaооformооNingunoоо000179ооrappelоож
+267оо7ооARTICULOS: ABRIR ARTмCULO EN MODO EDITооarticulosооTestоо<FLTest:Test codtest="000282" idfuncional="flfactalma"/>ооexecTestооооFооflfactalmaооformооNingunoоо000179ооrappelоож
+267оо8ооPulsar el botСn toolButtomInsert_IRооarticulosооButtonооtoolButtomInsert_IRооanimateClickооооFооflfactalmaооformRecordооNingunoоо000179ооrappelоож
+267оо10ооfdbLimiteSuperior = ||LIM_SUP1||ооrappelarticulosооFLFieldDBооfdbLimiteSuperiorооsetValueоо||LIM_SUP1||ооFооflfactalmaооformRecordооNingunoоо000179ооrappelоож
+267оо11ооfdbDescuento = ||DESC1||ооrappelarticulosооFLFieldDBооfdbDescuentoооsetValueоо||DESC1||ооFооflfactalmaооformRecordооNingunoоо000179ооrappelоож
+267оо12ооPulsar el botСn pushButtonAcceptContinueооrappelarticulosооButtonооpushButtonAcceptContinueооanimateClickооооFооflfactalmaооformRecordооAceptar y continuarоо000179ооrappelоож
+267оо13ооfdbLimiteInferior = ||LIM_INF2||ооrappelarticulosооFLFieldDBооfdbLimiteInferiorооsetValueоо||LIM_INF2||ооFооflfactalmaооformRecordооNingunoоо000179ооrappelоож
+267оо14ооfdbLimiteSuperior = ||LIM_SUP2||ооrappelarticulosооFLFieldDBооfdbLimiteSuperiorооsetValueоо||LIM_SUP2||ооFооflfactalmaооformRecordооNingunoоо000179ооrappelоож
+267оо15ооfdbDescuento = ||DESC2||ооrappelarticulosооFLFieldDBооfdbDescuentoооsetValueоо||DESC2||ооFооflfactalmaооformRecordооNingunoоо000179ооrappelоож
+267оо16ооPulsar el botСn pushButtonAcceptооrappelarticulosооButtonооpushButtonAcceptооanimateClickооооFооflfactalmaооformRecordооAceptarоо000179ооrappelоож
+267оо17ооARTICULOS: CERRAR ARTмCULO EN MODO EDITооarticulosооTestоо<FLTest:Test codtest="000283" idfuncional="flfactalma"/>ооexecTestооооFооflfactalmaооformRecordооAceptarоо000179ооrappelоож
+267оо1ооComparar  articulosооarticulosооCompareооarticulosооcompareItemsоо<FLTest:Compare action="Saltar" type="Distintos" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="referencia = &quot;||COD_ARTICULO||&quot; AND limiteinferior = ||LIM_INF1||" savein="" from="rappelarticulos" select="limitesuperior" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||LIM_SUP1||</FLTest:CompareElement>
+</FLTest:Compare>
+ооFооflfactalmaооformооNingunoоо000179ооrappelоож
+289оо16ооFACTURAS CLIENTE: COMPROBAR TOTAL FACTURAооооTestоо<FLTest:Test codtest="000327" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_FACTURA_COMP" />
+    <FLTest:AssignationElement value="261" var="TOTAL_FACTURA" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000328ооrappelоож
+289оо15ооFACTURAS CLIENTE: CREAR FACTURA ||COD_FACTURA||ооооTestоо<FLTest:Test codtest="000134" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||CLIENTE_RAPPEL||" var="COD_CLIENTE_FAC" />
+    <FLTest:AssignationElement value="" var="FECHA_FAC" />
+    <FLTest:AssignationElement value="" var="COD_PAGO_FAC" />
+    <FLTest:AssignationElement value="||ARTICULO_RAPPEL||" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="25" var="CAN_LINEA1" />
+    <FLTest:AssignationElement value="" var="DES_LINEA1" />
+    <FLTest:AssignationElement value="" var="REF_LINEA2" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA2" />
+    <FLTest:AssignationElement value="" var="DES_LINEA2" />
+    <FLTest:AssignationElement value="" var="REF_LINEA3" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA3" />
+    <FLTest:AssignationElement value="" var="DES_LINEA3" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000328ооrappelоож
+289оо14ооALBARANES CLIENTE: COMPROBAR TOTAL ALBARANооооTestоо<FLTest:Test codtest="000326" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_ALBARAN_COMP" />
+    <FLTest:AssignationElement value="261" var="TOTAL_ALBARAN" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000328ооrappelоож
+289оо13ооALBARANES CLIENTE: CREAR ALBARAN ||COD_ALBARAN||ооооTestоо<FLTest:Test codtest="000082" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||CLIENTE_RAPPEL||" var="COD_CLIENTE_ALB" />
+    <FLTest:AssignationElement value="||ARTICULO_RAPPEL||" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="" var="DES_LINEA1" />
+    <FLTest:AssignationElement value="25" var="CAN_LINEA1" />
+    <FLTest:AssignationElement value="" var="REF_LINEA2" />
+    <FLTest:AssignationElement value="" var="DES_LINEA2" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA2" />
+    <FLTest:AssignationElement value="" var="REF_LINEA3" />
+    <FLTest:AssignationElement value="" var="DES_LINEA3" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA3" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000328ооrappelоож
+289оо12ооPEDIDOS CLIENTE: COMPROBAR TOTAL PEDIDOооооTestоо<FLTest:Test codtest="000325" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_PEDIDO_COMP" />
+    <FLTest:AssignationElement value="261" var="TOTAL_PEDIDO" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000328ооrappelоож
+289оо11ооPEDIDOS CLIENTE: CREAR PEDIDO EN ||COD_PEDIDO||ооооTestоо<FLTest:Test codtest="000079" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||CLIENTE_RAPPEL||" var="COD_CLIENTE_PED" />
+    <FLTest:AssignationElement value="||ARTICULO_RAPPEL||" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="25" var="CAN_LINEA1" />
+    <FLTest:AssignationElement value="" var="DES_LINEA1" />
+    <FLTest:AssignationElement value="" var="REF_LINEA2" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA2" />
+    <FLTest:AssignationElement value="" var="DES_LINEA2" />
+    <FLTest:AssignationElement value="" var="REF_LINEA3" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA3" />
+    <FLTest:AssignationElement value="" var="DES_LINEA3" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000328ооrappelоож
+289оо10ооFACTURAS CLIENTE: COMPROBAR TOTAL FACTURAооооTestоо<FLTest:Test codtest="000327" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_FACTURA_COMP" />
+    <FLTest:AssignationElement value="165.3" var="TOTAL_FACTURA" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000328ооrappelоож
+289оо9ооALBARANES CLIENTE: COMPROBAR TOTAL ALBARANооооTestоо<FLTest:Test codtest="000326" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_ALBARAN_COMP" />
+    <FLTest:AssignationElement value="165.3" var="TOTAL_ALBARAN" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000328ооrappelоож
+289оо8ооPEDIDOS CLIENTE: GENERAR FACTURA ||COD_FACTURA|| + ||COD_ALBARAN|| A PARTIR DE UN PEDIDOооооTestоо<FLTest:Test codtest="000057" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_PEDIDO||" var="COD_PED_ORIGEN" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000328ооrappelоож
+289оо7ооPEDIDOS CLIENTE: COMPROBAR TOTAL PEDIDOооооTestоо<FLTest:Test codtest="000325" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_PEDIDO_COMP" />
+    <FLTest:AssignationElement value="165.3" var="TOTAL_PEDIDO" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000328ооrappelоож
+289оо6ооPRESUPUESTOS CLIENTE: GENERAR PEDIDO ||COD_PEDIDO|| A PARTIR DE UN PRESUPUESTOооооTestоо<FLTest:Test codtest="000051" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_PRESUPUESTO||" var="COD_PRE_ORIGEN" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000328ооrappelоож
+289оо5ооPRESUPUESTOS CLIENTE: COMPROBAR TOTAL PRESUPUESTOооооTestоо<FLTest:Test codtest="000316" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_PRESUPUESTO_COMP" />
+    <FLTest:AssignationElement value="165.3" var="TOTAL_PRESUPUESTO" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000328ооrappelоож
+289оо4ооPRESUPUESTOS CLIENTE: CREAR PRESUPUESTO EN ||COD_PRESUPUESTO||ооооTestоо<FLTest:Test codtest="000050" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||CLIENTE_RAPPEL||" var="COD_CLIENTE_PRE" />
+    <FLTest:AssignationElement value="||ARTICULO_RAPPEL||" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="15" var="CAN_LINEA1" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000328ооrappelоож
+289оо3ооARTICULOS: ASIGNAR RAPPELооооTestоо<FLTest:Test codtest="000179" idfuncional="rappel"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="10" var="LIM_INF1" />
+    <FLTest:AssignationElement value="20" var="LIM_SUP1" />
+    <FLTest:AssignationElement value="5" var="DESC1" />
+    <FLTest:AssignationElement value="21" var="LIM_INF2" />
+    <FLTest:AssignationElement value="30" var="LIM_SUP2" />
+    <FLTest:AssignationElement value="10" var="DESC2" />
+    <FLTest:AssignationElement value="||ARTICULO_RAPPEL||" var="REF_ART_EDIT" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000328ооrappelоож
+289оо2ооARTICULOS: CREAR ARTICULO ||COD_ARTICULO||ооооTestоо<FLTest:Test codtest="000042" idfuncional="flfactalma"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="A-||_S||" var="REF_ART" />
+    <FLTest:AssignationElement value="" var="DES_ART" />
+    <FLTest:AssignationElement value="10" var="PVP_ART" />
+    <FLTest:AssignationElement value="" var="IVA_ART" />
+    <FLTest:AssignationElement value="A-||_S||" var="ARTICULO_RAPPEL" />
+    <FLTest:AssignationElement value="||COD_CLIENTE||" var="CLIENTE_RAPPEL" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000328ооrappelоож
+289оо1ооCLIENTES: CREAR CLIENTE ||COD_CLIENTE||ооооTestоо<FLTest:Test codtest="000003" idfuncional="flfactppal"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="NOM_CLIENTE" />
+    <FLTest:AssignationElement value="" var="DES_DIR_CLIENTE" />
+    <FLTest:AssignationElement value="" var="DIR_CLIENTE" />
+    <FLTest:AssignationElement value="" var="CIF_CLIENTE" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000328ооrappelоож

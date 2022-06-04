@@ -1,0 +1,3 @@
+!! 13/04/2005 SVN:
+* Funcionalidad de envases: Se definen envases asociados a un artículo. 
+* En las líneas de los documentos de facturación (cliente y proveedor), la cantidad total (Total métrico) se calcula como producto de la cantidad de envases (unidades) por la capacidad del envase. 

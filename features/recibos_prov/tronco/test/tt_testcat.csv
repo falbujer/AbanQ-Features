@@ -1,0 +1,17 @@
+ARTICULOS: ASIGNAR COSTE POR PROVEEDORоо000221ооrecibos_provоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_PROVEEDOR_COSTE" default="" />
+    <FLTest:Parameter name="COSTE" default="" />
+</FLTest:Parameters>
+оооож
+RECIBOS PROVEEDOR: COMPROBAR RECIBO Y ASIENTOоо000222ооrecibos_provоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_FACTURA_COMP" default="||COD_FACTURA||" />
+    <FLTest:Parameter name="EDITABLE" default="true" />
+    <FLTest:Parameter name="ESTADO" default="Emitido" />
+</FLTest:Parameters>
+оооож
+RECIBOS PROVEEDOR: PAGOSDEVOL: INSERTAR UN PAGO O DEVOLUCIсNоо000223ооrecibos_provоо<FLTest:Parameters>
+    <FLTest:Parameter name="RECIBO" default="||COD_FACTURA||-01" />
+</FLTest:Parameters>
+оооож
+CONTABILIDAD: COMPROBAR SI LA CONTABILIDAD ESTA CARGADAоо000225ооrecibos_provоооооож
+RECIBOS_PROVоо000328ооrecibos_provоооооож

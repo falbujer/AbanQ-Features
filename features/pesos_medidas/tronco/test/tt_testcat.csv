@@ -1,0 +1,19 @@
+MEDIDAS: CREAR MEDIDAоо000232ооpesos_medidasоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_MEDIDA" default="" />
+    <FLTest:Parameter name="DESC_MEDIDA" default="MEDIDA DE PRUEBA" />
+</FLTest:Parameters>
+оооож
+FAMILIAS MEDIDAS: CREAR FAMILIAоо000233ооpesos_medidasоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_FAMILIAMED" default="" />
+    <FLTest:Parameter name="DESC_FAMILIA" default="FAMILIA DE PRUEBA DE MEDIDAS" />
+    <FLTest:Parameter name="COD_MEIDDA_FAM" default="" />
+</FLTest:Parameters>
+оооож
+ARTICULOS MEDIDAS: CREAR  ARTмCULO Y COMPROBAR  MEDIDAоо000234ооpesos_medidasоо<FLTest:Parameters>
+    <FLTest:Parameter name="REF_ART_MED" default="" />
+    <FLTest:Parameter name="DESC_ART" default="ARTICULO DE PRUEBA DE MEDIDAS" />
+    <FLTest:Parameter name="COD_FAMILIA_ART" default="" />
+    <FLTest:Parameter name="COD_MEDIDA_ART" default="" />
+</FLTest:Parameters>
+оооож
+PESOS MEDIDASоо000331ооpesos_medidasоооооож

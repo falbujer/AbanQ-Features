@@ -1,0 +1,506 @@
+<xupdate:modifications>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,formEmpresa]/property[property,2]/rect[rect,1]/width[width,1]/text()[1]" >742</xupdate:update>
+<xupdate:delete select="/UI[UI,1]/widget[QWidget,formEmpresa]/vbox[vbox,1]/widget[QTabWidget,tabWidget2]/widget[QWidget,valoresdefecto]/vbox[vbox,1]" />
+<xupdate:insert-after select="/UI[UI,1]/widget[QWidget,formEmpresa]/vbox[vbox,1]/widget[QTabWidget,tabWidget2]/widget[QWidget,valoresdefecto]/attribute[attribute,1]" >
+<grid>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<spacer row="1" column="0" >
+<property name="name" >
+<cstring>spacer27</cstring>
+</property>
+<property name="orientation" >
+<enum>Vertical</enum>
+</property>
+<property name="sizeType" >
+<enum>Expanding</enum>
+</property>
+<property name="sizeHint" >
+<size>
+<width>20</width>
+<height>100</height>
+</size>
+</property>
+</spacer>
+<widget row="0" class="QFrame" column="0" >
+<property name="name" >
+<cstring>frame70</cstring>
+</property>
+<property name="font" >
+<font>
+<bold>0</bold>
+</font>
+</property>
+<property name="frameShape" >
+<enum>GroupBoxPanel</enum>
+</property>
+<property name="frameShadow" >
+<enum>Sunken</enum>
+</property>
+<grid>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<property name="spacing" >
+<number>10</number>
+</property>
+<widget row="0" class="QLayoutWidget" column="0" >
+<property name="name" >
+<cstring>layout9</cstring>
+</property>
+<hbox>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fLFieldDB25</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>1</hsizetype>
+<vsizetype>0</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="minimumSize" >
+<size>
+<width>270</width>
+<height>25</height>
+</size>
+</property>
+<property name="maximumSize" >
+<size>
+<width>270</width>
+<height>32767</height>
+</size>
+</property>
+<property name="fieldName" >
+<string>coddivisa</string>
+</property>
+</widget>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fLFieldDB26</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>7</hsizetype>
+<vsizetype>0</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="minimumSize" >
+<size>
+<width>280</width>
+<height>25</height>
+</size>
+</property>
+<property name="fieldName" >
+<string>descripcion</string>
+</property>
+<property name="tableName" >
+<string>divisas</string>
+</property>
+<property name="foreignField" >
+<string>coddivisa</string>
+</property>
+<property name="fieldRelation" >
+<string>coddivisa</string>
+</property>
+</widget>
+</hbox>
+</widget>
+<widget row="1" class="QLayoutWidget" column="0" >
+<property name="name" >
+<cstring>layout10</cstring>
+</property>
+<hbox>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fLFieldDB25_2</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>1</hsizetype>
+<vsizetype>0</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="minimumSize" >
+<size>
+<width>270</width>
+<height>25</height>
+</size>
+</property>
+<property name="maximumSize" >
+<size>
+<width>270</width>
+<height>32767</height>
+</size>
+</property>
+<property name="fieldName" >
+<string>codpago</string>
+</property>
+</widget>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fLFieldDB26_2</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>7</hsizetype>
+<vsizetype>0</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="minimumSize" >
+<size>
+<width>280</width>
+<height>25</height>
+</size>
+</property>
+<property name="fieldName" >
+<string>descripcion</string>
+</property>
+<property name="tableName" >
+<string>formaspago</string>
+</property>
+<property name="foreignField" >
+<string>codpago</string>
+</property>
+<property name="fieldRelation" >
+<string>codpago</string>
+</property>
+</widget>
+</hbox>
+</widget>
+<widget row="2" class="QLayoutWidget" column="0" >
+<property name="name" >
+<cstring>layout11</cstring>
+</property>
+<hbox>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fLFieldDB25_3</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>1</hsizetype>
+<vsizetype>0</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="minimumSize" >
+<size>
+<width>270</width>
+<height>25</height>
+</size>
+</property>
+<property name="maximumSize" >
+<size>
+<width>270</width>
+<height>32767</height>
+</size>
+</property>
+<property name="fieldName" >
+<string>codalmacen</string>
+</property>
+</widget>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fLFieldDB26_3</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>7</hsizetype>
+<vsizetype>0</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="minimumSize" >
+<size>
+<width>280</width>
+<height>25</height>
+</size>
+</property>
+<property name="fieldName" >
+<string>nombre</string>
+</property>
+<property name="tableName" >
+<string>almacenes</string>
+</property>
+<property name="foreignField" >
+<string>codalmacen</string>
+</property>
+<property name="fieldRelation" >
+<string>codalmacen</string>
+</property>
+</widget>
+</hbox>
+</widget>
+<widget row="3" class="QLayoutWidget" column="0" >
+<property name="name" >
+<cstring>layout11_2</cstring>
+</property>
+<hbox>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fLFieldDB25_3_2</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>1</hsizetype>
+<vsizetype>0</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="minimumSize" >
+<size>
+<width>270</width>
+<height>25</height>
+</size>
+</property>
+<property name="maximumSize" >
+<size>
+<width>270</width>
+<height>32767</height>
+</size>
+</property>
+<property name="fieldName" >
+<string>codserie</string>
+</property>
+</widget>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fLFieldDB26_3_2</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>7</hsizetype>
+<vsizetype>0</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="minimumSize" >
+<size>
+<width>280</width>
+<height>25</height>
+</size>
+</property>
+<property name="fieldName" >
+<string>descripcion</string>
+</property>
+<property name="tableName" >
+<string>series</string>
+</property>
+<property name="foreignField" >
+<string>codserie</string>
+</property>
+<property name="fieldRelation" >
+<string>codserie</string>
+</property>
+</widget>
+</hbox>
+</widget>
+<widget row="6" class="QLayoutWidget" column="0" >
+<property name="name" >
+<cstring>layout13</cstring>
+</property>
+<hbox>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fdbContIntegrada</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>1</hsizetype>
+<vsizetype>0</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="minimumSize" >
+<size>
+<width>270</width>
+<height>25</height>
+</size>
+</property>
+<property name="maximumSize" >
+<size>
+<width>270</width>
+<height>32767</height>
+</size>
+</property>
+<property name="fieldName" >
+<string>contintegrada</string>
+</property>
+</widget>
+<spacer>
+<property name="name" >
+<cstring>spacer26_2</cstring>
+</property>
+<property name="orientation" >
+<enum>Horizontal</enum>
+</property>
+<property name="sizeType" >
+<enum>Expanding</enum>
+</property>
+<property name="sizeHint" >
+<size>
+<width>414</width>
+<height>20</height>
+</size>
+</property>
+</spacer>
+</hbox>
+</widget>
+<widget row="5" class="QLayoutWidget" column="0" >
+<property name="name" >
+<cstring>layout44</cstring>
+</property>
+<hbox>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fLFieldDB25_3_2_2</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>1</hsizetype>
+<vsizetype>0</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="minimumSize" >
+<size>
+<width>270</width>
+<height>25</height>
+</size>
+</property>
+<property name="maximumSize" >
+<size>
+<width>270</width>
+<height>32767</height>
+</size>
+</property>
+<property name="fieldName" >
+<string>recequivalencia</string>
+</property>
+</widget>
+<spacer>
+<property name="name" >
+<cstring>spacer26</cstring>
+</property>
+<property name="orientation" >
+<enum>Horizontal</enum>
+</property>
+<property name="sizeType" >
+<enum>Expanding</enum>
+</property>
+<property name="sizeHint" >
+<size>
+<width>201</width>
+<height>20</height>
+</size>
+</property>
+</spacer>
+</hbox>
+</widget>
+<widget row="4" class="QLayoutWidget" column="0" >
+<property name="name" >
+<cstring>layout14</cstring>
+</property>
+<hbox>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fdbValorHora</cstring>
+</property>
+<property name="fieldName" >
+<string>valorhora</string>
+</property>
+</widget>
+<spacer>
+<property name="name" >
+<cstring>spacer10</cstring>
+</property>
+<property name="orientation" >
+<enum>Horizontal</enum>
+</property>
+<property name="sizeType" >
+<enum>Expanding</enum>
+</property>
+<property name="sizeHint" >
+<size>
+<width>550</width>
+<height>20</height>
+</size>
+</property>
+</spacer>
+</hbox>
+</widget>
+</grid>
+</widget>
+</grid>
+</xupdate:insert-after>
+<xupdate:insert-after select="/UI[UI,1]/layoutdefaults[layoutdefaults,1]" >
+<includehints>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+<includehint>FLFieldDB.h</includehint>
+</includehints>
+</xupdate:insert-after>
+</xupdate:modifications>

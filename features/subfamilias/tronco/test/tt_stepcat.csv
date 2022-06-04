@@ -1,0 +1,73 @@
+117ÏÏ3ÏÏPulsar el botón toolButtonInsertÏÏsubfamiliasÏÏButtonÏÏtoolButtonInsertÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000106ÏÏsubfamiliasÏÏÖ
+117ÏÏ5ÏÏfdbDescSubfamilia = ||DESC_SUBFAMILIA_INSERT||ÏÏsubfamiliasÏÏFLFieldDBÏÏfdbDescSubfamiliaÏÏsetValueÏÏ||DESC_SUBFAMILIA_INSERT||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000106ÏÏsubfamiliasÏÏÖ
+117ÏÏ6ÏÏfdbCodFamilia = ||COD_FAMILIA_INSERT||ÏÏsubfamiliasÏÏFLFieldDBÏÏfdbCodFamiliaÏÏsetValueÏÏ||COD_FAMILIA_INSERT||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000106ÏÏsubfamiliasÏÏÖ
+117ÏÏ4ÏÏfdbCodSubfamilia = ||COD_SUBFAMILIA_INSERT||ÏÏsubfamiliasÏÏFLFieldDBÏÏfdbCodSubfamiliaÏÏsetValueÏÏ||COD_SUBFAMILIA_INSERT||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000106ÏÏsubfamiliasÏÏÖ
+117ÏÏ1ÏÏComparar  ÏÏsubfamiliasÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Saltar" type="Distintos" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="codsubfamilia = &quot;||COD_SUBFAMILIA_INSERT||&quot;" savein="" from="subfamilias" select="codsubfamilia" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||COD_SUBFAMILIA_INSERT||</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000106ÏÏsubfamiliasÏÏÖ
+117ÏÏ8ÏÏCerrar formulario subfamiliasÏÏsubfamiliasÏÏFLFormDBÏÏsubfamiliasÏÏcloseÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000106ÏÏsubfamiliasÏÏÖ
+117ÏÏ7ÏÏPulsar el botón pushButtonAcceptÏÏsubfamiliasÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏAceptarÏÏ000106ÏÏsubfamiliasÏÏÖ
+117ÏÏ2ÏÏAbrir formulario subfamiliasÏÏsubfamiliasÏÏFLFormDBÏÏsubfamiliasÏÏopenÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000106ÏÏsubfamiliasÏÏÖ
+119ÏÏ7ÏÏARTICULOS: CERRAR ARTÍCULO EN MODO EDITÏÏarticulosÏÏTestÏÏ<FLTest:Test codtest="000283" idfuncional="flfactalma"/>ÏÏexecTestÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000108ÏÏsubfamiliasÏÏÖ
+119ÏÏ1ÏÏARTICULOS: ABRIR ARTÍCULO EN MODO EDITÏÏarticulosÏÏTestÏÏ<FLTest:Test codtest="000282" idfuncional="flfactalma"/>ÏÏexecTestÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000108ÏÏsubfamiliasÏÏÖ
+119ÏÏ9ÏÏComparar  ÏÏÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="referencia = &quot;||COD_ARTICULO_COMP||&quot;" savein="" from="articulos" select="codsubfamilia" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||COD_SUBFAMILIA_COMP||</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000108ÏÏsubfamiliasÏÏÖ
+119ÏÏ8ÏÏComparar  ÏÏÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="referencia = &quot;||COD_ARTICULO_COMP||&quot;" savein="" from="articulos" select="codfamilia" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||COD_FAMILIA_COMP||</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000108ÏÏsubfamiliasÏÏÖ
+119ÏÏ5ÏÏfdbCodSubfamilia = ||COD_SUBFAMILIA_COMP||ÏÏarticulosÏÏFLFieldDBÏÏfdbCodSubfamiliaÏÏsetValueÏÏ||COD_SUBFAMILIA_COMP||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000108ÏÏsubfamiliasÏÏÖ
+119ÏÏ4ÏÏfdbCodFamilia = ||COD_FAMILIA_COMP||ÏÏarticulosÏÏFLFieldDBÏÏfdbCodFamiliaÏÏsetValueÏÏ||COD_FAMILIA_COMP||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000108ÏÏsubfamiliasÏÏÖ
+129ÏÏ6ÏÏARTICULOS: ASOCIAR ARTICULO A SUBFAMILIA Y COMPROBAR QUE SE CREA CORRECTAMENTEÏÏÏÏTestÏÏ<FLTest:Test codtest="000108" idfuncional="subfamilias"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||ARTICULO_SUBFAMILIAS||" var="COD_ARTICULO_COMP" />
+    <FLTest:AssignationElement value="||FAMILIA1||" var="COD_FAMILIA_COMP" />
+    <FLTest:AssignationElement value="||SUBFAMILIA1||" var="COD_SUBFAMILIA_COMP" />
+    <FLTest:AssignationElement value="||ARTICULO_SUBFAMILIAS||" var="REF_ART_EDIT" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000285ÏÏsubfamiliasÏÏÖ
+129ÏÏ5ÏÏARTICULOS: CREAR ARTICULO ||COD_ARTICULO||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000042" idfuncional="flfactalma"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="S-||_S||" var="REF_ART" />
+    <FLTest:AssignationElement value="" var="DES_ART" />
+    <FLTest:AssignationElement value="10" var="PVP_ART" />
+    <FLTest:AssignationElement value="" var="IVA_ART" />
+    <FLTest:AssignationElement value="S-||_S||" var="ARTICULO_SUBFAMILIAS" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000285ÏÏsubfamiliasÏÏÖ
+129ÏÏ4ÏÏSUBFAMILIAS: CREAR SUBFAMILIAÏÏÏÏTestÏÏ<FLTest:Test codtest="000106" idfuncional="subfamilias"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="*SF2" var="COD_SUBFAMILIA_INSERT" />
+    <FLTest:AssignationElement value="" var="DESC_SUBFAMILIA_INSERT" />
+    <FLTest:AssignationElement value="||FAMILIA2||" var="COD_FAMILIA_INSERT" />
+    <FLTest:AssignationElement value="*SF2" var="SUBFAMILIA2" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000285ÏÏsubfamiliasÏÏÖ
+129ÏÏ3ÏÏSUBFAMILIAS: CREAR SUBFAMILIAÏÏÏÏTestÏÏ<FLTest:Test codtest="000106" idfuncional="subfamilias"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="*SF1" var="COD_SUBFAMILIA_INSERT" />
+    <FLTest:AssignationElement value="" var="DESC_SUBFAMILIA_INSERT" />
+    <FLTest:AssignationElement value="||FAMILIA1||" var="COD_FAMILIA_INSERT" />
+    <FLTest:AssignationElement value="*SF1" var="SUBFAMILIA1" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000285ÏÏsubfamiliasÏÏÖ
+129ÏÏ2ÏÏFAMILIAS: CREAR FAMILIAÏÏÏÏTestÏÏ<FLTest:Test codtest="000035" idfuncional="flfactalma"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="*FA2" var="COD_FAMILIA" />
+    <FLTest:AssignationElement value="" var="DES_FAMILIA" />
+    <FLTest:AssignationElement value="*FA2" var="FAMILIA2" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000285ÏÏsubfamiliasÏÏÖ
+129ÏÏ1ÏÏFAMILIAS: CREAR FAMILIAÏÏÏÏTestÏÏ<FLTest:Test codtest="000035" idfuncional="flfactalma"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="*FA1" var="COD_FAMILIA" />
+    <FLTest:AssignationElement value="" var="DES_FAMILIA" />
+    <FLTest:AssignationElement value="*FA1" var="FAMILIA1" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000285ÏÏsubfamiliasÏÏÖ

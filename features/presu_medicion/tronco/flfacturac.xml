@@ -1,0 +1,90 @@
+<xupdate:modifications>
+<xupdate:insert-after select="/ACTIONS[ACTIONS,1]/action[trazadoc]" >
+<action>
+<name>premed_partidas</name>
+<description>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Permite la definición de partidas y su descomposición&quot;)</description>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Definición de Partidas&quot;)</alias>
+<scriptformrecord>premed_partidas</scriptformrecord>
+<table>premed_partidas</table>
+<form>master</form>
+<formrecord>premed_partidas</formrecord>
+</action>
+</xupdate:insert-after>
+<xupdate:insert-after select="/ACTIONS[ACTIONS,1]/action[premed_partidas]" >
+<action>
+<name>premed_descomposicion</name>
+<description>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Descomposición de Partidas&quot;)</description>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Descomposición de Partidas&quot;)</alias>
+<scriptformrecord>premed_descomposicion</scriptformrecord>
+<table>premed_descomposicion</table>
+<form>master</form>
+<formrecord>premed_descomposicion</formrecord>
+</action>
+</xupdate:insert-after>
+<xupdate:insert-after select="/ACTIONS[ACTIONS,1]/action[premed_descomposicion]" >
+<action>
+<name>premed_proyectos</name>
+<description>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Proyectos&quot;)</description>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Proyectos&quot;)</alias>
+<scriptformrecord>premed_proyectos</scriptformrecord>
+<table>premed_proyectos</table>
+<form>master</form>
+<formrecord>premed_proyectos</formrecord>
+</action>
+</xupdate:insert-after>
+<xupdate:insert-after select="/ACTIONS[ACTIONS,1]/action[premed_proyectos]" >
+<action>
+<name>premed_propartidas</name>
+<description>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Partidas&quot;)</description>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Partidas&quot;)</alias>
+<scriptformrecord>premed_propartidas</scriptformrecord>
+<table>premed_propartidas</table>
+<form>master</form>
+<formrecord>premed_propartidas</formrecord>
+</action>
+</xupdate:insert-after>
+<xupdate:insert-after select="/ACTIONS[ACTIONS,1]/action[premed_propartidas]" >
+<action>
+<name>premed_prodescomposicion</name>
+<description>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Descomposición de Partidas&quot;)</description>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Descomposición de Partidas&quot;)</alias>
+<scriptformrecord>premed_prodescomposicion</scriptformrecord>
+<table>premed_prodescomposicion</table>
+<form>master</form>
+<formrecord>premed_prodescomposicion</formrecord>
+</action>
+</xupdate:insert-after>
+<xupdate:insert-after select="/ACTIONS[ACTIONS,1]/action[premed_prodescomposicion]" >
+<action>
+<name>premed_procapitulos</name>
+<description>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Capítulos&quot;)</description>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Capítulos&quot;)</alias>
+<scriptformrecord>premed_procapitulos</scriptformrecord>
+<table>premed_procapitulos</table>
+<form>master</form>
+<formrecord>premed_procapitulos</formrecord>
+</action>
+</xupdate:insert-after>
+<xupdate:insert-after select="/ACTIONS[ACTIONS,1]/action[premed_procapitulos]" >
+<action>
+<name>premed_medipar</name>
+<description>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Mediciones de partidas&quot;)</description>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Mediciones de partidas&quot;)</alias>
+<scriptformrecord>premed_medidas</scriptformrecord>
+<table>premed_medipar</table>
+<form>master</form>
+<formrecord>premed_medidas</formrecord>
+</action>
+</xupdate:insert-after>
+<xupdate:insert-after select="/ACTIONS[ACTIONS,1]/action[premed_medipar]" >
+<action>
+<name>premed_medides</name>
+<description>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Mediciones de descompisciones&quot;)</description>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Mediciones de descompisciones&quot;)</alias>
+<scriptformrecord>premed_medidas</scriptformrecord>
+<table>premed_medides</table>
+<form>master</form>
+<formrecord>premed_medidas</formrecord>
+</action>
+</xupdate:insert-after>
+</xupdate:modifications>

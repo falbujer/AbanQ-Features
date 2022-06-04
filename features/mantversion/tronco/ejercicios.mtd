@@ -1,0 +1,9 @@
+<xupdate:modifications>
+<xupdate:insert-after select="/TMD[TMD,1]/field[codejercicio]/counter[counter,1]" >
+<relation>
+<table>mv_presupuestoscli</table>
+<field>codejercicio</field>
+<card>1M</card>
+</relation>
+</xupdate:insert-after>
+</xupdate:modifications>

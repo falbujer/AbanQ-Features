@@ -1,0 +1,9 @@
+<flpatch:modifications name="docu_especifica" >
+    <flpatch:patchXml path="sistema/documentacion/forms/" name="do_generardoc.ui" />
+    <flpatch:patchXml path="sistema/documentacion/forms/" name="do_opciones.ui" />
+    <flpatch:patchScript path="sistema/documentacion/scripts/" name="do_generardoc.qs" />
+    <flpatch:patchScript path="sistema/documentacion/scripts/" name="do_opciones.qs" />
+    <flpatch:addFile path="sistema/documentacion/tables/" name="do_funcionalcli.mtd" />
+    <flpatch:patchXml path="sistema/documentacion/tables/" name="do_generardoc.mtd" />
+    <flpatch:patchXml path="sistema/documentacion/tables/" name="do_modulosdoc.mtd" />
+</flpatch:modifications>

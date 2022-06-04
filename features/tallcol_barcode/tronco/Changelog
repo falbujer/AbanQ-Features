@@ -1,0 +1,4 @@
+!! 21/09/2006 SVN:
+* Adaptación de regularización de stocks y facturación de proveedor para usar tablas talla / color
+!! 26/04/2006 SVN:
+* Creación de la funcionalidad tallcol_barcode

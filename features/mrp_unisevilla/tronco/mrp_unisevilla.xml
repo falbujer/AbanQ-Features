@@ -1,0 +1,13 @@
+<flpatch:modifications name="mrp_unisevilla" >
+    <flpatch:patchXml path="facturacion/almacen/forms/" name="masterarticulos.ui" />
+    <flpatch:addFile path="facturacion/almacen/reports/" name="i_listamateriales.kut" />
+    <flpatch:patchScript path="facturacion/almacen/scripts/" name="masterarticulos.qs" />
+    <flpatch:patchXml path="facturacion/almacen/forms/" name="articulos.ui" />
+    <flpatch:addFile path="facturacion/almacen/reports/" name="i_segmentomaestrodatos.kut" />
+    <flpatch:patchXml path="facturacion/almacen/tables/" name="articulos.mtd" />
+    <flpatch:addFile path="facturacion/almacen/reports/" name="i_segmentodatosinventario.kut" />
+    <flpatch:addFile path="facturacion/almacen/reports/" name="i_explosionnecesidades.kut" />
+    <flpatch:addFile path="facturacion/almacen/reports/" name="i_fechascantidades.kut" />
+    <flpatch:addFile path="facturacion/almacen/reports/" name="i_cubotiempo.kut" />
+    <flpatch:addFile path="facturacion/almacen/reports/" name="i_cubotiempo_2.kut" />
+</flpatch:modifications>

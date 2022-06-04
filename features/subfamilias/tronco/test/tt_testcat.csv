@@ -1,0 +1,13 @@
+SUBFAMILIAS: CREAR SUBFAMILIAоо000106ооsubfamiliasоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_SUBFAMILIA_INSERT" default="" />
+    <FLTest:Parameter name="DESC_SUBFAMILIA_INSERT" default="SUBFAMILIA DE PRUEBA" />
+    <FLTest:Parameter name="COD_FAMILIA_INSERT" default="" />
+</FLTest:Parameters>
+оооож
+ARTICULOS: ASOCIAR ARTICULO A SUBFAMILIA Y COMPROBAR QUE SE CREA CORRECTAMENTEоо000108ооsubfamiliasоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_ARTICULO_COMP" default="" />
+    <FLTest:Parameter name="COD_FAMILIA_COMP" default="" />
+    <FLTest:Parameter name="COD_SUBFAMILIA_COMP" default="" />
+</FLTest:Parameters>
+оооож
+SUBFAMILIASоо000285ооsubfamiliasоооооож

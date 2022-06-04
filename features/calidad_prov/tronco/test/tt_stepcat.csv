@@ -1,0 +1,122 @@
+261ÏÏ6ÏÏPulsar el botón pushButtonAcceptÏÏusuarioscalidadÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactppalÏÏformRecordÏÏAceptarÏÏ000106ÏÏcalidad_provÏÏÖ
+261ÏÏ7ÏÏCerrar formulario usuarioscalidadÏÏusuarioscalidadÏÏFLFormDBÏÏusuarioscalidadÏÏcloseÏÏÏÏFÏÏflfactppalÏÏformÏÏNingunoÏÏ000106ÏÏcalidad_provÏÏÖ
+261ÏÏ2ÏÏAbrir formulario usuarioscalidadÏÏusuarioscalidadÏÏFLFormDBÏÏusuarioscalidadÏÏopenÏÏÏÏFÏÏflfactppalÏÏformÏÏNingunoÏÏ000106ÏÏcalidad_provÏÏÖ
+261ÏÏ4ÏÏfdbCodigo = ||COD_USUARIO||ÏÏusuarioscalidadÏÏFLFieldDBÏÏfdbCodigoÏÏsetValueÏÏ||COD_USUARIO||ÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000106ÏÏcalidad_provÏÏÖ
+261ÏÏ5ÏÏfdbNombreRegistradaPor = ||NOMBRE_USUARIO||ÏÏusuarioscalidadÏÏFLFieldDBÏÏfdbNombreRegistradaPorÏÏsetValueÏÏ||NOMBRE_USUARIO||ÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000106ÏÏcalidad_provÏÏÖ
+261ÏÏ3ÏÏPulsar el botón toolButtonInsertÏÏusuarioscalidadÏÏButtonÏÏtoolButtonInsertÏÏanimateClickÏÏÏÏFÏÏflfactppalÏÏformÏÏNingunoÏÏ000106ÏÏcalidad_provÏÏÖ
+263ÏÏ2ÏÏPulsar el botón toolButtonEditÏÏseguimientoprovÏÏButtonÏÏtoolButtonEditÏÏanimateClickÏÏÏÏFÏÏflfactppalÏÏformÏÏNingunoÏÏ000107ÏÏcalidad_provÏÏÖ
+263ÏÏ7ÏÏPulsar botón pushButtonAcceptÏÏincidenciasprovÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactppalÏÏformRecordÏÏAceptarÏÏ000107ÏÏcalidad_provÏÏÖ
+263ÏÏ3ÏÏPulsar el botón tbInsertIncidenciasÏÏseguimientoprovÏÏButtonÏÏtbInsertIncidenciasÏÏanimateClickÏÏÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000107ÏÏcalidad_provÏÏÖ
+263ÏÏ4ÏÏEstablecer valor fechaÏÏincidenciasprovÏÏFLFieldDBÏÏfdbFechaÏÏsetValueÏÏ||FECHA_INCIDENCIA||ÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000107ÏÏcalidad_provÏÏÖ
+263ÏÏ8ÏÏPulsar el botón pushButtonAcceptÏÏseguimientoprovÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactppalÏÏformRecordÏÏAceptarÏÏ000107ÏÏcalidad_provÏÏÖ
+263ÏÏ5ÏÏfdbDescripcion = ||DESC_INCIDENCIA||ÏÏincidenciasprovÏÏFLFieldDBÏÏfdbDescripcionÏÏsetValueÏÏ||DESC_INCIDENCIA||ÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000107ÏÏcalidad_provÏÏÖ
+263ÏÏ6ÏÏPulsar el botón chkMenosUnoÏÏincidenciasprovÏÏButtonÏÏchkMenosUnoÏÏanimateClickÏÏ<FLTest:Condition event="SCRIPT_FINISHED" object="cambioValor" />ÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000107ÏÏcalidad_provÏÏÖ
+267ÏÏ1ÏÏAbrir formulario seguimientoprovÏÏseguimientoprovÏÏFLFormDBÏÏseguimientoprovÏÏopenÏÏÏÏFÏÏflfactppalÏÏformÏÏNingunoÏÏ000110ÏÏcalidad_provÏÏÖ
+267ÏÏ2ÏÏSeleccionar codproveedor = "||COD_PROVEEDOR_SEL||"ÏÏseguimientoprovÏÏFLTableDBÏÏtableDBRecordsÏÏselectRowÏÏcodproveedor = "||COD_PROVEEDOR_SEL||"ÏÏFÏÏflfactppalÏÏformÏÏNingunoÏÏ000110ÏÏcalidad_provÏÏÖ
+271ÏÏ4ÏÏEstablecer valor fechaÏÏincidenciasprovÏÏFLFieldDBÏÏfdbFechaÏÏsetValueÏÏ||FECHA_INCIDENCIA||ÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000112ÏÏcalidad_provÏÏÖ
+271ÏÏ7ÏÏPulsar botón pushButtonAcceptÏÏincidenciasprovÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactppalÏÏformRecordÏÏAceptarÏÏ000112ÏÏcalidad_provÏÏÖ
+271ÏÏ2ÏÏPulsar el botón toolButtonEditÏÏseguimientoprovÏÏButtonÏÏtoolButtonEditÏÏanimateClickÏÏÏÏFÏÏflfactppalÏÏformÏÏNingunoÏÏ000112ÏÏcalidad_provÏÏÖ
+271ÏÏ3ÏÏPulsar el botón tbInsertIncidenciasÏÏseguimientoprovÏÏButtonÏÏtbInsertIncidenciasÏÏanimateClickÏÏÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000112ÏÏcalidad_provÏÏÖ
+271ÏÏ9ÏÏPulsar el botón pushButtonAcceptÏÏseguimientoprovÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactppalÏÏformRecordÏÏAceptarÏÏ000112ÏÏcalidad_provÏÏÖ
+271ÏÏ5ÏÏfdbDescripcion = ||DESC_INCIDENCIA||ÏÏincidenciasprovÏÏFLFieldDBÏÏfdbDescripcionÏÏsetValueÏÏ||DESC_INCIDENCIA||ÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000112ÏÏcalidad_provÏÏÖ
+271ÏÏ6ÏÏPulsar el botón chkMasUnoÏÏincidenciasprovÏÏButtonÏÏchkMasUnoÏÏanimateClickÏÏ<FLTest:Condition event="SCRIPT_FINISHED" object="cambioValor" />
+ÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000112ÏÏcalidad_provÏÏÖ
+273ÏÏ2ÏÏPulsar el botón toolButtonEditÏÏseguimientoprovÏÏButtonÏÏtoolButtonEditÏÏanimateClickÏÏÏÏFÏÏflfactppalÏÏformÏÏNingunoÏÏ000113ÏÏcalidad_provÏÏÖ
+273ÏÏ12ÏÏPulsar el botón pushButtonAcceptÏÏseguimientoprovÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactppalÏÏformRecordÏÏAceptarÏÏ000113ÏÏcalidad_provÏÏÖ
+273ÏÏ9ÏÏPulsar botón pushButtonAcceptÏÏnoconformidadesprovÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactppalÏÏformRecordÏÏAceptarÏÏ000113ÏÏcalidad_provÏÏÖ
+273ÏÏ3ÏÏPulsar el botón tbInsertNoConformidadesÏÏseguimientoprovÏÏButtonÏÏtbInsertNoConformidadesÏÏanimateClickÏÏÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000113ÏÏcalidad_provÏÏÖ
+273ÏÏ7ÏÏfdbDescripcion = ||DESC_NOCONFORMIDAD||ÏÏnoconformidadesprovÏÏFLFieldDBÏÏfdbDescripcionÏÏsetValueÏÏ||DESC_NOCONFORMIDAD||ÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000113ÏÏcalidad_provÏÏÖ
+273ÏÏ10ÏÏfdbCriterioHomol = ||CRITHOMOL_NOCONFORMIDAD||ÏÏseguimientoprovÏÏFLFieldDBÏÏfdbCriterioHomolÏÏsetValueÏÏ||CRITHOMOL_NOCONFORMIDAD||ÏÏFÏÏflfactppalÏÏformRecordÏÏAceptarÏÏ000113ÏÏcalidad_provÏÏÖ
+273ÏÏ5ÏÏfdbRegistradaPor = ||COD_USUARIO_NC||ÏÏnoconformidadesprovÏÏFLFieldDBÏÏfdbRegistradaPorÏÏsetValueÏÏ||COD_USUARIO_NC||ÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000113ÏÏcalidad_provÏÏÖ
+273ÏÏ6ÏÏfdbResueltaPor = ||COD_USUARIO_NC||ÏÏnoconformidadesprovÏÏFLFieldDBÏÏfdbResueltaPorÏÏsetValueÏÏ||COD_USUARIO_NC||ÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000113ÏÏcalidad_provÏÏÖ
+275ÏÏ9ÏÏMessageBox - Pulsar Sí ÏÏevalsemestralesprovÏÏMessageBoxÏÏÏÏpushYesÏÏ<FLTest:Condition event="SCRIPT_FINISHED" object="generarSeguimientos" />
+ÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000114ÏÏcalidad_provÏÏÖ
+275ÏÏ1ÏÏAbrir formulario evalsemestralesprovÏÏevalsemestralesprovÏÏFLFormDBÏÏevalsemestralesprovÏÏopenÏÏÏÏFÏÏflfactppalÏÏformÏÏNingunoÏÏ000114ÏÏcalidad_provÏÏÖ
+275ÏÏ8ÏÏPulsar el botón Evaluación AutomáticaÏÏevalsemestralesprovÏÏButtonÏÏpbnGenerarSeguimientosÏÏanimateClickÏÏÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000114ÏÏcalidad_provÏÏÖ
+275ÏÏ12ÏÏCerrar formulario evalsemestralesprovÏÏevalsemestralesprovÏÏFLFormDBÏÏevalsemestralesprovÏÏcloseÏÏÏÏFÏÏflfactppalÏÏformÏÏNingunoÏÏ000114ÏÏcalidad_provÏÏÖ
+275ÏÏ11ÏÏPulsar botón pushButtonAcceptÏÏevalsemestralesprovÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactppalÏÏformRecordÏÏAceptarÏÏ000114ÏÏcalidad_provÏÏÖ
+275ÏÏ4ÏÏfdbEvaluadoPor = ||COD_USUARIO_EVAL||ÏÏevalsemestralesprovÏÏFLFieldDBÏÏfdbEvaluadoPorÏÏsetValueÏÏ||COD_USUARIO_EVAL||ÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000114ÏÏcalidad_provÏÏÖ
+275ÏÏ3ÏÏfdbFechaDesdeEvaluacion = ||FECHA_DESDE||ÏÏevalsemestralesprovÏÏFLFieldDBÏÏfdbFechaDesdeEvaluacionÏÏsetValueÏÏ||FECHA_DESDE||ÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000114ÏÏcalidad_provÏÏÖ
+275ÏÏ5ÏÏfdbExigenciaSubida = ||EXIG_SUBIDA||ÏÏevalsemestralesprovÏÏFLFieldDBÏÏfdbExigenciaSubidaÏÏsetValueÏÏ||EXIG_SUBIDA||ÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000114ÏÏcalidad_provÏÏÖ
+275ÏÏ6ÏÏfdbExigenciaBajada = ||EXIG_BAJADA||ÏÏevalsemestralesprovÏÏFLFieldDBÏÏfdbExigenciaBajadaÏÏsetValueÏÏ||EXIG_BAJADA||ÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000114ÏÏcalidad_provÏÏÖ
+275ÏÏ7ÏÏfdbDescripcion = ||DESC_EVAL||ÏÏevalsemestralesprovÏÏFLFieldDBÏÏfdbDescripcionÏÏsetValueÏÏ||DESC_EVAL||ÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000114ÏÏcalidad_provÏÏÖ
+275ÏÏ2ÏÏPulsar el botón toolButtonInsertÏÏevalsemestralesprovÏÏButtonÏÏtoolButtonInsertÏÏanimateClickÏÏÏÏFÏÏflfactppalÏÏformÏÏNingunoÏÏ000114ÏÏcalidad_provÏÏÖ
+283ÏÏ1ÏÏÏÏÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="codproveedor = &quot;||COD_PROVEEDOR_COMP||&quot;" savein="" from="seguimientosprov" select="resultado" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||RESULTADO_EVAL||</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000282ÏÏcalidad_provÏÏÖ
+303ÏÏ13ÏÏPROVEEDORES: COMPROBAR RESULTADO EVALUACIÓN SEMESTRALÏÏÏÏTestÏÏ<FLTest:Test codtest="000282" idfuncional="calidad_prov"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||PROVEEDOR_CALIDAD2||" var="COD_PROVEEDOR_COMP" />
+    <FLTest:AssignationElement value="B" var="RESULTADO_EVAL" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000283ÏÏcalidad_provÏÏÖ
+303ÏÏ12ÏÏPROVEEDORES: COMPROBAR RESULTADO EVALUACIÓN SEMESTRALÏÏÏÏTestÏÏ<FLTest:Test codtest="000282" idfuncional="calidad_prov"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||PROVEEDOR_CALIDAD1||" var="COD_PROVEEDOR_COMP" />
+    <FLTest:AssignationElement value="A" var="RESULTADO_EVAL" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000283ÏÏcalidad_provÏÏÖ
+303ÏÏ11ÏÏPROVEEDORES: INSERTAR EVALUEACIONÏÏÏÏTestÏÏ<FLTest:Test codtest="000114" idfuncional="calidad_prov"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||_YEAR||-01-01" var="FECHA_DESDE" />
+    <FLTest:AssignationElement value="" var="COD_USUARIO_EVA" />
+    <FLTest:AssignationElement value="" var="EXIG_SUBIDA" />
+    <FLTest:AssignationElement value="" var="EXIG_BAJADA" />
+    <FLTest:AssignationElement value="" var="DESC_EVAL" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000283ÏÏcalidad_provÏÏÖ
+303ÏÏ10ÏÏPROVEEDORES: INSERTAR INCIDENCIA POSITIVAÏÏÏÏTestÏÏ<FLTest:Test codtest="000112" idfuncional="calidad_prov"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||_YEAR||-01-01" var="FECHA_INCIDENCIA" />
+    <FLTest:AssignationElement value="" var="DESC_INCIDENCIA" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000283ÏÏcalidad_provÏÏÖ
+303ÏÏ9ÏÏPROVEEDORES: INSERTAR NO CONFORMIDADÏÏÏÏTestÏÏ<FLTest:Test codtest="000113" idfuncional="calidad_prov"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_USUARIO_NC" />
+    <FLTest:AssignationElement value="" var="CRITHOMOL_NOCONFORMIDAD" />
+    <FLTest:AssignationElement value="" var="DESC_NOCONFORMIDAD" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000283ÏÏcalidad_provÏÏÖ
+303ÏÏ8ÏÏPROVEEDORES: SELECCIONAR PROVEEDORÏÏÏÏTestÏÏ<FLTest:Test codtest="000110" idfuncional="calidad_prov"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||PROVEEDOR_CALIDAD2||" var="COD_PROVEEDOR_SEL" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000283ÏÏcalidad_provÏÏÖ
+303ÏÏ7ÏÏPROVEEDORES: INSERTAR NO CONFORMIDADÏÏÏÏTestÏÏ<FLTest:Test codtest="000113" idfuncional="calidad_prov"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_USUARIO_NC" />
+    <FLTest:AssignationElement value="" var="CRITHOMOL_NOCONFORMIDAD" />
+    <FLTest:AssignationElement value="" var="DESC_NOCONFORMIDAD" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000283ÏÏcalidad_provÏÏÖ
+303ÏÏ6ÏÏPROVEEDORES: INSERTAR INCIDENCIA POSITIVAÏÏÏÏTestÏÏ<FLTest:Test codtest="000112" idfuncional="calidad_prov"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||_YEAR||-01-01" var="FECHA_INCIDENCIA" />
+    <FLTest:AssignationElement value="" var="DESC_INCIDENCIA" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000283ÏÏcalidad_provÏÏÖ
+303ÏÏ5ÏÏPROVEEDORES: INSERTAR INCIDENCIA POSITIVAÏÏÏÏTestÏÏ<FLTest:Test codtest="000112" idfuncional="calidad_prov"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||_YEAR||-01-01" var="FECHA_INCIDENCIA" />
+    <FLTest:AssignationElement value="" var="DESC_INCIDENCIA" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000283ÏÏcalidad_provÏÏÖ
+303ÏÏ4ÏÏPROVEEDORES: SELECCIONAR PROVEEDORÏÏÏÏTestÏÏ<FLTest:Test codtest="000110" idfuncional="calidad_prov"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||PROVEEDOR_CALIDAD1||" var="COD_PROVEEDOR_SEL" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000283ÏÏcalidad_provÏÏÖ
+303ÏÏ3ÏÏUSUARIOS: CREAR UN USUARIO ||COD_USUARIO||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000106" idfuncional="calidad_prov"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="1-||_S||" var="COD_USUARIO" />
+    <FLTest:AssignationElement value="" var="NOMBRE_USUARIO" />
+    <FLTest:AssignationElement value="||COD_PROVEEDOR||" var="PROVEEDOR_CALIDAD2" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000283ÏÏcalidad_provÏÏÖ
+303ÏÏ2ÏÏPROVEEDORES: CREAR PROVEEDOR ||COD_PROVEEDOR||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000017" idfuncional="flfactppal"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="NOM_PROV" />
+    <FLTest:AssignationElement value="" var="CIF_PROV" />
+    <FLTest:AssignationElement value="||COD_PROVEEDOR||" var="PROVEEDOR_CALIDAD1" />
+    <FLTest:AssignationElement value="**UNDEFINED**" var="COD_PROVEEDOR" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000283ÏÏcalidad_provÏÏÖ
+303ÏÏ1ÏÏPROVEEDORES: CREAR PROVEEDOR ||COD_PROVEEDOR||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000017" idfuncional="flfactppal"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="NOM_PROV" />
+    <FLTest:AssignationElement value="" var="CIF_PROV" />
+    <FLTest:AssignationElement value="**UNDEFINED**" var="COD_PROVEEDOR" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000283ÏÏcalidad_provÏÏÖ

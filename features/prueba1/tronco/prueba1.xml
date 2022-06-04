@@ -1,0 +1,4 @@
+<flpatch:modifications name="prueba1" >
+    <flpatch:patchScript path="facturacion/almacen/scripts/" name="articulos.qs" />
+    <flpatch:patchXml path="facturacion/almacen/tables/" name="articulos.mtd" />
+</flpatch:modifications>

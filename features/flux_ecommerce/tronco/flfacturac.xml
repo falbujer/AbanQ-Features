@@ -1,0 +1,11 @@
+<xupdate:modifications>
+<xupdate:insert-after select="/ACTIONS[ACTIONS,1]/action[busfactprov]" >
+<action>
+<name>pagospedidos</name>
+<description>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Pagos de pedidos&quot;)</description>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Pagos de pedidos&quot;)</alias>
+<table>pagospedidos</table>
+<form>master</form>
+</action>
+</xupdate:insert-after>
+</xupdate:modifications>

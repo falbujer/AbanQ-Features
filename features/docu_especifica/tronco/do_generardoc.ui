@@ -1,0 +1,679 @@
+<xupdate:modifications>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,FLWidgetMasterTable]/property[property,2]/rect[rect,1]/height[height,1]/text()[1]" >522</xupdate:update>
+<xupdate:delete select="/UI[UI,1]/widget[QWidget,FLWidgetMasterTable]/vbox[vbox,1]/widget[QGroupBox,gbxModulos]" />
+<xupdate:delete select="/UI[UI,1]/widget[QWidget,FLWidgetMasterTable]/vbox[vbox,1]/widget[QLayoutWidget,layout25]/hbox[hbox,1]/widget[QGroupBox,gbxHTML]/vbox[vbox,1]/widget[QLayoutWidget,layout24]" />
+<xupdate:update select="/UI[UI,1]/widget[QWidget,FLWidgetMasterTable]/vbox[vbox,1]/widget[QLayoutWidget,layout25]/hbox[hbox,1]/widget[QGroupBox,gbxHTML]/vbox[vbox,1]/spacer[spacer31]/property[property,4]/size[size,1]/height[height,1]/text()[1]" >16</xupdate:update>
+<xupdate:append-first select="/UI[UI,1]/images[images,1]" >
+<image name="docu_especificadocu_especificaimage0" >
+<data format="PNG" length="2096" >89504e470d0a1a0a0000000d4948445200000020000000200806000000737a7af4000007f749444154789cc5965f685be719c67f4ed5ee68b4c519ed668303727198e42960bb2ed42283c5ac83da29149bdc4894319b6e2421b090e46234b918595987624641ea30480183e44166b9d0c9be70677934b59239b222e2bf249ded25c1365e915c2f93ce1c6dcf2e8e643bb1536861ecbb79ce77ce77789ef7eff75648e2ffb96ce5878a8a8af2e35386613c6f16cd0ac36654984513c366b0632fc3a87cc634aabf4391bf1914b2e6fad25726de325c123bbde0aa731d8e0fc7d724659556569bca4ea627b3da544e697d21e98b995b331bbaab87478e0fac56bda978d5e133672a6b026e6c86ed097c7b0a90b45b80a3cef19a36a47c3e2f49ca6f58a83294de2fdf5d90d6a48e5321397e22359e5b78d8785c1395cd5d3fc3a87cfe6b0bb8e8bcf8438d58645a2be1861e11a16c096fcf481b52d7b9901c6f4a2de7661419961a4fe94e5543fcc7c0535fcf036b5276cd62c967f38f585e1651fe3e9e1c979625efe980aa8ee6d5786a5c1dbf913a7af2721dcb0f52e9707d25012ea7ebb5d1c4e8a396962ddf7c0c172cef8c0ec7a58552387e29b98e8f2b32289d084b9141e58cbab6635fdf03e51c2893963595de8f27c7a5bb52fca3012dbf2f398e45e47a5b72bd3dae23e7a4137d7979832a543a3bdeda4bc0bec79575dbba2103fb5fdc0f39b03f678702f0f4a3e7eccfd961113c0d1e988676672789ca28279b7d148a80dbc3dc528ce10fedaccc63b87e11fbc0a869f9c1e37cbb04848b616880dcdf73b01f7858003b140a8f1d7c58805a486692d000b1e918be577c0cce873173c05810d7b3ad34555fa29a1cd5a9e0b3aee6b6f7b019dfde3b16db39f0a3ad1cb82be5f352d74752e49674242c45d252d71529bb26e996159ad19151e9ae34706540a351e9c48590f213d65e0bdbdffd3d0155d538dedac95b51262f7742579de3b5d9c4e2c8f9e902c99c1d133000b368e17a114c1356d60b54dbec741d4c73f67013c9e9041e672b43a921da9bdb19ca0cd1ee6e6768dada27e793344e35f2d2af5ffaf9eafdd5a0a4e29e1e703803afb7f55a091e59b3b06b448a2f4bde61297e576abb22c56f4b03b352366f65bbb2d2e4c4a4d5339256758c27c7ad0a4a5a95140806e470384e034fefae822a17d4b4ecab3c3d3a28493392fc92ba1252d79ae44d48279625ff2756754c969a54e4b6b4bc219de99b9436a585d91949d2ccad12a667a44d4b5cbe37afaa9aaad3806db780a3cb705c3f5d2e95d9b224ef8834ba26757d228de7a5134969664d1ab86d9d1958d8c685352930a8addc912495ce9545847a4372381c67760ad8ae8262f89b2e37a7d2ff801c70f663a001a2f36034c3e03c9c6c81cb4b70d380f01c74d642f48e85c9cfa1a500e9a95938002bf756e020cc4ecd52efae27994ae2c58b59341fa9bc1d9beee6da037ccff31c9c1d03af1b8c69e86e06fb3c74d5c1e531e87a05724bd0566591fb0ec2f97e30eec385d5244d95f59083ea03d57007ea0fd543063c6e0ffdf463d88c2708307b0ee1a6e2fc18984ee89f069a213a6d912fae16b87404ae4d15087e1fe61e94c83f9c65ae083d733956d63d9c1f4bc27e585c5c848390be9906b7d52fbc78a148c59e022adfbaf4ddc2556873809981ee8692071a209801cf413bc129f01eb2139c83960370f6436875d653550def1cd98f09b4567be00ed4d6d6c21434b99b48a6925b1ec0c63ed816b125c09c4e7fc32cc20729c00de14c09a7ad5c08df2cd0e68077afc24a0df45c2d902bc0f03ad81be0f2cd028522046fc4acd8cfcd82932df2442a6179e0b1eebbbd9932fe6a62c59e9207c840b71bcc4fa1b3ce4e30031d6ecb439e17ec182fc2c96628a4c0ebb2639a494ebed2097350efaa279d4ae3717a2005adee56fa8bfd74dbbaf70e81b97a2e659a10be0138215cf6440a8c57c1f7fb5916ef41f0d3025e07fc6a2c8dfd55085eb7ce07afae60ae7b189e8a820bd237d234399b48a412e084a1d4105e9b977031fc040fdc9ffd4bee33a6386459e8758399029f13ec9fc1a537eae16958acb4d3731dcebfde0429f03a61750cdaaaaa31cc2097def0317bd3222763593e9419a2ddd94e7fb11fbb617f8280f5a57fae5feb0eae5e2d40012e5f07b3cef240a10ea24bf0ce517015a1f6280caf5ae43d1f83518477ff14c353e325fd7992faba2612d713506759deee6c279689edcc81dd490860a6faa32bd827730fa0c309ebd7a0c301eb9fc249275ccb40b713727f066f0df467207a0c5cd550edf4d0e11ea6a9613be665cb6399189dce4e2e73992e5b5705b07df93c7e1955d6357a5d17a4c69eacfc59ebfa95a4f1528ff64f589350bcd486438905b59cca2ad01b92b2d26862545a96e21fc5a5dba52b392a45fa22ca07f372395def02cf3c71246b74ba5ef707431a1891fc9f48cb9b52202d653725ff8485a15b527643f206a523bd59857a23d6fc38a2d278b683fc9645aeb4751b36ba1bdfdb2960d73ce0a8731c5d1c5efce3d0fc10b5f7dab9f02086492718490c9b078a0978d08ab91ee462a597455782cec39d0ca512b4bb5b89a56274ba3b89dd88d14927d162145fd147b818c65bf4f2f2ef5ef6cf4dcf9d97b4b967082e3a2f1e1db83220ad49e3096b92894407944f4bfe6044f9899245e54967598a97a6e2f8e0de9687c221e527f20a0403f237f8fd5f1a0297d3f586faacab33df9b57a83724f54991be3246b662aa3e2912b630140e49e1edff02c180f2c1bc02ef07947d3f2b7f8f5fd960568d0d8dbffdd21054bd5075b0b6aef66d1fbe6f458bd1ff60038ae0b3f98812dd12eae32bef2ba244f72d2e2d8eadaeaefe41d2bf80dd024acb06d8f9df2c010549ff06f82ff47cbc6b9a59453c0000000049454e44ae426082</data>
+</image>
+</xupdate:append-first>
+<xupdate:insert-after select="/UI[UI,1]/widget[QWidget,FLWidgetMasterTable]/vbox[vbox,1]/widget[QLayoutWidget,layout25]/hbox[hbox,1]/widget[QGroupBox,gbxHTML]/vbox[vbox,1]/property[property,1]" >
+<widget class="QLayoutWidget" >
+<property name="name" >
+<cstring>layout8</cstring>
+</property>
+<hbox>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<widget class="QPushButton" >
+<property name="name" >
+<cstring>pbnGenerarDoc</cstring>
+</property>
+<property name="minimumSize" >
+<size>
+<width>100</width>
+<height>0</height>
+</size>
+</property>
+<property name="font" >
+<font>
+<bold>0</bold>
+</font>
+</property>
+<property name="text" >
+<string>HTML</string>
+</property>
+<property name="iconSet" >
+<iconset>docu_especificadocu_especificaimage0</iconset>
+</property>
+<property name="toolTip" stdset="0" >
+<string>Generar Documentacion en HTML</string>
+</property>
+<property name="whatsThis" stdset="0" >
+<string>Arranca la generacion de documentacion para los modulos seleccionados en la tabla</string>
+</property>
+</widget>
+<spacer>
+<property name="name" >
+<cstring>spacer22</cstring>
+</property>
+<property name="orientation" >
+<enum>Horizontal</enum>
+</property>
+<property name="sizeType" >
+<enum>Fixed</enum>
+</property>
+<property name="sizeHint" >
+<size>
+<width>16</width>
+<height>20</height>
+</size>
+</property>
+</spacer>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fdbTipoDoc</cstring>
+</property>
+<property name="font" >
+<font>
+<bold>0</bold>
+</font>
+</property>
+<property name="fieldName" >
+<string>tipodoc</string>
+</property>
+</widget>
+<spacer>
+<property name="name" >
+<cstring>spacer22_2</cstring>
+</property>
+<property name="orientation" >
+<enum>Horizontal</enum>
+</property>
+<property name="sizeType" >
+<enum>Fixed</enum>
+</property>
+<property name="sizeHint" >
+<size>
+<width>16</width>
+<height>20</height>
+</size>
+</property>
+</spacer>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fdbCapturarForms</cstring>
+</property>
+<property name="font" >
+<font>
+<bold>0</bold>
+</font>
+</property>
+<property name="fieldName" >
+<string>capturarforms</string>
+</property>
+</widget>
+<spacer>
+<property name="name" >
+<cstring>spacer22_2_3</cstring>
+</property>
+<property name="orientation" >
+<enum>Horizontal</enum>
+</property>
+<property name="sizeType" >
+<enum>Fixed</enum>
+</property>
+<property name="sizeHint" >
+<size>
+<width>16</width>
+<height>20</height>
+</size>
+</property>
+</spacer>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fdbProcesarFun</cstring>
+</property>
+<property name="font" >
+<font>
+<bold>0</bold>
+</font>
+</property>
+<property name="fieldName" >
+<string>procesarfun</string>
+</property>
+</widget>
+<spacer>
+<property name="name" >
+<cstring>spacer25</cstring>
+</property>
+<property name="orientation" >
+<enum>Horizontal</enum>
+</property>
+<property name="sizeType" >
+<enum>Expanding</enum>
+</property>
+<property name="sizeHint" >
+<size>
+<width>20</width>
+<height>20</height>
+</size>
+</property>
+</spacer>
+</hbox>
+</widget>
+</xupdate:insert-after>
+<xupdate:append-first select="/UI[UI,1]/images[images,1]" >
+<image name="docu_especificadocu_especificaimage2" >
+<data format="PNG" length="828" >89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b0000030349444154789cad9441481c571cc63fc30626610f7b68610b2decc18b22c5a15b3021071328885e82961e0abd083d744b0eb2844273284172284b0e823d086b4198bdc82024ac1684155ad083a029c298e26117348c41c8402c98256df9e5f0e6cdee186d02c977f978efcdfbdef7beffff4d8f24b983ae1efdf948a323a363cbff2e5fbed1bef19f24da6a6b431bbaaaab72e4e8cc7166a3672c3376b1f5a4f5f4f15f8f7f771c47ed765b92a4c2c7854f4f8e4f781734f79a946f970f24656511ec04cf00b0da2fdfa062d78fd35c5fa9c3080f2449f97cbebffbe3603700606b73cbf0b6e1603b3dbfbeb16ef80fc3e17e08c0f4dd692465c510131cc5a23b6633bbb1933d7bcf53e378dd1e567f583713fb86247d2677d0fd12203a8a52b78d2233b6d99f66fb7db3694ef5977c00bc790f49437207dd717b122169bc3c876d2dec4de3f8584d1c7f7e4192f489d46ab5a48fd4c13f922e9ec397a4177fbf903e940e0f0ed5dfd7afb5dfd6a42fa4f95fe7cd7e06194f32b4ce2ddeb603770cd557ea89631305a60fcf8ce1ff70773a29b82d6075be1a0b17ddf31d9f871028c21d098020ee162b9e729c1420c6fabde9b335177d9088b23990f0571b40a72b12c714194ffad63a0f0189ea809b56fde66bc83870ed3a140a941cc7cc6f1bf217fdd71ddb1766114920312b410d9ad7ae40360737c78d682e070bb01567ecd53ce378ae2be3e4c5ed75293b0ee4f3d0db472041111819856c8ef2f075f34d5c13db0dde82d7e5b8e84e40e7cd5b34561b9011cdac0323a384c52b207167aa0c4010bfb8469c7175ae0a0b5d8e19e22b368d58221e675edfde8261f024c8e7a9cc5553995a51bfd6291c80321a52a1b7300c9dbf956d99c69ad9d4d809600666e30cedbc2d94b7e0c11c547eae400d66676691d42749aadcaf180b6ba4b2b205f197d2195a67d55f0cdbfdfe920f4d9e4bcac8711cb945f707bbc9f6a37564c7f5583c715af3a0161f528be767c0c93adfab1bee80fbd3e4b7932121c7a5ef4a112151e95629e288a83c554e71e956d7bae1e7ecb19ffb20f7a3d5eb31ddf1fef10af9bc733cc7c3901a0000000049454e44ae426082</data>
+</image>
+</xupdate:append-first>
+<xupdate:append-first select="/UI[UI,1]/images[images,1]" >
+<image name="docu_especificadocu_especificaimage3" >
+<data format="PNG" length="775" >89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b000002ce49444154789c95953d68144118861fe5c029ae18e1d0b58b6091c3205eb0f01a35c49fb0a01c172cdc98e64ac542d720b28d122de4b0d342383b6d442ce4b4104e24720a42ca44b130562685842bfc0922be16b3bbb77717837961996576be67defdf6fb6619022c20cfa3bea788ac0540050f000f7654e19860da8729c1610306a08cd310508c3989726bf1cdf9df6bece62753dfdcccf9ceca651d2c5f59ce9bc2ae4e87c595659e7d5be34da7c34fe006bc7f02d7804709c364c07889e38247e479082635134a9274ab2e55a4f67051023d869eb1e9c68f06f6256f3e000e8c41c65cd29bb683de9c958e8ca955b01268e1faac34e1ab11431ff48d168e0f800d20a8e88b63ea4c20153c358d9140b2563daa5425503d86269b19184ec1c92eba7ba727b635e17783ae6a403f5657a533410abf030ae073d63491b52ea91ffba2ef379ce3c585417246510c9f057930918275315cd5bbf90d83ffa5fa74a05a0c15680c5e27392ee85ec3adfab439e8c25c3b752a489d0339c6e0846e4b5f4e57a53d452d3c79fcdfe05a0e05993484f165602f82695d38271d5552977a70a0f47fe4e74d697f49611c1776ab631c1fceaa52d5fc8192646d0a8f605369090b56b5aee3710487345292868b6ae64d4f67e9697353f0f6bd4692e3110c6c93b56a799e644cb75df366535049d24ca4b203e70168c007e5ad9ab94c276da45feb4f9741257895d6711926db7dbdbfae1ebae01034ffa8b77a4aa09a737bb2a7fb044b2d3676ec674a4ba07aa52a490a464a12a80c6fe9978562f6c345204df829b43113ca4fa039e73a0005d65543e0dc8ea6c0e4701e725d7874006eade65fb4ba756a8c426b25cf5354f0a49c51cd95983fe0360117dded700d3ed433f07371fe040a8d5194378a8c9172a80c73c0a8e9072613457aff5b168efbf0327b0624630d7e97e105702a93ca1e6dc93ade0e2c011d971656dca3adc6edb913f8b3065fe365df6dbcd6c4572703fe0b358cce674d4af24d0000000049454e44ae426082</data>
+</image>
+</xupdate:append-first>
+<xupdate:append-first select="/UI[UI,1]/images[images,1]" >
+<image name="docu_especificadocu_especificaimage4" >
+<data format="PNG" length="1124" >89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b0000042b49444154789c75955f68145718c57f49b7f40696320b89ee420abbd0d48c68355aa5912a6cb01237584a827d48e843b36f092da5b1f441848af6415c1fdaba82c5b4b424144248c53fb1a4740309a4ad54855ab312c50db1644312b2a1a671a8c1d387bbf933563f18ce0ccc9c7beeb9e79baf8472c003de002a8019e047600c7805705847355b0810c6e331f3fcc55d7e033c5e077e052a8120305bbc80004bf66605178af80187cc59f3898999f25d6fee822ce4dd3cd98b59bc190f6e93e5229f023d2c15c5f9aabcb85a3d7010d84493d3e748925a275a15575c1dd73bb4b6ba26ba24497423a619c3f02a9580b396d8014cd18abd7c94b8979024f5aa5792746df19a9e558d6a143d88cf110efb083e491c00b6f276f364f3d319269ec92d49323d460801d5abc4c5559c7ebbfd452dfa3eaa4dd7caed76d53566b77f6ee09c24a9a3cfdab338b7a88412d696838cfb7daec76f62913bfa6d5492d43add2a494af42514575c8da38d92a478262e493a39745292c40944907a80e700cc117339b42554b6939df008ead2759c983dc19e77f6d093ef21b83ec88dec0dceee3ecbd5dc552aaa2a18783040f7866e5a6eb650b2a384a19f86185e188659a24cf00d38944733519f60f7822b495af17cd99d7f2d1cbe70d8e2b4c5b6d1364952381d161308089452c976e2d099ef0460e3998db8075c5a722d381107f24059d1b2e72d1c3f709cf62bed500187ee1f021772851c91a5087c09c08652ca59e70d7a2423492e0f5fc6b419cc1d4377ac9bb2c132883c197ce026a4f7a7f10a1ea9975294dd2923168ad9263902040897e221e2d099eba461770366d0401524ef2779187fc8c80f233ecec24c013643f24c9254284532972455958207e02d79706cf9cd6af684fbc392a4d399d3d6db51eb6deb844d8332458fc72c1c3b75cc466ece1f26e7a823336d046c2e21c00be14761cf1d7449c413f45de923b23f82c91a1cd7613e378f8919225f473001436e2187d7e6e1141cbc9047fbc376b6956da3e98b2646964698fa7d0abee74500cc51735b929a07acd2c4906debc63f6c5e1b272c1e1eb529689d6bf5a5e452e692557cca115bc9ac1ab789a6687f5435aad1e9abd68eae7bb6d3ba262d4e4e4e2aa1c4aa3dc5fa79e867d57c56a3683a2af3be1170c07728e66f93abc9d4d8b727f5d4ba3577cbf77caecfb6776d67ad1c396213bf2cf395ac32e33a6967341289600a86d48e14755575ff4b5a61a640a82244f2ab24592f8b2937e4a6728c0f8fc379b603d7fd5f840187bd8e1cb9fdb6f33afafda7de3bd4bba27019c30a8b830848aca55b555c89fd7d8e53cd7b9c775e733698a0c12c186281186ed025dd9ca6e1bb06f2e4c9cfe799bf3b8f37e80df3271f62b8ee9f228122468197599d0241f6514f8669c451c422e263c41ce25d96d8ca00f0d60a8f6f7a3ca978ed400c03530094022eb09e008f596216c801ff10c4cec800760a2dac12ff07e1473b3a83579fdf0000000049454e44ae426082</data>
+</image>
+</xupdate:append-first>
+<xupdate:append-first select="/UI[UI,1]/images[images,1]" >
+<image name="docu_especificadocu_especificaimage5" >
+<data format="PNG" length="820" >89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b000002fb49444154789cad943f68144118c55fe48455aeb842e104852b6c1244b27842148b28082169248a8560235878622187085a88040b392c02b1085c84c05e234b40b944085c402129844409ac4a8a3b88724ac00523e8e11f7e16b3b377ab890afa9ac7ccecbc79f3be6fb64b92dc5e57cf9e3fd3e0c0e0d0f4b7e9edc75ac7be4ba2a59616b4a0c33a2c478e361ca716ba8652435b1b6f1aef5ebe7af9d8711cb55a2d499272bb73fb3fad7fe25f505fa953bc527c2d292d8b6039780f80d5fef20715bbbe9ee4ea4c1506782049ca66b33d9d1f072f0200169f2e1a5e321c2c25e7e717e60d3f31dc5c6d02307273044969d1c749d622d165b399179193157bcf9fc6d1ba3dacfab06a26560d493a20b7d73d0510ae8589db86a119dbec7f66fb7dbd6e4ef5a77c00bc090f497d727bdd617b124d92f8b209db5ad89b46f1311b3b3eb84592b4476a341ad22eb5f155d2d64d789bf4f9e36769a7f4f6f55bf574f768eed19c745c9ab83761f6d3cb709ca1756ef1b71db86ca83a538d1d9b28307db8610cbfc3cd91b8e0b680e58972249c773777bc199a401eae4b000451b758f184e3b80011e66f8d6cac79df0789309d01097fb606b4bb22764c9ee1b86fadf3262051dee72655cf9e819403478e422e47c171ccfc9221ffbeffab63fbc22c420924c624a840fdc8214867e0c4b011cd64601216a38cbd8a671c8f77641cbfb8950e65c7816c16f676134890070606219da1d87fd47c13d5c4768337e97538cebb27a1fde62d6ab33548897ada8181419af9432071fd721180207a71b528e3f27819263b1cd3c7699e1ab1583ccabcbab408fde04990cd521a2f2732b5a27ea55d3800a5d4a7dcde5c3fb4ff56b6656a7366536d398051188b32b4f3b650dea407e350ba5d820a8c8d8e21a95b9254ba533216e64864650be24f2533b4ceca770ddbfdfe940fab7c909492e33872f3ee55bbc9f6a37564c7d5483c765af1a0121d5289e647c1493b17d509779f7be3dcf9734dd6582f5c2884ac11162e154242c2e2e562820b973ad60d7fa0ce6a6647e69ad5eb32ddf1fff1030e9373604b61bb6b0000000049454e44ae426082</data>
+</image>
+</xupdate:append-first>
+<xupdate:append-first select="/UI[UI,1]/images[images,1]" >
+<image name="docu_especificadocu_especificaimage3" >
+<data format="PNG" length="775" >89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b000002ce49444154789c95953d68144118861fe5c029ae18e1d0b58b6091c3205eb0f01a35c49fb0a01c172cdc98e64ac542d720b28d122de4b0d342383b6d442ce4b4104e24720a42ca44b130562685842bfc0922be16b3bbb77717837961996576be67defdf6fb6619022c20cfa3bea788ac0540050f000f7654e19860da8729c1610306a08cd310508c3989726bf1cdf9df6bece62753dfdcccf9ceca651d2c5f59ce9bc2ae4e87c595659e7d5be34da7c34fe006bc7f02d7804709c364c07889e38247e479082635134a9274ab2e55a4f67051023d869eb1e9c68f06f6256f3e000e8c41c65cd29bb683de9c958e8ca955b01268e1faac34e1ab11431ff48d168e0f800d20a8e88b63ea4c20153c358d9140b2563daa5425503d86269b19184ec1c92eba7ba727b635e17783ae6a403f5657a533410abf030ae073d63491b52ea91ffba2ef379ce3c585417246510c9f057930918275315cd5bbf90d83ffa5fa74a05a0c15680c5e27392ee85ec3adfab439e8c25c3b752a489d0339c6e0846e4b5f4e57a53d452d3c79fcdfe05a0e05993484f165602f82695d38271d5552977a70a0f47fe4e74d697f49611c1776ab631c1fceaa52d5fc8192646d0a8f605369090b56b5aee3710487345292868b6ae64d4f67e9697353f0f6bd4692e3110c6c93b56a799e644cb75df366535049d24ca4b203e70168c007e5ad9ab94c276da45feb4f9741257895d6711926db7dbdbfae1ebae01034ffa8b77a4aa09a737bb2a7fb044b2d3676ec674a4ba07aa52a490a464a12a80c6fe9978562f6c345204df829b43113ca4fa039e73a0005d65543e0dc8ea6c0e4701e725d7874006eade65fb4ba756a8c426b25cf5354f0a49c51cd95983fe0360117dded700d3ed433f07371fe040a8d5194378a8c9172a80c73c0a8e9072613457aff5b168efbf0327b0624630d7e97e105702a93ca1e6dc93ade0e2c011d971656dca3adc6edb913f8b3065fe365df6dbcd6c4572703fe0b358cce674d4af24d0000000049454e44ae426082</data>
+</image>
+</xupdate:append-first>
+<xupdate:append-first select="/UI[UI,1]/images[images,1]" >
+<image name="docu_especificadocu_especificaimage6" >
+<data format="PNG" length="1124" >89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b0000042b49444154789c75955f68544718c57f49b774024bb9814477212d1b683057b41aadd248153658891b2c25c13e24f4a159e84342a134963e8442457d10d7871657b0989696844208a9f8279614379040da4a55a8352b2a6e584b3698900d9ac68b064f1f6693cdb5fac1e5cc859933df9c39df7c2554001ef00e5009cc00bf0059e075c0610db56c2240088fa7ccf30f77f803f0781bf81da80282c06ce103022cd9c10a2e14f0630e9853e60b536d2a76bcbb03d2907373a4cfa5f1663cb8499a737c05f4b35448ce171585dd1a81fdc0065a9c414792d49e6d575451755dedd2eae8cdf64a92e8433ce0168637a9029cd5c40e600a52ece6b3d8dd982469400392a42b8b57f4a26856b3e8477c8d70d843f059e200b099f75ba75a9fcf907d21b724c9f41b2104d416890bbb3843f6f88b5af42daa4fd6cbed73d57bcb1efff4f0694952d7a09567716e5131c5ac2cfb99f4ebdc885fc40277e4878824a9fd7ebb24293618535451354f344b92a2a9a824e9d8e83149124711411a015e02305f9a0be59bcacbb6b31d9e4043b281a3b347d9f5c12efa73fd04d706b996bec6a99da7b89cb94c654d25c30f87e95bd747dbf5364ab69530faeb28630b63304b842cdf8343452415f125ec9e7525492b9a2fabf3d842f7d96e8bf72d764c74489242c990b88f804029556c250a3db91e00d69f5c8fbbcfa52dd386137620079415247bd9c2e17d87e9bcd8099570e0de01702193cf105e0ac33100d69552c11a6fc4231e8e7361ec02a6c3606e1bfaaafb281b2983f0b3c607ae43726f122fef91782d41d9ed32aacbab6d911c0102844af11051e8c9f4d0b4b3093362a006e2f7e23c8a3e62fce7711f677e260f1b217e324ea23c413c132751938087e02d79d0bd3cb3965da1a19024e944ea84d576c26adb9eb56e50aaa0f12d0b878e1fb2969bf39bc939e8c83c3002369610e095d09390e78eb8c4a231062f0e12de1bc6a40d8eeb309f99c7541bc2df85310143662183d7e1e1e41dbc728fce479d6c29db42cb372d8c2f8d33fde734fcc4ab009883e6a624b50edb4c63a3b6ac9bffb27e6dce5aec9eb02e689f6bf7b9e47ceabccdf8b82336932a0ab78196c8504475aad389cb568edebbb6d27aa72c4e4d4d29a658519e425c1abda4ba23758a2423329f1801fb7c97621e9b4c5daacece9ed273e3c6dc0ddfffe9415bdef53df572e4880dfcb6cc575264c67592ce44381cc6e40d896d091a6a1afee7b4fc4c9ef2ca72e2dfc6497b694c8521339d61726c12ceb015b8ea5f11021c763b72e40ed9caeb1af2dffac0e8c04a86cb185248ec47406c355d31e32aecf339492d1f71c679cb59678206b360a80e54e3065d92ad499a7e6c22478edc7c8ef93bf37823de187ff32986abfe2e122860047883621708b28746523c401cc4beb79f2316111fb2c4668681f756787cdde3d98c5737c410300d4029e0026b09f0942566810cf02f416c8f0c60bbd04291f83f19e63b6356a1c74f0000000049454e44ae426082</data>
+</image>
+</xupdate:append-first>
+<xupdate:insert-after select="/UI[UI,1]/widget[QWidget,FLWidgetMasterTable]/vbox[vbox,1]/widget[QLayoutWidget,layout25]" >
+<widget class="QTabWidget" >
+<property name="name" >
+<cstring>twgEspecifica</cstring>
+</property>
+<property name="font" >
+<font>
+<bold>1</bold>
+</font>
+</property>
+<widget class="QWidget" >
+<property name="name" >
+<cstring>tabModulos</cstring>
+</property>
+<attribute name="title" >
+<string>Módulos</string>
+</attribute>
+<vbox>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<widget class="QLayoutWidget" >
+<property name="name" >
+<cstring>layout8</cstring>
+</property>
+<hbox>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<widget class="QPushButton" >
+<property name="name" >
+<cstring>pbnCambiarEstado</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>0</hsizetype>
+<vsizetype>0</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="font" >
+<font>
+<bold>0</bold>
+</font>
+</property>
+<property name="text" >
+<string>Cambiar Estado</string>
+</property>
+<property name="default" >
+<bool>false</bool>
+</property>
+<property name="iconSet" >
+<iconset>docu_especificadocu_especificaimage2</iconset>
+</property>
+<property name="toolTip" stdset="0" >
+<string>Cambiar estado del modulo</string>
+</property>
+<property name="whatsThis" stdset="0" >
+<string>Cambia el estado de documentacion de un modulo</string>
+</property>
+</widget>
+<spacer>
+<property name="name" >
+<cstring>Spacer2_2_2_2_3_2_2</cstring>
+</property>
+<property name="orientation" >
+<enum>Horizontal</enum>
+</property>
+<property name="sizeType" >
+<enum>Fixed</enum>
+</property>
+<property name="sizeHint" >
+<size>
+<width>20</width>
+<height>20</height>
+</size>
+</property>
+</spacer>
+<widget class="QLabel" >
+<property name="name" >
+<cstring>lblDirModulos_2</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>7</hsizetype>
+<vsizetype>5</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="maximumSize" >
+<size>
+<width>120</width>
+<height>32767</height>
+</size>
+</property>
+<property name="font" >
+<font>
+<bold>0</bold>
+</font>
+</property>
+<property name="text" >
+<string>Ruta a los módulos:</string>
+</property>
+</widget>
+<widget class="QLabel" >
+<property name="name" >
+<cstring>lblDirModulos</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>7</hsizetype>
+<vsizetype>5</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="font" >
+<font>
+<bold>0</bold>
+<italic>1</italic>
+</font>
+</property>
+<property name="text" >
+<string>Ruta: No establecida</string>
+</property>
+</widget>
+<spacer>
+<property name="name" >
+<cstring>spcFuncional1</cstring>
+</property>
+<property name="orientation" >
+<enum>Horizontal</enum>
+</property>
+<property name="sizeType" >
+<enum>Fixed</enum>
+</property>
+<property name="sizeHint" >
+<size>
+<width>20</width>
+<height>20</height>
+</size>
+</property>
+</spacer>
+<widget class="QToolButton" >
+<property name="name" >
+<cstring>pbnEliminarModulo</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>0</hsizetype>
+<vsizetype>0</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="minimumSize" >
+<size>
+<width>30</width>
+<height>30</height>
+</size>
+</property>
+<property name="maximumSize" >
+<size>
+<width>30</width>
+<height>30</height>
+</size>
+</property>
+<property name="focusPolicy" >
+<enum>NoFocus</enum>
+</property>
+<property name="text" >
+<string/>
+</property>
+<property name="iconSet" >
+<iconset>docu_especificadocu_especificaimage3</iconset>
+</property>
+<property name="toolTip" stdset="0" >
+<string>Eliminar registro (E)</string>
+</property>
+<property name="whatsThis" stdset="0" >
+<string>Elimina el registro actual de la tabla</string>
+</property>
+</widget>
+<widget class="QPushButton" >
+<property name="name" >
+<cstring>pbnActualizarLista</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>0</hsizetype>
+<vsizetype>0</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="maximumSize" >
+<size>
+<width>30</width>
+<height>30</height>
+</size>
+</property>
+<property name="font" >
+<font>
+<italic>1</italic>
+</font>
+</property>
+<property name="text" >
+<string/>
+</property>
+<property name="iconSet" >
+<iconset>docu_especificadocu_especificaimage4</iconset>
+</property>
+<property name="toolTip" stdset="0" >
+<string>Regenerar lista de modulos</string>
+</property>
+<property name="whatsThis" stdset="0" >
+<string>Regenera la lista de modulos del directorio de modulos</string>
+</property>
+</widget>
+</hbox>
+</widget>
+<widget class="FLTableDB" >
+<property name="name" >
+<cstring>tdbModulosDoc</cstring>
+</property>
+<property name="font" >
+<font>
+<bold>0</bold>
+</font>
+</property>
+<property name="tableName" >
+<string>do_modulosdoc</string>
+</property>
+<property name="foreignField" >
+<string>id</string>
+</property>
+<property name="fieldRelation" >
+<string>idgenerardoc</string>
+</property>
+</widget>
+</vbox>
+</widget>
+<widget class="QWidget" >
+<property name="name" >
+<cstring>tabEspecifica</cstring>
+</property>
+<attribute name="title" >
+<string>Funcionalidades</string>
+</attribute>
+<vbox>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<widget class="QLayoutWidget" >
+<property name="name" >
+<cstring>layout11</cstring>
+</property>
+<hbox>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fdbIdCliente</cstring>
+</property>
+<property name="maximumSize" >
+<size>
+<width>200</width>
+<height>32767</height>
+</size>
+</property>
+<property name="font" >
+<font>
+<bold>0</bold>
+</font>
+</property>
+<property name="fieldName" >
+<string>idcliente</string>
+</property>
+</widget>
+<spacer>
+<property name="name" >
+<cstring>spacer20</cstring>
+</property>
+<property name="orientation" >
+<enum>Horizontal</enum>
+</property>
+<property name="sizeType" >
+<enum>Expanding</enum>
+</property>
+<property name="sizeHint" >
+<size>
+<width>91</width>
+<height>20</height>
+</size>
+</property>
+</spacer>
+</hbox>
+</widget>
+<widget class="QGroupBox" >
+<property name="name" >
+<cstring>gbxClienteFun</cstring>
+</property>
+<property name="title" >
+<string>Funcionalidades</string>
+</property>
+<vbox>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<widget class="QLayoutWidget" >
+<property name="name" >
+<cstring>layout6</cstring>
+</property>
+<hbox>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<widget class="QPushButton" >
+<property name="name" >
+<cstring>pbnCambiarEstadoFun</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>0</hsizetype>
+<vsizetype>0</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="font" >
+<font>
+<bold>0</bold>
+</font>
+</property>
+<property name="text" >
+<string>Cambiar Estado</string>
+</property>
+<property name="default" >
+<bool>false</bool>
+</property>
+<property name="iconSet" >
+<iconset>docu_especificadocu_especificaimage5</iconset>
+</property>
+<property name="toolTip" stdset="0" >
+<string>Cambiar estado de la funcionalidad</string>
+</property>
+<property name="whatsThis" stdset="0" >
+<string>Cambia el estado de documentacion de una funcionalidad</string>
+</property>
+</widget>
+<spacer>
+<property name="name" >
+<cstring>Spacer2_2_2_2_3_2_2_2</cstring>
+</property>
+<property name="orientation" >
+<enum>Horizontal</enum>
+</property>
+<property name="sizeType" >
+<enum>Expanding</enum>
+</property>
+<property name="sizeHint" >
+<size>
+<width>50</width>
+<height>20</height>
+</size>
+</property>
+</spacer>
+<widget class="QToolButton" >
+<property name="name" >
+<cstring>pbnEliminarFun</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>0</hsizetype>
+<vsizetype>0</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="minimumSize" >
+<size>
+<width>30</width>
+<height>30</height>
+</size>
+</property>
+<property name="maximumSize" >
+<size>
+<width>30</width>
+<height>30</height>
+</size>
+</property>
+<property name="focusPolicy" >
+<enum>NoFocus</enum>
+</property>
+<property name="text" >
+<string/>
+</property>
+<property name="iconSet" >
+<iconset>docu_especificadocu_especificaimage3</iconset>
+</property>
+<property name="toolTip" stdset="0" >
+<string>Eliminar registro (E)</string>
+</property>
+<property name="whatsThis" stdset="0" >
+<string>Elimina el registro actual de la tabla</string>
+</property>
+</widget>
+<widget class="QPushButton" >
+<property name="name" >
+<cstring>pbnActualizarFun</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>0</hsizetype>
+<vsizetype>0</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="maximumSize" >
+<size>
+<width>30</width>
+<height>30</height>
+</size>
+</property>
+<property name="font" >
+<font>
+<italic>1</italic>
+</font>
+</property>
+<property name="text" >
+<string/>
+</property>
+<property name="iconSet" >
+<iconset>docu_especificadocu_especificaimage6</iconset>
+</property>
+<property name="toolTip" stdset="0" >
+<string>Regenerar lista de funcionalidades</string>
+</property>
+<property name="whatsThis" stdset="0" >
+<string>Regenera la lista de funcionalidades del cliente</string>
+</property>
+</widget>
+</hbox>
+</widget>
+<widget class="FLTableDB" >
+<property name="name" >
+<cstring>tdbFuncionalidades</cstring>
+</property>
+<property name="minimumSize" >
+<size>
+<width>0</width>
+<height>150</height>
+</size>
+</property>
+<property name="font" >
+<font>
+<bold>0</bold>
+</font>
+</property>
+<property name="tableName" >
+<string>do_funcionalcli</string>
+</property>
+<property name="foreignField" >
+<string>id</string>
+</property>
+<property name="fieldRelation" >
+<string>idgenerardoc</string>
+</property>
+</widget>
+</vbox>
+</widget>
+</vbox>
+</widget>
+</widget>
+</xupdate:insert-after>
+<xupdate:update select="/UI[UI,1]/connections[connections,1]/connection[connection,1]/sender[sender,1]/text()[1]" >pbnEliminarModulo</xupdate:update>
+<xupdate:insert-after select="/UI[UI,1]/connections[connections,1]/connection[connection,1]" >
+<connection>
+<sender>pbnEliminarFun</sender>
+<signal>clicked()</signal>
+<receiver>tdbFuncionalidades</receiver>
+<slot>deleteRecord()</slot>
+</connection>
+</xupdate:insert-after>
+<xupdate:insert-after select="/UI[UI,1]/includehints[includehints,1]/includehint[FLTableDB.h]" >
+<includehint>FLTableDB.h</includehint>
+</xupdate:insert-after>
+</xupdate:modifications>

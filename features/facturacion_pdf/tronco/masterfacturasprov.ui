@@ -1,0 +1,54 @@
+<xupdate:modifications>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,masterfacturasprov]/vbox[vbox,1]/widget[QFrame,barraBotones]/hbox[hbox,1]/spacer[Spacer2]/property[property,4]/size[size,1]/height[height,1]/text()[1]" >20</xupdate:update>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,masterfacturasprov]/vbox[vbox,1]/widget[QFrame,barraBotones]/hbox[hbox,1]/spacer[Spacer2]/property[property,4]/size[size,1]/width[width,1]/text()[1]" >310</xupdate:update>
+<xupdate:append-first select="/UI[UI,1]/images[images,1]" >
+<image name="facturacion_pdfimage6" >
+<data format="PNG" length="1712" >89504e470d0a1a0a0000000d4948445200000020000000200806000000737a7af40000067749444154789cd5965f881d571dc73f1befc20cdc9573e006efc02decd8a89921c5dc652beeb5427641d045851822d40842b67da8694548116cea4bb1682d51d4aa20490b42f260d815c4b4426123d6ec1636dc0d24de5969e014b27806337606ee25736a46c78799bbf7eedddd5af220fa7b393367ce9feff9fc7ee7373ff87fb61c3e96c34fcfc1f1fffae6f350cbe12f39e439fcd58287ee679d7df72b208626f0a0867781ba8003f7b34ea5ff70eec86c63e1d1131f07f14fc2002c07c200aa2e84edb20d40b8a003d3bed6fe249b6f7fc0811c60c1b28e047077b15607cc18c680013203c6008c01f92958fb39fcbdbfef58ffe1cc91d96f7d77bf7c814015b232537cc8ca01262dfa4d29db1808c30191aa85ac58c5bcfe9c6c689dd2e6e0b12b707e07012f73c7796b1d9e7ba9005c732152459ba8e2e4c9d07b7d0a9e790c7eff2a1c9844fe64112a120443f328de8d0615c3d73e8f071fbcb29b2fce4c379fc9a767f2bb7f7b277fdff6c73fe739e4f967e7f377fef11fc6ae5ccdf38a95cfc23787f7dd0a428f029f5d9570afec1c6d476dda877a1daead207b7b8ce95bcd030cee48f79680c02400a491867148d314c6cbcdfbeda8980ce8251025c4df7bfabd054401006a2f011e5e414038700f6cdb86949d22c68766ffe172118c96857ce50204e9de026adeaedd43040a8569a40a02dd14ecf72001f04608b53a7cfb0c4421bcf8247b4a8802c0c28c740f110032b0850b29d81305815d49f4edca7938fc2578ea597864165e7919fb579707df6f83be018b9762c85cc030ca6140204b21833852c5c9fb044649f48fa8145c5f277ed801093cf72c542cd2334fc25acccaaa422710a3691d902cdf0ea062110ce51e18ce03850390c2856e49a0bb0b09bb9c704d41669047170a32b373f0c24b90d5594934ad477c001cdba173035ca7495c732154fb8693d3500c989240072620be13c3c41e24005e3e0bd33374aa400f3a3734e9f10592475bb43ee317426d88efa4f893a07a8ae4800715cb6288c28e1890c2873b208584788444b724f11610c5749e3a8d2f1c08c13fe860d7c179400ef876415a3618983934c58ad7a4599f93c3fb6e2700e8a8030274a4a13a2011c72511205d53749e388dffb963c495b4503fcef600bd074c4067538380308bf10e9d206cd0681e9eb777082808181ce142048e70201a9090b23899dd85f54ce11f3d061590d266571b0734b8e53a6e4322dd3a73335f79d0a94f7ea85e9f1fdb4ea00c0c1505502d0908d0490c12d2d515f8c6cfe0a30ecd3fbd8a0a35c8c2c77441eb74707220ed025508c2729d28a67ec826167c584c389e65c5e3db0994bf4e57780302061c4bc2d74f617ff918048b600c76d542541c4841eeb7a1024ed5a6bd0ee926a0c09e80cedbe095041c21b17b30df9c9342c84f4bd1acee4aa013ae8300d5d3704bc1277c585ba5f3cb73d06c910a41faf8698248b195d6ecc2df534d0889e98429172eae409212241a2a452ca4024c35199baacd1cb5aac61b89010b32f085472701f7560c5f6cc1d193b47fddc65f0fe1c5e7b17f701ebb26691d70893746fc7e0f5c5742d5e6c46c0b89cdd4a4033df0858309c1adb9684b3b2dd17a785702ed28c01510fff03b1086e82860eae41cfce869f8f1efe84cbb5b844c15b48e07be1f077d3bc66f404c8a330d2a8941403bd42459cad26b97efead0beb192ac24309a09338357753121c8e3a76053e1bcbe0c87a6487fdb46355cfc1a4554d71dda37c133729021bb85afe981147631ae2ad1b780c462f1d25942c5b5d564fdfb6ab37d739b80e25f68118401ee4141fba13aded2558228c09b9c42250abfcc0f4ecd41279aa986c3f24687b9ba4f9a1681a76fc73835898e620492e537dbd8771c54b8ccdc6b17f96aa2aeaa8cab263377476200c0e00ab71061399808bcfa142aece0575d0807f9a17f4b3ce1d2de00db2eeebd5393100191e4e2eb1adb48e2fd8a85a687170658c64426335dcad275df2881f59ec26978044643dd26e829dc864fc7686840c7c4f000a82c0517542544529c1c01ed9b9af61b314b6b97697e04ac8329c7bed082aac1ae80817f5196f2db5ce0c2182661ee37cb602ee00a1792b3c8ba0789c22fab64bfe643a270cbeab855f350150b337b82c537db480df1c6122785837df30a343cb8b404bde2cc1e8c054317674b401bde5dc820fec5f348c835e0145471286a3977a8ed946d005887e759dad063965a27b9be9ccff41256b3a2f8189a37268a7df2a1fdb715078e059fb260dc406ec18ef2692f3380f5fedef719b85eeaffdfb07f03160037a8113516a80000000049454e44ae426082</data>
+</image>
+</xupdate:append-first>
+<xupdate:insert-after select="/UI[UI,1]/widget[QWidget,masterfacturasprov]/vbox[vbox,1]/widget[QFrame,barraBotones]/hbox[hbox,1]/widget[QLayoutWidget,layout10]" >
+<widget class="QPushButton" >
+<property name="name" >
+<cstring>pbnGenerarPDF</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>1</hsizetype>
+<vsizetype>1</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="minimumSize" >
+<size>
+<width>32</width>
+<height>32</height>
+</size>
+</property>
+<property name="maximumSize" >
+<size>
+<width>32</width>
+<height>32</height>
+</size>
+</property>
+<property name="focusPolicy" >
+<enum>NoFocus</enum>
+</property>
+<property name="text" >
+<string/>
+</property>
+<property name="iconSet" >
+<iconset>facturacion_pdfimage6</iconset>
+</property>
+<property name="toolTip" stdset="0" >
+<string>Crear PDF y enviar por email</string>
+</property>
+<property name="whatsThis" stdset="0" >
+<string>Crear PDF y enviar por email</string>
+</property>
+</widget>
+</xupdate:insert-after>
+<xupdate:insert-after select="/UI[UI,1]/widget[QWidget,masterfacturasprov]" >
+<customwidgets/>
+</xupdate:insert-after>
+</xupdate:modifications>

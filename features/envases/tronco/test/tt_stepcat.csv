@@ -1,0 +1,192 @@
+261ÏÏ3ÏÏPulsar el botón toolButtonInsertÏÏenvasesÏÏButtonÏÏtoolButtonInsertÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000178ÏÏenvasesÏÏÖ
+261ÏÏ1ÏÏComparar  ÏÏÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Saltar" type="Distintos" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="codenvase = &quot;||COD_ENVASE||&quot; and referencia &lt;> &quot;||COD_ARTICULO_ENVASE||&quot;" savein="" from="envases" select="codenvase" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||COD_ENVASE||</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000178ÏÏenvasesÏÏÖ
+261ÏÏ6ÏÏfdbReferencia_2 = ||COD_ARTICULO_ENVASE||ÏÏenvasesÏÏFLFieldDBÏÏfdbReferencia_2ÏÏsetValueÏÏ||COD_ARTICULO_ENVASE||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000178ÏÏenvasesÏÏÖ
+261ÏÏ5ÏÏfdbDescripcion = ||DESC_ENVASE||ÏÏenvasesÏÏFLFieldDBÏÏfdbDescripcionÏÏsetValueÏÏ||DESC_ENVASE||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000178ÏÏenvasesÏÏÖ
+261ÏÏ4ÏÏfdbCodEnvase = ||COD_ENVASE||ÏÏenvasesÏÏFLFieldDBÏÏfdbCodEnvaseÏÏsetValueÏÏ||COD_ENVASE||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000178ÏÏenvasesÏÏÖ
+261ÏÏ8ÏÏCerrar formulario envasesÏÏenvasesÏÏFLFormDBÏÏenvasesÏÏcloseÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000178ÏÏenvasesÏÏÖ
+261ÏÏ7ÏÏPulsar botón pushButtonAcceptÏÏenvasesÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏAceptarÏÏ000178ÏÏenvasesÏÏÖ
+261ÏÏ2ÏÏAbrir formulario envasesÏÏenvasesÏÏFLFormDBÏÏenvasesÏÏopenÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000178ÏÏenvasesÏÏÖ
+279ÏÏ5ÏÏPulsar el botón toolButtonEditÏÏpresupuestoscliÏÏButtonÏÏtoolButtonEditÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000317ÏÏenvasesÏÏÖ
+279ÏÏ6ÏÏcodenvase = ||COD_ENVASE_PRES||ÏÏlineaspresupuestoscliÏÏFLFieldDBÏÏfdbCodEnvaseÏÏsetValueÏÏ||COD_ENVASE_PRES||ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000317ÏÏenvasesÏÏÖ
+279ÏÏ7ÏÏPulsar el botón pushButtonAcceptÏÏlineaspresupuestoscliÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏAceptarÏÏ000317ÏÏenvasesÏÏÖ
+279ÏÏ8ÏÏPulsar el botón pushButtonAcceptÏÏpresupuestoscliÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏAceptarÏÏ000317ÏÏenvasesÏÏÖ
+279ÏÏ9ÏÏCerrar formulario presupuestoscliÏÏpresupuestoscliÏÏFLFormDBÏÏpresupuestoscliÏÏcloseÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000317ÏÏenvasesÏÏÖ
+279ÏÏ2ÏÏSeleccionar codigo = "||COD_PRESUPUESTO_ENVASE||"ÏÏpresupuestoscliÏÏFLTableDBÏÏtableDBRecordsÏÏselectRowÏÏcodigo = "||COD_PRESUPUESTO_ENVASE||"ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000317ÏÏenvasesÏÏÖ
+279ÏÏ4ÏÏSeleccionar firstÏÏpresupuestoscliÏÏFLTableDBÏÏtdbLineasPresupuestosCliÏÏselectRowÏÏfirstÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000317ÏÏenvasesÏÏÖ
+279ÏÏ3ÏÏPulsar botón toolButtonEditÏÏpresupuestoscliÏÏButtonÏÏtoolButtonEditÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000317ÏÏenvasesÏÏÖ
+279ÏÏ1ÏÏAbrir formulario presupuestoscliÏÏpresupuestoscliÏÏFLFormDBÏÏpresupuestoscliÏÏopenÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000317ÏÏenvasesÏÏÖ
+289ÏÏ6ÏÏfdbCodEnvase = ||COD_ENVASE_PED||ÏÏlineaspedidoscliÏÏFLFieldDBÏÏfdbCodEnvaseÏÏsetValueÏÏ||COD_ENVASE_PED||ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000318ÏÏenvasesÏÏÖ
+289ÏÏ5ÏÏPulsar el botón toolButtonEditÏÏpedidoscliÏÏButtonÏÏtoolButtonEditÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000318ÏÏenvasesÏÏÖ
+289ÏÏ7ÏÏPulsar el botón pushButtonAcceptÏÏlineaspedidoscliÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏAceptarÏÏ000318ÏÏenvasesÏÏÖ
+289ÏÏ8ÏÏPulsar el botón pushButtonAcceptÏÏpedidoscliÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏAceptarÏÏ000318ÏÏenvasesÏÏÖ
+289ÏÏ9ÏÏCerrar formulario pedidoscliÏÏpedidoscliÏÏFLFormDBÏÏpedidoscliÏÏcloseÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000318ÏÏenvasesÏÏÖ
+289ÏÏ4ÏÏSeleccionar firstÏÏpedidoscliÏÏFLTableDBÏÏtdbLineasPedidosCliÏÏselectRowÏÏfirstÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000318ÏÏenvasesÏÏÖ
+289ÏÏ3ÏÏPulsar botón toolButtonEditÏÏpedidoscliÏÏButtonÏÏtoolButtonEditÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000318ÏÏenvasesÏÏÖ
+289ÏÏ2ÏÏSeleccionar codigo = "||COD_PEDIDO_ENVASE||"ÏÏpedidoscliÏÏFLTableDBÏÏtableDBRecordsÏÏselectRowÏÏcodigo = "||COD_PEDIDO_ENVASE||"ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000318ÏÏenvasesÏÏÖ
+289ÏÏ1ÏÏAbrir formulario pedidoscliÏÏpedidoscliÏÏFLFormDBÏÏpedidoscliÏÏopenÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000318ÏÏenvasesÏÏÖ
+291ÏÏ6ÏÏcodenvase = ||COD_ENVASE_ALB||ÏÏlineasalbaranescliÏÏFLFieldDBÏÏfdbCodEnvaseÏÏsetValueÏÏ||COD_ENVASE_ALB||ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000319ÏÏenvasesÏÏÖ
+291ÏÏ5ÏÏPulsar el botón toolButtonEditÏÏalbaranescliÏÏButtonÏÏtoolButtonEditÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000319ÏÏenvasesÏÏÖ
+291ÏÏ7ÏÏPulsar el botón pushButtonAcceptÏÏlineasalbaranescliÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏAceptarÏÏ000319ÏÏenvasesÏÏÖ
+291ÏÏ8ÏÏPulsar el botón pushButtonAcceptÏÏalbaranescliÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏAceptarÏÏ000319ÏÏenvasesÏÏÖ
+291ÏÏ9ÏÏCerrar formulario albaranescliÏÏalbaranescliÏÏFLFormDBÏÏalbaranescliÏÏcloseÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000319ÏÏenvasesÏÏÖ
+291ÏÏ4ÏÏSeleccionar firstÏÏalbaranescliÏÏFLTableDBÏÏtdbLineasAlbaranesCliÏÏselectRowÏÏfirstÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000319ÏÏenvasesÏÏÖ
+291ÏÏ3ÏÏPulsar botón toolButtonEditÏÏalbaranescliÏÏButtonÏÏtoolButtonEditÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000319ÏÏenvasesÏÏÖ
+291ÏÏ2ÏÏSeleccionar codigo = "||COD_ALBARAN_ENVASE||"ÏÏalbaranescliÏÏFLTableDBÏÏtableDBRecordsÏÏselectRowÏÏcodigo = "||COD_ALBARAN_ENVASE||"ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000319ÏÏenvasesÏÏÖ
+291ÏÏ1ÏÏAbrir formulario albaranescliÏÏalbaranescliÏÏFLFormDBÏÏalbaranescliÏÏopenÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000319ÏÏenvasesÏÏÖ
+293ÏÏ4ÏÏSeleccionar firstÏÏfacturascliÏÏFLTableDBÏÏtdbLineasFacturasCliÏÏselectRowÏÏfirstÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000320ÏÏenvasesÏÏÖ
+293ÏÏ5ÏÏPulsar el botón toolButtonEditÏÏfacturascliÏÏButtonÏÏtoolButtonEditÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000320ÏÏenvasesÏÏÖ
+293ÏÏ6ÏÏcodenvase = ||COD_ENVASE_FACT||ÏÏlineasfacturascliÏÏFLFieldDBÏÏfdbCodEnvaseÏÏsetValueÏÏ||COD_ENVASE_FACT||ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000320ÏÏenvasesÏÏÖ
+293ÏÏ7ÏÏPulsar el botón pushButtonAcceptÏÏlineasfacturascliÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏAceptarÏÏ000320ÏÏenvasesÏÏÖ
+293ÏÏ8ÏÏPulsar el botón pushButtonAcceptÏÏfacturascliÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏAceptarÏÏ000320ÏÏenvasesÏÏÖ
+293ÏÏ9ÏÏCerrar formulario facturascliÏÏfacturascliÏÏFLFormDBÏÏfacturascliÏÏcloseÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000320ÏÏenvasesÏÏÖ
+293ÏÏ3ÏÏPulsar botón toolButtonEditÏÏfacturascliÏÏButtonÏÏtoolButtonEditÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000320ÏÏenvasesÏÏÖ
+293ÏÏ2ÏÏSeleccionar codigo = "||COD_FACTURA_ENVASE||"ÏÏfacturascliÏÏFLTableDBÏÏtableDBRecordsÏÏselectRowÏÏcodigo = "||COD_FACTURA_ENVASE||"ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000320ÏÏenvasesÏÏÖ
+293ÏÏ1ÏÏAbrir formulario facturascliÏÏfacturascliÏÏFLFormDBÏÏfacturascliÏÏopenÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000320ÏÏenvasesÏÏÖ
+295ÏÏ1ÏÏÏÏÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="codigo = &quot;||COD_PEDIDO_COMP||&quot;" savein="" from="pedidoscli" select="total" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||TOTAL_PEDIDO||</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000321ÏÏenvasesÏÏÖ
+297ÏÏ1ÏÏÏÏÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="codigo = &quot;||COD_ALBARAN_COMP||&quot;" savein="" from="albaranescli" select="total" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||TOTAL_ALBARAN||</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000322ÏÏenvasesÏÏÖ
+299ÏÏ1ÏÏÏÏÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="codigo = &quot;||COD_FACTURA_COMP||&quot;" savein="" from="facturascli" select="total" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||TOTAL_FACTURA||</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000323ÏÏenvasesÏÏÖ
+301ÏÏ18ÏÏFACTURAS CLIENTE: COMPROBAR TOTAL FACTURAÏÏÏÏTestÏÏ<FLTest:Test codtest="000323" idfuncional="envases"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_FACTURA_COMP" />
+    <FLTest:AssignationElement value="11.6" var="TOTAL_FACTURA" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000324ÏÏenvasesÏÏÖ
+301ÏÏ17ÏÏFACTURAS CLIENTE: ASIGNAR ENVASEÏÏÏÏTestÏÏ<FLTest:Test codtest="000320" idfuncional="envases"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_FACTURA_ENVASE" />
+    <FLTest:AssignationElement value="" var="COD_ENVASE_FACT" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000324ÏÏenvasesÏÏÖ
+301ÏÏ16ÏÏFACTURAS CLIENTE: CREAR FACTURA ||COD_FACTURA||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000134" idfuncional="flfacturac"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||CLIENTE_ENVASES||" var="COD_CLIENTE_FAC" />
+    <FLTest:AssignationElement value="" var="FECHA_FAC" />
+    <FLTest:AssignationElement value="" var="COD_PAGO_FAC" />
+    <FLTest:AssignationElement value="||ARTICULO_ENVASES||" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA1" />
+    <FLTest:AssignationElement value="" var="DES_LINEA1" />
+    <FLTest:AssignationElement value="" var="REF_LINEA2" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA2" />
+    <FLTest:AssignationElement value="" var="DES_LINEA2" />
+    <FLTest:AssignationElement value="" var="REF_LINEA3" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA3" />
+    <FLTest:AssignationElement value="" var="DES_LINEA3" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000324ÏÏenvasesÏÏÖ
+301ÏÏ15ÏÏALBARANES CLIENTE: COMPROBAR TOTAL ALBARANÏÏÏÏTestÏÏ<FLTest:Test codtest="000322" idfuncional="envases"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_ALBARAN_COMP" />
+    <FLTest:AssignationElement value="11.6" var="TOTAL_ALBARAN" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000324ÏÏenvasesÏÏÖ
+301ÏÏ14ÏÏALBARANES CLIENTE: ASIGNAR ENVASEÏÏÏÏTestÏÏ<FLTest:Test codtest="000319" idfuncional="envases"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_ALBARAN_ENVASE" />
+    <FLTest:AssignationElement value="" var="COD_ENVASE_ALB" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000324ÏÏenvasesÏÏÖ
+301ÏÏ13ÏÏALBARANES CLIENTE: CREAR ALBARAN ||COD_ALBARAN||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000082" idfuncional="flfacturac"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||CLIENTE_ENVASES||" var="COD_CLIENTE_ALB" />
+    <FLTest:AssignationElement value="||ARTICULO_ENVASES||" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="" var="DES_LINEA1" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA1" />
+    <FLTest:AssignationElement value="" var="REF_LINEA2" />
+    <FLTest:AssignationElement value="" var="DES_LINEA2" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA2" />
+    <FLTest:AssignationElement value="" var="REF_LINEA3" />
+    <FLTest:AssignationElement value="" var="DES_LINEA3" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA3" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000324ÏÏenvasesÏÏÖ
+301ÏÏ12ÏÏPEDIDOS CLIENTE: COMPROBAR TOTAL PEDIDOÏÏÏÏTestÏÏ<FLTest:Test codtest="000321" idfuncional="envases"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_PEDIDO_COMP" />
+    <FLTest:AssignationElement value="11.6" var="TOTAL_PEDIDO" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000324ÏÏenvasesÏÏÖ
+301ÏÏ11ÏÏPEDIDOS CLIENTE: ASIGNAR ENVASEÏÏÏÏTestÏÏ<FLTest:Test codtest="000318" idfuncional="envases"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_PEDIDO_ENVASE" />
+    <FLTest:AssignationElement value="" var="COD_ENVASE_PED" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000324ÏÏenvasesÏÏÖ
+301ÏÏ10ÏÏPEDIDOS CLIENTE: CREAR PEDIDO EN ||COD_PEDIDO||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000079" idfuncional="flfacturac"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||CLIENTE_ENVASES||" var="COD_CLIENTE_PED" />
+    <FLTest:AssignationElement value="||ARTICULO_ENVASES||" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA1" />
+    <FLTest:AssignationElement value="" var="DES_LINEA1" />
+    <FLTest:AssignationElement value="" var="REF_LINEA2" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA2" />
+    <FLTest:AssignationElement value="" var="DES_LINEA2" />
+    <FLTest:AssignationElement value="" var="REF_LINEA3" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA3" />
+    <FLTest:AssignationElement value="" var="DES_LINEA3" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000324ÏÏenvasesÏÏÖ
+301ÏÏ9ÏÏALBARANES CLIENTE: GENERAR FACTURA ||COD_FACTURA|| A PARTIR DE UN ALBARANÏÏÏÏTestÏÏ<FLTest:Test codtest="000054" idfuncional="flfacturac"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_ALBARAN||" var="COD_ALB_ORIGEN" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000324ÏÏenvasesÏÏÖ
+301ÏÏ8ÏÏPEDIDOS CLIENTE: GENERAR ALBARAN ||COD_ALBARAN|| A PARTIR DE UN PEDIDOÏÏÏÏTestÏÏ<FLTest:Test codtest="000053" idfuncional="flfacturac"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_PEDIDO||" var="COD_PED_ORIGEN" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000324ÏÏenvasesÏÏÖ
+301ÏÏ7ÏÏPRESUPUESTOS CLIENTE: GENERAR PEDIDO ||COD_PEDIDO|| A PARTIR DE UN PRESUPUESTOÏÏÏÏTestÏÏ<FLTest:Test codtest="000051" idfuncional="flfacturac"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_PRESUPUESTO||" var="COD_PRE_ORIGEN" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000324ÏÏenvasesÏÏÖ
+301ÏÏ6ÏÏPRESUPUESTOS CLIENTE: COMPROBAR TOTAL PRESUPUESTOÏÏÏÏTestÏÏ<FLTest:Test codtest="000316" idfuncional="flfacturac"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_PRESUPUESTO_COMP" />
+    <FLTest:AssignationElement value="11.6" var="TOTAL_PRESUPUESTO" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000324ÏÏenvasesÏÏÖ
+301ÏÏ5ÏÏPRESUPUESTOS CLIENTE: ASIGNAR ENVASEÏÏÏÏTestÏÏ<FLTest:Test codtest="000317" idfuncional="envases"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_PRESUPUESTO_ENVASE" />
+    <FLTest:AssignationElement value="" var="COD_ENVASE_PRES" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000324ÏÏenvasesÏÏÖ
+301ÏÏ4ÏÏPRESUPUESTOS CLIENTE: CREAR PRESUPUESTO EN ||COD_PRESUPUESTO||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000050" idfuncional="flfacturac"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||CLIENTE_ENVASES||" var="COD_CLIENTE_PRE" />
+    <FLTest:AssignationElement value="||ARTICULO_ENVASES||" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA1" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000324ÏÏenvasesÏÏÖ
+301ÏÏ3ÏÏENVASES: CREAR UN ENVASEÏÏÏÏTestÏÏ<FLTest:Test codtest="000178" idfuncional="envases"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="E-||_S||" var="COD_ENVASE" />
+    <FLTest:AssignationElement value="||ARTICULO_ENVASES||" var="COD_ARTICULO_ENVASE" />
+    <FLTest:AssignationElement value="" var="DESC_ENVASE" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000324ÏÏenvasesÏÏÖ
+301ÏÏ2ÏÏARTICULOS: CREAR ARTICULO ||COD_ARTICULO||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000042" idfuncional="flfactalma"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+   <FLTest:AssignationElement value="||COD_CLIENTE||" var="CLIENTE_ENVASES" />
+    <FLTest:AssignationElement value="*ART_10_16" var="REF_ART" />
+    <FLTest:AssignationElement value="" var="DES_ART" />
+    <FLTest:AssignationElement value="10" var="PVP_ART" />
+    <FLTest:AssignationElement value="" var="IVA_ART" />
+    <FLTest:AssignationElement value="*ART_10_16" var="ARTICULO_ENVASES" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000324ÏÏenvasesÏÏÖ
+301ÏÏ1ÏÏCLIENTES: CREAR CLIENTE ||COD_CLIENTE||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000003" idfuncional="flfactppal"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="NOM_CLIENTE" />
+    <FLTest:AssignationElement value="" var="DES_DIR_CLIENTE" />
+    <FLTest:AssignationElement value="" var="DIR_CLIENTE" />
+    <FLTest:AssignationElement value="" var="CIF_CLIENTE" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000324ÏÏenvasesÏÏÖ

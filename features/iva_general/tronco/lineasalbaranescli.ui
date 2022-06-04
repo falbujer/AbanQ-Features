@@ -1,0 +1,12 @@
+<xupdate:modifications>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,formLineasAlbaranesCli]/property[property,2]/rect[rect,1]/height[height,1]/text()[1]" >230</xupdate:update>
+<xupdate:delete select="/UI[UI,1]/widget[QWidget,formLineasAlbaranesCli]/vbox[vbox,1]/widget[QGroupBox,groupBox10]" />
+<xupdate:update select="/UI[UI,1]/tabstops[tabstops,1]/tabstop[tabstop,4]/text()[1]" >fdbPvpUnitario</xupdate:update>
+<xupdate:update select="/UI[UI,1]/tabstops[tabstops,1]/tabstop[tabstop,5]/text()[1]" >fdbPvpSinDto</xupdate:update>
+<xupdate:update select="/UI[UI,1]/tabstops[tabstops,1]/tabstop[tabstop,6]/text()[1]" >fdbDtoLineal</xupdate:update>
+<xupdate:update select="/UI[UI,1]/tabstops[tabstops,1]/tabstop[tabstop,7]/text()[1]" >fdbDtoPor</xupdate:update>
+<xupdate:update select="/UI[UI,1]/tabstops[tabstops,1]/tabstop[tabstop,8]/text()[1]" >fdbPvpTotal</xupdate:update>
+<xupdate:delete select="/UI[UI,1]/tabstops[tabstops,1]/tabstop[tabstop,9]" />
+<xupdate:delete select="/UI[UI,1]/tabstops[tabstops,1]/tabstop[tabstop,10]" />
+<xupdate:delete select="/UI[UI,1]/tabstops[tabstops,1]/tabstop[tabstop,11]" />
+</xupdate:modifications>

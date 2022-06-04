@@ -1,0 +1,6 @@
+!! 19/04/2006 SVN:
+* Conexión de señales entre los controles de código e identificador de subcuenta de ventas
+!! 12/04/2006 SVN:
+* Uso del punto para establecer la subcuenta de ventas como con la subcuenta de compras
+!! 31/03/2006 SVN:
+* Creación de la funcionalidad cta_venta_artic

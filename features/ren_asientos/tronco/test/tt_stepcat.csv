@@ -1,0 +1,56 @@
+323ÏÏ5ÏÏComparar  ÏÏco_asientosÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="idasiento = &quot;||ASIENTO2_COMP||&quot;" savein="" from="co_asientos" select="numero" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >2</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏCÏÏflcontppalÏÏformRecordÏÏNingunoÏÏ000223ÏÏren_asientosÏÏÖ
+323ÏÏ4ÏÏComparar  ÏÏco_asientosÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="idasiento = &quot;||ASIENTO1_COMP||&quot;" savein="" from="co_asientos" select="numero" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >1</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏCÏÏflcontppalÏÏformRecordÏÏNingunoÏÏ000223ÏÏren_asientosÏÏÖ
+323ÏÏ3ÏÏMessageBox - Pulsar Sí ÏÏco_asientosÏÏMessageBoxÏÏÏÏpushYesÏÏ<FLTest:Condition event="SCRIPT_FINISHED" object="renumerarAsientos" />
+ÏÏCÏÏflcontppalÏÏformRecordÏÏNingunoÏÏ000223ÏÏren_asientosÏÏÖ
+323ÏÏ2ÏÏPulsar el botón pbnRenumÏÏco_asientosÏÏButtonÏÏpbnRenumÏÏanimateClickÏÏÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000223ÏÏren_asientosÏÏÖ
+323ÏÏ6ÏÏCerrar formulario co_asientosÏÏco_asientosÏÏFLFormDBÏÏco_asientosÏÏcloseÏÏÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000223ÏÏren_asientosÏÏÖ
+323ÏÏ1ÏÏAbrir formulario co_asientosÏÏco_asientosÏÏFLFormDBÏÏco_asientosÏÏopenÏÏÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000223ÏÏren_asientosÏÏÖ
+325ÏÏ7ÏÏfecha = ||FECHA||ÏÏco_asientosÏÏFLFieldDBÏÏfdbFechaÏÏsetValueÏÏ||FECHA||ÏÏCÏÏflcontppalÏÏformRecordÏÏNingunoÏÏ000224ÏÏren_asientosÏÏÖ
+325ÏÏ8ÏÏPulsar el botón toolButtonInsertÏÏco_asientosÏÏButtonÏÏtoolButtonInsertÏÏanimateClickÏÏÏÏCÏÏflcontppalÏÏformRecordÏÏNingunoÏÏ000224ÏÏren_asientosÏÏÖ
+325ÏÏ9ÏÏfdbCodSubcuenta = ||COD_SUBCUENTA_AS||ÏÏco_partidasÏÏFLFieldDBÏÏfdbCodSubcuentaÏÏsetValueÏÏ||COD_SUBCUENTA_AS||ÏÏCÏÏflcontppalÏÏformRecordÏÏNingunoÏÏ000224ÏÏren_asientosÏÏÖ
+325ÏÏ10ÏÏPulsar el botón pushButtonAcceptÏÏco_partidasÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏCÏÏflcontppalÏÏformRecordÏÏAceptarÏÏ000224ÏÏren_asientosÏÏÖ
+325ÏÏ11ÏÏPulsar el botón pushButtonAcceptÏÏco_asientosÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏCÏÏflcontppalÏÏformRecordÏÏAceptarÏÏ000224ÏÏren_asientosÏÏÖ
+325ÏÏ12ÏÏCerrar formulario co_asientosÏÏco_asientosÏÏFLFormDBÏÏco_asientosÏÏcloseÏÏÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000224ÏÏren_asientosÏÏÖ
+325ÏÏ13ÏÏGuardar ID_ASIENTOÏÏÏÏQueryÏÏÏÏexecQueryÏÏ<FLTest:Query where="1 = 1 order by idasiento desc" savein="ID_ASIENTO" from="co_asientos" select="idasiento" />
+ÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000224ÏÏren_asientosÏÏÖ
+325ÏÏ4ÏÏfdbAsiento = ||NUMERO||ÏÏco_asientosÏÏFLFieldDBÏÏfdbAsientoÏÏsetValueÏÏ||NUMERO||ÏÏCÏÏflcontppalÏÏformRecordÏÏNingunoÏÏ000224ÏÏren_asientosÏÏÖ
+325ÏÏ2ÏÏAbrir formulario co_asientosÏÏco_asientosÏÏFLFormDBÏÏco_asientosÏÏopenÏÏÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000224ÏÏren_asientosÏÏÖ
+325ÏÏ3ÏÏPulsar botón toolButtonInsertÏÏco_asientosÏÏButtonÏÏtoolButtonInsertÏÏanimateClickÏÏÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000224ÏÏren_asientosÏÏÖ
+337ÏÏ5ÏÏASIENTOS: BORRAR ASIENTOÏÏÏÏTestÏÏ<FLTest:Test codtest="000183" idfuncional="flcontppal"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="2" var="COD_ASIENTO_DEL" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000328ÏÏren_asientosÏÏÖ
+337ÏÏ4ÏÏASIENTOS: BORRAR ASIENTOÏÏÏÏTestÏÏ<FLTest:Test codtest="000183" idfuncional="flcontppal"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="1" var="COD_ASIENTO_DEL" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000328ÏÏren_asientosÏÏÖ
+337ÏÏ3ÏÏASIENTOS: RENUMERAR ASIENTOSÏÏÏÏTestÏÏ<FLTest:Test codtest="000223" idfuncional="ren_asientos"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||ASIENTO1||" var="ASIENTO1_COMP" />
+    <FLTest:AssignationElement value="||ID_ASIENTO||" var="ASIENTO2_COMP" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000328ÏÏren_asientosÏÏÖ
+337ÏÏ2ÏÏASIENTOS: CREAR ASIENTO ASIGNANDO ||NUMERO||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000224" idfuncional="ren_asientos"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="5555" var="NUMERO" />
+    <FLTest:AssignationElement value="" var="COD_SUBCUENTA_AS" />
+    <FLTest:AssignationElement value="||ID_ASIENTO||" var="ASIENTO1" />
+    <FLTest:AssignationElement value="||_YEAR||-01-02" var="FECHA" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000328ÏÏren_asientosÏÏÖ
+337ÏÏ1ÏÏASIENTOS: CREAR ASIENTO ASIGNANDO ||NUMERO||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000224" idfuncional="ren_asientos"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="2222" var="NUMERO" />
+    <FLTest:AssignationElement value="" var="COD_SUBCUENTA_AS" />
+    <FLTest:AssignationElement value="||_YEAR||-01-01" var="FECHA" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000328ÏÏren_asientosÏÏÖ

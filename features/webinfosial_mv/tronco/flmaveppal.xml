@@ -1,0 +1,14 @@
+<xupdate:modifications>
+<xupdate:insert-after select="/ACTIONS[ACTIONS,1]/action[mv_tramoscoste]" >
+<action>
+<name>mv_volcarfun</name>
+<alias>Volcar funcionalidades</alias>
+<description>Volcar funcinalidades</description>
+<table>mv_volcarfun</table>
+<form>mv_volcarfun</form>
+<formrecord>mv_volcarfun</formrecord>
+<scriptform>mv_volcarfun</scriptform>
+<scriptformrecord>mv_volcarfun</scriptformrecord>
+</action>
+</xupdate:insert-after>
+</xupdate:modifications>

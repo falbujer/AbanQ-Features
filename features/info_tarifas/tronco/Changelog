@@ -1,0 +1,3 @@
+!! 28/04/2005 SVN:
+* En el formulario maestro de tarifas el botón imprimir genera un informe sobre la tarifa seleccionada
+* En el modulo de informes se ha creado el informe de precios de articulos con y sin coste

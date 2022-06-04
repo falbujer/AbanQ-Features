@@ -1,0 +1,205 @@
+<xupdate:modifications>
+<xupdate:update select="/TMD[TMD,1]/field[coddir]/alias[alias,1]/text()[1]" >QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Dirección&quot;)</xupdate:update>
+<xupdate:update select="/TMD[TMD,1]/field[codigo]/length[length,1]/text()[1]" >13</xupdate:update>
+<xupdate:update select="/TMD[TMD,1]/field[nombrecliente]/alias[alias,1]/text()[1]" >QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Nombre cliente&quot;)</xupdate:update>
+<xupdate:insert-after select="/TMD[TMD,1]/field[codpago]" >
+<field>
+<name>codenvio</name>
+<!--Forma de pago--><alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;F. Envío&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>10</length>
+<relation>
+<table>formasenvio</table>
+<field>codenvio</field>
+<card>M1</card>
+</relation>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[codpais]" >
+<field>
+<name>nombre</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;F. Nombre&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>200</length>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[nombre]" >
+<field>
+<name>apellidos</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;F. Apellidos&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>200</length>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[apellidos]" >
+<field>
+<name>empresa</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;F. Empresa&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>200</length>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[empresa]" >
+<field>
+<name>coddirenv</name>
+<!--Código de dirección asociada al cliente--><alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;E. Dirección&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>uint</type>
+<visiblegrid>false</visiblegrid>
+<associated>
+<with>codcliente</with>
+<by>codcliente</by>
+</associated>
+<relation>
+<table>dirclientes</table>
+<field>id</field>
+<card>M1</card>
+</relation>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[coddirenv]" >
+<field>
+<name>direccionenv</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;E. Dirección&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>100</length>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[direccionenv]" >
+<field>
+<name>codpostalenv</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;E. Código Postal&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>10</length>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[codpostalenv]" >
+<field>
+<name>ciudadenv</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;E. Ciudad&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>100</length>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[ciudadenv]" >
+<field>
+<name>provinciaenv</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;E. Provincia&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>100</length>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[provinciaenv]" >
+<field>
+<name>apartadoenv</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;E. Apdo. de correos&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>10</length>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[apartadoenv]" >
+<field>
+<name>codpaisenv</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;E. Pais&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>20</length>
+<relation>
+<table>paises</table>
+<field>codpais</field>
+<card>M1</card>
+</relation>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[codpaisenv]" >
+<field>
+<name>nombreenv</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;E. Nombre&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>200</length>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[nombreenv]" >
+<field>
+<name>apellidosenv</name>
+<!-- Apellidos del cliente, usado si en cliente web --><alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;E. Apellidos&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>200</length>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[apellidosenv]" >
+<field>
+<name>empresaenv</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;E. Empresa&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>200</length>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[numero]" >
+<field>
+<name>pedidoweb</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Pedido web&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>bool</type>
+<default>false</default>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[pedidoweb]" >
+<field>
+<name>modificado</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Modificado&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>bool</type>
+<default>false</default>
+<visiblegrid>false</visiblegrid>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[modificado]" >
+<field>
+<name>pagado</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Pagado&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>bool</type>
+<default>false</default>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[pagado]" >
+<field>
+<name>transactionid</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Código de transacción&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>200</length>
+</field>
+</xupdate:insert-after>
+</xupdate:modifications>

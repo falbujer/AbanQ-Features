@@ -1,0 +1,12 @@
+!! 21/12/2005 SVN:
+* Se crean los campos de cuenta de pago en recibos de cliente y proveedor para mejorar la previsión de a qué cuenta irán los cobros y pagos de los recibos
+!! 15/12/2005 SVN:
+* No se incluyen en el informe los recibos ya pagados
+!! 13/09/2005 SVN:
+* Cambio en el criterio para obtener la cuenta de pago de los recibos. Primero se mira en 'Remesar en' (clientes) o 'Cuenta pago' (proveedores) y si no hay cuenta informada se mira la cuenta asociada a la forma de pago de la factura.
+!! 29/07/2005 SVN:
+* Documentación de la funcionalidad
+!! 28/07/2005 SVN:
+* Primera versión estable
+!! 25/07/2005 SVN:
+* Creación de la funcionalidad info_vencimtos

@@ -1,0 +1,12 @@
+<flpatch:modifications name="teso_manual" >
+    <flpatch:patchXml path="facturacion/tesoreria/" name="flfactteso.xml" />
+    <flpatch:addFile path="facturacion/tesoreria/forms/" name="pagostesomanual.ui" />
+    <flpatch:addFile path="facturacion/tesoreria/forms/" name="tesomanual.ui" />
+    <flpatch:patchScript path="facturacion/tesoreria/scripts/" name="flfactteso.qs" />
+    <flpatch:addFile path="facturacion/tesoreria/scripts/" name="pagostesomanual.qs" />
+    <flpatch:addFile path="facturacion/tesoreria/scripts/" name="tesomanual.qs" />
+    <flpatch:addFile path="facturacion/tesoreria/tables/" name="pagostesomanual.mtd" />
+    <flpatch:addFile path="facturacion/tesoreria/tables/" name="tesomanual.mtd" />
+    <flpatch:patchXml path="facturacion/tesoreria/forms/" name="flfactteso.ui" />
+    <flpatch:patchScript path="facturacion/informes/scripts/" name="i_mastervencimientos.qs" />
+</flpatch:modifications>

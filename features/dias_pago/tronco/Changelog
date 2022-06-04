@@ -1,0 +1,4 @@
+!! 09/08/2005 SVN:
+* Corrección de la expresión regular del campo diaspago de la tabla clientes para admitir cadenas vacías.
+!! 26/04/2005 SVN:
+* Funcionalidad de días de pago. Se establece una lista de días en los que el cliente paga sus recibos. Los recibos generados ajustan su día de pago al día inmediatamente anterior o posterior (según el cliente) a la fecha de vencimiento convencional.

@@ -1,0 +1,62 @@
+<xupdate:modifications>
+<xupdate:insert-after select="/TMD[TMD,1]/field[direccion]" >
+<field>
+<name>sexo</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Sexo (m/f)&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>1</length>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[sexo]" >
+<field>
+<name>nombre</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Nombre&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>100</length>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[nombre]" >
+<field>
+<name>apellidos</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Apellidos&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>100</length>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[apellidos]" >
+<field>
+<name>empresa</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Empresa&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>200</length>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[empresa]" >
+<field>
+<name>codzona</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Zona&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>10</length>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[codpostal]" >
+<field>
+<name>suburbio</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Suburbio&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>200</length>
+</field>
+</xupdate:insert-after>
+</xupdate:modifications>

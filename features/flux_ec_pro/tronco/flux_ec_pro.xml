@@ -1,0 +1,37 @@
+<flpatch:modifications name="flux_ec_pro" >
+    <flpatch:addFile path="facturacion/almacen/tables/" name="codigosdescuento.mtd" />
+    <flpatch:addFile path="facturacion/almacen/tables/" name="zonasformasenvio.mtd" />
+    <flpatch:addFile path="facturacion/almacen/tables/" name="zonasformaspago.mtd" />
+    <flpatch:addFile path="facturacion/almacen/tables/" name="zonasventa.mtd" />
+    <flpatch:patchScript path="facturacion/almacen/scripts/" name="datostv.qs" />
+    <flpatch:patchXml path="facturacion/almacen/tables/" name="familias.mtd" />
+    <flpatch:patchScript path="facturacion/almacen/scripts/" name="articulos.qs" />
+    <flpatch:patchScript path="facturacion/almacen/scripts/" name="formasenvio.qs" />
+    <flpatch:addFile path="facturacion/almacen/tables/" name="intervalospesos.mtd" />
+    <flpatch:addFile path="facturacion/almacen/scripts/" name="zonasventa.qs" />
+    <flpatch:patchScript path="facturacion/almacen/scripts/" name="opcionestv.qs" />
+    <flpatch:patchXml path="facturacion/almacen/forms/" name="articulos.ui" />
+    <flpatch:addFile path="facturacion/almacen/forms/" name="codigosdescuento.ui" />
+    <flpatch:patchXml path="facturacion/almacen/forms/" name="familias.ui" />
+    <flpatch:patchXml path="facturacion/almacen/forms/" name="formasenvio.ui" />
+    <flpatch:patchXml path="facturacion/almacen/forms/" name="flfactalma.ui" />
+    <flpatch:addFile path="facturacion/almacen/forms/" name="intervalospesos.ui" />
+    <flpatch:patchXml path="facturacion/almacen/forms/" name="opcionestv.ui" />
+    <flpatch:addFile path="facturacion/almacen/forms/" name="zonasventa.ui" />
+    <flpatch:addFile path="facturacion/almacen/forms/" name="zonasformasenvio.ui" />
+    <flpatch:addFile path="facturacion/almacen/forms/" name="zonasformaspago.ui" />
+    <flpatch:addFile path="facturacion/almacen/scripts/" name="intervalospesos.qs" />
+    <flpatch:patchXml path="facturacion/almacen/tables/" name="articulos.mtd" />
+    <flpatch:addFile path="facturacion/almacen/tables/" name="costesenvio.mtd" />
+    <flpatch:addFile path="facturacion/almacen/tables/" name="articulosfotos.mtd" />
+    <flpatch:addFile path="facturacion/almacen/tables/" name="familiasfotos.mtd" />
+    <flpatch:patchXml path="facturacion/almacen/tables/" name="formasenvio.mtd" />
+    <flpatch:patchXml path="facturacion/almacen/" name="flfactalma.xml" />
+    <flpatch:patchXml path="facturacion/almacen/tables/" name="opcionestv.mtd" />
+    <flpatch:patchXml path="facturacion/almacen/tables/" name="recordarcontras.mtd" />
+    <flpatch:addFile path="facturacion/almacen/tables/" name="modificadossql.mtd" />
+    <flpatch:patchXml path="facturacion/almacen/forms/" name="datostv.ui" />
+    <flpatch:patchXml path="facturacion/almacen/tables/" name="datostv.mtd" />
+    <flpatch:patchScript path="facturacion/almacen/scripts/" name="flfactalma.qs" />
+    <flpatch:patchXml path="facturacion/principal/forms/" name="formaspago.ui" />
+</flpatch:modifications>

@@ -1,0 +1,4 @@
+<flpatch:modifications name="temp_rasientos" >
+    <flpatch:patchXml path="contabilidad/principal/forms/" name="co_mastersubcuentas.ui" />
+    <flpatch:patchScript path="contabilidad/principal/scripts/" name="co_mastersubcuentas.qs" />
+</flpatch:modifications>

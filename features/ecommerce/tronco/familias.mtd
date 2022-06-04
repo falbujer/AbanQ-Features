@@ -1,0 +1,62 @@
+<xupdate:modifications>
+<xupdate:insert-after select="/TMD[TMD,1]/field[codfamilia]/relation[articulos,codfamilia]" >
+<relation>
+<table>articulosfamilias</table>
+<field>codfamilia</field>
+<card>M1</card>
+</relation>
+</xupdate:insert-after>
+<xupdate:update select="/TMD[TMD,1]/field[descripcion]/null[null,1]/text()[1]" >true</xupdate:update>
+<xupdate:insert-after select="/TMD[TMD,1]/field[codfamilia]" >
+<field>
+<name>codpadre</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Familia padre&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>int</type>
+<relation>
+<table>familias</table>
+<field>codfamilia</field>
+<card>1M</card>
+</relation>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[descripcion]" >
+<field>
+<name>imagen</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Imagen&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>200</length>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[imagen]" >
+<field>
+<name>orden</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Orden&quot;)</alias>
+<null>false</null>
+<pk>false</pk>
+<type>int</type>
+<length>3</length>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[orden]" >
+<field>
+<name>fecha</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Fecha de creación&quot;)</alias>
+<null>false</null>
+<pk>false</pk>
+<type>date</type>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[fecha]" >
+<field>
+<name>modificado</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Última modificación&quot;)</alias>
+<null>false</null>
+<pk>false</pk>
+<type>date</type>
+</field>
+</xupdate:insert-after>
+</xupdate:modifications>

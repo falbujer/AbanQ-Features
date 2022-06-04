@@ -1,0 +1,62 @@
+<xupdate:modifications>
+<xupdate:delete select="/TMD[TMD,1]/field[codcliente]/counter[counter,1]" />
+<xupdate:delete select="/TMD[TMD,1]/field[codcliente]/length[length,1]" />
+<xupdate:update select="/TMD[TMD,1]/field[codcliente]/type[type,1]/text()[1]" >serial</xupdate:update>
+<xupdate:insert-after select="/TMD[TMD,1]/field[nombre]" >
+<field>
+<name>apellidos</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Apellidos&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>100</length>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[cifnif]" >
+<field>
+<name>sexo</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Sexo (m/f)&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>1</length>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[sexo]" >
+<field>
+<name>fechaalta</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Fecha de alta&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>date</type>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[fechaalta]" >
+<field>
+<name>password</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Password&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>200</length>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[password]" >
+<field>
+<name>newsletter</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Suscrito al boletín&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>bool</type>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[newsletter]" >
+<field>
+<name>dirdefecto</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Dirección por defecto&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>int</type>
+</field>
+</xupdate:insert-after>
+</xupdate:modifications>

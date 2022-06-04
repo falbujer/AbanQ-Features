@@ -1,0 +1,16 @@
+<flpatch:modifications name="scab_tc" >
+    <flpatch:patchScript path="facturacion/almacen/scripts/" name="flfactalma.qs" />
+    <flpatch:patchScript path="facturacion/facturacion/scripts/" name="pedidoscli.qs" />
+    <flpatch:patchScript path="facturacion/almacen/scripts/" name="regstocks.qs" />
+    <flpatch:patchScript path="facturacion/facturacion/scripts/" name="pedidosprov.qs" />
+    <flpatch:patchScript path="facturacion/facturacion/scripts/" name="albaranescli.qs" />
+    <flpatch:patchScript path="facturacion/facturacion/scripts/" name="facturascli.qs" />
+    <flpatch:patchScript path="facturacion/facturacion/scripts/" name="albaranesprov.qs" />
+    <flpatch:patchScript path="facturacion/facturacion/scripts/" name="facturasprov.qs" />
+    <flpatch:patchScript path="facturacion/tpv/scripts/" name="tpv_comandas.qs" />
+    <flpatch:replaceFile path="facturacion/informes/reports/" name="i_inventario.kut" />
+    <flpatch:replaceFile path="facturacion/informes/reports/" name="i_inventarioval.kut" />
+    <flpatch:replaceFile path="facturacion/informes/queries/" name="i_inventario.qry" />
+    <flpatch:replaceFile path="facturacion/informes/queries/" name="i_inventarioval.qry" />
+    <flpatch:patchScript path="facturacion/informes/scripts/" name="i_masterinventario.qs" />
+</flpatch:modifications>

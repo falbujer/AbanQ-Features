@@ -1,0 +1,27 @@
+<flpatch:modifications name="prod_visual" >
+    <flpatch:patchXml path="produccion/principal/" name="flprodppal.xml" />
+    <flpatch:patchXml path="produccion/principal/forms/" name="flprodppal.ui" />
+    <flpatch:addFile path="produccion/principal/forms/" name="pr_planificacion.ui" />
+    <flpatch:addFile path="produccion/principal/tables/" name="pr_planificacion.mtd" />
+    <flpatch:patchScript path="produccion/principal/scripts/" name="flprodppal.qs" />
+    <flpatch:addFile path="produccion/principal/scripts/" name="pr_planificacion.qs" />
+    <flpatch:addFile path="produccion/principal/scripts/" name="pr_plancompras.qs" />
+    <flpatch:addFile path="produccion/principal/tables/" name="pr_plancompras.mtd" />
+    <flpatch:addFile path="produccion/principal/forms/" name="pr_plancompras.ui" />
+    <flpatch:patchScript path="facturacion/facturacion/scripts/" name="pedidoscli.qs" />
+    <flpatch:patchScript path="facturacion/facturacion/scripts/" name="pedidosprov.qs" />
+    <flpatch:addFile path="produccion/principal/tables/" name="pr_lineasplancompras.mtd" />
+    <flpatch:addFile path="produccion/principal/scripts/" name="pr_lineasplancompras.qs" />
+    <flpatch:addFile path="produccion/principal/forms/" name="pr_lineasplancompras.ui" />
+    <flpatch:addFile path="produccion/principal/scripts/" name="pr_costeslote.qs" />
+    <flpatch:addFile path="produccion/principal/tables/" name="pr_costeslote.mtd" />
+    <flpatch:addFile path="produccion/principal/forms/" name="pr_costeslote.ui" />
+    <flpatch:patchXml path="produccion/principal/tables/" name="pr_tiposcentrocoste.mtd" />
+    <flpatch:addFile path="produccion/principal/tables/" name="pr_democostetarea.mtd" />
+    <flpatch:addFile path="produccion/principal/tables/" name="pr_democostecentro.mtd" />
+    <flpatch:patchXml path="produccion/principal/forms/" name="pr_tiposcentrocoste.ui" />
+    <flpatch:addFile path="produccion/principal/tables/" name="pr_democostetareamo.mtd" />
+    <flpatch:patchXml path="produccion/principal/tables/" name="pr_costestarea.mtd" />
+    <flpatch:patchXml path="produccion/principal/forms/" name="pr_costestarea.ui" />
+    <flpatch:patchXml path="facturacion/almacen/tables/" name="lotesstock.mtd" />
+</flpatch:modifications>

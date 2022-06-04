@@ -1,0 +1,7 @@
+<flpatch:modifications name="webinfosial_mv" >
+    <flpatch:patchXml path="sistema/mantversion/" name="flmaveppal.xml" />
+    <flpatch:patchXml path="sistema/mantversion/forms/" name="flmaveppal.ui" />
+    <flpatch:addFile path="sistema/mantversion/forms/" name="mv_volcarfun.ui" />
+    <flpatch:addFile path="sistema/mantversion/scripts/" name="mv_volcarfun.qs" />
+    <flpatch:addFile path="sistema/mantversion/tables/" name="mv_volcarfun.mtd" />
+</flpatch:modifications>

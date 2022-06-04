@@ -1,0 +1,5 @@
+<xupdate:modifications>
+<xupdate:delete select="/TMD[TMD,1]/field[codimpuesto]" />
+<xupdate:delete select="/TMD[TMD,1]/field[iva]" />
+<xupdate:delete select="/TMD[TMD,1]/field[recargo]" />
+</xupdate:modifications>

@@ -1,0 +1,22 @@
+<xupdate:modifications>
+<xupdate:insert-after select="/ACTIONS[ACTIONS,1]/action[tarifas]" >
+<action>
+<name>descfamilias</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Descripciones de familias&quot;)</alias>
+<description>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Descripciones de familias en varios idiomas&quot;)</description>
+<table>descfamilias</table>
+<form>master_copy</form>
+<formrecord>descfamilias</formrecord>
+</action>
+</xupdate:insert-after>
+<xupdate:insert-after select="/ACTIONS[ACTIONS,1]/action[descfamilias]" >
+<action>
+<name>articulosfamilias</name>
+<description>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;&quot;)</description>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Artículos por familias&quot;)</alias>
+<table>articulosfamilias</table>
+<form>master</form>
+<formrecord>articulosfamilias</formrecord>
+</action>
+</xupdate:insert-after>
+</xupdate:modifications>

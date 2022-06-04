@@ -1,0 +1,28 @@
+<flpatch:modifications name="facturacion_pdf" >
+    <flpatch:patchXml path="facturacion/facturacion/forms/" name="masteralbaranescli.ui" />
+    <flpatch:patchScript path="facturacion/facturacion/scripts/" name="masteralbaranescli.qs" />
+    <flpatch:patchXml path="facturacion/facturacion/forms/" name="masterfacturascli.ui" />
+    <flpatch:patchScript path="facturacion/facturacion/scripts/" name="masterfacturascli.qs" />
+    <flpatch:patchXml path="facturacion/facturacion/forms/" name="masterpresupuestoscli.ui" />
+    <flpatch:patchXml path="facturacion/facturacion/forms/" name="masterpedidosprov.ui" />
+    <flpatch:patchXml path="facturacion/facturacion/forms/" name="masterpedidoscli.ui" />
+    <flpatch:patchScript path="facturacion/facturacion/scripts/" name="masterpedidoscli.qs" />
+    <flpatch:patchScript path="facturacion/facturacion/scripts/" name="masterpedidosprov.qs" />
+    <flpatch:patchScript path="facturacion/facturacion/scripts/" name="masterpresupuestoscli.qs" />
+    <flpatch:patchScript path="facturacion/facturacion/scripts/" name="masteralbaranesprov.qs" />
+    <flpatch:patchScript path="facturacion/facturacion/scripts/" name="masterfacturasprov.qs" />
+    <flpatch:patchXml path="facturacion/facturacion/forms/" name="masteralbaranesprov.ui" />
+    <flpatch:patchXml path="facturacion/facturacion/forms/" name="masterfacturasprov.ui" />
+    <flpatch:patchScript path="facturacion/informes/scripts/" name="flfactinfo.qs" />
+    <flpatch:patchXml path="facturacion/informes/forms/" name="i_master.ui" />
+    <flpatch:patchScript path="facturacion/informes/scripts/" name="i_masterfacturascli.qs" />
+    <flpatch:patchScript path="facturacion/informes/scripts/" name="i_masterpedidoscli.qs" />
+    <flpatch:patchScript path="facturacion/informes/scripts/" name="i_masterfacturasprov.qs" />
+    <flpatch:patchScript path="facturacion/informes/scripts/" name="i_masteralbaranescli.qs" />
+    <flpatch:patchScript path="facturacion/informes/scripts/" name="i_masterinventario.qs" />
+    <flpatch:patchScript path="facturacion/informes/scripts/" name="i_masterpresupuestoscli.qs" />
+    <flpatch:patchScript path="facturacion/informes/scripts/" name="i_master.qs" />
+    <flpatch:patchScript path="facturacion/informes/scripts/" name="i_masterpedidosprov.qs" />
+    <flpatch:patchScript path="facturacion/informes/scripts/" name="i_masteralbaranesprov.qs" />
+    <flpatch:patchScript path="facturacion/informes/scripts/" name="i_masterreciboscli.qs" />
+</flpatch:modifications>

@@ -1,0 +1,39 @@
+USUARIOS: CREAR UN USUARIO ||COD_USUARIO||оо000106ооcalidad_provоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_USUARIO" default="" />
+    <FLTest:Parameter name="NOMBRE_USUARIO" default="USUARIO DE PRUEBAS" />
+</FLTest:Parameters>
+оооож
+PROVEEDORES: INSERTAR INCIDENCIA NEGATIVAоо000107ооcalidad_provоо<FLTest:Parameters>
+    <FLTest:Parameter name="FECHA_INCIDENCIA" default="" />
+    <FLTest:Parameter name="DESC_INCIDENCIA" default="INCIDENCIA NEGATIVA" />
+</FLTest:Parameters>
+оооож
+PROVEEDORES: SELECCIONAR PROVEEDORоо000110ооcalidad_provоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_PROVEEDOR_SEL" default="" />
+</FLTest:Parameters>
+оооож
+PROVEEDORES: INSERTAR INCIDENCIA POSITIVAоо000112ооcalidad_provоо<FLTest:Parameters>
+    <FLTest:Parameter name="FECHA_INCIDENCIA" default="" />
+    <FLTest:Parameter name="DESC_INCIDENCIA" default="INCIDENCIA POSITIVA" />
+</FLTest:Parameters>
+оооож
+PROVEEDORES: INSERTAR NO CONFORMIDADоо000113ооcalidad_provоо<FLTest:Parameters>
+     <FLTest:Parameter name="COD_USUARIO_NC" default="||COD_USUARIO||" />
+    <FLTest:Parameter name="CRITHOMOL_NOCONFORMIDAD" default="CRITERIO DE NO CONFORMIDAD DE PRUEBA" />
+    <FLTest:Parameter name="DESC_NOCONFORMIDAD" default="NO CONFORMIDAD DE PRUEBA" />
+</FLTest:Parameters>
+оооож
+PROVEEDORES: INSERTAR EVALUEACIONоо000114ооcalidad_provоо<FLTest:Parameters>
+    <FLTest:Parameter name="FECHA_DESDE" default="" />
+    <FLTest:Parameter name="COD_USUARIO_EVA" default="||COD_USUARIO||" />
+    <FLTest:Parameter name="EXIG_SUBIDA" default="1" />
+    <FLTest:Parameter name="EXIG_BAJADA" default="0" />
+    <FLTest:Parameter name="DESC_EVAL" default="EVALUACIсN DE PRUEBA" />
+</FLTest:Parameters>
+оооож
+PROVEEDORES: COMPROBAR RESULTADO EVALUACIсN SEMESTRALоо000282ооcalidad_provоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_PROVEEDOR_COMP" default="" />
+    <FLTest:Parameter name="RESULTADO_EVAL" default="" />
+</FLTest:Parameters>
+оооож
+CALIDAD_PROVоо000283ооcalidad_provоооооож

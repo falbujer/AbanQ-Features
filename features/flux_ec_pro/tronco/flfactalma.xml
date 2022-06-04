@@ -1,0 +1,54 @@
+<xupdate:modifications>
+<xupdate:insert-after select="/ACTIONS[ACTIONS,1]/action[statsweb]" >
+<action>
+<name>zonasventa</name>
+<description>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Pasarelas de pago&quot;)</description>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Pasarelas de pago&quot;)</alias>
+<table>zonasventa</table>
+<form>master</form>
+<formrecord>zonasventa</formrecord>
+<scriptformrecord>zonasventa</scriptformrecord>
+</action>
+</xupdate:insert-after>
+<xupdate:insert-after select="/ACTIONS[ACTIONS,1]/action[zonasventa]" >
+<action>
+<name>zonasformasenvio</name>
+<description>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Zonas por formas de envío&quot;)</description>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Zonas por formas de envío&quot;)</alias>
+<table>zonasformasenvio</table>
+<form>master</form>
+<formrecord>zonasformasenvio</formrecord>
+</action>
+</xupdate:insert-after>
+<xupdate:insert-after select="/ACTIONS[ACTIONS,1]/action[zonasformasenvio]" >
+<action>
+<name>zonasformaspago</name>
+<description>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Zonas por formas de pago&quot;)</description>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Zonas por formas de pago&quot;)</alias>
+<table>zonasformaspago</table>
+<form>master</form>
+<formrecord>zonasformaspago</formrecord>
+</action>
+</xupdate:insert-after>
+<xupdate:insert-after select="/ACTIONS[ACTIONS,1]/action[zonasformaspago]" >
+<action>
+<name>intervalospesos</name>
+<description>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Intervalos de pesos&quot;)</description>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Intervalos de pesos&quot;)</alias>
+<table>intervalospesos</table>
+<form>master</form>
+<formrecord>intervalospesos</formrecord>
+<scriptformrecord>intervalospesos</scriptformrecord>
+</action>
+</xupdate:insert-after>
+<xupdate:insert-after select="/ACTIONS[ACTIONS,1]/action[intervalospesos]" >
+<action>
+<name>codigosdescuento</name>
+<description>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Códigos de descuento&quot;)</description>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Códigos de descuento&quot;)</alias>
+<table>codigosdescuento</table>
+<form>master</form>
+<formrecord>codigosdescuento</formrecord>
+</action>
+</xupdate:insert-after>
+</xupdate:modifications>

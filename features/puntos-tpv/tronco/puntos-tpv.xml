@@ -1,0 +1,8 @@
+<flpatch:modifications name="puntos-tpv" >
+    <flpatch:patchXml path="facturacion/principal/forms/" name="clientes.ui" />
+    <flpatch:patchXml path="facturacion/principal/tables/" name="clientes.mtd" />
+    <flpatch:patchScript path="facturacion/tpv/scripts/" name="flfact_tpv.qs" />
+    <flpatch:patchScript path="facturacion/tpv/scripts/" name="tpv_comandas.qs" />
+    <flpatch:patchXml path="facturacion/tpv/tables/" name="tpv_comandas.mtd" />
+    <flpatch:addFile path="facturacion/tpv/tables/" name="tpv_movpuntos.mtd" />
+</flpatch:modifications>

@@ -1,0 +1,14 @@
+<xupdate:modifications>
+<xupdate:insert-after select="/TMD[TMD,1]/field[diasprodenvio]" >
+<field>
+<name>calculolote</name>
+<!--Método de cálculo del lote--><alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;M.Cálculo de lote&quot;)</alias>
+<null>false</null>
+<pk>false</pk>
+<type>string</type>
+<length>15</length>
+<optionslist>Lote a Lote</optionslist>
+<default>Lote a Lote</default>
+</field>
+</xupdate:insert-after>
+</xupdate:modifications>

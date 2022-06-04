@@ -1,0 +1,114 @@
+299оо16ооARTICULOS: ABRIR ARTмCULO EN MODO EDITооarticulosооTestоо<FLTest:Test codtest="000282" idfuncional="flfactalma"/>ооexecTestооооFооflfactalmaооformRecordооNingunoоо000221ооrecibos_provоож
+299оо18ооfdbCodProveedor = ||COD_PROVEEDOR_COSTE||ооarticulosprovооFLFieldDBооfdbCodProveedorооsetValueоо||COD_PROVEEDOR_COSTE||ооFооflfactalmaооformRecordооNingunoоо000221ооrecibos_provоож
+299оо21ооARTICULOS: CERRAR ARTмCULO EN MODO EDITооarticulosооTestоо<FLTest:Test codtest="000283" idfuncional="flfactalma"/>ооexecTestооооFооflfactalmaооformRecordооAceptarоо000221ооrecibos_provоож
+299оо19ооfdbCoste = ||COSTE||ооarticulosprovооFLFieldDBооfdbCosteооsetValueоо||COSTE||ооFооflfactalmaооformRecordооNingunoоо000221ооrecibos_provоож
+299оо20ооPulsar el botСn pushButtonAcceptооarticulosprovооButtonооpushButtonAcceptооanimateClickооооFооflfactalmaооformRecordооAceptarоо000221ооrecibos_provоож
+299оо17ооPulsar el botСn toolButtomInsertPProvооarticulosооButtonооtoolButtomInsertPProvооanimateClickооооFооflfactalmaооformRecordооNingunoоо000221ооrecibos_provоож
+301оо14ооGuardar ID_RECIBOооооQueryооооexecQueryоо<FLTest:Query where="codigo = &quot;||COD_FACTURA_COMP||-01&quot;" savein="ID_RECIBO" from="recibosprov" select="idrecibo" />
+ооFооflfacturacооformооNingunoоо000222ооrecibos_provоож
+301оо13ооGuardar ID_ASIENTOооооQueryооооexecQueryоо<FLTest:Query where="codigo = &quot;||COD_FACTURA_COMP||&quot;" savein="ID_ASIENTO" from="facturasprov" select="idasiento" />
+ооFооflfacturacооformооNingunoоо000222ооrecibos_provоож
+301оо12ооComparar  ооооCompareооооcompareItemsоо<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="codigo = &quot;||COD_FACTURA_COMP||-01&quot;" savein="" from="recibosprov" select="estado" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||ESTADO||</FLTest:CompareElement>
+</FLTest:Compare>
+ооFооflfacturacооformооNingunoоо000222ооrecibos_provоож
+301оо11ооComparar  ооооCompareооооcompareItemsоо<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="codigo = &quot;||COD_FACTURA_COMP||&quot;" savein="" from="facturasprov" select="editable" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||EDITABLE||</FLTest:CompareElement>
+</FLTest:Compare>
+ооFооflfacturacооformооNingunoоо000222ооrecibos_provоож
+301оо15ооComparar  ооооCompareооооcompareItemsоо<FLTest:Compare action="Saltar" type="Iguales" >
+    <FLTest:CompareElement type="Valor" >||CONT_CARGADA||</FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >flcontppal</FLTest:CompareElement>
+</FLTest:Compare>
+ооFооflfacturacооformооNingunoоо000222ооrecibos_provоож
+301оо19ооSaltar si la contabilidad no estА integradaооооCompareооооcompareItemsоо<FLTest:Compare action="Saltar" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="1 = 1" savein="" from="empresa" select="contintegrada" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >TRUE</FLTest:CompareElement>
+</FLTest:Compare>
+ооFооflfacturacооformооNingunoоо000222ооrecibos_provоож
+301оо20ооComparar  ооооCompareооооcompareItemsоо<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="idasiento = ||ID_ASIENTO||" savein="" from="co_asientos" select="idasiento" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||ID_ASIENTO||</FLTest:CompareElement>
+</FLTest:Compare>
+ооFооflfacturacооformооNingunoоо000222ооrecibos_provоож
+303оо2ооSeleccionar codigo = "||RECIBO||"ооrecibosprovооFLTableDBооtableDBRecordsооselectRowооcodigo = "||RECIBO||"ооFооflfacttesoооformооNingunoоо000223ооrecibos_provоож
+303оо7ооCerrar formulario recibosprovооrecibosprovооFLFormDBооrecibosprovооcloseооооFооflfacttesoооformооNingunoоо000223ооrecibos_provоож
+303оо6ооPulsar botСn pushButtonAcceptооrecibosprovооButtonооpushButtonAcceptооanimateClickооооFооflfacttesoооformRecordооAceptarоо000223ооrecibos_provоож
+303оо5ооPulsar botСn pushButtonAcceptооpagosdevolprovооButtonооpushButtonAcceptооanimateClickооооFооflfacttesoооformRecordооAceptarоо000223ооrecibos_provоож
+303оо4ооPulsar el botСn toolButtomInsertооrecibosprovооButtonооtoolButtomInsertооanimateClickооооFооflfacttesoооformRecordооNingunoоо000223ооrecibos_provоож
+303оо3ооPulsar botСn toolButtonEditооrecibosprovооButtonооtoolButtonEditооanimateClickооооFооflfacttesoооformооNingunoоо000223ооrecibos_provоож
+303оо1ооAbrir formulario recibosprovооrecibosprovооFLFormDBооrecibosprovооopenооооFооflfacttesoооformооNingunoоо000223ооrecibos_provоож
+307оо14ооEjecutar consulta ооооQueryооооexecQueryоо<FLTest:Query where="idmodulo = &quot;flcontppal&quot;" savein="CONT_CARGADA" from="flmodules" select="idmodulo" />
+ооFооflfacturacооformооNingunoоо000225ооrecibos_provоож
+309оо10ооRECIBOS PROVEEDOR: COMPROBAR RECIBO Y ASIENTOооооTestоо<FLTest:Test codtest="000222" idfuncional="recibos_prov"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_FACTURA_COMP" />
+    <FLTest:AssignationElement value="" var="EDITABLE" />
+    <FLTest:AssignationElement value="Devuelto" var="ESTADO" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000328ооrecibos_provоож
+309оо9ооRECIBOS PROVEEDOR: PAGOSDEVOL: INSERTAR UN PAGO O DEVOLUCIсNооооTestоо<FLTest:Test codtest="000223" idfuncional="recibos_prov"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="RECIBO" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000328ооrecibos_provоож
+309оо8ооRECIBOS PROVEEDOR: COMPROBAR RECIBO Y ASIENTOооооTestоо<FLTest:Test codtest="000222" idfuncional="recibos_prov"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_FACTURA_COMP" />
+    <FLTest:AssignationElement value="false" var="EDITABLE" />
+    <FLTest:AssignationElement value="Pagado" var="ESTADO" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000328ооrecibos_provоож
+309оо7ооRECIBOS PROVEEDOR: PAGOSDEVOL: INSERTAR UN PAGO O DEVOLUCIсNооооTestоо<FLTest:Test codtest="000223" idfuncional="recibos_prov"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="RECIBO" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000328ооrecibos_provоож
+309оо6ооRECIBOS PROVEEDOR: COMPROBAR RECIBO Y ASIENTOооооTestоо<FLTest:Test codtest="000222" idfuncional="recibos_prov"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_FACTURA_COMP" />
+    <FLTest:AssignationElement value="" var="EDITABLE" />
+    <FLTest:AssignationElement value="" var="ESTADO" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000328ооrecibos_provоож
+309оо5ооFACTURAS PROVEEDOR: CREAR FACTURA ||COD_FACTURA||ооооTestоо<FLTest:Test codtest="000262" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||PROVEEDOR_RECIBOSPROV||" var="COD_PROV_FAC" />
+    <FLTest:AssignationElement value="" var="FECHA_FAC" />
+    <FLTest:AssignationElement value="" var="COD_PAGO_FAC" />
+    <FLTest:AssignationElement value="||ARTICULO_RECIBOSPROV||" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="" var="DES_LINEA1" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA1" />
+    <FLTest:AssignationElement value="" var="REF_LINEA2" />
+    <FLTest:AssignationElement value="" var="DES_LINEA2" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA2" />
+    <FLTest:AssignationElement value="" var="REF_LINEA3" />
+    <FLTest:AssignationElement value="" var="DES_LINEA3" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA3" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000328ооrecibos_provоож
+309оо4ооARTICULOS: ASIGNAR COSTE POR PROVEEDORооооTestоо<FLTest:Test codtest="000221" idfuncional="recibos_prov"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||PROVEEDOR_RECIBOSPROV||" var="COD_PROVEEDOR_COSTE" />
+    <FLTest:AssignationElement value="5" var="COSTE" />
+    <FLTest:AssignationElement value="||ARTICULO_RECIBOSPROV||" var="REF_ART_EDIT" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000328ооrecibos_provоож
+309оо3ооARTICULOS: CREAR ARTICULO ||COD_ARTICULO||ооооTestоо<FLTest:Test codtest="000042" idfuncional="flfactalma"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="A-||_S||" var="REF_ART" />
+    <FLTest:AssignationElement value="" var="DES_ART" />
+    <FLTest:AssignationElement value="10" var="PVP_ART" />
+    <FLTest:AssignationElement value="" var="IVA_ART" />
+    <FLTest:AssignationElement value="A-||_S||" var="ARTICULO_RECIBOSPROV" />
+    <FLTest:AssignationElement value="||COD_PROVEEDOR||" var="PROVEEDOR_RECIBOSPROV" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000328ооrecibos_provоож
+309оо2ооPROVEEDORES: CREAR PROVEEDOR ||COD_PROVEEDOR||ооооTestоо<FLTest:Test codtest="000017" idfuncional="flfactppal"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="NOM_PROV" />
+    <FLTest:AssignationElement value="" var="CIF_PROV" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000328ооrecibos_provоож
+309оо1ооCONTABILIDAD: COMPROBAR SI LA CONTABILIDAD ESTA CARGADAооооTestоо<FLTest:Test codtest="000225" idfuncional="recibos_prov"/>ооexecTestооооооооformооNingunoоо000328ооrecibos_provоож

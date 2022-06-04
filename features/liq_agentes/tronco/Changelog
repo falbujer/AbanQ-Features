@@ -1,0 +1,16 @@
+!! 24/05/2006 SVN:
+* Corregido bug por el que se perdía el dato de IRPF para las facturas que provienen de liquidación cuando son modificadas
+!! 08/05/2006 SVN:
+* Corregido refresco de datos al volver a pulsar el botón de actualizar facturas asociadas a la liquidación
+* Inclusión de cuenta especial LIQAGE para asociar las facturas a la cuenta de compras correcta
+* Inclusión del campo Recargo Equivalencia para indicar si la factura de la liquidación al agente llevará recargo o no
+!! 20/02/2006 SVN:
+* Corregido bug por el que no se asociaban facturas bloqueadas a las liquidaciones
+!! 10/02/2006 SVN:
+* Filtrado por ejercicio en liquidaciones
+* Corrección y mejora del informe de liquidaciones
+!! 29/09/2005 SVN:
+* Creación de la funcionalidad liq_agentes
+!! 20/01/2006 SVN:
+* Creación del informe de liquidaciones.
+* Creación del botón Cambiar porcentaje de liquidación

@@ -1,0 +1,26 @@
+CLIENTES: MODIFICAR CLIENTE PARA PONERLE PORTESоо000178ооportesоо<FLTest:Parameters>
+    <FLTest:Parameter name="PORTES_CLI" default="" />
+    <FLTest:Parameter name="COD_CLIENTE_EDIT" default="" />
+</FLTest:Parameters>
+оооож
+PRESUPUESTOS CLIENTE: COMPROBAR PORTESоо000179ооportesоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_PRESUPUESTO_COMP" default="||COD_PRESUPUESTO||" />
+    <FLTest:Parameter name="PORTES" default="" />
+</FLTest:Parameters>
+оооож
+PEDIDOS CLIENTE: COMPROBAR PORTESоо000328ооportesоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_PEDIDO_COMP" default="||COD_PEDIDO||" />
+    <FLTest:Parameter name="PORTES" default="" />
+</FLTest:Parameters>
+оооож
+ALBARANES CLIENTE: COMPROBAR PORTESоо000329ооportesоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_ALBARAN_COMP" default="||COD_ALBARAN||" />
+    <FLTest:Parameter name="PORTES" default="" />
+</FLTest:Parameters>
+оооож
+FACTURAS CLIENTE: COMPROBAR PORTESоо000330ооportesоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_FACTURA_COMP" default="||COD_FACTURA||" />
+    <FLTest:Parameter name="PORTES" default="" />
+</FLTest:Parameters>
+оооож
+PORTESоо000331ооportesоооооож

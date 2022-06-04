@@ -1,0 +1,29 @@
+<flpatch:modifications name="presu_medicion" >
+    <flpatch:addFile path="facturacion/facturacion/tables/" name="premed_descomposicion.mtd" />
+    <flpatch:addFile path="facturacion/facturacion/tables/" name="premed_partidas.mtd" />
+    <flpatch:patchXml path="facturacion/facturacion/" name="flfacturac.xml" />
+    <flpatch:patchXml path="facturacion/facturacion/forms/" name="flfacturac.ui" />
+    <flpatch:patchXml path="facturacion/almacen/tables/" name="articulos.mtd" />
+    <flpatch:addFile path="facturacion/facturacion/forms/" name="premed_partidas.ui" />
+    <flpatch:addFile path="facturacion/facturacion/forms/" name="premed_descomposicion.ui" />
+    <flpatch:addFile path="facturacion/facturacion/scripts/" name="premed_descomposicion.qs" />
+    <flpatch:addFile path="facturacion/facturacion/scripts/" name="premed_partidas.qs" />
+    <flpatch:addFile path="facturacion/facturacion/tables/" name="premed_procapitulos.mtd" />
+    <flpatch:addFile path="facturacion/facturacion/tables/" name="premed_propartidas.mtd" />
+    <flpatch:addFile path="facturacion/facturacion/tables/" name="premed_prodescomposicion.mtd" />
+    <flpatch:addFile path="facturacion/facturacion/tables/" name="premed_proyectos.mtd" />
+    <flpatch:addFile path="facturacion/facturacion/tables/" name="premed_medides.mtd" />
+    <flpatch:addFile path="facturacion/facturacion/tables/" name="premed_medipar.mtd" />
+    <flpatch:addFile path="facturacion/facturacion/forms/" name="premed_proyectos.ui" />
+    <flpatch:addFile path="facturacion/facturacion/forms/" name="premed_procapitulos.ui" />
+    <flpatch:addFile path="facturacion/facturacion/forms/" name="premed_prodescomposicion.ui" />
+    <flpatch:addFile path="facturacion/facturacion/scripts/" name="premed_proyectos.qs" />
+    <flpatch:addFile path="facturacion/facturacion/forms/" name="premed_propartidas.ui" />
+    <flpatch:addFile path="facturacion/facturacion/forms/" name="premed_medidas.ui" />
+    <flpatch:addFile path="facturacion/facturacion/scripts/" name="premed_medidas.qs" />
+    <flpatch:addFile path="facturacion/facturacion/scripts/" name="premed_propartidas.qs" />
+    <flpatch:addFile path="facturacion/facturacion/scripts/" name="premed_prodescomposicion.qs" />
+    <flpatch:addFile path="facturacion/facturacion/scripts/" name="premed_procapitulos.qs" />
+    <flpatch:addFile path="facturacion/facturacion/tables/" name="premed_tempd.mtd" />
+    <flpatch:addFile path="facturacion/facturacion/tables/" name="premed_tempc.mtd" />
+</flpatch:modifications>

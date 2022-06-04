@@ -1,0 +1,52 @@
+<!DOCTYPE TMD>
+<TMD>
+	<name>do_funcionalcli</name>
+	<alias>QT_TRANSLATE_NOOP("MetaData","Funcionalidades por clientes")</alias>
+
+	<field>
+		<name>id</name>
+		<!-- Identificador interno -->
+		<alias>QT_TRANSLATE_NOOP("MetaData","Identificador")</alias>
+		<null>false</null>
+		<pk>true</pk>
+		<type>serial</type>
+	</field>
+
+	<field>
+		<name>codfuncional</name>
+		<!-- Código de la funcionalidad-->
+		<alias>QT_TRANSLATE_NOOP("MetaData","Funcionalidad")</alias>
+		<null>false</null>
+		<pk>false</pk>
+		<length>15</length>
+		<type>string</type>
+	</field>
+	
+	<field>
+		<name>idgenerardoc</name>
+		<!-- Identificador interno de la generación -->
+		<alias>QT_TRANSLATE_NOOP("MetaData","ID")</alias>
+		<null>false</null>
+		<pk>false</pk>
+		<type>serial</type>
+		<visiblegrid>false</visiblegrid>
+	
+		<relation>
+			<table>do_generardoc</table>
+			<field>id</field>
+			<card>M1</card>
+			<delC>true</delC>
+		</relation>
+	</field>
+
+	<field>
+		<!-- Indica si la funcionalidad se va a incluir en la próxima documentación -->
+		<name>documentar</name>
+		<alias>QT_TRANSLATE_NOOP("MetaData","Documentar")</alias>
+		<null>false</null>
+		<pk>false</pk>
+		<type>bool</type>
+		<default>false</default>
+	</field>
+
+</TMD>

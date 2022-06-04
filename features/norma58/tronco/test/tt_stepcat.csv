@@ -1,0 +1,55 @@
+293оо6ооSeleccionar idremesa = "||REMESA||"ооremesasооFLTableDBооtableDBRecordsооselectRowооidremesa = "||REMESA||"ооFооflfacttesoооformооNingunoоо000179ооnorma58оож
+293оо12ооPulsar el botСn pbnADisco58ооremesasооButtonооpbnADisco58ооanimateClickооооFооflfacttesoооformооNingunoоо000179ооnorma58оож
+293оо13ооPulsar el botСn pushButtonCancelооvdisco58ооButtonооpushButtonCancelооanimateClickооооFооflfacttesoооformRecordооCancelarоо000179ооnorma58оож
+293оо14ооCerrar formulario remesasооremesasооFLFormDBооremesasооcloseооооFооflfacttesoооformооNingunoоо000179ооnorma58оож
+293оо1ооAbrir formulario remesasооremesasооFLFormDBооremesasооopenооооFооflfacttesoооformооNingunoоо000179ооnorma58оож
+297оо6ооREMESAS: PULSAR BOTON NORMA 58 Y CERRARооооTestоо<FLTest:Test codtest="000179" idfuncional="norma58"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="REMESA" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000318ооnorma58оож
+297оо5ооREMESAS: CREAR REMESA ||COD_REMESA||ооооTestоо<FLTest:Test codtest="000156" idfuncional="flfactteso"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_FACTURA||-01" var="COD_RECIBO_REM1" />
+    <FLTest:AssignationElement value="" var="COD_RECIBO_REM2" />
+    <FLTest:AssignationElement value="" var="COD_RECIBO_REM3" />
+    <FLTest:AssignationElement value="*CTA1" var="COD_CUENTA_REM" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000318ооnorma58оож
+297оо4ооCUENTAS BANCO: CREAR CUENTAооооTestоо<FLTest:Test codtest="000011" idfuncional="flfactppal"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="*CTA1" var="COD_CUENTA" />
+    <FLTest:AssignationElement value="" var="DES_CUENTA" />
+    <FLTest:AssignationElement value="0046" var="COD_AGENCIA" />
+    <FLTest:AssignationElement value="0019" var="COD_ENTIDAD" />
+    <FLTest:AssignationElement value="12345678890" var="NUM_CUENTA" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000318ооnorma58оож
+297оо3ооFACTURAS CLIENTE: CREAR FACTURA ||COD_FACTURA||ооооTestоо<FLTest:Test codtest="000134" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||CLIENTE_NORMA58||" var="COD_CLIENTE_FAC" />
+    <FLTest:AssignationElement value="" var="FECHA_FAC" />
+    <FLTest:AssignationElement value="" var="COD_PAGO_FAC" />
+    <FLTest:AssignationElement value="||ARTICULO_NORMA58||" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA1" />
+    <FLTest:AssignationElement value="" var="DES_LINEA1" />
+    <FLTest:AssignationElement value="" var="REF_LINEA2" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA2" />
+    <FLTest:AssignationElement value="" var="DES_LINEA2" />
+    <FLTest:AssignationElement value="" var="REF_LINEA3" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA3" />
+    <FLTest:AssignationElement value="" var="DES_LINEA3" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000318ооnorma58оож
+297оо2ооARTICULOS: CREAR ARTICULO ||COD_ARTICULO||ооооTestоо<FLTest:Test codtest="000042" idfuncional="flfactalma"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="*ART_10_16" var="REF_ART" />
+    <FLTest:AssignationElement value="" var="DES_ART" />
+    <FLTest:AssignationElement value="10" var="PVP_ART" />
+    <FLTest:AssignationElement value="" var="IVA_ART" />
+    <FLTest:AssignationElement value="*ART_10_16" var="ARTICULO_NORMA58" />
+    <FLTest:AssignationElement value="||COD_CLIENTE||" var="CLIENTE_NORMA58" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000318ооnorma58оож
+297оо1ооCLIENTES: CREAR CLIENTE ||COD_CLIENTE||ооооTestоо<FLTest:Test codtest="000003" idfuncional="flfactppal"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="NOM_CLIENTE" />
+    <FLTest:AssignationElement value="" var="DES_DIR_CLIENTE" />
+    <FLTest:AssignationElement value="" var="DIR_CLIENTE" />
+    <FLTest:AssignationElement value="" var="CIF_CLIENTE" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000318ооnorma58оож

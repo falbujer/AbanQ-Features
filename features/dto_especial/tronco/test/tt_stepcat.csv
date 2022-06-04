@@ -1,0 +1,399 @@
+313ÏÏ8ÏÏCLIENTES: CERRAR UN CLIENTE EN MODO EDITÏÏclientesÏÏTestÏÏ<FLTest:Test codtest="000270" idfuncional="flfactppal"/>ÏÏexecTestÏÏÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000160ÏÏdto_especialÏÏÖ
+313ÏÏ1ÏÏCLIENTES: ABRIR UN CLIENTE EN MODO EDITÏÏclientesÏÏTestÏÏ<FLTest:Test codtest="000023" idfuncional="flfactppal"/>ÏÏexecTestÏÏÏÏFÏÏflfactppalÏÏformÏÏNingunoÏÏ000160ÏÏdto_especialÏÏÖ
+313ÏÏ5ÏÏfdbPorDtoEsp = ||POR_DTOESPECIAL||ÏÏclientesÏÏFLFieldDBÏÏfdbPorDtoEspÏÏsetValueÏÏ||POR_DTOESPECIAL||ÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000160ÏÏdto_especialÏÏÖ
+325ÏÏ18ÏÏMessageBox - Pulsar Aceptar pushButtonAcceptÏÏÏÏMessageBoxÏÏpushButtonAcceptÏÏpushOkÏÏ<FLTest:Condition event="MESSAGE_BOX_CLOSED" object="" />
+ÏÏFÏÏflfacturacÏÏformRecordÏÏAceptarÏÏ000179ÏÏdto_especialÏÏÖ
+325ÏÏ15ÏÏPulsar el botón pushButtonAcceptÏÏfacturascliÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏ<FLTest:Condition event="MESSAGE_BOX_READY" object="" />
+ÏÏFÏÏflfacturacÏÏformRecordÏÏAceptarÏÏ000179ÏÏdto_especialÏÏÖ
+325ÏÏ19ÏÏSeleccionar registro lineasivafactcliÏÏfacturascliÏÏFLTableDBÏÏtdbLineasIvaFactCliÏÏselectRowÏÏfirstÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000179ÏÏdto_especialÏÏÖ
+325ÏÏ20ÏÏPulsar el botón toolButtonDeleteÏÏfacturascliÏÏButtonÏÏtoolButtonDeleteÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000179ÏÏdto_especialÏÏÖ
+325ÏÏ21ÏÏMessageBox - Pulsar Sí ÏÏfacturascliÏÏMessageBoxÏÏÏÏpushYesÏÏ<FLTest:Condition event="RECORD_DELETED" object="" />
+ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000179ÏÏdto_especialÏÏÖ
+325ÏÏ22ÏÏPulsar el botón ÏÏfacturascliÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏAceptarÏÏ000179ÏÏdto_especialÏÏÖ
+325ÏÏ23ÏÏCerrar formulario facturascliÏÏfacturascliÏÏFLFormDBÏÏfacturascliÏÏcloseÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000179ÏÏdto_especialÏÏÖ
+325ÏÏ13ÏÏFACTURAS CLIENTE: LINEAS: CREAR LINEA COD_FACTURA_EDIT =  REF_LINEA = ||ART_LINEA1|| DES_LINEA =  CAN_LINEA = ÏÏfacturascliÏÏTestÏÏ<FLTest:Test codtest="000194" idfuncional="flfacturac"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_FACTURA_EDIT" />
+    <FLTest:AssignationElement value="||ART_LINEA1||" var="REF_LINEA" />
+    <FLTest:AssignationElement value="" var="DES_LINEA" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA" />
+</FLTest:Assignation>
+ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000179ÏÏdto_especialÏÏÖ
+325ÏÏ4ÏÏfdbCodCliente = ||COD_CLIENTE_FACT||ÏÏfacturascliÏÏFLFieldDBÏÏfdbCodClienteÏÏsetValueÏÏ||COD_CLIENTE_FACT||ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000179ÏÏdto_especialÏÏÖ
+325ÏÏ14ÏÏFACTURAS CLIENTE: LINEAS: CREAR LINEA COD_FACTURA_EDIT =  REF_LINEA = ||ART_LINEA2|| DES_LINEA =  CAN_LINEA = ÏÏfacturascliÏÏTestÏÏ<FLTest:Test codtest="000194" idfuncional="flfacturac"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_FACTURA_EDIT" />
+    <FLTest:AssignationElement value="||ART_LINEA2||" var="REF_LINEA" />
+    <FLTest:AssignationElement value="" var="DES_LINEA" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA" />
+</FLTest:Assignation>
+ÏÏFÏÏflfacturacÏÏformRecordÏÏAceptarÏÏ000179ÏÏdto_especialÏÏÖ
+325ÏÏ2ÏÏPulsar botón toolButtomInsertÏÏfacturascliÏÏButtonÏÏtoolButtomInsertÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000179ÏÏdto_especialÏÏÖ
+325ÏÏ1ÏÏAbrir formulario facturascliÏÏfacturascliÏÏFLFormDBÏÏfacturascliÏÏopenÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000179ÏÏdto_especialÏÏÖ
+327ÏÏ6ÏÏCUENTAS: CREAR CUENTA ESPECIALÏÏÏÏTestÏÏ<FLTest:Test codtest="000325" idfuncional="dto_especial"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_CTAESPECIAL4||" var="COD_CTAESPECIAL_INSERT" />
+    <FLTest:AssignationElement value="||DESC_CTAESPECIAL4||" var="DESC_CTAESPECIAL_INSERT" />
+    <FLTest:AssignationElement value="||COD_CTA4||" var="COD_CTA_INSERT" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000181ÏÏdto_especialÏÏÖ
+327ÏÏ5ÏÏCUENTAS: CREAR CUENTA ESPECIALÏÏÏÏTestÏÏ<FLTest:Test codtest="000325" idfuncional="dto_especial"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_CTAESPECIAL3||" var="COD_CTAESPECIAL_INSERT" />
+    <FLTest:AssignationElement value="||DESC_CTAESPECIAL3||" var="DESC_CTAESPECIAL_INSERT" />
+    <FLTest:AssignationElement value="||COD_CTA3||" var="COD_CTA_INSERT" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000181ÏÏdto_especialÏÏÖ
+327ÏÏ4ÏÏCUENTAS: CREAR CUENTA ESPECIALÏÏÏÏTestÏÏ<FLTest:Test codtest="000325" idfuncional="dto_especial"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_CTAESPECIAL2||" var="COD_CTAESPECIAL_INSERT" />
+    <FLTest:AssignationElement value="||DESC_CTAESPECIAL2||" var="DESC_CTAESPECIAL_INSERT" />
+    <FLTest:AssignationElement value="||COD_CTA2||" var="COD_CTA_INSERT" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000181ÏÏdto_especialÏÏÖ
+327ÏÏ3ÏÏCUENTAS: CREAR CUENTA ESPECIALÏÏÏÏTestÏÏ<FLTest:Test codtest="000325" idfuncional="dto_especial"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_CTAESPECIAL1||" var="COD_CTAESPECIAL_INSERT" />
+    <FLTest:AssignationElement value="||DESC_CTAESPECIAL1||" var="DESC_CTAESPECIAL_INSERT" />
+    <FLTest:AssignationElement value="||COD_CTA1||" var="COD_CTA_INSERT" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000181ÏÏdto_especialÏÏÖ
+327ÏÏ2ÏÏComparar  ÏÏÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Saltar" type="Iguales" >
+    <FLTest:CompareElement type="Valor" >||CONT_CARGADA||</FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >flcontppal</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000181ÏÏdto_especialÏÏÖ
+327ÏÏ1ÏÏEjecutar consulta ÏÏÏÏQueryÏÏÏÏexecQueryÏÏ<FLTest:Query where="idmodulo = &quot;flcontppal&quot;" savein="CONT_CARGADA" from="flmodules" select="idmodulo" />
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000181ÏÏdto_especialÏÏÖ
+333ÏÏ24ÏÏCLIENTES: DIRECCIONES: MODIFICAR DIRECCIÓN DESC_DIRCLIENTE_EDIT = ||DESC_DIRCLIENTE|| PAIS_DIRCLIENTE_EDIT = ||PAIS_DIRCLIENTE2||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000328" idfuncional="dto_especial"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||DESC_DIRCLIENTE||" var="DESC_DIRCLIENTE_EDIT" />
+    <FLTest:AssignationElement value="||PAIS_DIRCLIENTE2||" var="PAIS_DIRCLIENTE_EDIT" />
+</FLTest:Assignation>
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000186ÏÏdto_especialÏÏÖ
+333ÏÏ11ÏÏCLIENTES: DIRECCIONES: MODIFICAR DIRECCIÓN DESC_DIRCLIENTE_EDIT = ||DESC_DIRCLIENTE|| PAIS_DIRCLIENTE_EDIT = ||PAIS_DIRCLIENTE||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000328" idfuncional="dto_especial"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||DESC_DIRCLIENTE||" var="DESC_DIRCLIENTE_EDIT" />
+    <FLTest:AssignationElement value="||PAIS_DIRCLIENTE||" var="PAIS_DIRCLIENTE_EDIT" />
+</FLTest:Assignation>
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000186ÏÏdto_especialÏÏÖ
+333ÏÏ18ÏÏFACTURAS CLIENTE: CREAR FACTURA ||COD_FACTURA|| COD_CLIENTE_FAC = ||COD_CLIENTE_COMP|| FECHA_FAC =  COD_PAGO_FAC =  REF_LINEA1 = ||COD_ARTICULO_COMP|| CAN_LINEA1 =  DES_LINEA1 =  REF_LINEA2 =  CAN_LINÏÏfacturascliÏÏTestÏÏ<FLTest:Test codtest="000134" idfuncional="flfacturac"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_CLIENTE_COMP||" var="COD_CLIENTE_FAC" />
+    <FLTest:AssignationElement value="" var="FECHA_FAC" />
+    <FLTest:AssignationElement value="" var="COD_PAGO_FAC" />
+    <FLTest:AssignationElement value="||COD_ARTICULO_COMP||" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA1" />
+    <FLTest:AssignationElement value="" var="DES_LINEA1" />
+    <FLTest:AssignationElement value="" var="REF_LINEA2" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA2" />
+    <FLTest:AssignationElement value="" var="DES_LINEA2" />
+    <FLTest:AssignationElement value="" var="REF_LINEA3" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA3" />
+    <FLTest:AssignationElement value="" var="DES_LINEA3" />
+</FLTest:Assignation>
+ÏÏFÏÏflfacturacÏÏformRecordÏÏAceptarÏÏ000186ÏÏdto_especialÏÏÖ
+333ÏÏ2ÏÏComparar  ÏÏclientesÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Saltar" type="Iguales" >
+    <FLTest:CompareElement type="Valor" >||CONT_CARGADA||</FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >flcontppal</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000186ÏÏdto_especialÏÏÖ
+333ÏÏ1ÏÏEjecutar consulta ÏÏÏÏQueryÏÏÏÏexecQueryÏÏ<FLTest:Query where="idmodulo = &quot;flcontppal&quot;" savein="CONT_CARGADA" from="flmodules" select="idmodulo" />
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000186ÏÏdto_especialÏÏÖ
+333ÏÏ20ÏÏEjecutar consulta ÏÏÏÏQueryÏÏÏÏexecQueryÏÏ<FLTest:Query where="1=1 order by idfactura desc" savein="COD_FACTURA" from="facturascli" select="codigo" />
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000186ÏÏdto_especialÏÏÖ
+333ÏÏ33ÏÏEjecutar consulta ÏÏÏÏQueryÏÏÏÏexecQueryÏÏ<FLTest:Query where="codigo = &quot;||COD_FACTURA||&quot;" savein="ID_ASIENTO" from="facturascli" select="idasiento" />
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000186ÏÏdto_especialÏÏÖ
+333ÏÏ32ÏÏEjecutar consulta ÏÏÏÏQueryÏÏÏÏexecQueryÏÏ<FLTest:Query where="1=1 order by idfactura desc" savein="COD_FACTURA" from="facturascli" select="codigo" />
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000186ÏÏdto_especialÏÏÖ
+333ÏÏ31ÏÏCerrar formulario facturascliÏÏfacturascliÏÏFLFormDBÏÏfacturascliÏÏcloseÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000186ÏÏdto_especialÏÏÖ
+333ÏÏ30ÏÏPulsar el botón pushButtonAcceptÏÏfacturascliÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏAceptarÏÏ000186ÏÏdto_especialÏÏÖ
+333ÏÏ29ÏÏEstablecer valor fechaÏÏfacturascliÏÏFLFieldDBÏÏfdbFechaÏÏsetValueÏÏ||_YEAR||-03-26ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000186ÏÏdto_especialÏÏÖ
+333ÏÏ27ÏÏPulsar botón toolButtonEditÏÏfacturascliÏÏButtonÏÏtoolButtonEditÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000186ÏÏdto_especialÏÏÖ
+333ÏÏ26ÏÏSeleccionar registro tableDBRecordsÏÏfacturascliÏÏFLTableDBÏÏtableDBRecordsÏÏselectRowÏÏcodigo = "||COD_FACTURA||"ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000186ÏÏdto_especialÏÏÖ
+333ÏÏ25ÏÏAbrir formulario facturascliÏÏfacturascliÏÏFLFormDBÏÏfacturascliÏÏopenÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000186ÏÏdto_especialÏÏÖ
+333ÏÏ22ÏÏEjecutar consulta ÏÏÏÏQueryÏÏÏÏexecQueryÏÏ<FLTest:Query where="c.idcuentaesp = &quot;DESNAC&quot; AND c.codejercicio = &quot;||COD_EJERCICIO||&quot; ORDER BY codsubcuenta" savein="SUBC_CLINAC" from="co_cuentas c INNER JOIN co_subcuentas s ON c.idcuenta = s.idcuenta" select="codsubcuenta" />
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000186ÏÏdto_especialÏÏÖ
+333ÏÏ21ÏÏEjecutar consulta ÏÏÏÏQueryÏÏÏÏexecQueryÏÏ<FLTest:Query where="codigo = &quot;||COD_FACTURA||&quot;" savein="ID_ASIENTO" from="facturascli" select="idasiento" />
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000186ÏÏdto_especialÏÏÖ
+333ÏÏ23ÏÏComparar  ÏÏÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="idasiento = &quot;||ID_ASIENTO||&quot; and codsubcuenta = &quot;||SUBC_CLINAC||&quot;" savein="" from="co_partidas" select="codsubcuenta" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||SUBC_CLINAC||</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000186ÏÏdto_especialÏÏÖ
+333ÏÏ34ÏÏEjecutar consulta ÏÏÏÏQueryÏÏÏÏexecQueryÏÏ<FLTest:Query where="c.idcuentaesp = &quot;DESINT&quot; AND c.codejercicio = &quot;||COD_EJERCICIO||&quot; ORDER BY codsubcuenta" savein="SUBC_CLIINT" from="co_cuentas c INNER JOIN co_subcuentas s ON c.idcuenta = s.idcuenta" select="codsubcuenta" />
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000186ÏÏdto_especialÏÏÖ
+333ÏÏ35ÏÏComparar  ÏÏÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="idasiento = &quot;||ID_ASIENTO||&quot; and codsubcuenta = &quot;||SUBC_CLIINT||&quot;" savein="" from="co_partidas" select="codsubcuenta" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||SUBC_CLIINT||</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000186ÏÏdto_especialÏÏÖ
+339ÏÏ25ÏÏPROVEEDORES: DIRECCIONES: MODIFICAR DIRECCIÓN DESC_DIRPROV_EDIT = ||DESC_DIRPROV|| PAIS_DIRPROV_EDIT = ||PAIS_DIRPROV2||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000329" idfuncional="dto_especial"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||DESC_DIRPROV||" var="DESC_DIRPROV_EDIT" />
+    <FLTest:AssignationElement value="||PAIS_DIRPROV2||" var="PAIS_DIRPROV_EDIT" />
+</FLTest:Assignation>
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000189ÏÏdto_especialÏÏÖ
+339ÏÏ11ÏÏPROVEEDORES: DIRECCIONES: MODIFICAR DIRECCIÓN DESC_DIRPROV_EDIT = ||DESC_DIRPROV|| PAIS_DIRPROV_EDIT = ||PAIS_DIRPROV1||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000329" idfuncional="dto_especial"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||DESC_DIRPROV||" var="DESC_DIRPROV_EDIT" />
+    <FLTest:AssignationElement value="||PAIS_DIRPROV1||" var="PAIS_DIRPROV_EDIT" />
+</FLTest:Assignation>
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000189ÏÏdto_especialÏÏÖ
+339ÏÏ29ÏÏfdbCodProveedor = ||COD_PROV_COMP||ÏÏfacturasprovÏÏFLFieldDBÏÏfdbCodProveedorÏÏsetValueÏÏ||COD_PROV_COMP||ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000189ÏÏdto_especialÏÏÖ
+339ÏÏ12ÏÏFACTURAS PROVEEDOR: CREAR FACTURA ||COD_FACTURA|| COD_PROV_FAC = ||COD_PROV_COMP|| FECHA_FAC =  COD_PAGO_FAC =  REF_LINEA1 = ||COD_ARTICULO_COMP|| DES_LINEA1 =  CAN_LINEA1 =  REF_LINEA2 =  DES_LINEA2 ÏÏfacturasprovÏÏTestÏÏ<FLTest:Test codtest="000262" idfuncional="flfacturac"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_PROV_COMP||" var="COD_PROV_FAC" />
+    <FLTest:AssignationElement value="" var="FECHA_FAC" />
+    <FLTest:AssignationElement value="" var="COD_PAGO_FAC" />
+    <FLTest:AssignationElement value="||COD_ARTICULO_COMP||" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="" var="DES_LINEA1" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA1" />
+    <FLTest:AssignationElement value="" var="REF_LINEA2" />
+    <FLTest:AssignationElement value="" var="DES_LINEA2" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA2" />
+    <FLTest:AssignationElement value="" var="REF_LINEA3" />
+    <FLTest:AssignationElement value="" var="DES_LINEA3" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA3" />
+</FLTest:Assignation>
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000189ÏÏdto_especialÏÏÖ
+339ÏÏ1ÏÏEjecutar consulta ÏÏÏÏQueryÏÏÏÏexecQueryÏÏ<FLTest:Query where="idmodulo = &quot;flcontppal&quot;" savein="CONT_CARGADA" from="flmodules" select="idmodulo" />
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000189ÏÏdto_especialÏÏÖ
+339ÏÏ2ÏÏComparar  ÏÏclientesÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Saltar" type="Iguales" >
+    <FLTest:CompareElement type="Valor" >||CONT_CARGADA||</FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >flcontppal</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000189ÏÏdto_especialÏÏÖ
+339ÏÏ34ÏÏEjecutar consulta ÏÏÏÏQueryÏÏÏÏexecQueryÏÏ<FLTest:Query where="codigo = &quot;||COD_FACTURA||&quot;" savein="ID_ASIENTO" from="facturasprov" select="idasiento" />
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000189ÏÏdto_especialÏÏÖ
+339ÏÏ33ÏÏEjecutar consulta ÏÏÏÏQueryÏÏÏÏexecQueryÏÏ<FLTest:Query where="1=1 order by idfactura desc" savein="COD_FACTURA" from="facturasprov" select="codigo" />
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000189ÏÏdto_especialÏÏÖ
+339ÏÏ32ÏÏCerrar formulario facturasprovÏÏfacturasprovÏÏFLFormDBÏÏfacturasprovÏÏcloseÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000189ÏÏdto_especialÏÏÖ
+339ÏÏ31ÏÏPulsar el botón pushButtonAcceptÏÏfacturasprovÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏAceptarÏÏ000189ÏÏdto_especialÏÏÖ
+339ÏÏ30ÏÏEstablecer valor fechaÏÏfacturasprovÏÏFLFieldDBÏÏfechaÏÏsetValueÏÏ||_YEAR||-03-26ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000189ÏÏdto_especialÏÏÖ
+339ÏÏ28ÏÏPulsar botón toolButtonEditÏÏfacturasprovÏÏButtonÏÏtoolButtonEditÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000189ÏÏdto_especialÏÏÖ
+339ÏÏ27ÏÏSeleccionar registro tableDBRecordsÏÏfacturasprovÏÏFLTableDBÏÏtableDBRecordsÏÏselectRowÏÏcodigo = "||COD_FACTURA||"ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000189ÏÏdto_especialÏÏÖ
+339ÏÏ26ÏÏAbrir formulario facturasprovÏÏfacturasprovÏÏFLFormDBÏÏfacturasprovÏÏopenÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000189ÏÏdto_especialÏÏÖ
+339ÏÏ21ÏÏEjecutar consulta ÏÏÏÏQueryÏÏÏÏexecQueryÏÏ<FLTest:Query where="1=1 order by idfactura desc" savein="COD_FACTURA" from="facturasprov" select="codigo" />
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000189ÏÏdto_especialÏÏÖ
+339ÏÏ23ÏÏEjecutar consulta ÏÏÏÏQueryÏÏÏÏexecQueryÏÏ<FLTest:Query where="c.idcuentaesp = &quot;DENAPR&quot; AND c.codejercicio = &quot;||COD_EJERCICIO||&quot; ORDER BY codsubcuenta" savein="SUBC_PROVNAC" from="co_cuentas c INNER JOIN co_subcuentas s ON c.idcuenta = s.idcuenta" select="codsubcuenta" />
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000189ÏÏdto_especialÏÏÖ
+339ÏÏ22ÏÏEjecutar consulta ÏÏÏÏQueryÏÏÏÏexecQueryÏÏ<FLTest:Query where="codigo = &quot;||COD_FACTURA||&quot;" savein="ID_ASIENTO" from="facturasprov" select="idasiento" />
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000189ÏÏdto_especialÏÏÖ
+339ÏÏ24ÏÏComparar  ÏÏÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="idasiento = &quot;||ID_ASIENTO||&quot; and codsubcuenta = &quot;||SUBC_PROVNAC||&quot;" savein="" from="co_partidas" select="codsubcuenta" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||SUBC_PROVNAC||</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000189ÏÏdto_especialÏÏÖ
+339ÏÏ35ÏÏEjecutar consulta ÏÏÏÏQueryÏÏÏÏexecQueryÏÏ<FLTest:Query where="c.idcuentaesp = &quot;DEINPR&quot; AND c.codejercicio = &quot;||COD_EJERCICIO||&quot; ORDER BY codsubcuenta" savein="SUBC_PROVINT" from="co_cuentas c INNER JOIN co_subcuentas s ON c.idcuenta = s.idcuenta" select="codsubcuenta" />
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000189ÏÏdto_especialÏÏÖ
+339ÏÏ36ÏÏComparar  ÏÏÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="idasiento = ||ID_ASIENTO|| and codsubcuenta = &quot;||SUBC_PROVINT||&quot;" savein="" from="co_partidas" select="codsubcuenta" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||SUBC_PROVINT||</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000189ÏÏdto_especialÏÏÖ
+343ÏÏ44ÏÏCUENTAS: ELIMINAR CUENTA ESPECIAL COD_CUENTA_DEL = ||COD_CUENTA4|| COD_CTAESPECIAL_DEL = ||COD_CTAESPECIAL4||ÏÏco_cuentasespÏÏTestÏÏ<FLTest:Test codtest="000330" idfuncional="dto_especial"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_CUENTA4||" var="COD_CUENTA_DEL" />
+    <FLTest:AssignationElement value="||COD_CTAESPECIAL4||" var="COD_CTAESPECIAL_DEL" />
+</FLTest:Assignation>ÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000204ÏÏdto_especialÏÏÖ
+343ÏÏ43ÏÏCUENTAS: ELIMINAR CUENTA ESPECIAL COD_CUENTA_DEL = ||COD_CUENTA3|| COD_CTAESPECIAL_DEL = ||COD_CTAESPECIAL3||ÏÏco_cuentasespÏÏTestÏÏ<FLTest:Test codtest="000330" idfuncional="dto_especial"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_CUENTA3||" var="COD_CUENTA_DEL" />
+    <FLTest:AssignationElement value="||COD_CTAESPECIAL3||" var="COD_CTAESPECIAL_DEL" />
+</FLTest:Assignation>ÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000204ÏÏdto_especialÏÏÖ
+343ÏÏ42ÏÏCUENTAS: ELIMINAR CUENTA ESPECIAL COD_CUENTA_DEL = ||COD_CUENTA2|| COD_CTAESPECIAL_DEL = ||COD_CTAESPECIAL2||ÏÏco_cuentasespÏÏTestÏÏ<FLTest:Test codtest="000330" idfuncional="dto_especial"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_CUENTA2||" var="COD_CUENTA_DEL" />
+    <FLTest:AssignationElement value="||COD_CTAESPECIAL2||" var="COD_CTAESPECIAL_DEL" />
+</FLTest:Assignation>ÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000204ÏÏdto_especialÏÏÖ
+343ÏÏ40ÏÏCUENTAS: ELIMINAR CUENTA ESPECIAL COD_CUENTA_DEL = ||COD_CUENTA1|| COD_CTAESPECIAL_DEL = ||COD_CTAESPECIAL1||ÏÏco_cuentasespÏÏTestÏÏ<FLTest:Test codtest="000330" idfuncional="dto_especial"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_CUENTA1||" var="COD_CUENTA_DEL" />
+    <FLTest:AssignationElement value="||COD_CTAESPECIAL1||" var="COD_CTAESPECIAL_DEL" />
+</FLTest:Assignation>ÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000204ÏÏdto_especialÏÏÖ
+343ÏÏ1ÏÏEjecutar consulta ÏÏÏÏQueryÏÏÏÏexecQueryÏÏ<FLTest:Query where="idmodulo = &quot;flcontppal&quot;" savein="CONT_CARGADA" from="flmodules" select="idmodulo" />
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000204ÏÏdto_especialÏÏÖ
+343ÏÏ2ÏÏComparar  ÏÏÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Saltar" type="Iguales" >
+    <FLTest:CompareElement type="Valor" >||CONT_CARGADA||</FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >flcontppal</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000204ÏÏdto_especialÏÏÖ
+347ÏÏ4ÏÏAbrir formulario co_cuentasÏÏÏÏCompareÏÏco_cuentasÏÏcompareItemsÏÏ<FLTest:Compare action="Saltar" type="Distintos" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="idcuentaesp = &quot;||COD_CTAESPECIAL_INSERT||&quot;" savein="" from="co_cuentasesp" select="idcuentaesp" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||COD_CTAESPECIAL_INSERT||</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000325ÏÏdto_especialÏÏÖ
+347ÏÏ5ÏÏAbrir formulario co_cuentasespÏÏco_cuentasespÏÏFLFormDBÏÏco_cuentasespÏÏopenÏÏÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000325ÏÏdto_especialÏÏÖ
+347ÏÏ6ÏÏPulsar el botón toolButtonInsertÏÏco_cuentasespÏÏButtonÏÏtoolButtonInsertÏÏanimateClickÏÏÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000325ÏÏdto_especialÏÏÖ
+347ÏÏ7ÏÏfdbIdCuentaEsp = ||COD_CTAESPECIAL_INSERT||ÏÏco_cuentasespÏÏFLFieldDBÏÏfdbIdCuentaEspÏÏsetValueÏÏ||COD_CTAESPECIAL_INSERT||ÏÏCÏÏflcontppalÏÏformRecordÏÏNingunoÏÏ000325ÏÏdto_especialÏÏÖ
+347ÏÏ8ÏÏfdbDescripcion = ||DESC_CTAESPECIAL_INSERT||ÏÏco_cuentasespÏÏFLFieldDBÏÏfdbDescripcionÏÏsetValueÏÏ||DESC_CTAESPECIAL_INSERT||ÏÏCÏÏflcontppalÏÏformRecordÏÏNingunoÏÏ000325ÏÏdto_especialÏÏÖ
+347ÏÏ21ÏÏPulsar el botón pushButtonAcceptÏÏco_cuentasespÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏCÏÏflcontppalÏÏformRecordÏÏAceptarÏÏ000325ÏÏdto_especialÏÏÖ
+347ÏÏ22ÏÏCerrar formulario co_cuentasespÏÏco_cuentasespÏÏFLFormDBÏÏco_cuentasespÏÏcloseÏÏÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000325ÏÏdto_especialÏÏÖ
+347ÏÏ23ÏÏAbrir formulario co_cuentasÏÏco_cuentasÏÏFLFormDBÏÏco_cuentasÏÏopenÏÏÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000325ÏÏdto_especialÏÏÖ
+347ÏÏ24ÏÏSeleccionar codcuenta = "||COD_CTA_INSERT||"ÏÏco_cuentasÏÏFLTableDBÏÏtableDBRecordsÏÏselectRowÏÏcodcuenta = "||COD_CTA_INSERT||"ÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000325ÏÏdto_especialÏÏÖ
+347ÏÏ25ÏÏPulsar botón toolButtonEditÏÏco_cuentasÏÏButtonÏÏtoolButtonEditÏÏanimateClickÏÏÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000325ÏÏdto_especialÏÏÖ
+347ÏÏ26ÏÏfdbIdCuentaEsp = ||COD_CTAESPECIAL_INSERT||ÏÏco_cuentasÏÏFLFieldDBÏÏfdbIdCuentaEspÏÏsetValueÏÏ||COD_CTAESPECIAL_INSERT||ÏÏCÏÏflcontppalÏÏformRecordÏÏNingunoÏÏ000325ÏÏdto_especialÏÏÖ
+347ÏÏ39ÏÏPulsar el botón pushButtonAcceptÏÏco_cuentasÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏCÏÏflcontppalÏÏformRecordÏÏAceptarÏÏ000325ÏÏdto_especialÏÏÖ
+347ÏÏ40ÏÏCerrar formulario co_cuentasÏÏco_cuentasÏÏFLFormDBÏÏco_cuentasÏÏcloseÏÏÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000325ÏÏdto_especialÏÏÖ
+411ÏÏ2ÏÏfdbPorDtoEsp = ||POR_DTOESPECIAL||ÏÏproveedoresÏÏFLFieldDBÏÏfdbPorDtoEspÏÏsetValueÏÏ||POR_DTOESPECIAL||ÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000326ÏÏdto_especialÏÏÖ
+411ÏÏ1ÏÏPROVEEDORES: ABRIR PROVEEDOR EN MODO EDITÏÏproveedoresÏÏTestÏÏ<FLTest:Test codtest="000031" idfuncional="flfactppal"/>ÏÏexecTestÏÏÏÏFÏÏflfactppalÏÏformÏÏNingunoÏÏ000326ÏÏdto_especialÏÏÖ
+411ÏÏ3ÏÏPROVEEDORES: CERRAR PROVEEDOR EN MODO EDITÏÏproveedoresÏÏTestÏÏ<FLTest:Test codtest="000276" idfuncional="flfactppal"/>ÏÏexecTestÏÏÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000326ÏÏdto_especialÏÏÖ
+415ÏÏ5ÏÏfdbCoste = ||COSTE||ÏÏarticulosprovÏÏFLFieldDBÏÏfdbCosteÏÏsetValueÏÏ||COSTE||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000327ÏÏdto_especialÏÏÖ
+415ÏÏ7ÏÏARTICULOS: CERRAR ARTÍCULO EN MODO EDITÏÏarticulosprovÏÏTestÏÏ<FLTest:Test codtest="000283" idfuncional="flfactalma"/>ÏÏexecTestÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000327ÏÏdto_especialÏÏÖ
+415ÏÏ6ÏÏPulsar el botón pushButtonAcceptÏÏarticulosprovÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏAceptarÏÏ000327ÏÏdto_especialÏÏÖ
+415ÏÏ4ÏÏcodproveedor = ||PROVEEDOR_PRECIO||ÏÏarticulosprovÏÏFLFieldDBÏÏfdbCodProveedorÏÏsetValueÏÏ||PROVEEDOR_PRECIO||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000327ÏÏdto_especialÏÏÖ
+415ÏÏ2ÏÏPulsar el botón toolButtomInsertPProvÏÏarticulosÏÏButtonÏÏtoolButtomInsertPProvÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000327ÏÏdto_especialÏÏÖ
+415ÏÏ1ÏÏARTICULOS: ABRIR ARTÍCULO EN MODO EDITÏÏarticulosÏÏTestÏÏ<FLTest:Test codtest="000282" idfuncional="flfactalma"/>ÏÏexecTestÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000327ÏÏdto_especialÏÏÖ
+423ÏÏ6ÏÏCLIENTES: CERRAR UN CLIENTE EN MODO EDITÏÏdirclientesÏÏTestÏÏ<FLTest:Test codtest="000270" idfuncional="flfactppal"/>ÏÏexecTestÏÏÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000328ÏÏdto_especialÏÏÖ
+423ÏÏ5ÏÏPulsar el botón pushButtonAcceptÏÏdirclientesÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactppalÏÏformRecordÏÏAceptarÏÏ000328ÏÏdto_especialÏÏÖ
+423ÏÏ4ÏÏcodpais = ||PAIS_DIRCLIENTE_EDIT||ÏÏdirclientesÏÏFLFieldDBÏÏfdbCodPaisÏÏsetValueÏÏ||PAIS_DIRCLIENTE_EDIT||ÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000328ÏÏdto_especialÏÏÖ
+423ÏÏ3ÏÏPulsar el botón toolButtonEditDirÏÏclientesÏÏButtonÏÏtoolButtonEditDirÏÏanimateClickÏÏÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000328ÏÏdto_especialÏÏÖ
+423ÏÏ2ÏÏSeleccionar descripcion = "||DESC_DIRCLIENTE_EDIT||"ÏÏclientesÏÏFLTableDBÏÏtdbDireccionesÏÏselectRowÏÏdescripcion = "||DESC_DIRCLIENTE_EDIT||"ÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000328ÏÏdto_especialÏÏÖ
+423ÏÏ1ÏÏCLIENTES: ABRIR UN CLIENTE EN MODO EDITÏÏclientesÏÏTestÏÏ<FLTest:Test codtest="000023" idfuncional="flfactppal"/>ÏÏexecTestÏÏÏÏFÏÏflfactppalÏÏformÏÏNingunoÏÏ000328ÏÏdto_especialÏÏÖ
+427ÏÏ6ÏÏPROVEEDORES: CERRAR PROVEEDOR EN MODO EDITÏÏproveedoresÏÏTestÏÏ<FLTest:Test codtest="000276" idfuncional="flfactppal"/>ÏÏexecTestÏÏÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000329ÏÏdto_especialÏÏÖ
+427ÏÏ1ÏÏPROVEEDORES: ABRIR PROVEEDOR EN MODO EDITÏÏproveedoresÏÏTestÏÏ<FLTest:Test codtest="000031" idfuncional="flfactppal"/>ÏÏexecTestÏÏÏÏFÏÏflfactppalÏÏformÏÏNingunoÏÏ000329ÏÏdto_especialÏÏÖ
+427ÏÏ5ÏÏPulsar el botón pushButtonAcceptÏÏdirproveedoresÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactppalÏÏformRecordÏÏAceptarÏÏ000329ÏÏdto_especialÏÏÖ
+427ÏÏ4ÏÏfdbCodPais = ||PAIS_DIRPROV_EDIT||ÏÏdirproveedoresÏÏFLFieldDBÏÏfdbCodPaisÏÏsetValueÏÏ||PAIS_DIRPROV_EDIT||ÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000329ÏÏdto_especialÏÏÖ
+427ÏÏ3ÏÏPulsar el botón tbEditDireccionesÏÏproveedoresÏÏButtonÏÏtbEditDireccionesÏÏanimateClickÏÏÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000329ÏÏdto_especialÏÏÖ
+427ÏÏ2ÏÏSeleccionar descripcion = "||DESC_DIRPROV_EDIT||"ÏÏproveedoresÏÏFLTableDBÏÏtdbDireccionesÏÏselectRowÏÏdescripcion = "||DESC_DIRPROV_EDIT||"ÏÏFÏÏflfactppalÏÏformRecordÏÏNingunoÏÏ000329ÏÏdto_especialÏÏÖ
+429ÏÏ2ÏÏComparar  ÏÏÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Saltar" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="idcuentaesp = &quot;||COD_CTAESPECIAL_DEL||&quot;" savein="" from="co_cuentasesp" select="idcuentaesp" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||COD_CTAESPECIAL_DEL||</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000330ÏÏdto_especialÏÏÖ
+429ÏÏ23ÏÏSeleccionar idcuentaesp = "||COD_CTAESPECIAL_DEL||"ÏÏco_cuentasespÏÏFLTableDBÏÏtableDBRecordsÏÏselectRowÏÏidcuentaesp = "||COD_CTAESPECIAL_DEL||"ÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000330ÏÏdto_especialÏÏÖ
+429ÏÏ5ÏÏSeleccionar codcuenta = "||COD_CUENTA_DEL||"ÏÏco_cuentasÏÏFLTableDBÏÏtableDBRecordsÏÏselectRowÏÏcodcuenta = "||COD_CUENTA_DEL||"ÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000330ÏÏdto_especialÏÏÖ
+429ÏÏ4ÏÏAbrir formulario co_cuentasÏÏco_cuentasÏÏFLFormDBÏÏco_cuentasÏÏopenÏÏÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000330ÏÏdto_especialÏÏÖ
+429ÏÏ6ÏÏPulsar botón toolButtonEditÏÏco_cuentasÏÏButtonÏÏtoolButtonEditÏÏanimateClickÏÏÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000330ÏÏdto_especialÏÏÖ
+429ÏÏ8ÏÏPulsar el botón pushButtonAcceptÏÏco_cuentasÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏCÏÏflcontppalÏÏformRecordÏÏAceptarÏÏ000330ÏÏdto_especialÏÏÖ
+429ÏÏ21ÏÏCerrar formulario co_cuentasÏÏco_cuentasÏÏFLFormDBÏÏco_cuentasÏÏcloseÏÏÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000330ÏÏdto_especialÏÏÖ
+429ÏÏ22ÏÏAbrir formulario co_cuentasespÏÏco_cuentasespÏÏFLFormDBÏÏco_cuentasespÏÏopenÏÏÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000330ÏÏdto_especialÏÏÖ
+429ÏÏ7ÏÏEstablecer valor idcuentaespÏÏco_cuentasÏÏFLFieldDBÏÏfdbIdCuentaEspÏÏsetValueÏÏÏÏCÏÏflcontppalÏÏformRecordÏÏNingunoÏÏ000330ÏÏdto_especialÏÏÖ
+429ÏÏ24ÏÏPulsar el botón toolButtonDeleteÏÏco_cuentasespÏÏButtonÏÏtoolButtonDeleteÏÏanimateClickÏÏÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000330ÏÏdto_especialÏÏÖ
+429ÏÏ50ÏÏCerrar formulario co_cuentasespÏÏco_cuentasespÏÏFLFormDBÏÏco_cuentasespÏÏcloseÏÏÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000330ÏÏdto_especialÏÏÖ
+429ÏÏ40ÏÏMessageBox - Pulsar Sí co_cuentasespÏÏco_cuentasespÏÏMessageBoxÏÏco_cuentasespÏÏpushYesÏÏ<FLTest:Condition event="RECORD_DELETED" object="" />
+ÏÏCÏÏflcontppalÏÏformÏÏNingunoÏÏ000330ÏÏdto_especialÏÏÖ
+431ÏÏ17ÏÏCUENTAS: ELIMINAR CUENTAS ESPECIALES ÏÏÏÏTestÏÏ<FLTest:Test codtest="000204" idfuncional="dto_especial"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="6650" var="COD_CUENTA1" />
+    <FLTest:AssignationElement value="6653" var="COD_CUENTA2" />
+    <FLTest:AssignationElement value="7650" var="COD_CUENTA3" />
+    <FLTest:AssignationElement value="7653" var="COD_CUENTA4" />
+    <FLTest:AssignationElement value="DESNAC" var="COD_CTAESPECIAL1" />
+    <FLTest:AssignationElement value="DESINT" var="COD_CTAESPECIAL2" />
+    <FLTest:AssignationElement value="DENAPR" var="COD_CTAESPECIAL3" />
+    <FLTest:AssignationElement value="DEINPR" var="COD_CTAESPECIAL4" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000331ÏÏdto_especialÏÏÖ
+431ÏÏ16ÏÏPROVEEDORES: APLICAR DTO ESPECIALÏÏÏÏTestÏÏ<FLTest:Test codtest="000326" idfuncional="dto_especial"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||PROVEEDOR_DTOESPECIAL||" var="COD_PROVEEDOR_EDIT" />
+    <FLTest:AssignationElement value="0" var="POR_DTOESPECIAL" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000331ÏÏdto_especialÏÏÖ
+431ÏÏ15ÏÏCLIENTES: APLICAR DTO ESPECIALÏÏÏÏTestÏÏ<FLTest:Test codtest="000160" idfuncional="dto_especial"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||CLIENTE_DTOESPECIAL||" var="COD_CLIENTE_EDIT" />
+    <FLTest:AssignationElement value="0" var="POR_DTOESPECIAL" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000331ÏÏdto_especialÏÏÖ
+431ÏÏ14ÏÏASIENTOS: COMPROBAR ASIENTOS PARA PROVEEDORES NACIONALES E INTERNACIONALESÏÏÏÏTestÏÏ<FLTest:Test codtest="000189" idfuncional="dto_especial"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||PROVEEDOR_DTOESPECIAL||" var="COD_PROV_COMP" />
+    <FLTest:AssignationElement value="||ARTICULO_DTOESPECIAL||" var="COD_ARTICULO_COMP" />
+    <FLTest:AssignationElement value="D||_S||" var="DESC_DIRPROV" />
+    <FLTest:AssignationElement value="" var="PAIS_DIRPROV1" />
+    <FLTest:AssignationElement value="*USA" var="PAIS_DIRPROV2" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000331ÏÏdto_especialÏÏÖ
+431ÏÏ13ÏÏFACTURAS CLIENTES: COMPROBAR LOS ASIENTOS PARA CLIENTES NACIONALES E INTERNACIONALESÏÏÏÏTestÏÏ<FLTest:Test codtest="000186" idfuncional="dto_especial"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="D1" var="DESC_DIRCLIENTE" />
+    <FLTest:AssignationElement value="" var="PAIS_DIRCLIENTE" />
+    <FLTest:AssignationElement value="*USA" var="PAIS_DIRCLIENTE2" />
+    <FLTest:AssignationElement value="||CLIENTE_DTOESPECIAL||" var="COD_CLIENTE_COMP" />
+    <FLTest:AssignationElement value="||ARTICULO_DTOESPECIAL||" var="COD_ARTICULO_COMP" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000331ÏÏdto_especialÏÏÖ
+431ÏÏ12ÏÏPAISES: CREAR PAISÏÏÏÏTestÏÏ<FLTest:Test codtest="000004" idfuncional="flfactppal"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="*USA" var="COD_PAIS" />
+    <FLTest:AssignationElement value="" var="DES_PAIS" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000331ÏÏdto_especialÏÏÖ
+431ÏÏ11ÏÏARTICULOS: CREAR ARTICULO ||COD_ARTICULO||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000042" idfuncional="flfactalma"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="*ART_15_4" var="REF_ART" />
+    <FLTest:AssignationElement value="" var="DES_ART" />
+    <FLTest:AssignationElement value="15" var="PVP_ART" />
+    <FLTest:AssignationElement value="IVA4" var="IVA_ART" />
+    <FLTest:AssignationElement value="*ART_15_4" var="ARTICULO_DTOESPECIAL2" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000331ÏÏdto_especialÏÏÖ
+431ÏÏ10ÏÏFACTURACIÓN PROVEEDOR: CICLO DE FACTURACIONÏÏÏÏTestÏÏ<FLTest:Test codtest="000100" idfuncional="flfacturac"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||ARTICULO_DTOESPECIAL||" var="REF_ART_FAC" />
+    <FLTest:AssignationElement value="11.02" var="TOTAL_FAC" />
+    <FLTest:AssignationElement value="||PROVEEDOR_DTOESPECIAL||" var="COD_PROV_FAC" />
+    <FLTest:AssignationElement value="1" var="CANTIDAD_FAC" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000331ÏÏdto_especialÏÏÖ
+431ÏÏ9ÏÏARTICULOS: ASIGNAR PRECIO POR PROVEEDORÏÏÏÏTestÏÏ<FLTest:Test codtest="000327" idfuncional="dto_especial"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||PROVEEDOR_DTOESPECIAL||" var="PROVEEDOR_PRECIO" />
+    <FLTest:AssignationElement value="10" var="COSTE" />
+    <FLTest:AssignationElement value="||ARTICULO_DTOESPECIAL||" var="REF_ART_EDIT" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000331ÏÏdto_especialÏÏÖ
+431ÏÏ8ÏÏPROVEEDORES: APLICAR DTO ESPECIALÏÏÏÏTestÏÏ<FLTest:Test codtest="000326" idfuncional="dto_especial"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||PROVEEDOR_DTOESPECIAL||" var="COD_PROV_EDIT" />
+    <FLTest:AssignationElement value="5" var="POR_DTOESPECIAL" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000331ÏÏdto_especialÏÏÖ
+431ÏÏ7ÏÏPROVEEDORES: DIRECCIONES: CREAR DIRECCIONÏÏÏÏTestÏÏ<FLTest:Test codtest="000277" idfuncional="flfactppal"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_CLIENTE_PROV" />
+    <FLTest:AssignationElement value="D||_S||" var="DES_DIR_PROV" />
+    <FLTest:AssignationElement value="" var="DIR_PROV" />
+    <FLTest:AssignationElement value="||COD_PROVEEDOR||" var="COD_PROV_EDIT" />
+    <FLTest:AssignationElement value="||COD_PROVEEDOR||" var="PROVEEDOR_DTOESPECIAL" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000331ÏÏdto_especialÏÏÖ
+431ÏÏ6ÏÏPROVEEDORES: CREAR PROVEEDOR ||COD_PROVEEDOR||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000017" idfuncional="flfactppal"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="NOM_PROV" />
+    <FLTest:AssignationElement value="" var="CIF_PROV" />
+    <FLTest:AssignationElement value="**UNDEFINED**" var="COD_PROVEEDOR" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000331ÏÏdto_especialÏÏÖ
+431ÏÏ5ÏÏFACTURACIÓN CLIENTE: CICLO DE FACTURACIÓNÏÏÏÏTestÏÏ<FLTest:Test codtest="000066" idfuncional="flfacturac"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||ARTICULO_DTOESPECIAL||" var="REF_ART_FAC" />
+    <FLTest:AssignationElement value="11.02" var="TOTAL_FAC" />
+    <FLTest:AssignationElement value="||CLIENTE_DTOESPECIAL||" var="COD_CLIENTE_FAC" />
+    <FLTest:AssignationElement value="" var="COD_SERIE_FAC" />
+    <FLTest:AssignationElement value="" var="IND_RECARGO_FAC" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000331ÏÏdto_especialÏÏÖ
+431ÏÏ4ÏÏARTICULOS: CREAR ARTICULO ||COD_ARTICULO||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000042" idfuncional="flfactalma"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="*ART_10_16" var="REF_ART" />
+    <FLTest:AssignationElement value="" var="DES_ART" />
+    <FLTest:AssignationElement value="10" var="PVP_ART" />
+    <FLTest:AssignationElement value="" var="IVA_ART" />
+    <FLTest:AssignationElement value="*ART_10_16" var="ARTICULO_DTOESPECIAL" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000331ÏÏdto_especialÏÏÖ
+431ÏÏ3ÏÏCLIENTES: APLICAR DTO ESPECIALÏÏÏÏTestÏÏ<FLTest:Test codtest="000160" idfuncional="dto_especial"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_CLIENTE||" var="COD_CLIENTE_EDIT" />
+    <FLTest:AssignationElement value="5" var="POR_DTOESPECIAL" />
+    <FLTest:AssignationElement value="||COD_CLIENTE||" var="CLIENTE_DTOESPECIAL" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000331ÏÏdto_especialÏÏÖ
+431ÏÏ2ÏÏCLIENTES: CREAR CLIENTE ||COD_CLIENTE||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000003" idfuncional="flfactppal"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="NOM_CLIENTE" />
+    <FLTest:AssignationElement value="" var="DES_DIR_CLIENTE" />
+    <FLTest:AssignationElement value="" var="DIR_CLIENTE" />
+    <FLTest:AssignationElement value="" var="CIF_CLIENTE" />
+    <FLTest:AssignationElement value="D1" var="DIR_CLIENTE" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000331ÏÏdto_especialÏÏÖ
+431ÏÏ1ÏÏCUENTAS: CREAR CUENTAS ESPECIALES ÏÏÏÏTestÏÏ<FLTest:Test codtest="000181" idfuncional="dto_especial"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="DESNAC" var="COD_CTAESPECIAL1" />
+    <FLTest:AssignationElement value="DESCUENTO PARA CLIENTES NACIONALES" var="DESC_CTAESPECIAL1" />
+    <FLTest:AssignationElement value="6650" var="COD_CTA1" />
+    <FLTest:AssignationElement value="DESINT" var="COD_CTAESPECIAL2" />
+    <FLTest:AssignationElement value="DESCUENTO PARA CLIENTES INTERNACIONALES" var="DESC_CTAESPECIAL2" />
+    <FLTest:AssignationElement value="6653" var="COD_CTA2" />
+    <FLTest:AssignationElement value="DENAPR" var="COD_CTAESPECIAL3" />
+    <FLTest:AssignationElement value="DESCUENTO PARA PROVEEDORES NACIONALES" var="DESC_CTAESPECIAL3" />
+    <FLTest:AssignationElement value="7650" var="COD_CTA3" />
+    <FLTest:AssignationElement value="DEINPR" var="COD_CTAESPECIAL4" />
+    <FLTest:AssignationElement value="DESCUENTO PARA PROVEEDORES INTERNACIONALES" var="DESC_CTAESPECIAL4" />
+    <FLTest:AssignationElement value="7653" var="COD_CTA4" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000331ÏÏdto_especialÏÏÖ

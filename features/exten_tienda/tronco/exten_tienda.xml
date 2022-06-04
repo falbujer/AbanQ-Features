@@ -1,0 +1,8 @@
+<flpatch:modifications name="exten_tienda" >
+    <flpatch:patchScript path="facturacion/almacen/scripts/" name="datostv.qs" />
+    <flpatch:patchScript path="facturacion/facturacion/scripts/" name="flfacturac.qs" />
+    <flpatch:patchXml path="facturacion/facturacion/tables/" name="albaranescli.mtd" />
+    <flpatch:patchXml path="facturacion/facturacion/tables/" name="facturascli.mtd" />
+    <flpatch:patchXml path="facturacion/facturacion/tables/" name="lineasalbaranescli.mtd" />
+    <flpatch:patchXml path="facturacion/facturacion/tables/" name="lineasfacturascli.mtd" />
+</flpatch:modifications>

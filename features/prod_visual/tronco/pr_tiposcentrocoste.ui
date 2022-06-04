@@ -1,0 +1,83 @@
+<xupdate:modifications>
+<xupdate:delete select="/UI[UI,1]/widget[QWidget,pr_tiposcentrocoste]/vbox[vbox,1]/widget[QGroupBox,gbxTipoCentro]/vbox[vbox,1]/widget[QLayoutWidget,layout23]" />
+<xupdate:update select="/UI[UI,1]/widget[QWidget,pr_tiposcentrocoste]/vbox[vbox,1]/widget[QGroupBox,gbxTipoCentro]/vbox[vbox,1]/widget[QLayoutWidget,layout41]/hbox[hbox,1]/widget[FLFieldDB,fdbDescripcion]/property[minimumSize]/size[size,1]/width[width,1]/text()[1]" >134</xupdate:update>
+<xupdate:insert-after select="/UI[UI,1]/widget[QWidget,pr_tiposcentrocoste]/vbox[vbox,1]/widget[QGroupBox,gbxTipoCentro]/vbox[vbox,1]/property[name]" >
+<widget class="QLayoutWidget" >
+<property name="name" >
+<cstring>layout5</cstring>
+</property>
+<hbox>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fdbCodTipoCentro</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>1</hsizetype>
+<vsizetype>0</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="minimumSize" >
+<size>
+<width>159</width>
+<height>27</height>
+</size>
+</property>
+<property name="font" >
+<font/>
+</property>
+<property name="fieldName" >
+<string>codtipocentro</string>
+</property>
+</widget>
+<spacer>
+<property name="name" >
+<cstring>spacerCodigo</cstring>
+</property>
+<property name="orientation" >
+<enum>Horizontal</enum>
+</property>
+<property name="sizeType" >
+<enum>Expanding</enum>
+</property>
+<property name="sizeHint" >
+<size>
+<width>16</width>
+<height>20</height>
+</size>
+</property>
+</spacer>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fdbCosteHora</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>1</hsizetype>
+<vsizetype>0</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="minimumSize" >
+<size>
+<width>136</width>
+<height>27</height>
+</size>
+</property>
+<property name="font" >
+<font/>
+</property>
+<property name="fieldName" >
+<string>costehora</string>
+</property>
+</widget>
+</hbox>
+</widget>
+</xupdate:insert-after>
+</xupdate:modifications>

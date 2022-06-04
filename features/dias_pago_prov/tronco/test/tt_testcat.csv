@@ -1,0 +1,15 @@
+PROVEEDORES: ASIGNAR DIAS DE PAGOоо000331ооdias_pago_provоо<FLTest:Parameters>
+    <FLTest:Parameter name="DIAS_PAGO" default="" />
+    <FLTest:Parameter name="BUSCAR_DIA" default="0" />
+    <FLTest:Parameter name="COD_PROV_EDIT" default="" />
+</FLTest:Parameters>
+оооож
+RECIBOS PROVEEDOR: COMPROBAR RECIBOоо000333ооdias_pago_provоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_RECIBO" default="" />
+    <FLTest:Parameter name="IMPORTE" default="" />
+    <FLTest:Parameter name="ESTADO" default="" />
+    <FLTest:Parameter name="FECHA" default="" />
+    <FLTest:Parameter name="FECHAV" default="" />
+</FLTest:Parameters>
+оооож
+DIAS_PAGO_PROVоо000334ооdias_pago_provоооооож

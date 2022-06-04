@@ -1,0 +1,6 @@
+<flpatch:modifications name="flux_multiimage" >
+    <flpatch:patchXml path="facturacion/almacen/forms/" name="opcionestv.ui" />
+    <flpatch:patchScript path="facturacion/almacen/scripts/" name="opcionestv.qs" />
+    <flpatch:patchXml path="facturacion/almacen/tables/" name="opcionestv.mtd" />
+    <flpatch:addFile path="facturacion/almacen/tables/" name="articulosfotos.mtd" />
+</flpatch:modifications>

@@ -1,0 +1,42 @@
+ENVASES: CREAR UN ENVASEоо000178ооenvasesоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_ENVASE" default="" />
+    <FLTest:Parameter name="COD_ARTICULO_ENVASE" default="" />
+    <FLTest:Parameter name="DESC_ENVASE" default="ENVASE DE PRUEBA" />
+</FLTest:Parameters>
+оооож
+PRESUPUESTOS CLIENTE: ASIGNAR ENVASEоо000317ооenvasesоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_PRESUPUESTO_ENVASE" default="||COD_PRESUPUESTO||" />
+    <FLTest:Parameter name="COD_ENVASE_PRES" default="||COD_ENVASE||" />
+</FLTest:Parameters>
+оооож
+PEDIDOS CLIENTE: ASIGNAR ENVASEоо000318ооenvasesоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_PEDIDO_ENVASE" default="||COD_PEDIDO||" />
+    <FLTest:Parameter name="COD_ENVASE_PED" default="||COD_ENVASE||" />
+</FLTest:Parameters>
+оооож
+ALBARANES CLIENTE: ASIGNAR ENVASEоо000319ооenvasesоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_ALBARAN_ENVASE" default="||COD_ALBARAN||" />
+    <FLTest:Parameter name="COD_ENVASE_ALB" default="||COD_ENVASE||" />
+</FLTest:Parameters>
+оооож
+FACTURAS CLIENTE: ASIGNAR ENVASEоо000320ооenvasesоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_FACTURA_ENVASE" default="||COD_FACTURA||" />
+    <FLTest:Parameter name="COD_ENVASE_FACT" default="||COD_ENVASE||" />
+</FLTest:Parameters>
+оооож
+PEDIDOS CLIENTE: COMPROBAR TOTAL PEDIDOоо000321ооenvasesоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_PEDIDO_COMP" default="||COD_PEDIDO||" />
+    <FLTest:Parameter name="TOTAL_PEDIDO" default="" />
+</FLTest:Parameters>
+оооож
+ALBARANES CLIENTE: COMPROBAR TOTAL ALBARANоо000322ооenvasesоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_ALBARAN_COMP" default="||COD_ALBARAN||" />
+    <FLTest:Parameter name="TOTAL_ALBARAN" default="" />
+</FLTest:Parameters>
+оооож
+FACTURAS CLIENTE: COMPROBAR TOTAL FACTURAоо000323ооenvasesоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_FACTURA_COMP" default="||COD_FACTURA||" />
+    <FLTest:Parameter name="TOTAL_FACTURA" default="" />
+</FLTest:Parameters>
+оооож
+ENVASESоо000324ооenvasesоооооож

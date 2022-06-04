@@ -1,0 +1,228 @@
+<xupdate:modifications>
+<xupdate:insert-after select="/UI[UI,1]/widget[QWidget,formArticulos]/vbox[vbox,1]/widget[QTabWidget,tbwArticulo]/widget[QWidget,tiendaVirtual]/vbox[vbox,1]/widget[QButtonGroup,gbxFluxec2]/vbox[vbox,1]/widget[QLayoutWidget,layout36]" >
+<widget class="QLayoutWidget" >
+<property name="name" >
+<cstring>layout9</cstring>
+</property>
+<hbox>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fdbSuperEnportada</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>1</hsizetype>
+<vsizetype>0</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="maximumSize" >
+<size>
+<width>120</width>
+<height>32767</height>
+</size>
+</property>
+<property name="font" >
+<font>
+<bold>0</bold>
+</font>
+</property>
+<property name="fieldName" >
+<string>superenportada</string>
+</property>
+</widget>
+<spacer>
+<property name="name" >
+<cstring>spacer23_3</cstring>
+</property>
+<property name="orientation" >
+<enum>Horizontal</enum>
+</property>
+<property name="sizeType" >
+<enum>Fixed</enum>
+</property>
+<property name="sizeHint" >
+<size>
+<width>61</width>
+<height>20</height>
+</size>
+</property>
+</spacer>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fdbDescripcionDeepLink</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>1</hsizetype>
+<vsizetype>0</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="minimumSize" >
+<size>
+<width>26</width>
+<height>29</height>
+</size>
+</property>
+<property name="font" >
+<font>
+<bold>0</bold>
+</font>
+</property>
+<property name="fieldName" >
+<string>descripciondeeplink</string>
+</property>
+</widget>
+<spacer>
+<property name="name" >
+<cstring>spacer8_2</cstring>
+</property>
+<property name="orientation" >
+<enum>Horizontal</enum>
+</property>
+<property name="sizeType" >
+<enum>Expanding</enum>
+</property>
+<property name="sizeHint" >
+<size>
+<width>140</width>
+<height>20</height>
+</size>
+</property>
+</spacer>
+</hbox>
+</widget>
+</xupdate:insert-after>
+<xupdate:insert-after select="/UI[UI,1]/widget[QWidget,formArticulos]/vbox[vbox,1]/widget[QTabWidget,tbwArticulo]/widget[QWidget,tiendaVirtual]/vbox[vbox,1]/widget[QGroupBox,gbxFluxec1]/hbox[hbox,1]/spacer[spacer42]" >
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fdbPeso</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>1</hsizetype>
+<vsizetype>0</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="maximumSize" >
+<size>
+<width>120</width>
+<height>32767</height>
+</size>
+</property>
+<property name="font" >
+<font>
+<bold>0</bold>
+</font>
+</property>
+<property name="fieldName" >
+<string>peso</string>
+</property>
+</widget>
+</xupdate:insert-after>
+<xupdate:insert-after select="/UI[UI,1]/widget[QWidget,formArticulos]/vbox[vbox,1]/widget[QTabWidget,tbwArticulo]/widget[QWidget,tiendaVirtual]/vbox[vbox,1]/widget[QButtonGroup,gbxFluxe1]" >
+<widget class="QGroupBox" >
+<property name="name" >
+<cstring>gbxDescripcionSeo</cstring>
+</property>
+<property name="font" >
+<font>
+<bold>0</bold>
+</font>
+</property>
+<property name="title" >
+<string>Descripcion buscadores</string>
+</property>
+<hbox>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fdbDescripcionSEO</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>7</hsizetype>
+<vsizetype>7</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="font" >
+<font/>
+</property>
+<property name="fieldName" >
+<string>descripcionseo</string>
+</property>
+<property name="showAlias" >
+<bool>false</bool>
+</property>
+<property name="textFormat" >
+<number>0</number>
+</property>
+</widget>
+<widget class="QLayoutWidget" >
+<property name="name" >
+<cstring>lytFluxec1_2_3_2</cstring>
+</property>
+<vbox>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<widget class="QPushButton" >
+<property name="name" >
+<cstring>pbnTradDescripcionSEO</cstring>
+</property>
+<property name="minimumSize" >
+<size>
+<width>25</width>
+<height>25</height>
+</size>
+</property>
+<property name="maximumSize" >
+<size>
+<width>25</width>
+<height>25</height>
+</size>
+</property>
+<property name="text" >
+<string/>
+</property>
+<property name="toolTip" stdset="0" >
+<string>Traducciones</string>
+</property>
+</widget>
+<spacer>
+<property name="name" >
+<cstring>spcFluxec_2_3_2</cstring>
+</property>
+<property name="orientation" >
+<enum>Vertical</enum>
+</property>
+<property name="sizeType" >
+<enum>Expanding</enum>
+</property>
+<property name="sizeHint" >
+<size>
+<width>20</width>
+<height>150</height>
+</size>
+</property>
+</spacer>
+</vbox>
+</widget>
+</hbox>
+</widget>
+</xupdate:insert-after>
+<xupdate:delete select="/UI[UI,1]/customwidgets[customwidgets,1]" />
+<xupdate:delete select="/UI[UI,1]/customwidgets[customwidgets,2]" />
+</xupdate:modifications>

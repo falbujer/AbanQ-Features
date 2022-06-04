@@ -1,0 +1,180 @@
+289оо6ооfdbBuscarDia = ||BUSCAR_DIA||ооclientesооFLFieldDBооfdbBuscarDiaооsetValueоо||BUSCAR_DIA||ооFооflfactppalооformRecordооNingunoоо000178ооdias_pagoоож
+289оо5ооfdbDiasPago = ||DIAS_PAGO||ооclientesооFLFieldDBооfdbDiasPagoооsetValueоо||DIAS_PAGO||ооFооflfactppalооformRecordооNingunoоо000178ооdias_pagoоож
+289оо9ооCLIENTES: CERRAR UN CLIENTE EN MODO EDITооооTestоо<FLTest:Test codtest="000270" idfuncional="flfactppal"/>ооexecTestооооооооformооNingunoоо000178ооdias_pagoоож
+289оо3ооCLIENTES: ABRIR UN CLIENTE EN MODO EDITооооTestоо<FLTest:Test codtest="000023" idfuncional="flfactppal"/>ооexecTestооооооооformооNingunoоо000178ооdias_pagoоож
+313оо4ооComparar  ооооCompareооооcompareItemsоо<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="codigo = &quot;||COD_RECIBO||&quot;" savein="" from="reciboscli" select="fechav" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||FECHAV||</FLTest:CompareElement>
+</FLTest:Compare>
+ооооооformооNingunoоо000318ооdias_pagoоож
+313оо3ооComparar  ооооCompareооооcompareItemsоо<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="codigo = &quot;||COD_RECIBO||&quot;" savein="" from="reciboscli" select="fecha" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||FECHA||</FLTest:CompareElement>
+</FLTest:Compare>
+ооооооformооNingunoоо000318ооdias_pagoоож
+313оо2ооComparar  ооооCompareооооcompareItemsоо<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="codigo = &quot;||COD_RECIBO||&quot;" savein="" from="reciboscli" select="estado" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||ESTADO||</FLTest:CompareElement>
+</FLTest:Compare>
+ооооооformооNingunoоо000318ооdias_pagoоож
+313оо1ооComparar  ооооCompareооооcompareItemsоо<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="codigo = &quot;||COD_RECIBO||&quot;" savein="" from="reciboscli" select="importe" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||IMPORTE||</FLTest:CompareElement>
+</FLTest:Compare>
+ооооооformооNingunoоо000318ооdias_pagoоож
+479оо16ооCLIENTES: ASIGNAR DIAS DE PAGOооооTestоо<FLTest:Test codtest="000178" idfuncional="dias_pago"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value=" " var="DIAS_PAGO" />
+    <FLTest:AssignationElement value="" var="BUSCAR_DIA" />
+    <FLTest:AssignationElement value="||CLIENTE_DIASPAGO||" var="COD_CLIENTE_EDIT" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000325ооdias_pagoоож
+479оо15ооRECIBOS CLIENTE: COMPROBAR RECIBOооооTestоо<FLTest:Test codtest="000318" idfuncional="dias_pago"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_FACTURA||-02" var="COD_RECIBO" />
+    <FLTest:AssignationElement value="7.6" var="IMPORTE" />
+    <FLTest:AssignationElement value="Emitido" var="ESTADO" />
+    <FLTest:AssignationElement value="||_YEAR||-01-10" var="FECHA" />
+    <FLTest:AssignationElement value="||_YEAR||-02-15" var="FECHAV" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000325ооdias_pagoоож
+479оо14ооRECIBOS CLIENTE: COMPROBAR RECIBOооооTestоо<FLTest:Test codtest="000318" idfuncional="dias_pago"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_FACTURA||-01" var="COD_RECIBO" />
+    <FLTest:AssignationElement value="8" var="IMPORTE" />
+    <FLTest:AssignationElement value="Emitido" var="ESTADO" />
+    <FLTest:AssignationElement value="||_YEAR||-01-10" var="FECHA" />
+    <FLTest:AssignationElement value="||_YEAR||-01-15" var="FECHAV" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000325ооdias_pagoоож
+479оо13ооFACTURAS CLIENTE: CREAR FACTURA ||COD_FACTURA||ооооTestоо<FLTest:Test codtest="000134" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||CLIENTE_DIASPAGO||" var="COD_CLIENTE_FAC" />
+    <FLTest:AssignationElement value="||_YEAR||-01-10" var="FECHA_FAC" />
+    <FLTest:AssignationElement value="||COD_PAGO||" var="COD_PAGO_FAC" />
+    <FLTest:AssignationElement value="||ARTICULO_DIASPAGO||" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="1" var="CAN_LINEA1" />
+    <FLTest:AssignationElement value="" var="DES_LINEA1" />
+    <FLTest:AssignationElement value="" var="REF_LINEA2" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA2" />
+    <FLTest:AssignationElement value="" var="DES_LINEA2" />
+    <FLTest:AssignationElement value="" var="REF_LINEA3" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA3" />
+    <FLTest:AssignationElement value="" var="DES_LINEA3" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000325ооdias_pagoоож
+479оо12ооCLIENTES: ASIGNAR DIAS DE PAGOооооTestоо<FLTest:Test codtest="000178" idfuncional="dias_pago"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="1.15" var="DIAS_PAGO" />
+    <FLTest:AssignationElement value="1" var="BUSCAR_DIA" />
+    <FLTest:AssignationElement value="||CLIENTE_DIASPAGO||" var="COD_CLIENTE_EDIT" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000325ооdias_pagoоож
+479оо11ооRECIBOS CLIENTE: COMPROBAR RECIBOооооTestоо<FLTest:Test codtest="000318" idfuncional="dias_pago"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_FACTURA||-02" var="COD_RECIBO" />
+    <FLTest:AssignationElement value="7.6" var="IMPORTE" />
+    <FLTest:AssignationElement value="Emitido" var="ESTADO" />
+    <FLTest:AssignationElement value="||_YEAR||-01-10" var="FECHA" />
+    <FLTest:AssignationElement value="||_YEAR||-02-01" var="FECHAV" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000325ооdias_pagoоож
+479оо10ооRECIBOS CLIENTE: COMPROBAR RECIBOооооTestоо<FLTest:Test codtest="000318" idfuncional="dias_pago"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_FACTURA||-01" var="COD_RECIBO" />
+    <FLTest:AssignationElement value="8" var="IMPORTE" />
+    <FLTest:AssignationElement value="Emitido" var="ESTADO" />
+    <FLTest:AssignationElement value="||_YEAR||-01-10" var="FECHA" />
+    <FLTest:AssignationElement value="||_YEAR||-01-15" var="FECHAV" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000325ооdias_pagoоож
+479оо9ооFACTURAS CLIENTE: CREAR FACTURA ||COD_FACTURA||ооооTestоо<FLTest:Test codtest="000134" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||CLIENTE_DIASPAGO||" var="COD_CLIENTE_FAC" />
+    <FLTest:AssignationElement value="||_YEAR||-01-10" var="FECHA_FAC" />
+    <FLTest:AssignationElement value="||COD_PAGO||" var="COD_PAGO_FAC" />
+    <FLTest:AssignationElement value="||ARTICULO_DIASPAGO||" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="1" var="CAN_LINEA1" />
+    <FLTest:AssignationElement value="" var="DES_LINEA1" />
+    <FLTest:AssignationElement value="" var="REF_LINEA2" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA2" />
+    <FLTest:AssignationElement value="" var="DES_LINEA2" />
+    <FLTest:AssignationElement value="" var="REF_LINEA3" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA3" />
+    <FLTest:AssignationElement value="" var="DES_LINEA3" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000325ооdias_pagoоож
+479оо8ооRECIBOS CLIENTE: COMPROBAR RECIBOооооTestоо<FLTest:Test codtest="000318" idfuncional="dias_pago"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_FACTURA||-02" var="COD_RECIBO" />
+    <FLTest:AssignationElement value="7.6" var="IMPORTE" />
+    <FLTest:AssignationElement value="Emitido" var="ESTADO" />
+    <FLTest:AssignationElement value="||_YEAR||-01-01" var="FECHA" />
+    <FLTest:AssignationElement value="||_YEAR||-01-15" var="FECHAV" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000325ооdias_pagoоож
+479оо7ооRECIBOS CLIENTE: COMPROBAR RECIBOооооTestоо<FLTest:Test codtest="000318" idfuncional="dias_pago"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_FACTURA||-01" var="COD_RECIBO" />
+    <FLTest:AssignationElement value="8" var="IMPORTE" />
+    <FLTest:AssignationElement value="Emitido" var="ESTADO" />
+    <FLTest:AssignationElement value="||_YEAR||-01-01" var="FECHA" />
+    <FLTest:AssignationElement value="||_YEAR||-01-01" var="FECHAV" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000325ооdias_pagoоож
+479оо6ооFACTURAS CLIENTE: CREAR FACTURA ||COD_FACTURA||ооооTestоо<FLTest:Test codtest="000134" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||CLIENTE_DIASPAGO||" var="COD_CLIENTE_FAC" />
+    <FLTest:AssignationElement value="||_YEAR||-01-01" var="FECHA_FAC" />
+    <FLTest:AssignationElement value="*0-30" var="COD_PAGO_FAC" />
+    <FLTest:AssignationElement value="||ARTICULO_DIASPAGO||" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="1" var="CAN_LINEA1" />
+    <FLTest:AssignationElement value="" var="DES_LINEA1" />
+    <FLTest:AssignationElement value="" var="REF_LINEA2" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA2" />
+    <FLTest:AssignationElement value="" var="DES_LINEA2" />
+    <FLTest:AssignationElement value="" var="REF_LINEA3" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA3" />
+    <FLTest:AssignationElement value="" var="DES_LINEA3" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000325ооdias_pagoоож
+479оо5ооARTICULOS: CREAR ARTICULO ||COD_ARTICULO||ооооTestоо<FLTest:Test codtest="000042" idfuncional="flfactalma"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="*ART_15_4" var="REF_ART" />
+    <FLTest:AssignationElement value="" var="DES_ART" />
+    <FLTest:AssignationElement value="15" var="PVP_ART" />
+    <FLTest:AssignationElement value="IVA4" var="IVA_ART" />
+    <FLTest:AssignationElement value="*ART_15_4" var="ARTICULO_DIASPAGO" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000325ооdias_pagoоож
+479оо4ооFORMAS DE PAGO: CREAR FORMA DE PAGOооооTestоо<FLTest:Test codtest="000012" idfuncional="flfactppal"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="*0-30" var="COD_PAGO" />
+    <FLTest:AssignationElement value="" var="DES_PAGO" />
+    <FLTest:AssignationElement value="" var="EMITIR_PAGO" />
+    <FLTest:AssignationElement value="0" var="DIAS_PLAZO1" />
+    <FLTest:AssignationElement value="50" var="POR_PLAZO1" />
+    <FLTest:AssignationElement value="30" var="DIAS_PLAZO2" />
+    <FLTest:AssignationElement value="50" var="POR_PLAZO2" />
+    <FLTest:AssignationElement value="" var="DIAS_PLAZO3" />
+    <FLTest:AssignationElement value="" var="POR_PLAZO3" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000325ооdias_pagoоож
+479оо3ооCUENTAS BANCO: CREAR CUENTAооооTestоо<FLTest:Test codtest="000011" idfuncional="flfactppal"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="*CTA1" var="COD_CUENTA" />
+    <FLTest:AssignationElement value="" var="DES_CUENTA" />
+    <FLTest:AssignationElement value="0016" var="COD_AGENCIA" />
+    <FLTest:AssignationElement value="0019" var="COD_ENTIDAD" />
+    <FLTest:AssignationElement value="0123456789" var="NUM_CUENTA" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000325ооdias_pagoоож
+479оо2ооCLIENTES: ASIGNAR DIAS DE PAGOооооTestоо<FLTest:Test codtest="000178" idfuncional="dias_pago"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="1,15" var="DIAS_PAGO" />
+    <FLTest:AssignationElement value="" var="BUSCAR_DIA" />
+    <FLTest:AssignationElement value="||COD_CLIENTE||" var="COD_CLIENTE_EDIT" />
+    <FLTest:AssignationElement value="||COD_CLIENTE||" var="CLIENTE_DIASPAGO" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000325ооdias_pagoоож
+479оо1ооCLIENTES: CREAR CLIENTE ||COD_CLIENTE||ооооTestоо<FLTest:Test codtest="000003" idfuncional="flfactppal"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="NOM_CLIENTE" />
+    <FLTest:AssignationElement value="" var="DES_DIR_CLIENTE" />
+    <FLTest:AssignationElement value="" var="DIR_CLIENTE" />
+    <FLTest:AssignationElement value="" var="CIF_CLIENTE" />
+    <FLTest:AssignationElement value="**UNDEFINED**" var="COD_CLIENTE" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000325ооdias_pagoоож

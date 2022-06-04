@@ -1,0 +1,48 @@
+<!DOCTYPE TMD>
+<TMD>
+	<name>do_motor</name>
+	<!--Listado de generación de documentaciones del motor-->
+			
+	<alias>QT_TRANSLATE_NOOP("MetaData","Generación de Documentacion del Motor")</alias>
+
+	<field>
+		<name>id</name>
+		<!-- Identificador interno  -->
+		<alias>QT_TRANSLATE_NOOP("MetaData","ID")</alias>
+		<null>false</null>
+		<pk>true</pk>
+		<type>serial</type>
+		<visiblegrid>false</visiblegrid>
+	</field>
+
+	<field>
+		<name>descripcion</name>
+		<!-- Tipo de documentación -->
+		<alias>QT_TRANSLATE_NOOP("MetaData","Descripcion")</alias>
+		<null>false</null>
+		<pk>false</pk>
+		<type>string</type>
+		<length>200</length>
+	</field>
+
+	<field>
+		<name>rutapub</name>
+		<!-- Ruta de publicación privada -->
+		<alias>QT_TRANSLATE_NOOP("MetaData","Ruta de publicación")</alias>
+		<null>false</null>
+		<pk>false</pk>
+		<type>string</type>
+		<length>200</length>
+	</field>
+
+	<field>
+		<name>rutapubpub</name>
+		<!-- Ruta de publicación pública -->
+		<alias>QT_TRANSLATE_NOOP("MetaData","Ruta de publicación")</alias>
+		<null>false</null>
+		<pk>false</pk>
+		<type>string</type>
+		<length>200</length>
+	</field>
+
+</TMD>

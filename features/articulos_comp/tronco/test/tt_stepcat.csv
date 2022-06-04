@@ -1,0 +1,118 @@
+283оо4ооARTICULOS: CREAR ARTICULO ||COD_ARTICULO|| REF_ART = HARINA-||_S|| PVP_ART = 3ооооTestоо<FLTest:Test codtest="000042" idfuncional="flfactalma"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="HARINA-||_S||" var="REF_ART" />
+    <FLTest:AssignationElement value="3" var="PVP_ART" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000236ооarticulos_compоож
+283оо2ооARTICULOS: CREAR ARTICULO ||COD_ARTICULO|| REF_ART = AGUA-||_S|| PVP_ART = 1ооооTestоо<FLTest:Test codtest="000042" idfuncional="flfactalma"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="AGUA-||_S||" var="REF_ART" />
+    <FLTest:AssignationElement value="1" var="PVP_ART" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000236ооarticulos_compоож
+283оо5ооAbrir formulario articulosооarticulosооFLFormDBооarticulosооopenооооFооflfactalmaооformооNingunoоо000236ооarticulos_compоож
+283оо7ооEstablecer valor referenciaооarticulosооFLFieldDBооfdbReferenciaооsetValueооGMIGA-||_S||ооFооflfactalmaооformRecordооNingunoоо000236ооarticulos_compоож
+283оо8ооEstablecer valor descripcionооarticulosооFLFieldDBооfdbDescripcionооsetValueооARTICULO COMPUESTO DE PRUEBASооFооflfactalmaооformRecordооNingunoоо000236ооarticulos_compоож
+283оо9ооEstablecer valor codimpuestoооarticulosооFLFieldDBооfdbImpuestoооsetValueооIVA16ооFооflfactalmaооformRecordооNingunoоо000236ооarticulos_compоож
+283оо10ооPulsar el botСn toolButtonInsertCompооarticulosооButtonооtoolButtonInsertCompооanimateClickооооFооflfactalmaооformRecordооNingunoоо000236ооarticulos_compоож
+283оо11ооEstablecer valor refcomponenteооarticuloscompооFLFieldDBооfdbRefComponenteооsetValueооAGUA-||_S||ооFооflfactalmaооformRecordооNingunoоо000236ооarticulos_compоож
+283оо12ооEstablecer valor cantidadооarticuloscompооFLFieldDBооfdbCantidadооsetValueоо1.5ооFооflfactalmaооformRecordооNingunoоо000236ооarticulos_compоож
+283оо13ооPulsar el botСn pushButtonAcceptContinueооarticuloscompооButtonооpushButtonAcceptContinueооanimateClickооооFооflfactalmaооformRecordооAceptar y continuarоо000236ооarticulos_compоож
+283оо14ооEstablecer valor refcomponenteооarticuloscompооFLFieldDBооfdbRefComponenteооsetValueооHARINA-||_S||ооFооflfactalmaооformRecordооNingunoоо000236ооarticulos_compоож
+283оо15ооEstablecer valor cantidadооarticuloscompооFLFieldDBооfdbCantidadооsetValueоо0.5ооFооflfactalmaооformRecordооNingunoоо000236ооarticulos_compоож
+283оо16ооPulsar el botСn pushButtonAcceptооarticuloscompооButtonооpushButtonAcceptооanimateClickооооFооflfactalmaооformRecordооAceptarоо000236ооarticulos_compоож
+283оо6ооPulsar el botСn toolButtonInsertооarticulosооButtonооtoolButtonInsertооanimateClickооооFооflfactalmaооformооNingunoоо000236ооarticulos_compоож
+283оо17ооPulsar el botСn Calcular PVPооarticulosооButtonооpbnCalcularPvpооanimateClickоо<FLTest:Condition event="SCRIPT_FINISHED" object="calcularPvp" />
+ооFооflfactalmaооformRecordооNingunoоо000236ооarticulos_compоож
+283оо20ооCerrar formulario articulosооarticulosооFLFormDBооarticulosооcloseооооFооflfactalmaооformооNingunoоо000236ооarticulos_compоож
+283оо19ооPulsar botСn pushButtonAcceptооarticulosооButtonооpushButtonAcceptооanimateClickооооFооflfactalmaооformRecordооAceptarоо000236ооarticulos_compоож
+283оо18ооComparar  ооarticulosооCompareооооcompareItemsоо<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Campo" >fdbPvp</FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >3.00</FLTest:CompareElement>
+</FLTest:Compare>
+ооFооflfactalmaооformRecordооNingunoоо000236ооarticulos_compоож
+285оо9ооALBARANES CLIENTE: BORRAR ALBARAN COD_ALBARAN_DEL = ||COD_ALBARAN||ооооTestоо<FLTest:Test codtest="000086" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_ALBARAN||" var="COD_ALBARAN_DEL" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000237ооarticulos_compоож
+285оо7ооALBARANES CLIENTE: LINEAS: MODIFICAR LINEA COD_ALBARAN_EDIT = ||COD_ALBARAN|| CRITERIO_LINEA = first CAN_LINEA = 2ооооTestоо<FLTest:Test codtest="000286" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_ALBARAN||" var="COD_ALBARAN_EDIT" />
+    <FLTest:AssignationElement value="first" var="CRITERIO_LINEA" />
+    <FLTest:AssignationElement value="2" var="CAN_LINEA" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000237ооarticulos_compоож
+285оо4ооALBARANES CLIENTE: CREAR ALBARAN ||COD_ALBARAN|| COD_CLIENTE_ALB = ||COD_CLIENTE|| REF_LINEA1 = GMIGA-||_S|| CAN_LINEA1 = 5ооооTestоо<FLTest:Test codtest="000082" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_CLIENTE||" var="COD_CLIENTE_ALB" />
+    <FLTest:AssignationElement value="GMIGA-||_S||" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="5" var="CAN_LINEA1" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000237ооarticulos_compоож
+285оо1ооCREAR CLIENTE ||COD_CLIENTE||ооооTestоо<FLTest:Test codtest="000003" idfuncional="flfactppal"/>ооexecTestооооооооformооNingunoоо000237ооarticulos_compоож
+285оо5ооCOMPROBAR QUE EL STOCK DE AGUA-||_S|| ES -(5 * 1.5) = -7.5ооооCompareооооcompareItemsоо<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="referencia = &quot;AGUA-||_S||&quot; AND codalmacen = &quot;||COD_ALMACEN||&quot;" savein="" from="stocks" select="cantidad" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >-7.5</FLTest:CompareElement>
+</FLTest:Compare>
+ооооооformооNingunoоо000237ооarticulos_compоож
+285оо8ооCOMPROBAR QUE EL STOCK DE AGUA-||_S|| ES -(2 * 1.5) = -3ооооCompareооооcompareItemsоо<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="referencia = &quot;AGUA-||_S||&quot; AND codalmacen = &quot;||COD_ALMACEN||&quot;" savein="" from="stocks" select="cantidad" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >-3</FLTest:CompareElement>
+</FLTest:Compare>
+ооооооformооNingunoоо000237ооarticulos_compоож
+285оо10ооCOMPROBAR QUE EL STOCK DE AGUA-||_S|| ES -(0 * 1.5) = 0ооооCompareооооcompareItemsоо<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="referencia = &quot;AGUA-||_S||&quot; AND codalmacen = &quot;||COD_ALMACEN||&quot;" savein="" from="stocks" select="cantidad" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >0</FLTest:CompareElement>
+</FLTest:Compare>
+ооооооformооNingunoоо000237ооarticulos_compоож
+287оо8ооALBARANES PROVEEDOR: BORRAR ALBARAN COD_ALBARAN_DEL = ||COD_ALBARAN||ооооTestоо<FLTest:Test codtest="000061" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_ALBARAN||" var="COD_ALBARAN_DEL" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000238ооarticulos_compоож
+287оо6ооALBARANES PROVEEDOR: LINEAS: MODIFICAR LINEA COD_ALBARAN_EDIT = ||COD_ALBARAN|| CRITERIO_LINEA = first REF_LINEA = GMIGA-||_S|| CAN_LINEA = 2ооооTestоо<FLTest:Test codtest="000306" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_ALBARAN||" var="COD_ALBARAN_EDIT" />
+    <FLTest:AssignationElement value="first" var="CRITERIO_LINEA" />
+    <FLTest:AssignationElement value="GMIGA-||_S||" var="REF_LINEA" />
+    <FLTest:AssignationElement value="2" var="CAN_LINEA" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000238ооarticulos_compоож
+287оо2ооPROVEEDORES: CREAR PROVEEDOR ||COD_PROVEEDOR||ооооTestоо<FLTest:Test codtest="000017" idfuncional="flfactppal"/>ооexecTestооооооооformооNingunoоо000238ооarticulos_compоож
+287оо3ооALBARANES PROVEEDOR: CREAR  ALBARAN ||COD_ALBARAN|| COD_PROV_ALB = ||COD_PROVEEDOR|| REF_LINEA1 = GMIGA-||_S|| CAN_LINEA1 = 5ооооTestоо<FLTest:Test codtest="000127" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_PROVEEDOR||" var="COD_PROV_ALB" />
+    <FLTest:AssignationElement value="GMIGA-||_S||" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="5" var="CAN_LINEA1" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000238ооarticulos_compоож
+287оо4ооCOMPROBAR QUE EL STOCK DE AGUA-||_S|| ES (5 * 1.5) = 7.5ооооCompareооооcompareItemsоо<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="referencia = &quot;AGUA-||_S||&quot; AND codalmacen = &quot;||COD_ALMACEN||&quot;" savein="" from="stocks" select="cantidad" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >7.5</FLTest:CompareElement>
+</FLTest:Compare>
+ооооооformооNingunoоо000238ооarticulos_compоож
+287оо7ооCOMPROBAR QUE EL STOCK DE AGUA-||_S|| ES (2 * 1.5) = 3ооооCompareооооcompareItemsоо<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="referencia = &quot;AGUA-||_S||&quot; AND codalmacen = &quot;||COD_ALMACEN||&quot;" savein="" from="stocks" select="cantidad" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >3</FLTest:CompareElement>
+</FLTest:Compare>
+ооооооformооNingunoоо000238ооarticulos_compоож
+287оо9ооCOMPROBAR QUE EL STOCK DE AGUA-||_S|| ES (0 * 1.5) = 0ооооCompareооооcompareItemsоо<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="referencia = &quot;AGUA-||_S||&quot; AND codalmacen = &quot;||COD_ALMACEN||&quot;" savein="" from="stocks" select="cantidad" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >0</FLTest:CompareElement>
+</FLTest:Compare>
+ооооооformооNingunoоо000238ооarticulos_compоож
+289оо5ооALBARANES PROVEEDOR: COMPROBAR STOCK PAR ARTмCULOS COMPUESTOSооооTestоо<FLTest:Test codtest="000238" idfuncional="articulos_comp"/>ооexecTestооооооооformооNingunoоо000239ооarticulos_compоож
+289оо4ооALBARANES CLIENTE: COMPROBAR STOCK PAR ARTмCULOS COMPUESTOSооооTestоо<FLTest:Test codtest="000237" idfuncional="articulos_comp"/>ооexecTestооооооооformооNingunoоо000239ооarticulos_compоож
+289оо2ооGUARDAR ALMACEN DE LA EMPRESA EN COD_ALMACENооооQueryооооexecQueryоо<FLTest:Query where="1=1" savein="COD_ALMACEN" from="empresa" select="codalmacen" />
+ооооооformооNingunoоо000239ооarticulos_compоож
+289оо3ооARTICULOS: CREAR EL ARTICULO GMIGA-||_S|| FORMADO POR AGUA-||_S|| Y HARINA-||_S||ооооTestоо<FLTest:Test codtest="000236" idfuncional="articulos_comp"/>ооexecTestооооооооformооNingunoоо000239ооarticulos_compоож
+289оо1ооBORRAR COD_CLIENTE Y COD_PROVEEDORооооAssignationооооassignateValuesоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="**UNDEFINED**" var="COD_CLIENTE" />
+    <FLTest:AssignationElement value="**UNDEFINED**" var="COD_PROVEEDOR" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000239ооarticulos_compоож

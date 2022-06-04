@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!DOCTYPE KugarTemplate SYSTEM "kugartemplate.dtd">
+<KugarTemplate BottomMargin="10" TopMargin="50" RightMargin="10" LeftMargin="20" PageOrientation="1" PageSize="0" >
+
+<PageHeader Height="50" PrintFrequency="1" >
+	<Label WordWrap="0" Width="500" X="0" Y="0" BorderStyle="0" Height="20" HAlignment="0" BorderColor="0,0,0" BackgroundColor="255,255,255" FontItalic="1" VAlignment="1" ForegroundColor="0,0,0" Text="Lista de Materiales" FontWeight="65" FontSize="16" BorderWidth="1" FontFamily="Arial" />
+	<Line Width="2" Y1="22" Y2="22" X1="0" X2="630" Style="1" Color="0,0,0" />
+	
+	<Label WordWrap="0" Width="99" X="0" Y="30" BorderStyle="0" Height="20" HAlignment="1" BorderColor="0,0,0" BackgroundColor="200,200,200" FontItalic="0" VAlignment="1" ForegroundColor="0,0,0" Text="Nivel 0" FontWeight="65" FontSize="12" BorderWidth="1" FontFamily="Arial" />
+	<Label WordWrap="0" Width="99" X="100" Y="30" BorderStyle="0" Height="20" HAlignment="1" BorderColor="0,0,0" BackgroundColor="200,200,200" FontItalic="0" VAlignment="1" ForegroundColor="0,0,0" Text="Nivel 1" FontWeight="65" FontSize="12" BorderWidth="1" FontFamily="Arial" />
+	<Label WordWrap="0" Width="99" X="200" Y="30" BorderStyle="0" Height="20" HAlignment="1" BorderColor="0,0,0" BackgroundColor="200,200,200" FontItalic="0" VAlignment="1" ForegroundColor="0,0,0" Text="Nivel 2" FontWeight="65" FontSize="12" BorderWidth="1" FontFamily="Arial" />
+	<Label WordWrap="0" Width="99" X="300" Y="30" BorderStyle="0" Height="20" HAlignment="1" BorderColor="0,0,0" BackgroundColor="200,200,200" FontItalic="0" VAlignment="1" ForegroundColor="0,0,0" Text="Nivel 3" FontWeight="65" FontSize="12" BorderWidth="1" FontFamily="Arial" />
+	<Label WordWrap="0" Width="99" X="400" Y="30" BorderStyle="0" Height="20" HAlignment="1" BorderColor="0,0,0" BackgroundColor="200,200,200" FontItalic="0" VAlignment="1" ForegroundColor="0,0,0" Text="Nivel 4" FontWeight="65" FontSize="12" BorderWidth="1" FontFamily="Arial" />
+	<Label WordWrap="0" Width="99" X="500" Y="30" BorderStyle="0" Height="20" HAlignment="1" BorderColor="0,0,0" BackgroundColor="200,200,200" FontItalic="0" VAlignment="1" ForegroundColor="0,0,0" Text="Nivel 5" FontWeight="65" FontSize="12" BorderWidth="1" FontFamily="Arial" />
+</PageHeader>
+ 
+ <Detail Height="18" Level="0" DrawIf="c0" >
+	<Field WordWrap="0" Width="100" X="0" Y="" BorderStyle="1" NegValueColor="0,0,0" Height="15" HAlignment="1" DataType="0" Field="c0" DateFormat="11" Currency="32" BorderColor="0,0,0" BackgroundColor="200,255,255" FontItalic="0" VAlignment="1" ForegroundColor="0,0,0" CommaSeparator="44" Text="" FontWeight="65" FontSize="12" BorderWidth="1" Precision="2" FontFamily="Arial" />
+ </Detail>
+ 
+ <DetailHeader Height="0" Level="1" DrawIf="n1">
+	<Line Width="2" Y1="0" Y2="0" X1="50" X2="150" Style="1" Color="100,100,100" />
+ </DetailHeader>
+ 
+ <Detail Height="18" Level="1" DrawIf="c1">
+	<Line Width="2" Y1="0" Y2="7" X1="50" X2="50" Style="1" Color="100,100,100" />
+	
+	<Line Width="2" Y1="7" Y2="7" X1="50" X2="100" Style="1" Color="100,100,100" />
+	
+	<Field WordWrap="0" Width="100" X="100" Y="" BorderStyle="1" NegValueColor="0,0,0" Height="15" HAlignment="1" DataType="0" Field="c1" DateFormat="11" Currency="32" BorderColor="0,0,0" BackgroundColor="255,200,255" FontItalic="0" VAlignment="1" ForegroundColor="0,0,0" CommaSeparator="44" Text="" FontWeight="65" FontSize="12" BorderWidth="1" Precision="2" FontFamily="Arial" />
+ </Detail>
+ 
+ <DetailHeader Height="0" Level="2" DrawIf="n2">
+	<Line Width="2" Y1="0" Y2="0" X1="150" X2="250" Style="1" Color="100,100,100" />
+ </DetailHeader>
+ 
+ <Detail Height="18" Level="2" DrawIf="c2">
+	<Line Width="2" Y1="0" Y2="7" X1="150" X2="150" Style="1" Color="100,100,100" />
+	<Line Width="2" Y1="7" Y2="7" X1="150" X2="200" Style="1" Color="100,100,100" />
+	
+	<Field WordWrap="0" Width="100" X="200" Y="" BorderStyle="1" NegValueColor="0,0,0" Height="15" HAlignment="1" DataType="0" Field="c2" DateFormat="11" Currency="32" BorderColor="0,0,0" BackgroundColor="255,255,200" FontItalic="0" VAlignment="1" ForegroundColor="0,0,0" CommaSeparator="44" Text="" FontWeight="65" FontSize="12" BorderWidth="1" Precision="2" FontFamily="Arial" />
+ </Detail>
+ 
+ <DetailHeader Height="0" Level="3" DrawIf="n3">
+	<Line Width="2" Y1="0" Y2="0" X1="250" X2="350" Style="1" Color="100,100,100" />
+ </DetailHeader>
+ 
+ <Detail Height="18" Level="3" DrawIf="c3">
+	<Line Width="2" Y1="0" Y2="7" X1="250" X2="250" Style="1" Color="100,100,100" />
+	<Line Width="2" Y1="7" Y2="7" X1="250" X2="300" Style="1" Color="100,100,100" />
+	
+	<Field WordWrap="0" Width="100" X="300" Y="" BorderStyle="1" NegValueColor="0,0,0" Height="15" HAlignment="1" DataType="0" Field="c3" DateFormat="11" Currency="32" BorderColor="0,0,0" BackgroundColor="200,200,255" FontItalic="0" VAlignment="1" ForegroundColor="0,0,0" CommaSeparator="44" Text="" FontWeight="65" FontSize="12" BorderWidth="1" Precision="2" FontFamily="Arial" />
+ </Detail>
+ 
+ <DetailHeader Height="0" Level="4" DrawIf="n4">
+	<Line Width="2" Y1="0" Y2="0" X1="350" X2="450" Style="1" Color="100,100,100" />
+ </DetailHeader>
+ <Detail Height="18" Level="4" DrawIf="c4">
+	<Line Width="2" Y1="0" Y2="7" X1="350" X2="350" Style="1" Color="100,100,100" />
+	<Line Width="2" Y1="7" Y2="7" X1="350" X2="400" Style="1" Color="100,100,100" />
+
+	<Field WordWrap="0" Width="100" X="400" Y="" BorderStyle="1" NegValueColor="0,0,0" Height="15" HAlignment="1" DataType="0" Field="c4" DateFormat="11" Currency="32" BorderColor="0,0,0" BackgroundColor="255,200,200" FontItalic="0" VAlignment="1" ForegroundColor="0,0,0" CommaSeparator="44" Text="" FontWeight="65" FontSize="12" BorderWidth="1" Precision="2" FontFamily="Arial" />
+ </Detail>
+ 
+ <DetailHeader Height="0" Level="5" DrawIf="n5">
+	<Line Width="2" Y1="0" Y2="0" X1="450" X2="550" Style="1" Color="100,100,100" />
+ </DetailHeader>
+ <Detail Height="18" Level="5" DrawIf="c5">
+	<Line Width="2" Y1="0" Y2="7" X1="450" X2="450" Style="1" Color="100,100,100" />
+	<Line Width="2" Y1="7" Y2="7" X1="450" X2="500" Style="1" Color="100,100,100" />
+
+	<Field WordWrap="0" Width="100" X="500" Y="" BorderStyle="1" NegValueColor="0,0,0" Height="15" HAlignment="1" DataType="0" Field="c5" DateFormat="11" Currency="32" BorderColor="0,0,0" BackgroundColor="200,255,200" FontItalic="0" VAlignment="1" ForegroundColor="0,0,0" CommaSeparator="44" Text="" FontWeight="65" FontSize="12" BorderWidth="1" Precision="2" FontFamily="Arial" />
+ </Detail>
+ 
+  
+</KugarTemplate>

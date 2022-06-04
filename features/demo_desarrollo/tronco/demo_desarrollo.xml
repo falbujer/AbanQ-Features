@@ -1,0 +1,3 @@
+<flpatch:modifications name="demo_desarrollo" >
+    <flpatch:patchScript path="facturacion/almacen/scripts/" name="articulos.qs" />
+</flpatch:modifications>

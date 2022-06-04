@@ -1,0 +1,12 @@
+!! 06/04/2006 SVN:
+* Solucionado bug por el que no se incluía la base imponible de los portes en la partida de IVA para clientes sin IVA
+!! 23/03/2006 SVN:
+* Generación correcta de los asientos de facturas con portes cuando la factura contiene únicamente portes
+!! 23/02/2006 SVN:
+* Generación correcta de los asientos de facturas con portes
+!! 23/01/2006 SVN:
+* Control del régimen del IVA del cliente seleccionado para el IVA de los portes
+ 13/04/2005 SVN:
+* Creación de un campo de portes en los formularios de edición de presupuestos, pedidos, albaranes y facturas de clientes, así como en el formulario de edición de clientes. Los documentos de facturación heredan por defecto el importe del campo portes del cliente seleccionado, añadiéndolo al total del documento.
+!! 14/04/2005 SVN:
+* Adaptación de los informes de presupuestos, pedidos, albaranes y facturas de cliente para incluir los datos de portes

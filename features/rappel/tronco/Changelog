@@ -1,0 +1,4 @@
+!! 01/11/2006 SVN:
+* Ahora también rappel por proveedor y articulo
+!! 12/04/2005 SVN:
+* Funcionalidad de descuento por cantidad de artículo pedida (rappel) en líneas de presupuestos, pedidos, albaranes y facturas de cliente

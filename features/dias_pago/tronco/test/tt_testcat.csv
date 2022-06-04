@@ -1,0 +1,15 @@
+CLIENTES: ASIGNAR DIAS DE PAGOоо000178ооdias_pagoоо<FLTest:Parameters>
+    <FLTest:Parameter name="DIAS_PAGO" default="" />
+    <FLTest:Parameter name="BUSCAR_DIA" default="0" />
+    <FLTest:Parameter name="COD_CLIENTE_EDIT" default="" />
+</FLTest:Parameters>
+оооож
+RECIBOS CLIENTE: COMPROBAR RECIBOоо000318ооdias_pagoоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_RECIBO" default="" />
+    <FLTest:Parameter name="IMPORTE" default="" />
+    <FLTest:Parameter name="ESTADO" default="" />
+    <FLTest:Parameter name="FECHA" default="" />
+    <FLTest:Parameter name="FECHAV" default="" />
+</FLTest:Parameters>
+оооож
+DIAS_PAGOоо000325ооdias_pagoоооооож

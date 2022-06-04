@@ -1,0 +1,12 @@
+<xupdate:modifications>
+<xupdate:insert-after select="/ACTIONS[ACTIONS,1]/action[do_opciones]" >
+<action>
+<name>do_motor</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Documentación del Motor&quot;)</alias>
+<table>do_motor</table>
+<scriptformrecord>do_motor</scriptformrecord>
+<formrecord>do_motor</formrecord>
+<form>master</form>
+</action>
+</xupdate:insert-after>
+</xupdate:modifications>

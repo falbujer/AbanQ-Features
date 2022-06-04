@@ -1,0 +1,124 @@
+<!DOCTYPE TMD>
+<TMD>
+    <name>mv_volcarfun</name>
+	<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Volcar funcionalidades a la web&quot;)</alias>
+	<field>
+		<name>id</name>
+		<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Id&quot;)</alias>
+		<null>false</null>
+		<pk>true</pk>
+		<type>serial</type>
+	</field>
+	
+	<field>
+		<name>driver</name>
+		<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Tipo de base de datos&quot;)</alias>
+		<null>false</null>
+		<pk>false</pk>
+		<type>string</type>
+		<optionslist>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;MySQL&quot;);QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;PostgreSQL&quot;)</optionslist>
+		<default>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;MySQL&quot;)</default>
+		<length>50</length>
+	</field>
+	
+	<field>
+		<name>nombrebd</name>
+		<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Base de datos&quot;)</alias>
+		<null>true</null>
+		<pk>false</pk>
+		<type>string</type>
+		<length>100</length>
+	</field>
+	
+	<field>
+		<name>usuario</name>
+		<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Usuario&quot;)</alias>
+		<null>true</null>
+		<pk>false</pk>
+		<type>string</type>
+		<length>100</length>
+	</field>
+	
+	<field>
+		<name>password</name>
+		<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Password&quot;)</alias>
+		<null>true</null>
+		<pk>false</pk>
+		<type>string</type>
+		<length>100</length>
+	</field>
+	
+	<field>
+		<name>host</name>
+		<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Servidor&quot;)</alias>
+		<null>true</null>
+		<pk>false</pk>
+		<type>string</type>
+		<length>100</length>
+	</field>
+	
+	<field>
+		<name>puerto</name>
+		<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Puerto&quot;)</alias>
+		<null>true</null>
+		<pk>false</pk>
+		<type>string</type>
+		<length>100</length>
+	</field>
+
+	<field>
+		<name>driver_is</name>
+		<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Tipo de base de datos&quot;)</alias>
+		<null>false</null>
+		<pk>false</pk>
+		<type>string</type>
+		<optionslist>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;MySQL&quot;);QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;PostgreSQL&quot;)</optionslist>
+		<default>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;MySQL&quot;)</default>
+		<length>50</length>
+	</field>
+	
+	<field>
+		<name>nombrebd_is</name>
+		<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Base de datos&quot;)</alias>
+		<null>true</null>
+		<pk>false</pk>
+		<type>string</type>
+		<length>100</length>
+	</field>
+	
+	<field>
+		<name>usuario_is</name>
+		<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Usuario&quot;)</alias>
+		<null>true</null>
+		<pk>false</pk>
+		<type>string</type>
+		<length>100</length>
+	</field>
+	
+	<field>
+		<name>password_is</name>
+		<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Password&quot;)</alias>
+		<null>true</null>
+		<pk>false</pk>
+		<type>string</type>
+		<length>100</length>
+	</field>
+	
+	<field>
+		<name>host_is</name>
+		<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Servidor&quot;)</alias>
+		<null>true</null>
+		<pk>false</pk>
+		<type>string</type>
+		<length>100</length>
+	</field>
+	
+	<field>
+		<name>puerto_is</name>
+		<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Puerto&quot;)</alias>
+		<null>true</null>
+		<pk>false</pk>
+		<type>string</type>
+		<length>100</length>
+	</field>
+</TMD>

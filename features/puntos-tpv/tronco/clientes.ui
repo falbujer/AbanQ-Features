@@ -1,0 +1,71 @@
+<xupdate:modifications>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,formClientes]/property[geometry]/rect[rect,1]/height[height,1]/text()[1]" >483</xupdate:update>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,formClientes]/property[geometry]/rect[rect,1]/width[width,1]/text()[1]" >834</xupdate:update>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,formClientes]/vbox[vbox,1]/widget[QTabWidget,tbwCliente]/widget[QWidget,comercial]/vbox[vbox,1]/widget[QFrame,frame8]/vbox[vbox,1]/widget[QLayoutWidget,layout84]/hbox[hbox,1]/widget[QLayoutWidget,layout82]/vbox[vbox,1]/widget[QLayoutWidget,layout18]/hbox[hbox,1]/widget[FLFieldDB,fdbCodSerie]/property[minimumSize]/size[size,1]/width[width,1]/text()[1]" >27</xupdate:update>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,formClientes]/vbox[vbox,1]/widget[QTabWidget,tbwCliente]/widget[QWidget,comercial]/vbox[vbox,1]/widget[QFrame,frame8]/vbox[vbox,1]/widget[QLayoutWidget,layout84]/hbox[hbox,1]/widget[QLayoutWidget,layout82]/vbox[vbox,1]/widget[QLayoutWidget,layout19]/hbox[hbox,1]/widget[FLFieldDB,fdbCodTipoRappel]/property[minimumSize]/size[size,1]/width[width,1]/text()[1]" >27</xupdate:update>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,formClientes]/vbox[vbox,1]/widget[QTabWidget,tbwCliente]/widget[QWidget,comercial]/vbox[vbox,1]/widget[QFrame,frame8]/vbox[vbox,1]/widget[QLayoutWidget,layout84]/hbox[hbox,1]/widget[QLayoutWidget,layout83]/vbox[vbox,1]/widget[QLayoutWidget,layout14]/hbox[hbox,1]/widget[FLFieldDB,fdbCodPago]/property[minimumSize]/size[size,1]/width[width,1]/text()[1]" >27</xupdate:update>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,formClientes]/vbox[vbox,1]/widget[QTabWidget,tbwCliente]/widget[QWidget,comercial]/vbox[vbox,1]/widget[QFrame,frame8]/vbox[vbox,1]/widget[QLayoutWidget,layout84]/hbox[hbox,1]/widget[QLayoutWidget,layout83]/vbox[vbox,1]/widget[QLayoutWidget,layout15]/hbox[hbox,1]/widget[FLFieldDB,fdbCodDivisa]/property[minimumSize]/size[size,1]/width[width,1]/text()[1]" >27</xupdate:update>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,formClientes]/vbox[vbox,1]/widget[QTabWidget,tbwCliente]/widget[QWidget,comercial]/vbox[vbox,1]/widget[QLayoutWidget,layout80]/hbox[hbox,1]/widget[QFrame,frame10]/vbox[vbox,1]/widget[FLFieldDB,fdbCopiasFactura]/property[minimumSize]/size[size,1]/width[width,1]/text()[1]" >27</xupdate:update>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,formClientes]/vbox[vbox,1]/widget[QTabWidget,tbwCliente]/widget[QWidget,comercial]/vbox[vbox,1]/widget[QLayoutWidget,layout80]/hbox[hbox,1]/widget[QFrame,frame10]/vbox[vbox,1]/widget[FLFieldDB,fdbRecargo]/property[minimumSize]/size[size,1]/width[width,1]/text()[1]" >27</xupdate:update>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,formClientes]/vbox[vbox,1]/widget[QTabWidget,tbwCliente]/widget[QWidget,comercial]/vbox[vbox,1]/widget[QLayoutWidget,layout80]/hbox[hbox,1]/widget[QFrame,frame10]/vbox[vbox,1]/widget[FLFieldDB,fdbRegimenIva]/property[minimumSize]/size[size,1]/width[width,1]/text()[1]" >27</xupdate:update>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,formClientes]/vbox[vbox,1]/widget[QTabWidget,tbwCliente]/widget[QWidget,cuentasbancarias]/vbox[vbox,1]/widget[QGroupBox,gbxCuentas]/vbox[vbox,1]/widget[QLayoutWidget,layout140]/hbox[hbox,1]/widget[QGroupBox,gbxCuentaDom]/hbox[hbox,1]/widget[FLFieldDB,fdbCodCuentaDom]/property[minimumSize]/size[size,1]/width[width,1]/text()[1]" >27</xupdate:update>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,formClientes]/vbox[vbox,1]/widget[QTabWidget,tbwCliente]/widget[QWidget,cuentasbancarias]/vbox[vbox,1]/widget[QGroupBox,gbxCuentas]/vbox[vbox,1]/widget[QLayoutWidget,layout17_2]/hbox[hbox,1]/widget[FLFieldDB,fdbCodCuentaRem]/property[minimumSize]/size[size,1]/width[width,1]/text()[1]" >27</xupdate:update>
+<xupdate:insert-after select="/UI[UI,1]/widget[QWidget,formClientes]/vbox[vbox,1]/widget[QTabWidget,tbwCliente]/widget[QWidget,contabilidad]" >
+<widget class="QWidget" >
+<property name="name" >
+<cstring>TabPage</cstring>
+</property>
+<attribute name="title" >
+<string>Programa puntos</string>
+</attribute>
+<widget class="QGroupBox" >
+<property name="name" >
+<cstring>groupBox13</cstring>
+</property>
+<property name="geometry" >
+<rect>
+<x>127</x>
+<y>59</y>
+<width>360</width>
+<height>76</height>
+</rect>
+</property>
+<property name="font" >
+<font>
+<bold>0</bold>
+</font>
+</property>
+<property name="title" >
+<string/>
+</property>
+<vbox>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fLFieldDB44</cstring>
+</property>
+<property name="fieldName" >
+<string>valorpunto</string>
+</property>
+</widget>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fLFieldDB45</cstring>
+</property>
+<property name="fieldName" >
+<string>saldoactual</string>
+</property>
+</widget>
+</vbox>
+</widget>
+</widget>
+</xupdate:insert-after>
+<xupdate:insert-after select="/UI[UI,1]/includehints[includehints,1]/includehint[flfielddb.h]" >
+<includehint>flfielddb.h</includehint>
+</xupdate:insert-after>
+<xupdate:insert-after select="/UI[UI,1]/includehints[includehints,1]/includehint[flfielddb.h]" >
+<includehint>flfielddb.h</includehint>
+</xupdate:insert-after>
+</xupdate:modifications>

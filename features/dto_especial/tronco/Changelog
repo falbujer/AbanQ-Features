@@ -1,0 +1,17 @@
+!! 24/01/2006 SVN:
+* Corrección de bug al insertar la primer a línea de facturas de cliente y proveedor. El neto sin descuento salía 0.
+!! 14/12/2005 SVN:
+* Ajuste para que el cálculo del neto sin descuento sea el cálculo del neto de la clase base
+!! 12/12/2005 SVN:
+* Ajuste para que la funcionalidad sea compatible con la de anticipos
+!! 20/10/2005 SVN:
+* Cambio a null = true para los campos creados por la funcionalidad
+!! 30/06/2005 SVN:
+* Corrección de bug en el concepto de las partidas de facturas de clientes. El texto del concepto debe ser el mismo que el de las facturas del módulo oficial.
+!! 20/06/2005 SVN:
+* Ampliación del descuento especial a proveedores (pedidos, albaranes y facturas)
+!! 12/06/2005 SVN:
+* Corregido error en asociar documentos. No obtenía bien el porcentaje de dto especial
+* Posibilidad de asignar porcentaje de descuento especial en un cliente. Este porcentaje es el que se usará por defecto en los documentos asociados al cliente.
+!! 04/04/2005 SVN:
+* Creación de la funcionalidad dto_especial. Se aplica un descuento especial (antes de IVA) al neto de los presupuestos, pedidos, albaranes y facturas de clientes. Dicho descuento especial se propaga junto a los demás datos mediante los botones Asociar y Generar del módulo de facturación de cliente. A nivel contable los descuentos van a la subcuenta de descuentos correspondiente.

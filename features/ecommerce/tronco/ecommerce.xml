@@ -1,0 +1,20 @@
+<flpatch:modifications name="ecommerce" >
+    <flpatch:patchXml path="facturacion/principal/tables/" name="clientes.mtd" />
+    <flpatch:patchXml path="facturacion/principal/tables/" name="dirclientes.mtd" />
+    <flpatch:patchXml path="facturacion/principal/forms/" name="dirclientes.ui" />
+    <flpatch:addFile path="facturacion/almacen/tables/" name="descfamilias.mtd" />
+    <flpatch:patchXml path="facturacion/almacen/tables/" name="familias.mtd" />
+    <flpatch:addFile path="facturacion/almacen/forms/" name="descfamilias.ui" />
+    <flpatch:patchXml path="facturacion/almacen/forms/" name="familias.ui" />
+    <flpatch:patchXml path="facturacion/almacen/" name="flfactalma.xml" />
+    <flpatch:addFile path="facturacion/principal/tables/" name="idiomas.mtd" />
+    <flpatch:patchXml path="facturacion/principal/forms/" name="flfactppal.ui" />
+    <flpatch:addFile path="facturacion/principal/forms/" name="idiomas.ui" />
+    <flpatch:patchXml path="facturacion/principal/" name="flfactppal.xml" />
+    <flpatch:patchXml path="facturacion/almacen/forms/" name="flfactalma.ui" />
+    <flpatch:addFile path="facturacion/almacen/tables/" name="articulosfamilias.mtd" />
+    <flpatch:patchXml path="facturacion/almacen/tables/" name="articulos.mtd" />
+    <flpatch:addFile path="facturacion/almacen/forms/" name="articulosfamilias.ui" />
+    <flpatch:patchXml path="facturacion/almacen/forms/" name="articulos.ui" />
+    <flpatch:addFile path="facturacion/almacen/tables/" name="descarticulos.mtd" />
+</flpatch:modifications>

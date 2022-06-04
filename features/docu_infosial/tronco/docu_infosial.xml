@@ -1,0 +1,14 @@
+<flpatch:modifications name="docu_infosial" >
+    <flpatch:patchXml path="sistema/documentacion/" name="fldocuppal.xml" />
+    <flpatch:addFile path="sistema/documentacion/doxygen/" name="motor_doxyfile" />
+    <flpatch:addFile path="sistema/documentacion/doxygen/" name="motor_doxygen.css" />
+    <flpatch:patchXml path="sistema/documentacion/forms/" name="do_generardoc.ui" />
+    <flpatch:addFile path="sistema/documentacion/forms/" name="do_motor.ui" />
+    <flpatch:patchXml path="sistema/documentacion/forms/" name="do_opciones.ui" />
+    <flpatch:patchXml path="sistema/documentacion/forms/" name="fldocuppal.ui" />
+    <flpatch:patchScript path="sistema/documentacion/scripts/" name="do_generardoc.qs" />
+    <flpatch:addFile path="sistema/documentacion/scripts/" name="do_motor.qs" />
+    <flpatch:patchScript path="sistema/documentacion/scripts/" name="do_opciones.qs" />
+    <flpatch:patchXml path="sistema/documentacion/tables/" name="do_generardoc.mtd" />
+    <flpatch:addFile path="sistema/documentacion/tables/" name="do_motor.mtd" />
+</flpatch:modifications>

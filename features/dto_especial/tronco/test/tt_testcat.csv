@@ -1,0 +1,85 @@
+CLIENTES: APLICAR DTO ESPECIALоо000160ооdto_especialоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_CLIENTE_EDIT" default="" />
+    <FLTest:Parameter name="POR_DTOESPECIAL" default="" />
+</FLTest:Parameters>
+оооож
+FACTURAS CLIENTE: CREAR UNA NUEVA FACTURA DE CON DOS LINEAS DE IVA DISTINTOоо000179ооdto_especialоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_CLIENTE_FACT" default="" />
+    <FLTest:Parameter name="ART_LINEA1" default="" />
+    <FLTest:Parameter name="ART_LINEA2" default="" />
+</FLTest:Parameters>
+оооож
+CUENTAS: CREAR CUENTAS ESPECIALES оо000181ооdto_especialоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_CTAESPECIAL1" default="" />
+    <FLTest:Parameter name="DESC_CTAESPECIAL1" default="" />
+    <FLTest:Parameter name="COD_CTA1" default="" />
+    <FLTest:Parameter name="COD_CTAESPECIAL2" default="" />
+    <FLTest:Parameter name="DESC_CTAESPECIAL2" default="" />
+    <FLTest:Parameter name="COD_CTA2" default="" />
+    <FLTest:Parameter name="COD_CTAESPECIAL3" default="" />
+    <FLTest:Parameter name="DESC_CTAESPECIAL3" default="" />
+    <FLTest:Parameter name="COD_CTA3" default="" />
+    <FLTest:Parameter name="COD_CTAESPECIAL4" default="" />
+    <FLTest:Parameter name="DESC_CTAESPECIAL4" default="" />
+    <FLTest:Parameter name="COD_CTA4" default="" />
+</FLTest:Parameters>
+оооож
+ASIENTOS: COMPROBAR LOS ASIENTOS PARA CLIENTES NACIONALES E INTERNACIONALESоо000186ооdto_especialоо<FLTest:Parameters>
+    <FLTest:Parameter name="DESC_DIRCLIENTE" default="" />
+    <FLTest:Parameter name="PAIS_DIRCLIENTE" default="ESP" />
+    <FLTest:Parameter name="PAIS_DIRCLIENTE2" default="" />
+    <FLTest:Parameter name="COD_CLIENTE_COMP" default="" />
+    <FLTest:Parameter name="COD_ARTICULO_COMP" default="" />
+</FLTest:Parameters>
+оооож
+ASIENTOS: COMPROBAR ASIENTOS PARA PROVEEDORES NACIONALES E INTERNACIONALESоо000189ооdto_especialоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_PROV_COMP" default="" />
+    <FLTest:Parameter name="COD_ARTICULO_COMP" default="" />
+    <FLTest:Parameter name="DESC_DIRPROV" default="" />
+    <FLTest:Parameter name="PAIS_DIRPROV1" default="ESP" />
+    <FLTest:Parameter name="PAIS_DIRPROV2" default="" />
+</FLTest:Parameters>
+оооож
+CUENTAS: ELIMINAR CUENTAS ESPECIALES оо000204ооdto_especialоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_CUENTA1" default="" />
+    <FLTest:Parameter name="COD_CUENTA2" default="" />
+    <FLTest:Parameter name="COD_CUENTA3" default="" />
+    <FLTest:Parameter name="COD_CUENTA4" default="" />
+    <FLTest:Parameter name="COD_CTAESPECIAL1" default="" />
+    <FLTest:Parameter name="COD_CTAESPECIAL2" default="" />
+    <FLTest:Parameter name="COD_CTAESPECIAL3" default="" />
+    <FLTest:Parameter name="COD_CTAESPECIAL4" default="" />
+</FLTest:Parameters>
+оооож
+CUENTAS: CREAR CUENTA ESPECIALоо000325ооdto_especialоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_CTAESPECIAL_INSERT" default="" />
+    <FLTest:Parameter name="DESC_CTAESPECIAL_INSERT" default="" />
+    <FLTest:Parameter name="COD_CTA_INSERT" default="" />
+</FLTest:Parameters>
+оооож
+PROVEEDORES: APLICAR DTO ESPECIALоо000326ооdto_especialоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_PROVEEDOR_EDIT" default="" />
+    <FLTest:Parameter name="POR_DTOESPECIAL" default="" />
+</FLTest:Parameters>
+оооож
+ARTICULOS: ASIGNAR PRECIO POR PROVEEDORоо000327ооdto_especialоо<FLTest:Parameters>
+    <FLTest:Parameter name="PROVEEDOR_PRECIO" default="" />
+    <FLTest:Parameter name="COSTE" default="" />
+</FLTest:Parameters>
+оооож
+CLIENTES: DIRECCIONES: MODIFICAR DIRECCIсNоо000328ооdto_especialоо<FLTest:Parameters>
+    <FLTest:Parameter name="DESC_DIRCLIENTE_EDIT" default="" />
+    <FLTest:Parameter name="PAIS_DIRCLIENTE_EDIT" default="" />
+</FLTest:Parameters>
+оооож
+PROVEEDORES: DIRECCIONES: MODIFICAR DIRECCIсNоо000329ооdto_especialоо<FLTest:Parameters>
+    <FLTest:Parameter name="DESC_DIRPROV_EDIT" default="" />
+    <FLTest:Parameter name="PAIS_DIRPROV_EDIT" default="" />
+</FLTest:Parameters>
+оооож
+CUENTAS: ELIMINAR CUENTA ESPECIALоо000330ооdto_especialоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_CUENTA_DEL" default="" />
+    <FLTest:Parameter name="COD_CTAESPECIAL_DEL" default="" />
+</FLTest:Parameters>
+оооож
+DTO_ESPECIALоо000331ооdto_especialоооооож

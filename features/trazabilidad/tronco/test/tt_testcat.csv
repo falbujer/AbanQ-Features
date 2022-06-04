@@ -1,0 +1,134 @@
+ARTICULOS: CREAR ARTICULO POR LOTESоо000231ооtrazabilidadоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_ARTICULO_LOTES" default="" />
+    <FLTest:Parameter name="DESC_ARTICULO_LOTES" default="ARTICULO POR LOTES" />
+    <FLTest:Parameter name="PVP_ARTICULO_LOTES" default="" />
+    <FLTest:Parameter name="IVA_ARTICULO_LOTES" default="IVA16" />
+    <FLTest:Parameter name="DIASCONSUMO_ARTICULO_LOTES" default="" />
+</FLTest:Parameters>
+оооож
+LOTES: CREAR LOTE ||COD_LOTE||оо000235ооtrazabilidadоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_LOTE_INSERT" default="" />
+    <FLTest:Parameter name="ARTICULO_CREARLOTE" default="" />
+</FLTest:Parameters>
+оооож
+LOTES: HACER COMPARACIONES DE CANTIDADES DE LOTES Y ALMACENESоо000239ооtrazabilidadоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_LOTE_COMP1" default="" />
+    <FLTest:Parameter name="COD_LOTE_COMP2" default="" />
+    <FLTest:Parameter name="CANT_LOTE_COMP1" default="" />
+    <FLTest:Parameter name="CANT_LOTE_COMP2" default="" />
+    <FLTest:Parameter name="COD_AL_COMP1" default="" />
+    <FLTest:Parameter name="COD_AL_COMP2" default="" />
+    <FLTest:Parameter name="CANT_AL_COMP1" default="" />
+    <FLTest:Parameter name="CANT_AL_COMP2" default="" />
+    <FLTest:Parameter name="COD_ARTICULO_COMP" default="" />
+</FLTest:Parameters>
+оооож
+ARTICULOS: ASIGNAR DIAS DE CONSUMO PREFERENTEоо000240ооtrazabilidadоо<FLTest:Parameters>
+    <FLTest:Parameter name="REF_ART_EDIT" default="" />
+    <FLTest:Parameter name="DIAS_CONSUMO" default="" />
+</FLTest:Parameters>
+оооож
+LOTES: MODIFICAR LOTEоо000246ооtrazabilidadоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_LOTE_CAD" default="" />
+    <FLTest:Parameter name="CADUCIDAD" default="2000-01-01" />
+</FLTest:Parameters>
+оооож
+REGULARIZACIONES: CREAR REGULARIZACIсNоо000247ооtrazabilidadоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_ARTICULO_REG" default="" />
+    <FLTest:Parameter name="COD_ALMACEN_REG" default="" />
+    <FLTest:Parameter name="COD_LOTE_REG" default="" />
+    <FLTest:Parameter name="CANT_REG" default="" />
+    <FLTest:Parameter name="CANT_FINAL" default="" />
+</FLTest:Parameters>
+оооож
+PURGAR MOVIMIENTOSоо000248ооtrazabilidadоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_LOTE_PURGADO" default="" />
+</FLTest:Parameters>
+оооож
+TRANSFERENCIAS: CREAR UNA TRANSFERENCIAоо000250ооtrazabilidadоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_ARTICULO_TRANS" default="" />
+    <FLTest:Parameter name="COD_ALMACEN_TRANS" default="" />
+    <FLTest:Parameter name="COD_LOTE_ORIGEN_TRANS" default="" />
+    <FLTest:Parameter name="COD_LOTE_DESTINO_TRANS" default="" />
+    <FLTest:Parameter name="CANT_TRANS" default="" />
+    <FLTest:Parameter name="CANT_LOTE_ORIGEN" default="" />
+    <FLTest:Parameter name="CANT_LOTE_DESTINO" default="" />
+</FLTest:Parameters>
+оооож
+FACTURAS CLIENTE: LINEAS: CREAR LINEA CON ARTICULO POR LOTESоо000329ооtrazabilidadоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_FACTURA_EDIT" default="" />
+    <FLTest:Parameter name="REF_LINEA" default="" />
+    <FLTest:Parameter name="DES_LINEA" default="" />
+    <FLTest:Parameter name="CANT1" default="" />
+    <FLTest:Parameter name="CANT2" default="" />
+    <FLTest:Parameter name="CANT3" default="" />
+    <FLTest:Parameter name="LOTE1" default="" />
+    <FLTest:Parameter name="LOTE2" default="" />
+    <FLTest:Parameter name="LOTE3" default="" />
+</FLTest:Parameters>
+оооож
+FACTURAS CLIENTE: LINEAS: ABRIR LINEA EN MODO EDITоо000330ооtrazabilidadоо<FLTest:Parameters>
+    <FLTest:Parameter name="REF_LINEA" default="" />
+    <FLTest:Parameter name="DES_LINEA" default="" />
+    <FLTest:Parameter name="CAN_LINEA" default="" />
+</FLTest:Parameters>
+оооож
+FACTURAS CLIENTE: LINEAS: CERRAR LINEA EN MODO EDITоо000331ооtrazabilidadоо<FLTest:Parameters>
+    <FLTest:Parameter name="REF_LINEA_EDIT" default="" />
+</FLTest:Parameters>
+оооож
+FACTURAS CLIENTE: LINEAS: CREAR MOVIMIENTOоо000333ооtrazabilidadоо<FLTest:Parameters>
+    <FLTest:Parameter name="REF_LINEA_EDIT" default="" />
+    <FLTest:Parameter name="CANT_LINEA" default="" />
+    <FLTest:Parameter name="LOTE_LINEA" default="" />
+</FLTest:Parameters>
+оооож
+FACTURAS PROVEEDOR: LINEAS: ABRIR LINEA EN MODO EDITоо000335ооtrazabilidadоо<FLTest:Parameters>
+    <FLTest:Parameter name="REF_LINEA" default="" />
+    <FLTest:Parameter name="DES_LINEA" default="" />
+    <FLTest:Parameter name="CAN_LINEA" default="" />
+</FLTest:Parameters>
+оооож
+FACTURAS PROVEEDOR: LINEAS: CERRAR LINEA EN MODO EDITоо000336ооtrazabilidadоо<FLTest:Parameters>
+    <FLTest:Parameter name="REF_LINEA_EDIT" default="" />
+</FLTest:Parameters>
+оооож
+FACTURAS PROVEEDOR: LINEAS: CREAR MOVIMIENTOоо000337ооtrazabilidadоо<FLTest:Parameters>
+    <FLTest:Parameter name="REF_LINEA_EDIT" default="" />
+    <FLTest:Parameter name="CANT_LINEA" default="" />
+    <FLTest:Parameter name="LOTE_LINEA" default="" />
+</FLTest:Parameters>
+оооож
+FACTURAS PROVEEDOR: LINEAS: CREAR LINEA CON ARTICULO POR LOTESоо000338ооtrazabilidadоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_FACTURA_EDIT" default="" />
+    <FLTest:Parameter name="REF_LINEA" default="" />
+    <FLTest:Parameter name="DES_LINEA" default="" />
+    <FLTest:Parameter name="CANT1" default="" />
+    <FLTest:Parameter name="CANT2" default="" />
+    <FLTest:Parameter name="CANT3" default="" />
+    <FLTest:Parameter name="LOTE1" default="" />
+    <FLTest:Parameter name="LOTE2" default="" />
+    <FLTest:Parameter name="LOTE3" default="" />
+</FLTest:Parameters>
+оооож
+PEDIDOS PROVEEDOR: CREAR PEDIDO ||COD_PEDIDO|| CON LOTESоо000340ооtrazabilidadоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_PROV_PEDIDO" default="" />
+    <FLTest:Parameter name="REF_LINEA1" default="" />
+    <FLTest:Parameter name="DES_LINEA1" default="" />
+    <FLTest:Parameter name="CAN_LINEA1" default="" />
+</FLTest:Parameters>
+оооож
+FACTURAS CLIENTE: LINEAS: CREAR LINEA CON ARTICULO POR LOTES DE STOCK  NEGATIVOоо000342ооtrazabilidadоо<FLTest:Parameters>
+    <FLTest:Parameter name="COD_FACTURA_EDIT" default="" />
+    <FLTest:Parameter name="REF_LINEA" default="" />
+    <FLTest:Parameter name="DES_LINEA" default="" />
+    <FLTest:Parameter name="CANT1" default="" />
+    <FLTest:Parameter name="CANT2" default="" />
+    <FLTest:Parameter name="CANT3" default="" />
+    <FLTest:Parameter name="LOTE1" default="" />
+    <FLTest:Parameter name="LOTE2" default="" />
+    <FLTest:Parameter name="LOTE3" default="" />
+</FLTest:Parameters>
+оооож
+TRAZABILIDAD: DATOS GENERALESоо000343ооtrazabilidadоооооож
+TRAZABILIDADоо000344ооtrazabilidadоооооож

@@ -1,0 +1,177 @@
+707оо1ооCLIENTES: ABRIR UN CLIENTE EN MODO EDITооclientesооTestоо<FLTest:Test codtest="000023" idfuncional="flfactppal"/>ооexecTestооооFооflfactppalооformооNingunoоо000178ооportesоож
+707оо5ооCLIENTES: CERRAR UN CLIENTE EN MODO EDITооclientesооTestоо<FLTest:Test codtest="000270" idfuncional="flfactppal"/>ооexecTestооооFооflfactppalооformRecordооAceptarоо000178ооportesоож
+707оо4ооfdbPortes = ||PORTES_CLI||ооclientesооFLFieldDBооfdbPortesооsetValueоо||PORTES_CLI||ооFооflfactppalооformRecordооNingunoоо000178ооportesоож
+709оо10ооComparar  ооооCompareооооcompareItemsоо<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="codigo = &quot;||COD_PRESUPUESTO_COMP||&quot;" savein="" from="presupuestoscli" select="netoportes" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||PORTES||</FLTest:CompareElement>
+</FLTest:Compare>
+ооFооflfacturacооformооNingunoоо000179ооportesоож
+711оо10ооComparar  ооооCompareооооcompareItemsоо<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="codigo = &quot;||COD_PEDIDO_COMP||&quot;" savein="" from="pedidoscli" select="netoportes" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||PORTES||</FLTest:CompareElement>
+</FLTest:Compare>
+ооFооflfacturacооformооNingunoоо000328ооportesоож
+713оо10ооComparar  ооооCompareооооcompareItemsоо<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="codigo = &quot;||COD_ALBARAN_COMP||&quot;" savein="" from="albaranescli" select="netoportes" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||PORTES||</FLTest:CompareElement>
+</FLTest:Compare>
+ооFооflfacturacооformооNingunoоо000329ооportesоож
+715оо10ооComparar  ооооCompareооооcompareItemsоо<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="codigo = &quot;||COD_FACTURA_COMP||&quot;" savein="" from="facturascli" select="netoportes" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||PORTES||</FLTest:CompareElement>
+</FLTest:Compare>
+ооFооflfacturacооformооNingunoоо000330ооportesоож
+717оо23ооCLIENTES: MODIFICAR CLIENTE PARA PONERLE PORTES PORTES_CLI = 0 COD_CLIENTE_EDIT = ||CLIENTE_PORTES||ооооTestоо<FLTest:Test codtest="000178" idfuncional="portes"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="0" var="PORTES_CLI" />
+    <FLTest:AssignationElement value="||CLIENTE_PORTES||" var="COD_CLIENTE_EDIT" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000331ооportesоож
+717оо3ооCLIENTES: MODIFICAR CLIENTE PARA PONERLE PORTES PORTES_CLI = 15 COD_CLIENTE_EDIT = ||COD_CLIENTE|| CLIENTE_PORTES = ||COD_CLIENTE||ооооTestоо<FLTest:Test codtest="000178" idfuncional="portes"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="15" var="PORTES_CLI" />
+    <FLTest:AssignationElement value="||COD_CLIENTE||" var="COD_CLIENTE_EDIT" />
+    <FLTest:AssignationElement value="||COD_CLIENTE||" var="CLIENTE_PORTES" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000331ооportesоож
+717оо1ооARTICULOS: CREAR ARTICULO ||COD_ARTICULO||ооооTestоо<FLTest:Test codtest="000042" idfuncional="flfactalma"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="*ART_10_16" var="REF_ART" />
+    <FLTest:AssignationElement value="" var="DES_ART" />
+    <FLTest:AssignationElement value="10" var="PVP_ART" />
+    <FLTest:AssignationElement value="" var="IVA_ART" />
+    <FLTest:AssignationElement value="*ART_10_16" var="ARTICULO_PORTES" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000331ооportesоож
+717оо2ооCLIENTES: CREAR CLIENTE ||COD_CLIENTE||ооооTestоо<FLTest:Test codtest="000003" idfuncional="flfactppal"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="NOM_CLIENTE" />
+    <FLTest:AssignationElement value="" var="DES_DIR_CLIENTE" />
+    <FLTest:AssignationElement value="" var="DIR_CLIENTE" />
+    <FLTest:AssignationElement value="" var="CIF_CLIENTE" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000331ооportesоож
+717оо4ооPRESUPUESTOS CLIENTE: CREAR PRESUPUESTO EN ||COD_PRESUPUESTO||ооооTestоо<FLTest:Test codtest="000050" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||CLIENTE_PORTES||" var="COD_CLIENTE_PRE" />
+    <FLTest:AssignationElement value="||ARTICULO_PORTES||" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA1" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000331ооportesоож
+717оо5ооPRESUPUESTOS CLIENTE: COMPROBAR PORTESооооTestоо<FLTest:Test codtest="000179" idfuncional="portes"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_PRESUPUESTO_COMP" />
+    <FLTest:AssignationElement value="15" var="PORTES" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000331ооportesоож
+717оо6ооPRESUPUESTOS CLIENTE: GENERAR PEDIDO ||COD_PEDIDO|| A PARTIR DE UN PRESUPUESTOооооTestоо<FLTest:Test codtest="000051" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_PRESUPUESTO||" var="COD_PRE_ORIGEN" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000331ооportesоож
+717оо7ооPEDIDOS CLIENTE: COMPROBAR TOTAL PEDIDOооооTestоо<FLTest:Test codtest="000325" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_PEDIDO_COMP" />
+    <FLTest:AssignationElement value="29" var="TOTAL_PEDIDO" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000331ооportesоож
+717оо8ооPEDIDOS CLIENTE: GENERAR FACTURA ||COD_FACTURA|| + ||COD_ALBARAN|| A PARTIR DE UN PEDIDOооооTestоо<FLTest:Test codtest="000057" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_PEDIDO||" var="COD_PED_ORIGEN" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000331ооportesоож
+717оо9ооALBARANES CLIENTE: COMPROBAR TOTAL ALBARANооооTestоо<FLTest:Test codtest="000326" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_ALBARAN_COMP" />
+    <FLTest:AssignationElement value="29" var="TOTAL_ALBARAN" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000331ооportesоож
+717оо10ооFACTURAS CLIENTE: COMPROBAR TOTAL FACTURAооооTestоо<FLTest:Test codtest="000327" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_FACTURA_COMP" />
+    <FLTest:AssignationElement value="29" var="TOTAL_FACTURA" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000331ооportesоож
+717оо11ооPEDIDOS CLIENTE: COMPROBAR PORTESооооTestоо<FLTest:Test codtest="000328" idfuncional="portes"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_PEDIDO_COMP" />
+    <FLTest:AssignationElement value="15" var="PORTES" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000331ооportesоож
+717оо12ооALBARANES CLIENTE: COMPROBAR PORTESооооTestоо<FLTest:Test codtest="000329" idfuncional="portes"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_ALBARAN_COMP" />
+    <FLTest:AssignationElement value="15" var="PORTES" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000331ооportesоож
+717оо13ооFACTURAS CLIENTE: COMPROBAR PORTESооооTestоо<FLTest:Test codtest="000330" idfuncional="portes"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_FACTURA_COMP" />
+    <FLTest:AssignationElement value="15" var="PORTES" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000331ооportesоож
+717оо14ооPEDIDOS CLIENTE: CREAR PEDIDO EN ||COD_PEDIDO||ооооTestоо<FLTest:Test codtest="000079" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||CLIENTE_PORTES||" var="COD_CLIENTE_PED" />
+    <FLTest:AssignationElement value="||ARTICULO_PORTES||" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA1" />
+    <FLTest:AssignationElement value="" var="DES_LINEA1" />
+    <FLTest:AssignationElement value="" var="REF_LINEA2" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA2" />
+    <FLTest:AssignationElement value="" var="DES_LINEA2" />
+    <FLTest:AssignationElement value="" var="REF_LINEA3" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA3" />
+    <FLTest:AssignationElement value="" var="DES_LINEA3" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000331ооportesоож
+717оо15ооPEDIDOS CLIENTE: COMPROBAR PORTESооооTestоо<FLTest:Test codtest="000328" idfuncional="portes"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_PEDIDO_COMP" />
+    <FLTest:AssignationElement value="15" var="PORTES" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000331ооportesоож
+717оо16ооPEDIDOS CLIENTE: COMPROBAR TOTAL PEDIDOооооTestоо<FLTest:Test codtest="000325" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_PEDIDO_COMP" />
+    <FLTest:AssignationElement value="29" var="TOTAL_PEDIDO" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000331ооportesоож
+717оо17ооALBARANES CLIENTE: CREAR ALBARAN ||COD_ALBARAN||ооооTestоо<FLTest:Test codtest="000082" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||CLIENTE_PORTES||" var="COD_CLIENTE_ALB" />
+    <FLTest:AssignationElement value="||ARTICULO_PORTES||" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="" var="DES_LINEA1" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA1" />
+    <FLTest:AssignationElement value="" var="REF_LINEA2" />
+    <FLTest:AssignationElement value="" var="DES_LINEA2" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA2" />
+    <FLTest:AssignationElement value="" var="REF_LINEA3" />
+    <FLTest:AssignationElement value="" var="DES_LINEA3" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA3" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000331ооportesоож
+717оо18ооALBARANES CLIENTE: COMPROBAR PORTESооооTestоо<FLTest:Test codtest="000329" idfuncional="portes"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_ALBARAN_COMP" />
+    <FLTest:AssignationElement value="15" var="PORTES" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000331ооportesоож
+717оо19ооALBARANES CLIENTE: COMPROBAR TOTAL ALBARANооооTestоо<FLTest:Test codtest="000326" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_ALBARAN_COMP" />
+    <FLTest:AssignationElement value="29" var="TOTAL_ALBARAN" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000331ооportesоож
+717оо20ооFACTURAS CLIENTE: CREAR FACTURA ||COD_FACTURA||ооооTestоо<FLTest:Test codtest="000134" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="||CLIENTE_PORTES||" var="COD_CLIENTE_FAC" />
+    <FLTest:AssignationElement value="" var="FECHA_FAC" />
+    <FLTest:AssignationElement value="" var="COD_PAGO_FAC" />
+    <FLTest:AssignationElement value="||ARTICULO_PORTES||" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA1" />
+    <FLTest:AssignationElement value="" var="DES_LINEA1" />
+    <FLTest:AssignationElement value="" var="REF_LINEA2" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA2" />
+    <FLTest:AssignationElement value="" var="DES_LINEA2" />
+    <FLTest:AssignationElement value="" var="REF_LINEA3" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA3" />
+    <FLTest:AssignationElement value="" var="DES_LINEA3" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000331ооportesоож
+717оо21ооFACTURAS CLIENTE: COMPROBAR PORTESооооTestоо<FLTest:Test codtest="000330" idfuncional="portes"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_FACTURA_COMP" />
+    <FLTest:AssignationElement value="15" var="PORTES" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000331ооportesоож
+717оо22ооFACTURAS CLIENTE: COMPROBAR TOTAL FACTURAооооTestоо<FLTest:Test codtest="000327" idfuncional="flfacturac"/>ооexecTestоо<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_FACTURA_COMP" />
+    <FLTest:AssignationElement value="29" var="TOTAL_FACTURA" />
+</FLTest:Assignation>
+ооооооformооNingunoоо000331ооportesоож

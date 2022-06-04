@@ -1,0 +1,45 @@
+269ÏÏ3ÏÏfdbCodUnidad = ||COD_MEDIDA||ÏÏpesosmedidasÏÏFLFieldDBÏÏfdbCodUnidadÏÏsetValueÏÏ||COD_MEDIDA||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000232ÏÏpesos_medidasÏÏÖ
+269ÏÏ4ÏÏfdbDescripcion = ||DESC_MEDIDA||ÏÏpesosmedidasÏÏFLFieldDBÏÏfdbDescripcionÏÏsetValueÏÏ||DESC_MEDIDA||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000232ÏÏpesos_medidasÏÏÖ
+269ÏÏ2ÏÏPulsar el botón toolButtonInsertÏÏpesosmedidasÏÏButtonÏÏtoolButtonInsertÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000232ÏÏpesos_medidasÏÏÖ
+269ÏÏ6ÏÏPulsar botón pushButtonAcceptÏÏpesosmedidasÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏAceptarÏÏ000232ÏÏpesos_medidasÏÏÖ
+269ÏÏ7ÏÏCerrar formulario pesosmedidasÏÏpesosmedidasÏÏFLFormDBÏÏpesosmedidasÏÏcloseÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000232ÏÏpesos_medidasÏÏÖ
+269ÏÏ1ÏÏAbrir formulario pesosmedidasÏÏpesosmedidasÏÏFLFormDBÏÏpesosmedidasÏÏopenÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000232ÏÏpesos_medidasÏÏÖ
+271ÏÏ4ÏÏfdbDescripcion = ||DESC_FAMILIA||ÏÏfamiliasÏÏFLFieldDBÏÏfdbDescripcionÏÏsetValueÏÏ||DESC_FAMILIA||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000233ÏÏpesos_medidasÏÏÖ
+271ÏÏ5ÏÏfdbCodUnidad = ||COD_MEDIDA_FAM||ÏÏfamiliasÏÏFLFieldDBÏÏfdbCodUnidadÏÏsetValueÏÏ||COD_MEDIDA_FAM||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000233ÏÏpesos_medidasÏÏÖ
+271ÏÏ3ÏÏfdbCodFamilia = ||COD_FAMILIAMED||ÏÏfamiliasÏÏFLFieldDBÏÏfdbCodFamiliaÏÏsetValueÏÏ||COD_FAMILIAMED||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000233ÏÏpesos_medidasÏÏÖ
+271ÏÏ1ÏÏAbrir formulario familiasÏÏfamiliasÏÏFLFormDBÏÏfamiliasÏÏopenÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000233ÏÏpesos_medidasÏÏÖ
+271ÏÏ7ÏÏCerrar formulario familiasÏÏfamiliasÏÏFLFormDBÏÏfamiliasÏÏcloseÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000233ÏÏpesos_medidasÏÏÖ
+271ÏÏ6ÏÏPulsar botón pushButtonAcceptÏÏfamiliasÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏAceptarÏÏ000233ÏÏpesos_medidasÏÏÖ
+271ÏÏ2ÏÏPulsar el botón toolButtonInsertÏÏfamiliasÏÏButtonÏÏtoolButtonInsertÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000233ÏÏpesos_medidasÏÏÖ
+273ÏÏ8ÏÏComparar  articulosÏÏarticulosÏÏCompareÏÏarticulosÏÏcompareItemsÏÏ<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="referencia = &quot;||REF_ART_MED||&quot;" savein="" from="articulos" select="codunidad" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||COD_MEDIDA_ART||</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000234ÏÏpesos_medidasÏÏÖ
+273ÏÏ5ÏÏfdbCodFamilia = ||COD_FAMILIA_ART||ÏÏarticulosÏÏFLFieldDBÏÏfdbCodFamiliaÏÏsetValueÏÏ||COD_FAMILIA_ART||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000234ÏÏpesos_medidasÏÏÖ
+273ÏÏ4ÏÏfdbDescripcion = ||DESC_ART||ÏÏarticulosÏÏFLFieldDBÏÏfdbDescripcionÏÏsetValueÏÏ||DESC_ART||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000234ÏÏpesos_medidasÏÏÖ
+273ÏÏ3ÏÏfdbReferencia = ||REF_ART_MED||ÏÏarticulosÏÏFLFieldDBÏÏfdbReferenciaÏÏsetValueÏÏ||REF_ART_MED||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000234ÏÏpesos_medidasÏÏÖ
+273ÏÏ2ÏÏPulsar el botón toolButtonInsertÏÏarticulosÏÏButtonÏÏtoolButtonInsertÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000234ÏÏpesos_medidasÏÏÖ
+273ÏÏ7ÏÏCerrar formulario articulosÏÏarticulosÏÏFLFormDBÏÏarticulosÏÏcloseÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000234ÏÏpesos_medidasÏÏÖ
+273ÏÏ6ÏÏPulsar botón pushButtonAcceptÏÏarticulosÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏAceptarÏÏ000234ÏÏpesos_medidasÏÏÖ
+273ÏÏ1ÏÏAbrir formulario articulosÏÏarticulosÏÏFLFormDBÏÏarticulosÏÏopenÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000234ÏÏpesos_medidasÏÏÖ
+277ÏÏ3ÏÏARTICULOS MEDIDAS: CREAR  ARTÍCULO Y COMPROBAR  MEDIDAÏÏÏÏTestÏÏ<FLTest:Test codtest="000234" idfuncional="pesos_medidas"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="MED-||_S||" var="REF_ART_MED" />
+    <FLTest:AssignationElement value="" var="DESC_ART" />
+    <FLTest:AssignationElement value="||COD_FAMILIAMED||" var="COD_FAMILIA_ART" />
+    <FLTest:AssignationElement value="||COD_MEDIDA||" var="COD_MEDIDA_ART" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000331ÏÏpesos_medidasÏÏÖ
+277ÏÏ2ÏÏFAMILIAS MEDIDAS: CREAR FAMILIAÏÏÏÏTestÏÏ<FLTest:Test codtest="000233" idfuncional="pesos_medidas"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="M||_S||" var="COD_FAMILIAMED" />
+    <FLTest:AssignationElement value="" var="DESC_FAMILIA" />
+    <FLTest:AssignationElement value="||COD_MEDIDA||" var="COD_MEDIDA_FAM" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000331ÏÏpesos_medidasÏÏÖ
+277ÏÏ1ÏÏMEDIDAS: CREAR MEDIDAÏÏÏÏTestÏÏ<FLTest:Test codtest="000232" idfuncional="pesos_medidas"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="m||_S||" var="COD_MEDIDA" />
+    <FLTest:AssignationElement value="" var="DESC_MEDIDA" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000331ÏÏpesos_medidasÏÏÖ

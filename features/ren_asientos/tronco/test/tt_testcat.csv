@@ -1,0 +1,11 @@
+ASIENTOS: RENUMERAR ASIENTOSоо000223ооren_asientosоо<FLTest:Parameters>
+    <FLTest:Parameter name="ASIENTO1_COMP" default="" />
+    <FLTest:Parameter name="ASIENTO2_COMP" default="" />
+</FLTest:Parameters>оооож
+ASIENTOS: CREAR ASIENTO ASIGNANDO ||NUMERO||оо000224ооren_asientosоо<FLTest:Parameters>
+    <FLTest:Parameter name="NUMERO" default="" />
+    <FLTest:Parameter name="COD_SUBCUENTA_AS" default="1000000000" />
+    <FLTest:Parameter name="FECHA" default="" />
+</FLTest:Parameters>
+оооож
+REN_ASIENTOSоо000328ооren_asientosоооооож

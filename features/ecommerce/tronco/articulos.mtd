@@ -1,0 +1,98 @@
+<xupdate:modifications>
+<xupdate:update select="/TMD[TMD,1]/field[imagen]/type[type,1]/text()[1]" >string</xupdate:update>
+<xupdate:insert-after select="/TMD[TMD,1]/field[imagen]/type[type,1]" >
+<length>100</length>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[referencia]/relation[lineasfacturasprov,referencia]" >
+<relation>
+<table>articulosfamilias</table>
+<field>referencia</field>
+<card>1M</card>
+</relation>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[referencia]/relation[articulosfamilias,referencia]" >
+<relation>
+<table>descarticulos</table>
+<field>referencia</field>
+<card>1M</card>
+</relation>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[idsubcuentacom]" >
+<field>
+<name>modelo</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Modelo&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>100</length>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[modelo]" >
+<field>
+<name>fecha</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Fecha de alta&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>date</type>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[fecha]" >
+<field>
+<name>modificado</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Fecha de modificación&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>date</type>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[modificado]" >
+<field>
+<name>fechadisponible</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Fecha de disponibilidad&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>date</type>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[fechadisponible]" >
+<field>
+<name>peso</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Peso&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>double</type>
+<partI>6</partI>
+<partD>2</partD>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[peso]" >
+<field>
+<name>estado</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Fecha de disponibilidad&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>int</type>
+<length>2</length>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[estado]" >
+<field>
+<name>codfabricante</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Impuesto&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>6</length>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[codfabricante]" >
+<field>
+<name>unidadespedidas</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Unidades pedidos&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>int</type>
+<length>10</length>
+</field>
+</xupdate:insert-after>
+</xupdate:modifications>

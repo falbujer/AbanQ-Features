@@ -1,0 +1,94 @@
+<xupdate:modifications>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,pr_costestarea]/property[geometry]/rect[rect,1]/height[height,1]/text()[1]" >203</xupdate:update>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,pr_costestarea]/vbox[vbox,1]/widget[QGroupBox,gbxCoste]/vbox[vbox,1]/widget[QLayoutWidget,layoutArticulo]/hbox[hbox,1]/widget[FLFieldDB,fdbDesArticulo]/property[minimumSize]/size[size,1]/width[width,1]/text()[1]" >35</xupdate:update>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,pr_costestarea]/vbox[vbox,1]/widget[QGroupBox,gbxCoste]/vbox[vbox,1]/widget[QLayoutWidget,layoutArticulo]/hbox[hbox,1]/widget[FLFieldDB,fdbReferencia]/property[minimumSize]/size[size,1]/height[height,1]/text()[1]" >25</xupdate:update>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,pr_costestarea]/vbox[vbox,1]/widget[QGroupBox,gbxCoste]/vbox[vbox,1]/widget[QLayoutWidget,layoutArticulo]/hbox[hbox,1]/widget[FLFieldDB,fdbReferencia]/property[minimumSize]/size[size,1]/width[width,1]/text()[1]" >124</xupdate:update>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,pr_costestarea]/vbox[vbox,1]/widget[QGroupBox,gbxCoste]/vbox[vbox,1]/widget[QLayoutWidget,layoutTipoMaquina]/hbox[hbox,1]/widget[FLFieldDB,fdbCodTipoCentro]/property[minimumSize]/size[size,1]/width[width,1]/text()[1]" >147</xupdate:update>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,pr_costestarea]/vbox[vbox,1]/widget[QGroupBox,gbxCoste]/vbox[vbox,1]/widget[QLayoutWidget,layoutTipoMaquina]/hbox[hbox,1]/widget[FLFieldDB,fdbDesTipoCentro]/property[minimumSize]/size[size,1]/width[width,1]/text()[1]" >35</xupdate:update>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,pr_costestarea]/vbox[vbox,1]/widget[QGroupBox,gbxCoste]/vbox[vbox,1]/widget[QLayoutWidget,layoutTipoMaquina_2]/hbox[hbox,1]/widget[FLFieldDB,fdbDesTarea]/property[minimumSize]/size[size,1]/width[width,1]/text()[1]" >35</xupdate:update>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,pr_costestarea]/vbox[vbox,1]/widget[QGroupBox,gbxCoste]/vbox[vbox,1]/widget[QLayoutWidget,layoutTipoMaquina_2]/hbox[hbox,1]/widget[FLFieldDB,fdbIdTipoTareaPro]/property[minimumSize]/size[size,1]/height[height,1]/text()[1]" >22</xupdate:update>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,pr_costestarea]/vbox[vbox,1]/widget[QGroupBox,gbxCoste]/vbox[vbox,1]/widget[QLayoutWidget,layoutTipoMaquina_2]/hbox[hbox,1]/widget[FLFieldDB,fdbIdTipoTareaPro]/property[minimumSize]/size[size,1]/width[width,1]/text()[1]" >112</xupdate:update>
+<xupdate:insert-after select="/UI[UI,1]/widget[QWidget,pr_costestarea]/vbox[vbox,1]/widget[QGroupBox,gbxCoste]/vbox[vbox,1]/widget[QLayoutWidget,layoutCoste]" >
+<widget class="QLayoutWidget" >
+<property name="name" >
+<cstring>layoutCosteMO</cstring>
+</property>
+<hbox>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fdbCosteInicialMO</cstring>
+</property>
+<property name="fieldName" >
+<string>costeinicialmo</string>
+</property>
+</widget>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fdbCosteUnidadMO</cstring>
+</property>
+<property name="fieldName" >
+<string>costeunidadmo</string>
+</property>
+</widget>
+<spacer>
+<property name="name" >
+<cstring>spacerCoste_2</cstring>
+</property>
+<property name="orientation" >
+<enum>Horizontal</enum>
+</property>
+<property name="sizeType" >
+<enum>Expanding</enum>
+</property>
+<property name="sizeHint" >
+<size>
+<width>20</width>
+<height>21</height>
+</size>
+</property>
+</spacer>
+</hbox>
+</widget>
+</xupdate:insert-after>
+<xupdate:delete select="/UI[UI,1]/includehints[includehints,1]/includehint[FLFieldDB.h]" />
+<xupdate:delete select="/UI[UI,1]/includehints[includehints,1]/includehint[FLFieldDB.h]" />
+<xupdate:delete select="/UI[UI,1]/includehints[includehints,1]/includehint[FLFieldDB.h]" />
+<xupdate:delete select="/UI[UI,1]/includehints[includehints,1]/includehint[FLFieldDB.h]" />
+<xupdate:delete select="/UI[UI,1]/includehints[includehints,1]/includehint[FLFieldDB.h]" />
+<xupdate:delete select="/UI[UI,1]/includehints[includehints,1]/includehint[FLFieldDB.h]" />
+<xupdate:delete select="/UI[UI,1]/includehints[includehints,1]/includehint[FLFieldDB.h]" />
+<xupdate:delete select="/UI[UI,1]/includehints[includehints,1]/includehint[FLFieldDB.h]" />
+<xupdate:append-first select="/UI[UI,1]/includehints[includehints,1]" >
+<includehint>flfielddb.h</includehint>
+</xupdate:append-first>
+<xupdate:insert-after select="/UI[UI,1]/includehints[includehints,1]/includehint[flfielddb.h]" >
+<includehint>flfielddb.h</includehint>
+</xupdate:insert-after>
+<xupdate:insert-after select="/UI[UI,1]/includehints[includehints,1]/includehint[flfielddb.h]" >
+<includehint>flfielddb.h</includehint>
+</xupdate:insert-after>
+<xupdate:insert-after select="/UI[UI,1]/includehints[includehints,1]/includehint[flfielddb.h]" >
+<includehint>flfielddb.h</includehint>
+</xupdate:insert-after>
+<xupdate:insert-after select="/UI[UI,1]/includehints[includehints,1]/includehint[flfielddb.h]" >
+<includehint>flfielddb.h</includehint>
+</xupdate:insert-after>
+<xupdate:insert-after select="/UI[UI,1]/includehints[includehints,1]/includehint[flfielddb.h]" >
+<includehint>flfielddb.h</includehint>
+</xupdate:insert-after>
+<xupdate:insert-after select="/UI[UI,1]/includehints[includehints,1]/includehint[flfielddb.h]" >
+<includehint>flfielddb.h</includehint>
+</xupdate:insert-after>
+<xupdate:insert-after select="/UI[UI,1]/includehints[includehints,1]/includehint[flfielddb.h]" >
+<includehint>flfielddb.h</includehint>
+</xupdate:insert-after>
+<xupdate:insert-after select="/UI[UI,1]/includehints[includehints,1]/includehint[flfielddb.h]" >
+<includehint>flfielddb.h</includehint>
+</xupdate:insert-after>
+<xupdate:insert-after select="/UI[UI,1]/includehints[includehints,1]/includehint[flfielddb.h]" >
+<includehint>flfielddb.h</includehint>
+</xupdate:insert-after>
+</xupdate:modifications>

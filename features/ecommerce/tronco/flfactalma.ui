@@ -1,0 +1,38 @@
+<xupdate:modifications>
+<xupdate:append-first select="/UI[UI,1]/images[images,1]" >
+<image name="ecommerceimage6" >
+<data format="PNG" length="920" >89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b0000035f49444154789c95944f681c551cc73f2b6fe1cd6df720746f5df0b201c104846cf1902c2d08e9a1a928682ef9736c8406c9c552a58478a9510f2d9ed2f4604ea19a4b532171b382b88794dd92124750d8404b2658c90c64e9fbd11d180fefed86359b187f30cccc9bf73ef3fd7d7feffd523bdb7b09a7447dcb676cb2943a6d4ecfd8d9de4bbae25592242f93e4e0af97c9c14192ec6cef25df2dfe942449c2ffb95e3bf6a734a0402b0f3000f4170b2cdf2b9f9ad9bf438100505eaf81d218113ca0385840e351dd2aa3f1100ccbf7cac9596d49ed6cef257d6fe6ba475b60621031104314096153a8d77da4329d27e6f373e7f3e38d3f1bdfccaef8332728a64b31b1001a2311c49afd3082d8d0ff761f1ac8bc51689426ae913d97e7b7cada75b89b995df1274e04972e0d747f31108a21fa5b3062ed1260ecb33bee49d377e92a9ed6e3b0701e189d5df1a3de1ea331b18334055a20eefd42b18006688590f6c87d3a42f0c503f28345de539f0c3df8f6eee6dc95c2f0cd550b3fee710b4c132436480cc4387b606db3ced4fb1a80dced690082d93b0084cf1b2cce2d446264f8e6aaffa4032eafd720c6a5ad3b4aa7ebd3d6b09813efc1c73700217c1ef1fdd272143c8b86bb141be3543ba512db81b6f2b5f52a53c30d40c82f2d22403031e516d9c29bdd06f35fad553a1e3f7c547330412b8d881c29032e0c3a8f9b0d9711041f5e85666045ed0710458e66cf1800231707303178d83d0c6e1fbb0cc4ed0524b4de8e16412c2c7c11a1d3daee15a5db601b46ec9b89a15ca92122942ef623e27e1d8b53bc6fe737053934ce6b0f69093a9de9d8d8017bca750605a5a1818ec75a598fb5b28ad010fc11a25df1b4f2acd274c672b49da7aa5b35ea5bb617b47bc2697724e858a3c93aa8b646a90c26b619aaa9c9919e4de5cb0ffa964aefe8f181feccd1602cf6d8630b8c6a43c1531ae332077ab44d17b32bfe44f917b9fff0517474481420d2291080b4ac3f0690436179dd07f8399524bddb6c2a651399bb52b89ecff1f5d868a65391f09946abac2b8e263a147e7d1c52f5f757b56266fe477ff73fc10073970be3d9d7599a1ccde069217cd16e019af2e380fad3a822985b0b1bbb95cefab3801d7c08657eb8f65136232647edf790ead3e809c2ccfc865f39b6feac60801bef16de92984dad882436b7163676eff75c0cfc0327b9f620e5d257080000000049454e44ae426082</data>
+</image>
+</xupdate:append-first>
+<xupdate:insert-after select="/UI[UI,1]/actions[actions,1]/action[regstocks]" >
+<action>
+<property name="name" >
+<cstring>descfamilias</cstring>
+</property>
+<property name="iconSet" >
+<iconset>ecommerceimage6</iconset>
+</property>
+<property name="text" >
+<string>Descripciones de familias</string>
+</property>
+<property name="menuText" >
+<string>Descripciones de familias</string>
+</property>
+</action>
+</xupdate:insert-after>
+<xupdate:insert-after select="/UI[UI,1]/connections[connections,1]/connection[connection,5]" >
+<connection>
+<sender>descfamilias</sender>
+<signal>activated()</signal>
+<receiver>FLWidgetApplication</receiver>
+<slot>openDefaultForm()</slot>
+</connection>
+</xupdate:insert-after>
+<xupdate:insert-after select="/UI[UI,1]/menubar[menubar,1]/item[item,1]/action[regstocks]" >
+<action name="descfamilias" />
+</xupdate:insert-after>
+<xupdate:update select="/UI[UI,1]/menubar[menubar,1]/property[property,2]/rect[rect,1]/height[height,1]/text()[1]" >23</xupdate:update>
+<xupdate:insert-after select="/UI[UI,1]/toolbars[toolbars,1]/toolbar[toolBar]/action[familias]" >
+<action name="descfamilias" />
+</xupdate:insert-after>
+</xupdate:modifications>

@@ -1,0 +1,4 @@
+<flpatch:modifications name="info_servicios" >
+    <flpatch:patchXml path="facturacion/facturacion/tables/" name="facturascli.mtd" />
+    <flpatch:patchXml path="facturacion/principal/tables/" name="clientes.mtd" />
+</flpatch:modifications>

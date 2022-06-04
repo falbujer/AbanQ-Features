@@ -1,0 +1,224 @@
+<xupdate:modifications>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,FLWidgetMasterTable]/property[property,2]/rect[rect,1]/height[height,1]/text()[1]" >555</xupdate:update>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,FLWidgetMasterTable]/property[property,2]/rect[rect,1]/width[width,1]/text()[1]" >662</xupdate:update>
+<xupdate:insert-after select="/UI[UI,1]/widget[QWidget,FLWidgetMasterTable]/vbox[vbox,1]/widget[QLayoutWidget,layout25]" >
+<widget class="QGroupBox" >
+<property name="name" >
+<cstring>gbxPublicar</cstring>
+</property>
+<property name="font" >
+<font>
+<bold>1</bold>
+</font>
+</property>
+<property name="title" >
+<string>Publicar</string>
+</property>
+<vbox>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<widget class="QLayoutWidget" >
+<property name="name" >
+<cstring>layout5</cstring>
+</property>
+<hbox>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<widget class="QPushButton" >
+<property name="name" >
+<cstring>pbnPublicarWeb</cstring>
+</property>
+<property name="minimumSize" >
+<size>
+<width>100</width>
+<height>30</height>
+</size>
+</property>
+<property name="font" >
+<font>
+<bold>0</bold>
+</font>
+</property>
+<property name="text" >
+<string>Publicar</string>
+</property>
+</widget>
+<spacer>
+<property name="name" >
+<cstring>spacer8</cstring>
+</property>
+<property name="orientation" >
+<enum>Horizontal</enum>
+</property>
+<property name="sizeType" >
+<enum>Fixed</enum>
+</property>
+<property name="sizeHint" >
+<size>
+<width>31</width>
+<height>20</height>
+</size>
+</property>
+</spacer>
+<widget class="QCheckBox" >
+<property name="name" >
+<cstring>chkPublicarImg</cstring>
+</property>
+<property name="font" >
+<font>
+<bold>0</bold>
+</font>
+</property>
+<property name="text" >
+<string>Publicar Imagenes</string>
+</property>
+<property name="whatsThis" stdset="0" >
+<string>Indica si se van a realizar las capturas de pantalla de los formularios. Si no se selecciona, se buscan en disco los archivos graficos de las capturas generados anteriormente. Solo es necesario generar la documentacion con capturas de formularios la primera vez o cuando haya cambiado un formulario.</string>
+</property>
+</widget>
+<spacer>
+<property name="name" >
+<cstring>spacer10</cstring>
+</property>
+<property name="orientation" >
+<enum>Horizontal</enum>
+</property>
+<property name="sizeType" >
+<enum>Fixed</enum>
+</property>
+<property name="sizeHint" >
+<size>
+<width>16</width>
+<height>20</height>
+</size>
+</property>
+</spacer>
+<widget class="QCheckBox" >
+<property name="name" >
+<cstring>chkPublicarZip</cstring>
+</property>
+<property name="font" >
+<font>
+<bold>0</bold>
+</font>
+</property>
+<property name="text" >
+<string>Publicar archivo ZIP</string>
+</property>
+<property name="whatsThis" stdset="0" >
+<string>Indica si se van a realizar las capturas de pantalla de los formularios. Si no se selecciona, se buscan en disco los archivos graficos de las capturas generados anteriormente. Solo es necesario generar la documentacion con capturas de formularios la primera vez o cuando haya cambiado un formulario.</string>
+</property>
+</widget>
+<spacer>
+<property name="name" >
+<cstring>spacer9</cstring>
+</property>
+<property name="orientation" >
+<enum>Horizontal</enum>
+</property>
+<property name="sizeType" >
+<enum>Expanding</enum>
+</property>
+<property name="sizeHint" >
+<size>
+<width>242</width>
+<height>20</height>
+</size>
+</property>
+</spacer>
+</hbox>
+</widget>
+<widget class="QLayoutWidget" >
+<property name="name" >
+<cstring>layout7</cstring>
+</property>
+<hbox>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fdbDirWeb</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>7</hsizetype>
+<vsizetype>5</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="font" >
+<font>
+<bold>0</bold>
+</font>
+</property>
+<property name="fieldName" >
+<string>dirweb</string>
+</property>
+</widget>
+<widget class="QPushButton" >
+<property name="name" >
+<cstring>pbnCambiarDirWeb</cstring>
+</property>
+<property name="font" >
+<font>
+<bold>0</bold>
+</font>
+</property>
+<property name="text" >
+<string>Cambiar</string>
+</property>
+</widget>
+</hbox>
+</widget>
+<widget class="QLayoutWidget" >
+<property name="name" >
+<cstring>layout7_2</cstring>
+</property>
+<hbox>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<widget class="FLFieldDB" >
+<property name="name" >
+<cstring>fdbDirWebDescargas</cstring>
+</property>
+<property name="sizePolicy" >
+<sizepolicy>
+<hsizetype>7</hsizetype>
+<vsizetype>5</vsizetype>
+<horstretch>0</horstretch>
+<verstretch>0</verstretch>
+</sizepolicy>
+</property>
+<property name="font" >
+<font>
+<bold>0</bold>
+</font>
+</property>
+<property name="fieldName" >
+<string>dirwebdescargas</string>
+</property>
+</widget>
+<widget class="QPushButton" >
+<property name="name" >
+<cstring>pbnCambiarDirWebDescargas</cstring>
+</property>
+<property name="font" >
+<font>
+<bold>0</bold>
+</font>
+</property>
+<property name="text" >
+<string>Cambiar</string>
+</property>
+</widget>
+</hbox>
+</widget>
+</vbox>
+</widget>
+</xupdate:insert-after>
+</xupdate:modifications>

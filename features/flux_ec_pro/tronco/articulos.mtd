@@ -1,0 +1,30 @@
+<xupdate:modifications>
+<xupdate:insert-after select="/TMD[TMD,1]/field[enportada]" >
+<field>
+<name>superenportada</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Destacado en portada&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>bool</type>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[idsubcuentairpfcom]" >
+<field>
+<name>descripciondeeplink</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Descripción Deep Link&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>string</type>
+<length>100</length>
+</field>
+</xupdate:insert-after>
+<xupdate:insert-after select="/TMD[TMD,1]/field[descripciondeeplink]" >
+<field>
+<name>descripcionseo</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Descripcion&quot;)</alias>
+<null>true</null>
+<pk>false</pk>
+<type>stringlist</type>
+</field>
+</xupdate:insert-after>
+</xupdate:modifications>

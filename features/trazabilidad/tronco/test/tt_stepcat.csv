@@ -1,0 +1,558 @@
+267ÏÏ5ÏÏPulsar el botón toolButtonInsertÏÏarticulosÏÏButtonÏÏtoolButtonInsertÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000231ÏÏtrazabilidadÏÏÖ
+267ÏÏ3ÏÏComprobar si existe ||COD_ARTICULO_LOTES||ÏÏÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Saltar" type="Distintos" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="referencia = &quot;||COD_ARTICULO_LOTES||&quot;" savein="" from="articulos" select="referencia" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||COD_ARTICULO_LOTES||</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000231ÏÏtrazabilidadÏÏÖ
+267ÏÏ4ÏÏAbrir formulario articulosÏÏarticulosÏÏFLFormDBÏÏarticulosÏÏopenÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000231ÏÏtrazabilidadÏÏÖ
+267ÏÏ6ÏÏfdbReferencia = ||COD_ARTICULO_LOTES||ÏÏarticulosÏÏFLFieldDBÏÏfdbReferenciaÏÏsetValueÏÏ||COD_ARTICULO_LOTES||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000231ÏÏtrazabilidadÏÏÖ
+267ÏÏ13ÏÏfdbDescripcion = ||DESC_ARTICULO_LOTES||ÏÏarticulosÏÏFLFieldDBÏÏfdbDescripcionÏÏsetValueÏÏ||DESC_ARTICULO_LOTES||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000231ÏÏtrazabilidadÏÏÖ
+267ÏÏ14ÏÏfdbPvp = ||PVP_ARTICULO_LOTES||ÏÏarticulosÏÏFLFieldDBÏÏfdbPvpÏÏsetValueÏÏ||PVP_ARTICULO_LOTES||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000231ÏÏtrazabilidadÏÏÖ
+267ÏÏ16ÏÏfdbImpuesto = ||IVA_ARTICULO_LOTES||ÏÏarticulosÏÏFLFieldDBÏÏfdbImpuestoÏÏsetValueÏÏ||IVA_ARTICULO_LOTES||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000231ÏÏtrazabilidadÏÏÖ
+267ÏÏ17ÏÏEstablecer valor porlotesÏÏarticulosÏÏFLFieldDBÏÏfdbPorLotesÏÏsetValueÏÏtrueÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000231ÏÏtrazabilidadÏÏÖ
+267ÏÏ19ÏÏfdbDiasConsumo = ||DIASCONSUMO_ARTICULO_LOTES||ÏÏarticulosÏÏFLFieldDBÏÏfdbDiasConsumoÏÏsetValueÏÏ||DIASCONSUMO_ARTICULO_LOTES||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000231ÏÏtrazabilidadÏÏÖ
+267ÏÏ20ÏÏPulsar botón pushButtonAcceptÏÏarticulosÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏAceptarÏÏ000231ÏÏtrazabilidadÏÏÖ
+267ÏÏ21ÏÏCerrar formulario articulosÏÏarticulosÏÏFLFormDBÏÏarticulosÏÏcloseÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000231ÏÏtrazabilidadÏÏÖ
+273ÏÏ1ÏÏComparar  lotesÏÏlotesÏÏCompareÏÏlotesÏÏcompareItemsÏÏ<FLTest:Compare action="Saltar" type="Distintos" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="codlote = &quot;||COD_LOTE_INSERT||&quot;" savein="" from="lotes" select="codlote" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||COD_LOTE_INSERT||</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000235ÏÏtrazabilidadÏÏÖ
+273ÏÏ5ÏÏfdbCodLote = ||COD_LOTE_INSERT||ÏÏlotesÏÏFLFieldDBÏÏfdbCodLoteÏÏsetValueÏÏ||COD_LOTE_INSERT||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000235ÏÏtrazabilidadÏÏÖ
+273ÏÏ6ÏÏfdbReferencia = ||ARTICULO_CREARLOTE||ÏÏlotesÏÏFLFieldDBÏÏfdbReferenciaÏÏsetValueÏÏ||ARTICULO_CREARLOTE||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000235ÏÏtrazabilidadÏÏÖ
+273ÏÏ8ÏÏCerrar formulario lotesÏÏlotesÏÏFLFormDBÏÏlotesÏÏcloseÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000235ÏÏtrazabilidadÏÏÖ
+273ÏÏ3ÏÏAbrir formulario lotesÏÏlotesÏÏFLFormDBÏÏlotesÏÏopenÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000235ÏÏtrazabilidadÏÏÖ
+273ÏÏ4ÏÏPulsar botón toolButtomInsertÏÏlotesÏÏButtonÏÏtoolButtomInsertÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000235ÏÏtrazabilidadÏÏÖ
+273ÏÏ7ÏÏPulsar el botón pushButtonAcceptÏÏlotesÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏAceptarÏÏ000235ÏÏtrazabilidadÏÏÖ
+279ÏÏ25ÏÏComparar  ÏÏÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="codalmacen = &quot;||COD_AL_COMP2||&quot; AND referencia = &quot;||COD_ARTICULO_COMP||&quot;" savein="" from="stocks" select="cantidad" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||CANT_AL_COMP2||</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000239ÏÏtrazabilidadÏÏÖ
+279ÏÏ24ÏÏComparar  ÏÏÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="codalmacen = &quot;||COD_AL_COMP1||&quot; AND referencia = &quot;||COD_ARTICULO_COMP||&quot;" savein="" from="stocks" select="cantidad" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||CANT_AL_COMP1||</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000239ÏÏtrazabilidadÏÏÖ
+279ÏÏ23ÏÏComparar  ÏÏÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="codlote = &quot;||COD_LOTE_COMP2||&quot;" savein="" from="lotes" select="enalmacen" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||CANT_LOTE_COMP2||</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000239ÏÏtrazabilidadÏÏÖ
+279ÏÏ22ÏÏComparar  ÏÏÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="codlote = &quot;||COD_LOTE_COMP1||&quot;" savein="" from="lotes" select="enalmacen" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||CANT_LOTE_COMP1||</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000239ÏÏtrazabilidadÏÏÖ
+281ÏÏ19ÏÏARTICULOS: CERRAR ARTÍCULO EN MODO EDITÏÏarticulosÏÏTestÏÏ<FLTest:Test codtest="000283" idfuncional="flfactalma"/>ÏÏexecTestÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏAceptarÏÏ000240ÏÏtrazabilidadÏÏÖ
+281ÏÏ17ÏÏfdbDiasConsumo = ||DIAS_CONSUMO||ÏÏarticulosÏÏFLFieldDBÏÏfdbDiasConsumoÏÏsetValueÏÏ||DIAS_CONSUMO||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000240ÏÏtrazabilidadÏÏÖ
+281ÏÏ2ÏÏARTICULOS: ABRIR ARTÍCULO EN MODO EDITÏÏarticulosÏÏTestÏÏ<FLTest:Test codtest="000282" idfuncional="flfactalma"/>ÏÏexecTestÏÏ<FLTest:Assignation/>
+ÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000240ÏÏtrazabilidadÏÏÖ
+293ÏÏ6ÏÏfdbCaducidad = ||CADUCIDAD||ÏÏlotesÏÏFLFieldDBÏÏfdbCaducidadÏÏsetValueÏÏ||CADUCIDAD||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000246ÏÏtrazabilidadÏÏÖ
+293ÏÏ3ÏÏSeleccionar codlote = "||COD_LOTE_CAD||"
+ÏÏlotesÏÏFLTableDBÏÏtableDBRecordsÏÏselectRowÏÏcodlote = "||COD_LOTE_CAD||"
+ÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000246ÏÏtrazabilidadÏÏÖ
+293ÏÏ7ÏÏPulsar el botón pushButtonAcceptÏÏlotesÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏAceptarÏÏ000246ÏÏtrazabilidadÏÏÖ
+293ÏÏ8ÏÏCerrar formulario lotesÏÏlotesÏÏFLFormDBÏÏlotesÏÏcloseÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000246ÏÏtrazabilidadÏÏÖ
+293ÏÏ1ÏÏAbrir formulario lotesÏÏlotesÏÏFLFormDBÏÏlotesÏÏopenÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000246ÏÏtrazabilidadÏÏÖ
+293ÏÏ4ÏÏPulsar el botón toolButtonEditÏÏlotesÏÏButtonÏÏtoolButtonEditÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000246ÏÏtrazabilidadÏÏÖ
+295ÏÏ6ÏÏSeleccionar codalmacen = "||COD_ALMACEN_REG||"ÏÏarticulosÏÏFLTableDBÏÏtdbStocksÏÏselectRowÏÏcodalmacen = "||COD_ALMACEN_REG||"ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000247ÏÏtrazabilidadÏÏÖ
+295ÏÏ4ÏÏtbwArticulo: Seleccionar la pestaña stocksÏÏarticulosÏÏQTabWidgetÏÏtbwArticuloÏÏsetPageÏÏstocksÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000247ÏÏtrazabilidadÏÏÖ
+295ÏÏ7ÏÏPulsar el botón toolButtonEditStockÏÏarticulosÏÏButtonÏÏtoolButtonEditStockÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000247ÏÏtrazabilidadÏÏÖ
+295ÏÏ8ÏÏPulsar el botón tbnRegularizacionÏÏstocksÏÏButtonÏÏtbnRegularizacionÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000247ÏÏtrazabilidadÏÏÖ
+295ÏÏ9ÏÏfdbCantidad = ||CANT_REG||ÏÏmoviloteÏÏFLFieldDBÏÏfdbCantidadÏÏsetValueÏÏ||CANT_REG||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000247ÏÏtrazabilidadÏÏÖ
+295ÏÏ11ÏÏfdbCodLote = ||COD_LOTE_REG||ÏÏmoviloteÏÏFLFieldDBÏÏfdbCodLoteÏÏsetValueÏÏ||COD_LOTE_REG||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000247ÏÏtrazabilidadÏÏÖ
+295ÏÏ12ÏÏPulsar el botón pushButtonAcceptÏÏmoviloteÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏAceptarÏÏ000247ÏÏtrazabilidadÏÏÖ
+295ÏÏ13ÏÏPulsar el botón pushButtonAcceptÏÏstocksÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏAceptarÏÏ000247ÏÏtrazabilidadÏÏÖ
+295ÏÏ14ÏÏPulsar el botón pushButtonAcceptÏÏarticulosÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏAceptarÏÏ000247ÏÏtrazabilidadÏÏÖ
+295ÏÏ15ÏÏCerrar formulario articulosÏÏarticulosÏÏFLFormDBÏÏarticulosÏÏcloseÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000247ÏÏtrazabilidadÏÏÖ
+295ÏÏ16ÏÏComparar  articulosÏÏarticulosÏÏCompareÏÏarticulosÏÏcompareItemsÏÏ<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="codlote = &quot;||COD_LOTE_REG||&quot;" savein="" from="lotes" select="enalmacen" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||CANT_FINAL||</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000247ÏÏtrazabilidadÏÏÖ
+295ÏÏ2ÏÏSeleccionar referencia = "||COD_ARTICULO_REG||"ÏÏarticulosÏÏFLTableDBÏÏtableDBRecordsÏÏselectRowÏÏreferencia = "||COD_ARTICULO_REG||"ÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000247ÏÏtrazabilidadÏÏÖ
+295ÏÏ3ÏÏPulsar el botón toolButtonEditÏÏarticulosÏÏButtonÏÏtoolButtonEditÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000247ÏÏtrazabilidadÏÏÖ
+295ÏÏ1ÏÏAbrir formulario articulosÏÏarticulosÏÏFLFormDBÏÏarticulosÏÏopenÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000247ÏÏtrazabilidadÏÏÖ
+297ÏÏ7ÏÏComparar  ÏÏpurgarmovÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="codlote = &quot;||COD_LOTE_PURGADO||&quot;" savein="" from="movilote" select="codlote" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >**NOT_FOUND**</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000248ÏÏtrazabilidadÏÏÖ
+297ÏÏ4ÏÏRellenar el diálogo purgarÏÏpurgarmovÏÏScriptDialogÏÏpurgarÏÏfillDialogÏÏ<FLTest:ScriptDialog event="" object="" >
+    <FLTest:DialogObject value="" type="QPushButton" name="Aceptar" />
+</FLTest:ScriptDialog>
+ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000248ÏÏtrazabilidadÏÏÖ
+297ÏÏ6ÏÏMessageBox - Pulsar Sí ÏÏpurgarmovÏÏMessageBoxÏÏÏÏpushYesÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000248ÏÏtrazabilidadÏÏÖ
+297ÏÏ1ÏÏEjecutar función mainÏÏpurgarmovÏÏScriptÏÏmainÏÏexecFunctionÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000248ÏÏtrazabilidadÏÏÖ
+297ÏÏ3ÏÏMessageBox - Pulsar Sí ÏÏpurgarmovÏÏMessageBoxÏÏÏÏpushYesÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000248ÏÏtrazabilidadÏÏÖ
+301ÏÏ12ÏÏPulsar el botón pushButtonAcceptÏÏtransloteÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformSearchÏÏAceptarÏÏ000250ÏÏtrazabilidadÏÏÖ
+301ÏÏ11ÏÏfdbCodLoteDestino = ||COD_LOTE_DESTINO_TRANS||ÏÏtransloteÏÏFLFieldDBÏÏfdbCodLoteDestinoÏÏsetValueÏÏ||COD_LOTE_DESTINO_TRANS||ÏÏFÏÏflfactalmaÏÏformSearchÏÏNingunoÏÏ000250ÏÏtrazabilidadÏÏÖ
+301ÏÏ10ÏÏfdbCodLoteOrigen = ||COD_LOTE_ORIGEN_TRANS||ÏÏtransloteÏÏFLFieldDBÏÏfdbCodLoteOrigenÏÏsetValueÏÏ||COD_LOTE_ORIGEN_TRANS||ÏÏFÏÏflfactalmaÏÏformSearchÏÏNingunoÏÏ000250ÏÏtrazabilidadÏÏÖ
+301ÏÏ9ÏÏfdbCantidad = ||CANT_TRANS||ÏÏtransloteÏÏFLFieldDBÏÏfdbCantidadÏÏsetValueÏÏ||CANT_TRANS||ÏÏFÏÏflfactalmaÏÏformSearchÏÏNingunoÏÏ000250ÏÏtrazabilidadÏÏÖ
+301ÏÏ6ÏÏSeleccionar codalmacen = "||COD_ALMACEN_TRANS||"ÏÏarticulosÏÏFLTableDBÏÏtdbStocksÏÏselectRowÏÏcodalmacen = "||COD_ALMACEN_TRANS||"ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000250ÏÏtrazabilidadÏÏÖ
+301ÏÏ4ÏÏtbwArticulo: Seleccionar la pestaña stocksÏÏarticulosÏÏQTabWidgetÏÏtbwArticuloÏÏsetPageÏÏstocksÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000250ÏÏtrazabilidadÏÏÖ
+301ÏÏ7ÏÏPulsar el botón toolButtonEditStockÏÏarticulosÏÏButtonÏÏtoolButtonEditStockÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000250ÏÏtrazabilidadÏÏÖ
+301ÏÏ8ÏÏPulsar el botón tbnTransferenciaÏÏstocksÏÏButtonÏÏtbnTransferenciaÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000250ÏÏtrazabilidadÏÏÖ
+301ÏÏ13ÏÏPulsar el botón pushButtonAcceptÏÏstocksÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏAceptarÏÏ000250ÏÏtrazabilidadÏÏÖ
+301ÏÏ14ÏÏPulsar el botón pushButtonAcceptÏÏarticulosÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏAceptarÏÏ000250ÏÏtrazabilidadÏÏÖ
+301ÏÏ15ÏÏCerrar formulario articulosÏÏarticulosÏÏFLFormDBÏÏarticulosÏÏcloseÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000250ÏÏtrazabilidadÏÏÖ
+301ÏÏ16ÏÏComparar  articulosÏÏarticulosÏÏCompareÏÏarticulosÏÏcompareItemsÏÏ<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="codlote = &quot;||COD_LOTE_ORIGEN_TRANS||&quot;" savein="" from="lotes" select="enalmacen" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||CANT_LOTE_ORIGEN||</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000250ÏÏtrazabilidadÏÏÖ
+301ÏÏ17ÏÏComparar  ÏÏarticulosÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Error" type="Iguales" >
+    <FLTest:CompareElement type="Query" >
+        <FLTest:Query where="codlote = &quot;||COD_LOTE_DESTINO_TRANS||&quot;" savein="" from="lotes" select="enalmacen" />
+    </FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >||CANT_LOTE_DESTINO||</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000250ÏÏtrazabilidadÏÏÖ
+301ÏÏ2ÏÏSeleccionar referencia = "||COD_ARTICULO_TRANS||"ÏÏarticulosÏÏFLTableDBÏÏtableDBRecordsÏÏselectRowÏÏreferencia = "||COD_ARTICULO_TRANS||"ÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000250ÏÏtrazabilidadÏÏÖ
+301ÏÏ1ÏÏAbrir formulario articulosÏÏarticulosÏÏFLFormDBÏÏarticulosÏÏopenÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000250ÏÏtrazabilidadÏÏÖ
+301ÏÏ3ÏÏPulsar el botón toolButtonEditÏÏarticulosÏÏButtonÏÏtoolButtonEditÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformÏÏNingunoÏÏ000250ÏÏtrazabilidadÏÏÖ
+313ÏÏ18ÏÏPulsar botón pushButtonAcceptÏÏlineasfacturascliÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏAceptarÏÏ000329ÏÏtrazabilidadÏÏÖ
+313ÏÏ19ÏÏFACTURAS CLIENTE: CERRAR FACTURA EN MODO EDITÏÏfacturascliÏÏTestÏÏ<FLTest:Test codtest="000295" idfuncional="flfacturac"/>ÏÏexecTestÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000329ÏÏtrazabilidadÏÏÖ
+313ÏÏ16ÏÏFACTURAS CLIENTE: LINEAS: CREAR MOVIMIENTO REF_LINEA_EDIT =  CANT_LINEA = ||CANT3|| LOTE_LINEA = ||LOTE3||ÏÏlineasfacturascliÏÏTestÏÏ<FLTest:Test codtest="000333" idfuncional="trazabilidad"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="REF_LINEA_EDIT" />
+    <FLTest:AssignationElement value="||CANT3||" var="CANT_LINEA" />
+    <FLTest:AssignationElement value="||LOTE3||" var="LOTE_LINEA" />
+</FLTest:Assignation>
+ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000329ÏÏtrazabilidadÏÏÖ
+313ÏÏ15ÏÏFACTURAS CLIENTE: LINEAS: CREAR MOVIMIENTO REF_LINEA_EDIT =  CANT_LINEA = ||CANT2|| LOTE_LINEA = ||LOTE2||ÏÏlineasfacturascliÏÏTestÏÏ<FLTest:Test codtest="000333" idfuncional="trazabilidad"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="REF_LINEA_EDIT" />
+    <FLTest:AssignationElement value="||CANT2||" var="CANT_LINEA" />
+    <FLTest:AssignationElement value="||LOTE2||" var="LOTE_LINEA" />
+</FLTest:Assignation>
+ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000329ÏÏtrazabilidadÏÏÖ
+313ÏÏ11ÏÏFACTURAS CLIENTE: LINEAS: CREAR MOVIMIENTO REF_LINEA_EDIT =  CANT_LINEA = ||CANT1|| LOTE_LINEA = ||LOTE1||ÏÏlineasfacturascliÏÏTestÏÏ<FLTest:Test codtest="000333" idfuncional="trazabilidad"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="REF_LINEA_EDIT" />
+    <FLTest:AssignationElement value="||CANT1||" var="CANT_LINEA" />
+    <FLTest:AssignationElement value="||LOTE1||" var="LOTE_LINEA" />
+</FLTest:Assignation>
+ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000329ÏÏtrazabilidadÏÏÖ
+313ÏÏ1ÏÏSaltar si ||REF_LINEA|| no está definidoÏÏfacturascliÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Saltar" type="Distintos" >
+    <FLTest:CompareElement type="Valor" >||REF_LINEA||</FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >**UNDEFINED**</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000329ÏÏtrazabilidadÏÏÖ
+313ÏÏ10ÏÏdescripcion = ||DES_LINEA||ÏÏlineasfacturascliÏÏFLFieldDBÏÏfdbDescripcionÏÏsetValueÏÏ||DES_LINEA||ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000329ÏÏtrazabilidadÏÏÖ
+313ÏÏ9ÏÏfdbReferencia = ||REF_LINEA||ÏÏlineasfacturascliÏÏFLFieldDBÏÏfdbReferenciaÏÏsetValueÏÏ||REF_LINEA||ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000329ÏÏtrazabilidadÏÏÖ
+313ÏÏ8ÏÏPulsar el botón toolButtomInsertÏÏfacturascliÏÏButtonÏÏtoolButtomInsertÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000329ÏÏtrazabilidadÏÏÖ
+313ÏÏ5ÏÏFACTURAS CLIENTE: ABRIR FACTURA EN MODO EDITÏÏfacturascliÏÏTestÏÏ<FLTest:Test codtest="000294" idfuncional="flfacturac"/>ÏÏexecTestÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000329ÏÏtrazabilidadÏÏÖ
+315ÏÏ5ÏÏSaltar si ||REF_LINEA_EDIT|| no está definidoÏÏfacturascliÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Saltar" type="Distintos" >
+    <FLTest:CompareElement type="Valor" >||REF_LINEA_EDIT||</FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >**UNDEFINED**</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000330ÏÏtrazabilidadÏÏÖ
+315ÏÏ8ÏÏPulsar el botón toolButtomInsertÏÏfacturascliÏÏButtonÏÏtoolButtomInsertÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000330ÏÏtrazabilidadÏÏÖ
+317ÏÏ16ÏÏPulsar botón pushButtonAcceptÏÏlineasfacturascliÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏAceptarÏÏ000331ÏÏtrazabilidadÏÏÖ
+317ÏÏ15ÏÏComprobar si ||REF_LINEA_EDIT|| esta definidaÏÏÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Saltar" type="Distintos" >
+    <FLTest:CompareElement type="Valor" >||REF_LINEA_EDIT||</FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >**UNDEFINED**</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏÏÏÏÏformRecordÏÏNingunoÏÏ000331ÏÏtrazabilidadÏÏÖ
+321ÏÏ11ÏÏSaltar si ||CANT_LINEA|| y ||LOTE_LINEA|| no están definidasÏÏÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Saltar" type="Distintos" >
+    <FLTest:CompareElement type="Valor" >||CANT_LINEA||-||LOTE_LINEA||</FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >**UNDEFINED**-**UNDEFINED**</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏÏÏÏÏformRecordÏÏNingunoÏÏ000333ÏÏtrazabilidadÏÏÖ
+321ÏÏ12ÏÏFACTURAS CLIENTE: LINEAS: ABRIR LINEA EN MODO EDITÏÏfacturascliÏÏTestÏÏ<FLTest:Test codtest="000330" idfuncional="trazabilidad"/>ÏÏexecTestÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000333ÏÏtrazabilidadÏÏÖ
+321ÏÏ13ÏÏPulsar el botón toolButtonInsertMovÏÏlineasfacturascliÏÏButtonÏÏtoolButtonInsertMovÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000333ÏÏtrazabilidadÏÏÖ
+321ÏÏ14ÏÏfdbCodLote = ||LOTE_LINEA||ÏÏmoviloteÏÏFLFieldDBÏÏfdbCodLoteÏÏsetValueÏÏ||LOTE_LINEA||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000333ÏÏtrazabilidadÏÏÖ
+321ÏÏ15ÏÏcantidad = ||CANT_LINEA||ÏÏmoviloteÏÏFLFieldDBÏÏfdbCantidadÏÏsetValueÏÏ||CANT_LINEA||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000333ÏÏtrazabilidadÏÏÖ
+321ÏÏ16ÏÏPulsar el botón pushButtonAcceptÏÏmoviloteÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏAceptarÏÏ000333ÏÏtrazabilidadÏÏÖ
+321ÏÏ17ÏÏFACTURAS CLIENTE: LINEAS: CERRAR LINEA EN MODO EDITÏÏlineasfacturascliÏÏTestÏÏ<FLTest:Test codtest="000331" idfuncional="trazabilidad"/>ÏÏexecTestÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏAceptarÏÏ000333ÏÏtrazabilidadÏÏÖ
+325ÏÏ8ÏÏPulsar el botón toolButtomInsertÏÏfacturasprovÏÏButtonÏÏtoolButtomInsertÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000335ÏÏtrazabilidadÏÏÖ
+325ÏÏ5ÏÏSaltar si ||REF_LINEA_EDIT|| no está definidoÏÏfacturasprovÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Saltar" type="Distintos" >
+    <FLTest:CompareElement type="Valor" >||REF_LINEA_EDIT||</FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >**UNDEFINED**</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000335ÏÏtrazabilidadÏÏÖ
+329ÏÏ16ÏÏPulsar botón pushButtonAcceptÏÏlineasfacturasprovÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏAceptarÏÏ000336ÏÏtrazabilidadÏÏÖ
+329ÏÏ15ÏÏComprobar si ||REF_LINEA_EDIT|| esta definidaÏÏÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Saltar" type="Distintos" >
+    <FLTest:CompareElement type="Valor" >||REF_LINEA_EDIT||</FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >**UNDEFINED**</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏÏÏÏÏformRecordÏÏNingunoÏÏ000336ÏÏtrazabilidadÏÏÖ
+331ÏÏ1ÏÏSaltar si ||CANT_LINEA||-||LOTE_LINEA|| no estan definidasÏÏÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Saltar" type="Distintos" >
+    <FLTest:CompareElement type="Valor" >||CANT_LINEA||-||LOTE_LINEA||</FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >**UNDEFINED**-**UNDEFINED**</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏÏÏÏÏformRecordÏÏNingunoÏÏ000337ÏÏtrazabilidadÏÏÖ
+331ÏÏ11ÏÏFACTURAS PROVEEDOR: LINEAS: ABRIR LINEA EN MODO EDITÏÏfacturasprovÏÏTestÏÏ<FLTest:Test codtest="000335" idfuncional="trazabilidad"/>ÏÏexecTestÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000337ÏÏtrazabilidadÏÏÖ
+331ÏÏ12ÏÏPulsar el botón toolButtonInsertMovÏÏlineasfacturasprovÏÏButtonÏÏtoolButtonInsertMovÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000337ÏÏtrazabilidadÏÏÖ
+331ÏÏ13ÏÏfdbCodLote = ||LOTE_LINEA||ÏÏmoviloteÏÏFLFieldDBÏÏfdbCodLoteÏÏsetValueÏÏ||LOTE_LINEA||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000337ÏÏtrazabilidadÏÏÖ
+331ÏÏ14ÏÏcantidad = ||CANT_LINEA||ÏÏmoviloteÏÏFLFieldDBÏÏfdbCantidadÏÏsetValueÏÏ||CANT_LINEA||ÏÏFÏÏflfactalmaÏÏformRecordÏÏNingunoÏÏ000337ÏÏtrazabilidadÏÏÖ
+331ÏÏ15ÏÏPulsar el botón pushButtonAcceptÏÏmoviloteÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfactalmaÏÏformRecordÏÏAceptarÏÏ000337ÏÏtrazabilidadÏÏÖ
+331ÏÏ16ÏÏFACTURAS PROVEEDOR: LINEAS: CERRAR LINEA EN MODO EDITÏÏlineasfacturasprovÏÏTestÏÏ<FLTest:Test codtest="000336" idfuncional="trazabilidad"/>ÏÏexecTestÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏAceptarÏÏ000337ÏÏtrazabilidadÏÏÖ
+333ÏÏ17ÏÏPulsar el botón pushButtonAcceptÏÏlineasfacturasprovÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏAceptarÏÏ000338ÏÏtrazabilidadÏÏÖ
+333ÏÏ16ÏÏFACTURAS PROVEEDOR: LINEAS: CREAR MOVIMIENTO REF_LINEA_EDIT =  CANT_LINEA = ||CANT3|| LOTE_LINEA = ||LOTE3||ÏÏlineasfacturasprovÏÏTestÏÏ<FLTest:Test codtest="000337" idfuncional="trazabilidad"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="REF_LINEA_EDIT" />
+    <FLTest:AssignationElement value="||CANT3||" var="CANT_LINEA" />
+    <FLTest:AssignationElement value="||LOTE3||" var="LOTE_LINEA" />
+</FLTest:Assignation>
+ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000338ÏÏtrazabilidadÏÏÖ
+333ÏÏ15ÏÏFACTURAS PROVEEDOR: LINEAS: CREAR MOVIMIENTO REF_LINEA_EDIT =  CANT_LINEA = ||CANT2|| LOTE_LINEA = ||LOTE2||ÏÏlineasfacturasprovÏÏTestÏÏ<FLTest:Test codtest="000337" idfuncional="trazabilidad"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="REF_LINEA_EDIT" />
+    <FLTest:AssignationElement value="||CANT2||" var="CANT_LINEA" />
+    <FLTest:AssignationElement value="||LOTE2||" var="LOTE_LINEA" />
+</FLTest:Assignation>
+ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000338ÏÏtrazabilidadÏÏÖ
+333ÏÏ11ÏÏFACTURAS PROVEEDOR: LINEAS: CREAR MOVIMIENTO REF_LINEA_EDIT =  CANT_LINEA = ||CANT1|| LOTE_LINEA = ||LOTE1||ÏÏlineasfacturasprovÏÏTestÏÏ<FLTest:Test codtest="000337" idfuncional="trazabilidad"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="REF_LINEA_EDIT" />
+    <FLTest:AssignationElement value="||CANT1||" var="CANT_LINEA" />
+    <FLTest:AssignationElement value="||LOTE1||" var="LOTE_LINEA" />
+</FLTest:Assignation>
+ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000338ÏÏtrazabilidadÏÏÖ
+333ÏÏ1ÏÏSaltar si ||REF_LINEA|| no está definidoÏÏfacturasprovÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Saltar" type="Distintos" >
+    <FLTest:CompareElement type="Valor" >||REF_LINEA||</FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >**UNDEFINED**</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000338ÏÏtrazabilidadÏÏÖ
+333ÏÏ18ÏÏFACTURAS PROVEEDOR: CERRAR FACTURA EN MODO EDITÏÏfacturasprovÏÏTestÏÏ<FLTest:Test codtest="000309" idfuncional="flfacturac"/>ÏÏexecTestÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000338ÏÏtrazabilidadÏÏÖ
+333ÏÏ10ÏÏdescripcion = ||DES_LINEA||ÏÏlineasfacturasprovÏÏFLFieldDBÏÏfdbDescripcionÏÏsetValueÏÏ||DES_LINEA||ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000338ÏÏtrazabilidadÏÏÖ
+333ÏÏ9ÏÏfdbReferencia = ||REF_LINEA||ÏÏlineasfacturasprovÏÏFLFieldDBÏÏfdbReferenciaÏÏsetValueÏÏ||REF_LINEA||ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000338ÏÏtrazabilidadÏÏÖ
+333ÏÏ8ÏÏPulsar el botón toolButtomInsertÏÏfacturasprovÏÏButtonÏÏtoolButtomInsertÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000338ÏÏtrazabilidadÏÏÖ
+333ÏÏ5ÏÏFACTURAS PROVEEDOR: ABRIR FACTURA EN MODO EDITÏÏfacturasprovÏÏTestÏÏ<FLTest:Test codtest="000308" idfuncional="flfacturac"/>ÏÏexecTestÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000338ÏÏtrazabilidadÏÏÖ
+337ÏÏ20ÏÏMessageBox - Pulsar No ÏÏÏÏMessageBoxÏÏÏÏpushNoÏÏ<FLTest:Condition event="SCRIPT_FINISHED" object="pbnGenerarAlbaran_clicked" />
+ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000340ÏÏtrazabilidadÏÏÖ
+337ÏÏ19ÏÏPulsar el botón Generar &AlbaranÏÏpedidosprovÏÏButtonÏÏpbnGenerarAlbaranÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000340ÏÏtrazabilidadÏÏÖ
+337ÏÏ21ÏÏCerrar formulario pedidosprovÏÏpedidosprovÏÏFLFormDBÏÏpedidosprovÏÏcloseÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000340ÏÏtrazabilidadÏÏÖ
+337ÏÏ2ÏÏAbrir formulario pedidosprovÏÏpedidosprovÏÏFLFormDBÏÏpedidosprovÏÏopenÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000340ÏÏtrazabilidadÏÏÖ
+337ÏÏ3ÏÏPulsar botón toolButtomInsertÏÏpedidosprovÏÏButtonÏÏtoolButtomInsertÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformÏÏNingunoÏÏ000340ÏÏtrazabilidadÏÏÖ
+337ÏÏ4ÏÏfdbCodProveedor = ||COD_PROV_PEDIDO||ÏÏpedidosprovÏÏFLFieldDBÏÏfdbCodProveedorÏÏsetValueÏÏ||COD_PROV_PEDIDO||ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000340ÏÏtrazabilidadÏÏÖ
+337ÏÏ10ÏÏPEDIDOS PROVEEDOR: CREAR LINEA REF_LINEA = ||REF_LINEA1|| DES_LINEA = ||DES_LINEA1|| CAN_LINEA = ||CAN_LINEA1||ÏÏpedidosprovÏÏTestÏÏ<FLTest:Test codtest="000118" idfuncional="flfacturac"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||REF_LINEA1||" var="REF_LINEA" />
+    <FLTest:AssignationElement value="||DES_LINEA1||" var="DES_LINEA" />
+    <FLTest:AssignationElement value="||CAN_LINEA1||" var="CAN_LINEA" />
+</FLTest:Assignation>
+ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000340ÏÏtrazabilidadÏÏÖ
+337ÏÏ18ÏÏPulsar botón pushButtonAcceptÏÏpedidosprovÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏAceptarÏÏ000340ÏÏtrazabilidadÏÏÖ
+341ÏÏ5ÏÏFACTURAS CLIENTE: ABRIR FACTURA EN MODO EDITÏÏfacturascliÏÏTestÏÏ<FLTest:Test codtest="000294" idfuncional="flfacturac"/>ÏÏexecTestÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000342ÏÏtrazabilidadÏÏÖ
+341ÏÏ8ÏÏPulsar el botón toolButtomInsertÏÏfacturascliÏÏButtonÏÏtoolButtomInsertÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000342ÏÏtrazabilidadÏÏÖ
+341ÏÏ9ÏÏfdbReferencia = ||REF_LINEA||ÏÏlineasfacturascliÏÏFLFieldDBÏÏfdbReferenciaÏÏsetValueÏÏ||REF_LINEA||ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000342ÏÏtrazabilidadÏÏÖ
+341ÏÏ10ÏÏdescripcion = ||DES_LINEA||ÏÏlineasfacturascliÏÏFLFieldDBÏÏfdbDescripcionÏÏsetValueÏÏ||DES_LINEA||ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000342ÏÏtrazabilidadÏÏÖ
+341ÏÏ1ÏÏSaltar si ||REF_LINEA|| no está definidoÏÏfacturascliÏÏCompareÏÏÏÏcompareItemsÏÏ<FLTest:Compare action="Saltar" type="Distintos" >
+    <FLTest:CompareElement type="Valor" >||REF_LINEA||</FLTest:CompareElement>
+    <FLTest:CompareElement type="Valor" >**UNDEFINED**</FLTest:CompareElement>
+</FLTest:Compare>
+ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000342ÏÏtrazabilidadÏÏÖ
+341ÏÏ11ÏÏFACTURAS CLIENTE: LINEAS: CREAR MOVIMIENTO REF_LINEA_EDIT =  CANT_LINEA = ||CANT1|| LOTE_LINEA = ||LOTE1||ÏÏlineasfacturascliÏÏTestÏÏ<FLTest:Test codtest="000333" idfuncional="trazabilidad"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="REF_LINEA_EDIT" />
+    <FLTest:AssignationElement value="||CANT1||" var="CANT_LINEA" />
+    <FLTest:AssignationElement value="||LOTE1||" var="LOTE_LINEA" />
+</FLTest:Assignation>
+ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000342ÏÏtrazabilidadÏÏÖ
+341ÏÏ15ÏÏFACTURAS CLIENTE: LINEAS: CREAR MOVIMIENTO REF_LINEA_EDIT =  CANT_LINEA = ||CANT2|| LOTE_LINEA = ||LOTE2||ÏÏlineasfacturascliÏÏTestÏÏ<FLTest:Test codtest="000333" idfuncional="trazabilidad"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="REF_LINEA_EDIT" />
+    <FLTest:AssignationElement value="||CANT2||" var="CANT_LINEA" />
+    <FLTest:AssignationElement value="||LOTE2||" var="LOTE_LINEA" />
+</FLTest:Assignation>
+ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000342ÏÏtrazabilidadÏÏÖ
+341ÏÏ16ÏÏFACTURAS CLIENTE: LINEAS: CREAR MOVIMIENTO REF_LINEA_EDIT =  CANT_LINEA = ||CANT3|| LOTE_LINEA = ||LOTE3||ÏÏlineasfacturascliÏÏTestÏÏ<FLTest:Test codtest="000333" idfuncional="trazabilidad"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="REF_LINEA_EDIT" />
+    <FLTest:AssignationElement value="||CANT3||" var="CANT_LINEA" />
+    <FLTest:AssignationElement value="||LOTE3||" var="LOTE_LINEA" />
+</FLTest:Assignation>
+ÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000342ÏÏtrazabilidadÏÏÖ
+341ÏÏ19ÏÏFACTURAS CLIENTE: CERRAR FACTURA EN MODO EDITÏÏfacturascliÏÏTestÏÏ<FLTest:Test codtest="000295" idfuncional="flfacturac"/>ÏÏexecTestÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000342ÏÏtrazabilidadÏÏÖ
+341ÏÏ17ÏÏMessageBox - Pulsar Sí ÏÏfacturascliÏÏMessageBoxÏÏÏÏpushYesÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏNingunoÏÏ000342ÏÏtrazabilidadÏÏÖ
+341ÏÏ18ÏÏPulsar botón pushButtonAcceptÏÏlineasfacturascliÏÏButtonÏÏpushButtonAcceptÏÏanimateClickÏÏÏÏFÏÏflfacturacÏÏformRecordÏÏAceptarÏÏ000342ÏÏtrazabilidadÏÏÖ
+343ÏÏ8ÏÏLOTES: CREAR LOTE ||COD_LOTE||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000235" idfuncional="trazabilidad"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="2-||_S||" var="COD_LOTE_INSERT" />
+    <FLTest:AssignationElement value="||ARTICULO_TRAZABILIDAD1||" var="ARTICULO_CREARLOTE" />
+    <FLTest:AssignationElement value="2-||_S||" var="COD_LOTE2" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000343ÏÏtrazabilidadÏÏÖ
+343ÏÏ7ÏÏARTICULOS: ASIGNAR DIAS DE CONSUMO PREFERENTEÏÏÏÏTestÏÏ<FLTest:Test codtest="000240" idfuncional="trazabilidad"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||ARTICULO_TRAZABILIDAD1||" var="REF_ART_EDIT" />
+    <FLTest:AssignationElement value="25" var="DIAS_CONSUMO" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000343ÏÏtrazabilidadÏÏÖ
+343ÏÏ6ÏÏLOTES: CREAR LOTE ||COD_LOTE||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000235" idfuncional="trazabilidad"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="1-||_S||" var="COD_LOTE_INSERT" />
+    <FLTest:AssignationElement value="||ARTICULO_TRAZABILIDAD1||" var="ARTICULO_CREARLOTE" />
+    <FLTest:AssignationElement value="1-||_S||" var="COD_LOTE1" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000343ÏÏtrazabilidadÏÏÖ
+343ÏÏ5ÏÏALMACENES: CREAR ALMACÉNÏÏÏÏTestÏÏ<FLTest:Test codtest="000039" idfuncional="flfactalma"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="2||_S||" var="COD_ALMACEN" />
+    <FLTest:AssignationElement value="" var="DES_ALMACEN" />
+    <FLTest:AssignationElement value="2||_S||" var="ALMACEN_TRAZABILIDAD2" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000343ÏÏtrazabilidadÏÏÖ
+343ÏÏ4ÏÏALMACENES: CREAR ALMACÉNÏÏÏÏTestÏÏ<FLTest:Test codtest="000039" idfuncional="flfactalma"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="1||_S||" var="COD_ALMACEN" />
+    <FLTest:AssignationElement value="" var="DES_ALMACEN" />
+    <FLTest:AssignationElement value="1||_S||" var="ALMACEN_TRAZABILIDAD1" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000343ÏÏtrazabilidadÏÏÖ
+343ÏÏ3ÏÏARTICULOS: CREAR ARTICULO POR LOTESÏÏÏÏTestÏÏ<FLTest:Test codtest="000231" idfuncional="trazabilidad"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="L-||_S||" var="COD_ARTICULO_LOTES" />
+    <FLTest:AssignationElement value="" var="DESC_ARTICULO_LOTES" />
+    <FLTest:AssignationElement value="10" var="PVP_ARTICULO_LOTES" />
+    <FLTest:AssignationElement value="" var="IVA_ARTICULO_LOTES" />
+    <FLTest:AssignationElement value="15" var="DIASCONSUMO_ARTICULO_LOTES" />
+    <FLTest:AssignationElement value="L-||_S||" var="ARTICULO_TRAZABILIDAD1" />
+    <FLTest:AssignationElement value="||COD_PROVEEDOR||" var="PROVEEDOR_TRAZABILIDAD" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000343ÏÏtrazabilidadÏÏÖ
+343ÏÏ2ÏÏPROVEEDORES: CREAR PROVEEDOR ||COD_PROVEEDOR||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000017" idfuncional="flfactppal"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="NOM_PROV" />
+    <FLTest:AssignationElement value="" var="CIF_PROV" />
+    <FLTest:AssignationElement value="||COD_CLIENTE||" var="CLIENTE_TRAZABILIDAD" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000343ÏÏtrazabilidadÏÏÖ
+343ÏÏ1ÏÏCLIENTES: CREAR CLIENTE ||COD_CLIENTE||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000003" idfuncional="flfactppal"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="NOM_CLIENTE" />
+    <FLTest:AssignationElement value="" var="DES_DIR_CLIENTE" />
+    <FLTest:AssignationElement value="" var="DIR_CLIENTE" />
+    <FLTest:AssignationElement value="" var="CIF_CLIENTE" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000343ÏÏtrazabilidadÏÏÖ
+345ÏÏ24ÏÏREGULARIZACIONES: CREAR REGULARIZACIÓNÏÏÏÏTestÏÏ<FLTest:Test codtest="000247" idfuncional="trazabilidad"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||ARTICULO_TRAZABILIDAD1||" var="COD_ARTICULO_REG" />
+    <FLTest:AssignationElement value="||ALMACEN_TRAZABILIDAD2||" var="COD_ALMACEN_REG" />
+    <FLTest:AssignationElement value="||COD_LOTE2||" var="COD_LOTE_REG" />
+    <FLTest:AssignationElement value="50" var="CANT_REG" />
+    <FLTest:AssignationElement value="60" var="CANT_FINAL" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000344ÏÏtrazabilidadÏÏÖ
+345ÏÏ23ÏÏPURGAR MOVIMIENTOSÏÏÏÏTestÏÏ<FLTest:Test codtest="000248" idfuncional="trazabilidad"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_LOTE1||" var="COD_LOTE_PURGADO" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000344ÏÏtrazabilidadÏÏÖ
+345ÏÏ22ÏÏLOTES: MODIFICAR LOTEÏÏÏÏTestÏÏ<FLTest:Test codtest="000246" idfuncional="trazabilidad"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_LOTE1||" var="COD_LOTE_CAD" />
+    <FLTest:AssignationElement value="" var="CADUCIDAD" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000344ÏÏtrazabilidadÏÏÖ
+345ÏÏ21ÏÏTRANSFERENCIAS: CREAR UNA TRANSFERENCIAÏÏÏÏTestÏÏ<FLTest:Test codtest="000250" idfuncional="trazabilidad"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||ARTICULO_TRAZABILIDAD1||" var="COD_ARTICULO_TRANS" />
+    <FLTest:AssignationElement value="||ALMACEN_TRAZABILIDAD2||" var="COD_ALMACEN_TRANS" />
+    <FLTest:AssignationElement value="||COD_LOTE1||" var="COD_LOTE_ORIGEN_TRANS" />
+    <FLTest:AssignationElement value="||COD_LOTE2||" var="COD_LOTE_DESTINO_TRANS" />
+    <FLTest:AssignationElement value="10" var="CANT_TRANS" />
+    <FLTest:AssignationElement value="0" var="CANT_LOTE_ORIGEN" />
+    <FLTest:AssignationElement value="10" var="CANT_LOTE_DESTINO" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000344ÏÏtrazabilidadÏÏÖ
+345ÏÏ20ÏÏLOTES: HACER COMPARACIONES DE CANTIDADES DE LOTES Y ALMACENESÏÏÏÏTestÏÏ<FLTest:Test codtest="000239" idfuncional="trazabilidad"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_LOTE1||" var="COD_LOTE_COMP1" />
+    <FLTest:AssignationElement value="||COD_LOTE2||" var="COD_LOTE_COMP2" />
+    <FLTest:AssignationElement value="10" var="CANT_LOTE_COMP1" />
+    <FLTest:AssignationElement value="0" var="CANT_LOTE_COMP2" />
+    <FLTest:AssignationElement value="||ALMACEN_TRAZABILIDAD1||" var="COD_AL_COMP1" />
+    <FLTest:AssignationElement value="||ALMACEN_TRAZABILIDAD2||" var="COD_AL_COMP2" />
+    <FLTest:AssignationElement value="0" var="CANT_AL_COMP1" />
+    <FLTest:AssignationElement value="-10" var="CANT_AL_COMP2" />
+    <FLTest:AssignationElement value="||ARTICULO_TRAZABILIDAD1||" var="COD_ARTICULO_COMP" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000344ÏÏtrazabilidadÏÏÖ
+345ÏÏ19ÏÏPEDIDOS CLIENTE: GENERAR ALBARAN ||COD_ALBARAN|| A PARTIR DE UN PEDIDOÏÏÏÏTestÏÏ<FLTest:Test codtest="000053" idfuncional="flfacturac"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_PEDIDO||" var="COD_PED_ORIGEN" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000344ÏÏtrazabilidadÏÏÖ
+345ÏÏ18ÏÏPEDIDOS CLIENTE: CREAR PEDIDO EN ||COD_PEDIDO||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000079" idfuncional="flfacturac"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||CLIENTE_TRAZABILIDAD||" var="COD_CLIENTE_PED" />
+    <FLTest:AssignationElement value="||ARTICULO_TRAZABILIDAD1||" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="80" var="CAN_LINEA1" />
+    <FLTest:AssignationElement value="" var="DES_LINEA1" />
+    <FLTest:AssignationElement value="" var="REF_LINEA2" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA2" />
+    <FLTest:AssignationElement value="" var="DES_LINEA2" />
+    <FLTest:AssignationElement value="" var="REF_LINEA3" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA3" />
+    <FLTest:AssignationElement value="" var="DES_LINEA3" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000344ÏÏtrazabilidadÏÏÖ
+345ÏÏ17ÏÏEMPRESA: MODIFICAR EMPRESAÏÏÏÏTestÏÏ<FLTest:Test codtest="000018" idfuncional="flfactppal"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_EJERCICIO_EMP" />
+    <FLTest:AssignationElement value="||ALMACEN_TRAZABILIDAD1||" var="COD_ALMACEN_EMP" />
+    <FLTest:AssignationElement value="" var="IND_CONTABILIDAD_EMP" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000344ÏÏtrazabilidadÏÏÖ
+345ÏÏ16ÏÏLOTES: HACER COMPARACIONES DE CANTIDADES DE LOTES Y ALMACENESÏÏÏÏTestÏÏ<FLTest:Test codtest="000239" idfuncional="trazabilidad"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_LOTE1||" var="COD_LOTE_COMP1" />
+    <FLTest:AssignationElement value="||COD_LOTE2||" var="COD_LOTE_COMP2" />
+    <FLTest:AssignationElement value="60" var="CANT_LOTE_COMP1" />
+    <FLTest:AssignationElement value="30" var="CANT_LOTE_COMP2" />
+    <FLTest:AssignationElement value="||ALMACEN_TRAZABILIDAD1||" var="COD_AL_COMP1" />
+    <FLTest:AssignationElement value="||ALMACEN_TRAZABILIDAD2||" var="COD_AL_COMP2" />
+    <FLTest:AssignationElement value="100" var="CANT_AL_COMP1" />
+    <FLTest:AssignationElement value="-10" var="CANT_AL_COMP2" />
+    <FLTest:AssignationElement value="||ARTICULO_TRAZABILIDAD1||" var="COD_ARTICULO_COMP" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000344ÏÏtrazabilidadÏÏÖ
+345ÏÏ15ÏÏFACTURAS CLIENTE: LINEAS: CREAR LINEA CON ARTICULO POR LOTES DE STOCK  NEGATIVOÏÏÏÏTestÏÏ<FLTest:Test codtest="000342" idfuncional="trazabilidad"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_FACTURA||" var="COD_FACTURA_EDIT" />
+    <FLTest:AssignationElement value="||ARTICULO_TRAZABILIDAD1||" var="REF_LINEA" />
+    <FLTest:AssignationElement value="" var="DES_LINEA" />
+    <FLTest:AssignationElement value="-30" var="CANT1" />
+    <FLTest:AssignationElement value="" var="CANT2" />
+    <FLTest:AssignationElement value="" var="CANT3" />
+    <FLTest:AssignationElement value="||COD_LOTE2||" var="LOTE1" />
+    <FLTest:AssignationElement value="" var="LOTE2" />
+    <FLTest:AssignationElement value="" var="LOTE3" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000344ÏÏtrazabilidadÏÏÖ
+345ÏÏ14ÏÏFACTURAS CLIENTE: CREAR FACTURA ||COD_FACTURA||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000134" idfuncional="flfacturac"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||CLIENTE_TRAZABILIDAD||" var="COD_CLIENTE_FAC" />
+    <FLTest:AssignationElement value="" var="FECHA_FAC" />
+    <FLTest:AssignationElement value="" var="COD_PAGO_FAC" />
+    <FLTest:AssignationElement value="" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA1" />
+    <FLTest:AssignationElement value="" var="DES_LINEA1" />
+    <FLTest:AssignationElement value="" var="REF_LINEA2" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA2" />
+    <FLTest:AssignationElement value="" var="DES_LINEA2" />
+    <FLTest:AssignationElement value="" var="REF_LINEA3" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA3" />
+    <FLTest:AssignationElement value="" var="DES_LINEA3" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000344ÏÏtrazabilidadÏÏÖ
+345ÏÏ13ÏÏEMPRESA: MODIFICAR EMPRESAÏÏÏÏTestÏÏ<FLTest:Test codtest="000018" idfuncional="flfactppal"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_EJERCICIO_EMP" />
+    <FLTest:AssignationElement value="||ALMACEN_TRAZABILIDAD2||" var="COD_ALMACEN_EMP" />
+    <FLTest:AssignationElement value="" var="IND_CONTABILIDAD_EMP" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000344ÏÏtrazabilidadÏÏÖ
+345ÏÏ12ÏÏFACTURAS CLIENTE: LINEAS: CREAR LINEA CON ARTICULO POR LOTESÏÏÏÏTestÏÏ<FLTest:Test codtest="000329" idfuncional="trazabilidad"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_FACTURA||" var="COD_FACTURA_EDIT" />
+    <FLTest:AssignationElement value="||ARTICULO_TRAZABILIDAD1||" var="REF_LINEA" />
+    <FLTest:AssignationElement value="" var="DES_LINEA" />
+    <FLTest:AssignationElement value="-50" var="CANT1" />
+    <FLTest:AssignationElement value="" var="CANT2" />
+    <FLTest:AssignationElement value="" var="CANT3" />
+    <FLTest:AssignationElement value="||COD_LOTE1||" var="LOTE1" />
+    <FLTest:AssignationElement value="" var="LOTE2" />
+    <FLTest:AssignationElement value="" var="LOTE3" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000344ÏÏtrazabilidadÏÏÖ
+345ÏÏ11ÏÏFACTURAS CLIENTE: CREAR FACTURA ||COD_FACTURA||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000134" idfuncional="flfacturac"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||CLIENTE_TRAZABILIDAD||" var="COD_CLIENTE_FAC" />
+    <FLTest:AssignationElement value="" var="FECHA_FAC" />
+    <FLTest:AssignationElement value="" var="COD_PAGO_FAC" />
+    <FLTest:AssignationElement value="" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA1" />
+    <FLTest:AssignationElement value="" var="DES_LINEA1" />
+    <FLTest:AssignationElement value="" var="REF_LINEA2" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA2" />
+    <FLTest:AssignationElement value="" var="DES_LINEA2" />
+    <FLTest:AssignationElement value="" var="REF_LINEA3" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA3" />
+    <FLTest:AssignationElement value="" var="DES_LINEA3" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000344ÏÏtrazabilidadÏÏÖ
+345ÏÏ10ÏÏPEDIDOS PROVEEDOR: CREAR PEDIDO ||COD_PEDIDO|| CON LOTESÏÏÏÏTestÏÏ<FLTest:Test codtest="000340" idfuncional="trazabilidad"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||PROVEEDOR_TRAZABILIDAD||" var="COD_PROV_PEDIDO" />
+    <FLTest:AssignationElement value="||ARTICULO_TRAZABILIDAD1||" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="" var="DES_LINEA1" />
+    <FLTest:AssignationElement value="3" var="CAN_LINEA1" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000344ÏÏtrazabilidadÏÏÖ
+345ÏÏ9ÏÏEMPRESA: MODIFICAR EMPRESAÏÏÏÏTestÏÏ<FLTest:Test codtest="000018" idfuncional="flfactppal"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_EJERCICIO_EMP" />
+    <FLTest:AssignationElement value="||ALMACEN_TRAZABILIDAD1||" var="COD_ALMACEN_EMP" />
+    <FLTest:AssignationElement value="" var="IND_CONTABILIDAD_EMP" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000344ÏÏtrazabilidadÏÏÖ
+345ÏÏ8ÏÏLOTES: HACER COMPARACIONES DE CANTIDADES DE LOTES Y ALMACENESÏÏÏÏTestÏÏ<FLTest:Test codtest="000239" idfuncional="trazabilidad"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_LOTE1||" var="COD_LOTE_COMP1" />
+    <FLTest:AssignationElement value="||COD_LOTE2||" var="COD_LOTE_COMP2" />
+    <FLTest:AssignationElement value="110" var="CANT_LOTE_COMP1" />
+    <FLTest:AssignationElement value="60" var="CANT_LOTE_COMP2" />
+    <FLTest:AssignationElement value="||ALMACEN_TRAZABILIDAD1||" var="COD_AL_COMP1" />
+    <FLTest:AssignationElement value="||ALMACEN_TRAZABILIDAD2||" var="COD_AL_COMP2" />
+    <FLTest:AssignationElement value="150" var="CANT_AL_COMP1" />
+    <FLTest:AssignationElement value="20" var="CANT_AL_COMP2" />
+    <FLTest:AssignationElement value="||ARTICULO_TRAZABILIDAD1||" var="COD_ARTICULO_COMP" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000344ÏÏtrazabilidadÏÏÖ
+345ÏÏ7ÏÏFACTURAS PROVEEDOR: LINEAS: CREAR LINEA CON ARTICULO POR LOTESÏÏÏÏTestÏÏ<FLTest:Test codtest="000338" idfuncional="trazabilidad"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_FACTURA||" var="COD_FACTURA_EDIT" />
+    <FLTest:AssignationElement value="||ARTICULO_TRAZABILIDAD1||" var="REF_LINEA" />
+    <FLTest:AssignationElement value="" var="DES_LINEA" />
+    <FLTest:AssignationElement value="10" var="CANT1" />
+    <FLTest:AssignationElement value="10" var="CANT2" />
+    <FLTest:AssignationElement value="" var="CANT3" />
+    <FLTest:AssignationElement value="||COD_LOTE1||" var="LOTE1" />
+    <FLTest:AssignationElement value="||COD_LOTE2||" var="LOTE2" />
+    <FLTest:AssignationElement value="" var="LOTE3" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000344ÏÏtrazabilidadÏÏÖ
+345ÏÏ6ÏÏFACTURAS PROVEEDOR: CREAR FACTURA ||COD_FACTURA||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000262" idfuncional="flfacturac"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||PROVEEDOR_TRAZABILIDAD||" var="COD_PROV_FAC" />
+    <FLTest:AssignationElement value="" var="FECHA_FAC" />
+    <FLTest:AssignationElement value="" var="COD_PAGO_FAC" />
+    <FLTest:AssignationElement value="" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="" var="DES_LINEA1" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA1" />
+    <FLTest:AssignationElement value="" var="REF_LINEA2" />
+    <FLTest:AssignationElement value="" var="DES_LINEA2" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA2" />
+    <FLTest:AssignationElement value="" var="REF_LINEA3" />
+    <FLTest:AssignationElement value="" var="DES_LINEA3" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA3" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000344ÏÏtrazabilidadÏÏÖ
+345ÏÏ5ÏÏEMPRESA: MODIFICAR EMPRESAÏÏÏÏTestÏÏ<FLTest:Test codtest="000018" idfuncional="flfactppal"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_EJERCICIO_EMP" />
+    <FLTest:AssignationElement value="||ALMACEN_TRAZABILIDAD2||" var="COD_ALMACEN_EMP" />
+    <FLTest:AssignationElement value="" var="IND_CONTABILIDAD_EMP" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000344ÏÏtrazabilidadÏÏÖ
+345ÏÏ4ÏÏFACTURAS PROVEEDOR: LINEAS: CREAR LINEA CON ARTICULO POR LOTESÏÏÏÏTestÏÏ<FLTest:Test codtest="000338" idfuncional="trazabilidad"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||COD_FACTURA||" var="COD_FACTURA_EDIT" />
+    <FLTest:AssignationElement value="||ARTICULO_TRAZABILIDAD1||" var="REF_LINEA" />
+    <FLTest:AssignationElement value="" var="DES_LINEA" />
+    <FLTest:AssignationElement value="100" var="CANT1" />
+    <FLTest:AssignationElement value="50" var="CANT2" />
+    <FLTest:AssignationElement value="" var="CANT3" />
+    <FLTest:AssignationElement value="||COD_LOTE1||" var="LOTE1" />
+    <FLTest:AssignationElement value="||COD_LOTE2||" var="LOTE2" />
+    <FLTest:AssignationElement value="" var="LOTE3" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000344ÏÏtrazabilidadÏÏÖ
+345ÏÏ3ÏÏFACTURAS PROVEEDOR: CREAR FACTURA ||COD_FACTURA||ÏÏÏÏTestÏÏ<FLTest:Test codtest="000262" idfuncional="flfacturac"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="||PROVEEDOR_TRAZABILIDAD||" var="COD_PROV_FAC" />
+    <FLTest:AssignationElement value="" var="FECHA_FAC" />
+    <FLTest:AssignationElement value="" var="COD_PAGO_FAC" />
+    <FLTest:AssignationElement value="" var="REF_LINEA1" />
+    <FLTest:AssignationElement value="" var="DES_LINEA1" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA1" />
+    <FLTest:AssignationElement value="" var="REF_LINEA2" />
+    <FLTest:AssignationElement value="" var="DES_LINEA2" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA2" />
+    <FLTest:AssignationElement value="" var="REF_LINEA3" />
+    <FLTest:AssignationElement value="" var="DES_LINEA3" />
+    <FLTest:AssignationElement value="" var="CAN_LINEA3" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000344ÏÏtrazabilidadÏÏÖ
+345ÏÏ2ÏÏEMPRESA: MODIFICAR EMPRESAÏÏÏÏTestÏÏ<FLTest:Test codtest="000018" idfuncional="flfactppal"/>ÏÏexecTestÏÏ<FLTest:Assignation>
+    <FLTest:AssignationElement value="" var="COD_EJERCICIO_EMP" />
+    <FLTest:AssignationElement value="||ALMACEN_TRAZABILIDAD1||" var="COD_ALMACEN_EMP" />
+    <FLTest:AssignationElement value="" var="IND_CONTABILIDAD_EMP" />
+</FLTest:Assignation>
+ÏÏÏÏÏÏformÏÏNingunoÏÏ000344ÏÏtrazabilidadÏÏÖ
+345ÏÏ1ÏÏTRAZABILIDAD: DATOS GENERALESÏÏÏÏTestÏÏ<FLTest:Test codtest="000343" idfuncional="trazabilidad"/>ÏÏexecTestÏÏÏÏÏÏÏÏformÏÏNingunoÏÏ000344ÏÏtrazabilidadÏÏÖ

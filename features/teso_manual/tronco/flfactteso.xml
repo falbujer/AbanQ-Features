@@ -1,0 +1,23 @@
+<xupdate:modifications>
+<xupdate:insert-after select="/ACTIONS[ACTIONS,1]/action[pagosdevolrem]" >
+<action>
+<name>tesomanual</name>
+<description>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Esta acción permite gestionar manualmente los pagos e  ingrgresos que la empresa realiza y que no provienen de facturas de proveedores&quot;)</description>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Tesorería manual&quot;)</alias>
+<table>tesomanual</table>
+<form>master</form>
+<formrecord>tesomanual</formrecord>
+<scriptformrecord>tesomanual</scriptformrecord>
+</action>
+</xupdate:insert-after>
+<xupdate:insert-after select="/ACTIONS[ACTIONS,1]/action[tesomanual]" >
+<action>
+<name>pagostesomanual</name>
+<description>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Esta acción gestiona los pagos y devoluciones asociadas a recibos de pago o ingreso generados de forma manual&quot;)</description>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Pagos y devoluciones de tesorería manual&quot;)</alias>
+<table>pagostesomanual</table>
+<formrecord>pagostesomanual</formrecord>
+<scriptformrecord>pagostesomanual</scriptformrecord>
+</action>
+</xupdate:insert-after>
+</xupdate:modifications>

@@ -1,0 +1,8 @@
+<flpatch:modifications name="mod_impresion" >
+    <flpatch:patchXml path="facturacion/informes/" name="flfactinfo.xml" />
+    <flpatch:addFile path="facturacion/informes/forms/" name="modelosimpresion.ui" />
+    <flpatch:patchScript path="facturacion/informes/scripts/" name="flfactinfo.qs" />
+    <flpatch:addFile path="facturacion/informes/scripts/" name="modelosimpresion.qs" />
+    <flpatch:addFile path="facturacion/informes/tables/" name="modelosimpresion.mtd" />
+    <flpatch:patchXml path="facturacion/informes/forms/" name="flfactinfo.ui" />
+</flpatch:modifications>

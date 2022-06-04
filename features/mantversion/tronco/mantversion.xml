@@ -1,0 +1,13 @@
+<flpatch:modifications name="mantversion" >
+    <flpatch:patchXml path="facturacion/principal/tables/" name="agentes.mtd" />
+    <flpatch:patchXml path="facturacion/principal/tables/" name="clientes.mtd" />
+    <flpatch:patchXml path="facturacion/principal/tables/" name="dirclientes.mtd" />
+    <flpatch:patchXml path="facturacion/principal/tables/" name="divisas.mtd" />
+    <flpatch:patchXml path="facturacion/principal/tables/" name="ejercicios.mtd" />
+    <flpatch:patchXml path="facturacion/principal/tables/" name="formaspago.mtd" />
+    <flpatch:patchXml path="facturacion/principal/tables/" name="paises.mtd" />
+    <flpatch:patchXml path="facturacion/principal/tables/" name="series.mtd" />
+    <flpatch:patchXml path="facturacion/principal/tables/" name="impuestos.mtd" />
+    <flpatch:patchXml path="facturacion/principal/tables/" name="empresa.mtd" />
+    <flpatch:patchXml path="facturacion/principal/forms/" name="empresa.ui" />
+</flpatch:modifications>

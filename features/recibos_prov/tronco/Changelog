@@ -1,0 +1,27 @@
+!! 27/02/2006 SVN:
+* Corrección de asientos de pagos de recibos a proveedores correspondientes a facturas de abono
+!! 10/01/2006 SVN:
+* Cambio de los campos idasiento e idsubcuenta de pagosdevolprov de int a uint
+!! 04/01/2006 SVN:
+* Adaptación a los cobros de recibos en ejercicios distintos al actual
+!! 06/12/2005 SVN:
+* Corrección de bug al ordenar los recibos de proveedor por fecha o por importe
+!! 06/12/2005 SVN:
+* Cambios para adaptar la gestión de recibos de proveedor al modo de funcionamiento de la de recibos de cliente
+!! 17/11/2005 SVN:
+* Se ha dado más espacio al campo total del informe de resumen de recibos de proveedor
+!! 16/11/2005 SVN:
+* Corrección de bug al aceptar un pago o devolución en modo edit. El pago se bloqueaba aunque era el último
+!! 05/10/2005 SVN:
+* Corrección de bug al no tomar como ejercicio actual el del usuario sino el de la empresa
+* Se añade un control para avisar al usuario cuando da por pagados recibos de un ejercicio distinto al actual
+!! 16/09/2005 SVN:
+* Corrección de bug al no ordenar lo recibos de los plazos cronológicamente
+!! 15/09/2005 SVN:
+* Corrección de bug a la hora de poner la divisa en el texto del recibo 
+!! 13/09/2005 SVN:
+* Cambio de la selección de las cuenta de pago por defecto de los recibos de proveedor. La cuenta es la asociada al proveedor en el campo 'Cuenta de pago'. Si dicha cuenta no está especificada, se tomará la asociada a la forma de pago de la factura que originó el recibo.
+!! 18/07/2005 SVN:
+* Reordenación de los campos en la lista del formulario maestro de recibos de proveedor
+!! 26/04/2005 SVN:
+* Creación de la funcionalidad recibos de proveedores similar a la de recibos de clientes

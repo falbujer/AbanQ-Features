@@ -1,0 +1,45 @@
+<xupdate:modifications>
+<xupdate:insert-after select="/ACTIONS[ACTIONS,1]/action[pr_calendario]" >
+<action>
+<name>pr_planificacion</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Planificacion&quot;)</alias>
+<description>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Planificación de producción&quot;)</description>
+<table>pr_planificacion</table>
+<form>pr_planificacion</form>
+<scriptform>pr_planificacion</scriptform>
+</action>
+</xupdate:insert-after>
+<xupdate:insert-after select="/ACTIONS[ACTIONS,1]/action[pr_planificacion]" >
+<action>
+<name>pr_plancompras</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Plan de compras&quot;)</alias>
+<description>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Plan de compras&quot;)</description>
+<table>pr_plancompras</table>
+<form>master</form>
+<formrecord>pr_plancompras</formrecord>
+<scriptformrecord>pr_plancompras</scriptformrecord>
+</action>
+</xupdate:insert-after>
+<xupdate:insert-after select="/ACTIONS[ACTIONS,1]/action[pr_plancompras]" >
+<action>
+<name>pr_lineasplancompras</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Líneas plan de compras&quot;)</alias>
+<description>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Líneas plan de compras&quot;)</description>
+<table>pr_lineasplancompras</table>
+<form>master</form>
+<formrecord>pr_lineasplancompras</formrecord>
+<scriptformrecord>pr_lineasplancompras</scriptformrecord>
+</action>
+</xupdate:insert-after>
+<xupdate:insert-after select="/ACTIONS[ACTIONS,1]/action[pr_lineasplancompras]" >
+<action>
+<name>pr_costeslote</name>
+<alias>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Costes por lote&quot;)</alias>
+<description>QT_TRANSLATE_NOOP(&quot;MetaData&quot;,&quot;Costes por lote&quot;)</description>
+<table>pr_costeslote</table>
+<form>master</form>
+<formrecord>pr_costeslote</formrecord>
+<scriptformrecord>pr_costeslote</scriptformrecord>
+</action>
+</xupdate:insert-after>
+</xupdate:modifications>

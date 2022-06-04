@@ -1,0 +1,45 @@
+<xupdate:modifications>
+<xupdate:update select="/UI[UI,1]/widget[QWidget,do_funcionesusuario]/property[property,2]/rect[rect,1]/height[height,1]/text()[1]" >252</xupdate:update>
+<xupdate:insert-after select="/UI[UI,1]/widget[QWidget,do_funcionesusuario]/vbox[vbox,1]/widget[QGroupBox,gbxVersion]" >
+<widget class="QGroupBox" >
+<property name="name" >
+<cstring>gbxMotor</cstring>
+</property>
+<property name="title" >
+<string>Directorio del motor (directorio src)</string>
+</property>
+<hbox>
+<property name="name" >
+<cstring>unnamed</cstring>
+</property>
+<widget class="QLabel" >
+<property name="name" >
+<cstring>lblDirMotor</cstring>
+</property>
+<property name="minimumSize" >
+<size>
+<width>400</width>
+<height>0</height>
+</size>
+</property>
+<property name="font" >
+<font>
+<italic>1</italic>
+</font>
+</property>
+<property name="text" >
+<string>NO ESTABLECIDO</string>
+</property>
+</widget>
+<widget class="QPushButton" >
+<property name="name" >
+<cstring>pbnCambiarDirMotor</cstring>
+</property>
+<property name="text" >
+<string>Cambiar</string>
+</property>
+</widget>
+</hbox>
+</widget>
+</xupdate:insert-after>
+</xupdate:modifications>
